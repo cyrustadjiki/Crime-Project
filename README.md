@@ -7,6 +7,7 @@ Helpful resource to install GitHub, set up and use is [here](https://happygitwit
 Let me know if you have any questions about this! It can be kinda confusing at first but can be very useful for sharing this project on R.
 
 ## Data Set Estimate of what we want
+**Click Raw to see better**
 
 year mon cnty st---------Grandparents Per household, Quantity of a certain type of crime in a given month(many of these from crime date), unemployment rates, more... 
 2018 Jan Lane OR---------
