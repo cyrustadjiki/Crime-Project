@@ -10,19 +10,75 @@ offense_df = read.csv("NIBRS_OFFENSE.csv")
 offense_type_df = read.csv("NIBRS_OFFENSE_TYPE.csv")
 relationship_df = read.csv("NIBRS_RELATIONSHIP.csv")
 victim_df = read.csv("NIBRS_VICTIM.csv")
+victim_circumstances_df = read.csv("NIBRS_VICTIM_CIRCUMSTANCES.csv")
 offender_df = read.csv("NIBRS_OFFENDER.csv")
 victim_type_df = read.csv("NIBRS_VICTIM_TYPE.csv")
-victim_circumstances_df = read.csv("NIBRS_VICTIM_CIRCUMSTANCES.csv")
 victim_offender_rel_df = read.csv("NIBRS_VICTIM_OFFENDER_REL.csv")
 # _df = read.csv("NIBRS_.csv")
 # _df = read.csv("NIBRS_.csv")
 
-joined_df = left_join(incident_df, offense_df, by = "INCIDENT_ID")
+# joined_df = left_join(incident_df, offense_df, by = "INCIDENT_ID")
 
-# amount of crime(types of crime), num_gp_per_house, income, school open or not
-# 2020-1
-# 2020-2
+funct = function(ARGUMENT){
+  VALUE = c(ARGUMENT, rep(NA, 16 - length(ARGUMENT)))
+  return(VALUE)
+}
 
+incident_names = names(incident_df)
+offense_names = names(offense_df)
+offense_type_names = names(offense_type_df)
+relationship_names = names(relationship_df)
+victim_names = names(victim_df)
+victim_circumstances_names = names(victim_circumstances_df)
+offender_names = names(offender_df)
+victim_type_names = names(victim_type_df)
+victim_offender_rel_names = names(victim_offender_rel_df)
+
+incident_names = funct(incident_names)
+offense_names = funct(offense_names)
+offense_type_names = funct(offense_type_names)
+relationship_names = funct(relationship_names)
+victim_names = funct(victim_names)
+victim_circumstances_names = funct(victim_circumstances_names)
+offender_names = funct(offender_names)
+victim_type_names = funct(victim_type_names)
+victim_offender_rel_names = funct(victim_offender_rel_names)
+
+
+
+col_names = data.frame( incident_names,
+                        offense_names,
+                        offense_type_names,
+                        relationship_names,
+                        victim_names,
+                        victim_circumstances_names,
+                        offender_names,
+                        victim_type_names,
+                        victim_offender_rel_names
+                        )
+
+
+
+length(unique(offense_type_df$OFFENSE_TYPE_ID))
+length(unique(offense_type_df$OFFENSE_CATEGORY_NAME))
+length(unique(offense_type_df$OFFENSE_NAME))
+length(unique(offense_type_df$OFFENSE_CODE))
+
+# TEXT
+
+
+# offense_names = c(offense_names, rep(NA, 15 - length(offense_names)))
+# offense_type_names = c(offense_type_names, rep(NA, 15 - length(offense_type_names)))
+
+# funct(incident_names)
+# funct(offense_names)
+# funct(offense_type_names)
+# funct(relationship_names)
+# funct(victim_names)
+# funct(victim_circumstances_names)
+# funct(offender_names)
+# funct(victim_type_names)
+# funct(victim_offender_rel_names)
 
 # NIBRS_ACTIVITY_TYPE.csv
 # NIBRS_AGE.csv
@@ -66,29 +122,6 @@ joined_df = left_join(incident_df, offense_df, by = "INCIDENT_ID")
 # REF_RACE.csv
 # REF_STATE.csv
 # agencies.csv
-
-
-
-
-
-incident_names = names(incident_df)
-offense_names = names(offense_df)
-offense_type_names = names(offense_type_df)
-relationship_names = names(relationship_df)
-victim_names = names(victim_df)
-victim_circumstances_names = names(victim_circumstances_df)
-
-
-
-
-offense_names = c(offense_names, rep(NA, 15 - length(offense_names)))
-offense_type_names = c(offense_type_names, rep(NA, 15 - length(offense_type_names)))
-
-col_names = data.frame(incident_names,offense_names,offense_type_names)
-length(unique(offense_type_df$OFFENSE_TYPE_ID))
-length(unique(offense_type_df$OFFENSE_CATEGORY_NAME))
-length(unique(offense_type_df$OFFENSE_NAME))
-length(unique(offense_type_df$OFFENSE_CODE))
 
 
 
