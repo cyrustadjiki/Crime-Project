@@ -4,7 +4,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
        data.table, readr, readxl, dplyr, skimr, broom)
 
 
-# OFFENSEloading data
+# OFFENSE loading data
 incident_df = read.csv("NIBRS_incident.csv")
 offense_df = read.csv("NIBRS_OFFENSE.csv")
 offense_type_df = read.csv("NIBRS_OFFENSE_TYPE.csv")
