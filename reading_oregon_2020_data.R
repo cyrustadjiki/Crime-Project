@@ -3,6 +3,8 @@ library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
        data.table, readr, readxl, dplyr, skimr, broom)
 
+# Change Working Directory Crt+ Shift + h
+
 files <-  list.files(pattern = "*.csv")
 multiple_csv <- sapply(files, read.csv)
 
