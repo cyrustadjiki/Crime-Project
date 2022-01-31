@@ -1,4 +1,11 @@
-# Changes   
+# Changes
+
+# Setting Working Directory for National Data
+setwd("C:/Users/cyrus/Downloads/EC 419")
+
+# Setting Working Directory for Oregon Data
+setwd("C:/Users/cyrus/Downloads/EC 419/Crime-Project/Oregon_2020")
+
 
 library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
