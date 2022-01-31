@@ -54,6 +54,21 @@ ref_state=multiple_csv[[42]]
 
 # joined_df = left_join(incident, OFFENSE, by = "INCIDENT_ID")
 
+victim_offender_j = full_join(offender, victim, by = "INCIDENT_ID")
+all_three = full_join(victim_offender_j, offense, by = "INCIDENT_ID")
+
+with_rel = full_join(all_three, victim_offender_rel, by = "VICTIM_ID")
+
+victim_rel_j = full_join(victim, victim_offender_rel, by = "VICTIM_ID")
+
+with_rel = with_rel %>% drop_na(RELATIONSHIP_ID)
+
+new = inner_join(with_rel, incident, by = "INCIDENT_ID") 
+
+
+table(with_rel$OFFENSE_TYPE_ID, with_rel$RELATIONSHIP_ID)
+
+
 types_of_realtionships = relationship$REALTIONSHIP_NAME
 locations = location_type$LOCATION_NAME
 type_of_crime = offense_type$OFFENSE_NAME
