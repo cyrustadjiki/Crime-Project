@@ -1,3 +1,4 @@
+# Changes
 
 library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
@@ -63,7 +64,9 @@ victim_rel_j = full_join(victim, victim_offender_rel, by = "VICTIM_ID")
 
 with_rel = with_rel %>% drop_na(RELATIONSHIP_ID)
 
-new = inner_join(with_rel, incident, by = "INCIDENT_ID") 
+# new = inner_join(with_rel, incident, by = "INCIDENT_ID") 
+
+
 
 
 table(with_rel$OFFENSE_TYPE_ID, with_rel$RELATIONSHIP_ID)
