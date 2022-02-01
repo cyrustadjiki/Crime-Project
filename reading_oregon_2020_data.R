@@ -102,7 +102,9 @@ agencies_county = select(agencies, AGENCY_ID, COUNTY_NAME) %>%
                                           ))
 
 # Making data frame of agency id and incident id
-incident_agency_id = select(incident, INCIDENT_ID, AGENCY_ID)
+incident_agency_id = select(incident, INCIDENT_ID, AGENCY_ID,
+                            INCIDENT_DATE, SUBMISSION_DATE, 
+                            INCIDENT_HOUR)
 
 
 # Adding county names to data frame
@@ -129,13 +131,45 @@ all_df_joined = select(all_df_joined,
                        ATTEMPT_COMPLETE_FLAG, LOCATION_ID, METHOD_ENTRY_CODE, 
                        OFFENDER_ID.y, RELATIONSHIP_ID, NIBRS_VICTIM_OFFENDER_ID,
                        # New Columns
-                       county_1, county_2, county_3, county_4, county_5, AGENCY_ID
-                       )
+                       county_1, county_2, county_3, county_4, county_5, 
+                       AGENCY_ID, INCIDENT_DATE, SUBMISSION_DATE, INCIDENT_HOUR)
 
 # Removing DATE_YEAR.x, DATE_YEAR.y.y, AGE_ID.x, 
 #          AGE_ID.y, ASSIGNMENT_TYPE_ID,
 #          ACTIVITY_TYPE_ID, OUTSIDE_AGENCY_ID,
 #          NUM_PREMISES_ENTERED
+
+# Reformatting Dates
+all_df_joined = all_df_joined %>%
+  str_sub(INCIDENT_DATE, start =  3, end = 9) %>% 
+  str_sub(SUBMISSION_DATE, start =  3, end = 9)
+
+test = c("22-APR-20", "25-APR-20", "27-APR-20", "28-APR-20")
+str_sub(test,start =  3,end = 9)
+# test = gsub('^.{2}', '', test)
+test
+
+# Crime we are looking for varible
+all_df_joined$cwalf= ifelse(all_df_joined$OFFENSE_TYPE_ID == 51| # Simple Assault 
+                            all_df_joined$OFFENSE_TYPE_ID == 56| # Other Types of Crimes from Excel Sheet
+                            all_df_joined$OFFENSE_TYPE_ID == 36| # Other Types of Crimes from Excel Sheet
+                            all_df_joined$OFFENSE_TYPE_ID ==  3| # Other Types of Crimes from Excel Sheet
+                            all_df_joined$OFFENSE_TYPE_ID ==  4| # :
+                            all_df_joined$OFFENSE_TYPE_ID ==  6| # :
+                            all_df_joined$OFFENSE_TYPE_ID == 19|
+                            all_df_joined$OFFENSE_TYPE_ID == 27|
+                            all_df_joined$OFFENSE_TYPE_ID == 29|
+                            all_df_joined$OFFENSE_TYPE_ID == 32|
+                            all_df_joined$OFFENSE_TYPE_ID == 38 &
+                            all_df_joined$LOCATION_ID == 20 & # Location was in a home
+                            all_df_joined$RELATIONSHIP_ID == "CH"| # Victim Was Child
+                            all_df_joined$RELATIONSHIP_ID == "SE",1, 0) # Victim Was Spouse
+
+
+sum(all_df_joined$cwalf,na.rm=T) # Checking total
+
+
+
 
 # Character Values to Fix
 # 1 SEX_CODE.x 
@@ -144,6 +178,7 @@ all_df_joined = select(all_df_joined,
 # 4 ATTEMPT_COMPLETE_FLAG
 # 5 METHOD_ENTRY_CODE 
 
+# all_df_joined$male = ifelse()
 
 
 
