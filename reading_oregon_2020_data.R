@@ -9,7 +9,8 @@ setwd("C:/Users/cyrus/Downloads/EC 419/Crime-Project/Oregon_2020")
 
 library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
-       data.table, readr, readxl, dplyr, skimr, broom)
+       data.table, readr, readxl, dplyr, skimr, 
+       broom, tidyr, stringr)
 
 # Change Working Directory Crt+ Shift + h
 
@@ -62,73 +63,164 @@ ref_state=multiple_csv[[42]]
 
 # joined_df = left_join(incident, OFFENSE, by = "INCIDENT_ID")
 
-victim_offender_j = full_join(offender, victim, by = "INCIDENT_ID")
-all_three = full_join(victim_offender_j, offense, by = "INCIDENT_ID")
+victim_offender_joined = full_join(offender, victim, by = "INCIDENT_ID")
+victim_offender_offense_joined = full_join(victim_offender_joined, 
+                                           offense, by = "INCIDENT_ID")
 
-with_rel = full_join(all_three, victim_offender_rel, by = "VICTIM_ID")
+victim_offender_offense_relationship_joined = full_join(
+                                              victim_offender_offense_joined, 
+                                              victim_offender_rel, 
+                                              by = "VICTIM_ID")
+# Check with Harbaugh it is okay that we get different number of "
+# observations when by = "OFFENDER_ID"
 
-victim_rel_j = full_join(victim, victim_offender_rel, by = "VICTIM_ID")
+# Testing stuff
+# victim_rel_j = full_join(victim, victim_offender_rel, by = "VICTIM_ID")
 
-with_rel = with_rel %>% drop_na(RELATIONSHIP_ID)
+all_df_joined = victim_offender_offense_relationship_joined
+
+all_df_joined = all_df_joined %>% drop_na(RELATIONSHIP_ID)
 
 # new = inner_join(with_rel, incident, by = "INCIDENT_ID") 
 
-
-
-
+# Reading Types of Crimes and Relationships
 table(with_rel$OFFENSE_TYPE_ID, with_rel$RELATIONSHIP_ID)
 
-
+# Making Vectors
 types_of_realtionships = relationship$REALTIONSHIP_NAME
 locations = location_type$LOCATION_NAME
 type_of_crime = offense_type$OFFENSE_NAME
 crime_against = offense_type$CRIME_AGAINST
 
+# Making data frame of agency and county 
+agencies_county = select(agencies, AGENCY_ID, COUNTY_NAME) %>%
+                  separate(COUNTY_NAME, c("county_1", 
+                                          "county_2", 
+                                          "county_3", 
+                                          "county_4",
+                                          "county_5"
+                                          ))
 
-funct = function(ARGUMENT){
-  VALUE = c(ARGUMENT, rep(NA, 16 - length(ARGUMENT)))
-  return(VALUE)
-}
-
-incident_names = names(incident)
-offense_names = names(offense)
-offense_type_names = names(offense_type)
-relationship_names = names(relationship)
-victim_names = names(victim)
-victim_circumstances_names = names(victim_circumstances)
-offender_names = names(offender)
-victim_type_names = names(victim_type)
-victim_offender_rel_names = names(victim_offender_rel)
-
-incident_names = funct(incident_names)
-offense_names = funct(offense_names)
-offense_type_names = funct(offense_type_names)
-relationship_names = funct(relationship_names)
-victim_names = funct(victim_names)
-victim_circumstances_names = funct(victim_circumstances_names)
-offender_names = funct(offender_names)
-victim_type_names = funct(victim_type_names)
-victim_offender_rel_names = funct(victim_offender_rel_names)
+# Making data frame of agency id and incident id
+incident_agency_id = select(incident, INCIDENT_ID, AGENCY_ID)
 
 
-
-col_names = data.frame( incident_names,
-                        offense_names,
-                        offense_type_names,
-                        relationship_names,
-                        victim_names,
-                        victim_circumstances_names,
-                        offender_names,
-                        victim_type_names,
-                        victim_offender_rel_names
-                        )
+# Adding county names to data frame
+all_df_joined = full_join(all_df_joined, incident_agency_id, by = "INCIDENT_ID")
+all_df_joined = full_join(all_df_joined, agencies_county, by = "AGENCY_ID")
 
 
+# Filtering out stuff
+all_df_joined_copy = all_df_joined
 
-length(unique(offense_type_df$OFFENSE_TYPE_ID))
-length(unique(offense_type_df$OFFENSE_CATEGORY_NAME))
-length(unique(offense_type_df$OFFENSE_NAME))
-length(unique(offense_type_df$OFFENSE_CODE))
+
+# Don't forget to add county to line ~107!!!
+
+# Keeping good columns
+all_df_joined = select(all_df_joined,
+                       DATA_YEAR.x, OFFENDER_ID.x, INCIDENT_ID, 
+                       OFFENDER_SEQ_NUM, AGE_NUM.x, SEX_CODE.x, 
+                       RACE_ID.x, ETHNICITY_ID.x, AGE_RANGE_LOW_NUM.x,
+                       AGE_RANGE_HIGH_NUM.x, VICTIM_ID, VICTIM_SEQ_NUM, 
+                       VICTIM_TYPE_ID, ACTIVITY_TYPE_ID, AGE_NUM.y,
+                       SEX_CODE.y, RACE_ID.y, ETHNICITY_ID.y, 
+                       RESIDENT_STATUS_CODE, AGE_RANGE_LOW_NUM.y, 
+                       AGE_RANGE_HIGH_NUM.y, OFFENSE_ID, OFFENSE_TYPE_ID, 
+                       ATTEMPT_COMPLETE_FLAG, LOCATION_ID, METHOD_ENTRY_CODE, 
+                       OFFENDER_ID.y, RELATIONSHIP_ID, NIBRS_VICTIM_OFFENDER_ID,
+                       # New Columns
+                       county_1, county_2, county_3, county_4, county_5, AGENCY_ID
+                       )
+
+# Removing DATE_YEAR.x, DATE_YEAR.y.y, AGE_ID.x, 
+#          AGE_ID.y, ASSIGNMENT_TYPE_ID,
+#          ACTIVITY_TYPE_ID, OUTSIDE_AGENCY_ID,
+#          NUM_PREMISES_ENTERED
+
+# Character Values to Fix
+# 1 SEX_CODE.x 
+# 2 SEX_CODE.y
+# 3 RESIDENT_STATUS_CODE
+# 4 ATTEMPT_COMPLETE_FLAG
+# 5 METHOD_ENTRY_CODE 
+
+
+
+
+  
+
+
+## OLD CODE ##
+
+
+
+
+# l1 = c("OFFENDER_ID.x", "INCIDENT_ID", 
+#        "OFFENDER_SEQ_NUM", "AGE_NUM.x", "SEX_CODE.x", 
+#        "RACE_ID.x", "ETHNICITY_ID.x", "AGE_RANGE_LOW_NUM.x",
+#        "AGE_RANGE_HIGH_NUM.x", "VICTIM_ID", "VICTIM_SEQ_NUM", 
+#        "VICTIM_TYPE_ID"," ACTIVITY_TYPE_ID", "AGE_NUM.y",
+#        "SEX_CODE.y", "RACE_ID.y", "ETHNICITY_ID.y", 
+#        "RESIDENT_STATUS_CODE", "AGE_RANGE_LOW_NUM.y", 
+#        "AGE_RANGE_HIGH_NUM.y", "OFFENSE_ID","OFFENSE_TYPE_ID", 
+#        "ATTEMPT_COMPLETE_FLAG", "LOCATION_ID", "METHOD_ENTRY_CODE", 
+#        "OFFENDER_ID.y", "RELATIONSHIP_ID", "NIBRS_VICTIM_OFFENDER_ID")
+# 
+# 
+# l2 =c("DATE_YEAR.x.x", "DATE_YEAR.x", "DATE_YEAR.y.y",
+#      "AGE_ID.x", "AGE_ID.y", "ASSIGNMENT_TYPE_ID",
+#      "ACTIVITY_TYPE_ID", "OUTSIDE_AGENCY_ID",
+#      "NUM_PREMISES_ENTERED")
+# 
+# tst <- c(unique(l1),unique(l2))
+# tst <- tst[duplicated(tst)]
+# tst[duplicated(tst)]
+
+
+# funct = function(ARGUMENT){
+#   VALUE = c(ARGUMENT, rep(NA, 16 - length(ARGUMENT)))
+#   return(VALUE)
+# }
+# 
+# incident_names = names(incident)
+# offense_names = names(offense)
+# offense_type_names = names(offense_type)
+# relationship_names = names(relationship)
+# victim_names = names(victim)
+# victim_circumstances_names = names(victim_circumstances)
+# offender_names = names(offender)
+# victim_type_names = names(victim_type)
+# victim_offender_rel_names = names(victim_offender_rel)
+# 
+# incident_names = funct(incident_names)
+# offense_names = funct(offense_names)
+# offense_type_names = funct(offense_type_names)
+# relationship_names = funct(relationship_names)
+# victim_names = funct(victim_names)
+# victim_circumstances_names = funct(victim_circumstances_names)
+# offender_names = funct(offender_names)
+# victim_type_names = funct(victim_type_names)
+# victim_offender_rel_names = funct(victim_offender_rel_names)
+# 
+# 
+# 
+# col_names = data.frame( incident_names,
+#                         offense_names,
+#                         offense_type_names,
+#                         relationship_names,
+#                         victim_names,
+#                         victim_circumstances_names,
+#                         offender_names,
+#                         victim_type_names,
+#                         victim_offender_rel_names
+#                         )
+# 
+# 
+# 
+# length(unique(offense_type_df$OFFENSE_TYPE_ID))
+# length(unique(offense_type_df$OFFENSE_CATEGORY_NAME))
+# length(unique(offense_type_df$OFFENSE_NAME))
+# length(unique(offense_type_df$OFFENSE_CODE))
 
 # TEXT
 
