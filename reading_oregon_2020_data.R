@@ -149,22 +149,45 @@ str_sub(test,start =  3,end = 9)
 # test = gsub('^.{2}', '', test)
 test
 
-# Crime we are looking for varible
-all_df_joined$cwalf= ifelse(all_df_joined$OFFENSE_TYPE_ID == 51| # Simple Assault 
-                            all_df_joined$OFFENSE_TYPE_ID == 56| # Other Types of Crimes from Excel Sheet
-                            all_df_joined$OFFENSE_TYPE_ID == 36| # Other Types of Crimes from Excel Sheet
-                            all_df_joined$OFFENSE_TYPE_ID ==  3| # Other Types of Crimes from Excel Sheet
-                            all_df_joined$OFFENSE_TYPE_ID ==  4| # :
-                            all_df_joined$OFFENSE_TYPE_ID ==  6| # :
-                            all_df_joined$OFFENSE_TYPE_ID == 19|
-                            all_df_joined$OFFENSE_TYPE_ID == 27|
-                            all_df_joined$OFFENSE_TYPE_ID == 29|
-                            all_df_joined$OFFENSE_TYPE_ID == 32|
-                            all_df_joined$OFFENSE_TYPE_ID == 38 &
+# Crime we are looking for variable
+all_df_joined$partner_related = ifelse(all_df_joined$OFFENSE_TYPE_ID == 51| # Simple Assault 
+                            all_df_joined$OFFENSE_TYPE_ID == 56| # Fondling
+                            all_df_joined$OFFENSE_TYPE_ID == 36| # Rape
+                            all_df_joined$OFFENSE_TYPE_ID ==  3| # Statutory Rape
+                            all_df_joined$OFFENSE_TYPE_ID ==  4| # Sexual Assault With An Object
+                            all_df_joined$OFFENSE_TYPE_ID ==  6| # Family Offenses, Nonviolent
+                            all_df_joined$OFFENSE_TYPE_ID == 19| # Runaway
+                            all_df_joined$OFFENSE_TYPE_ID == 27| # Aggravated Assault
+                            all_df_joined$OFFENSE_TYPE_ID == 29| # Kidnapping/Abduction
+                            all_df_joined$OFFENSE_TYPE_ID == 32| # Murder and Nonnegligent Manslaughter
+                            all_df_joined$OFFENSE_TYPE_ID == 38 & # Negligent Manslaughter
                             all_df_joined$LOCATION_ID == 20 & # Location was in a home
                             all_df_joined$RELATIONSHIP_ID == "CH"| # Victim Was Child
+                            all_df_joined$RELATIONSHIP_ID == "SE"| # Victim Was Spouse
+                            all_df_joined$RELATIONSHIP_ID == "XR"| # Victim Was Ex-Relationship (Ex-Boyfriend/Girlfriend)
+                            all_df_joined$RELATIONSHIP_ID == "BG"| # Victim Was Child of Boyfriend or Girlfriend
+                            all_df_joined$RELATIONSHIP_ID == "XS"| # Victim Was Ex-Spouse
+                            all_df_joined$RELATIONSHIP_ID == "HR"| # Homosexual Relationship
                             all_df_joined$RELATIONSHIP_ID == "SE",1, 0) # Victim Was Spouse
 
+
+# Crime we are looking for variable
+all_df_joined$child_abuse = ifelse(all_df_joined$OFFENSE_TYPE_ID == 51| # Simple Assault
+                        all_df_joined$OFFENSE_TYPE_ID == 56| # Fondling
+                        all_df_joined$OFFENSE_TYPE_ID == 36| # Rape
+                        all_df_joined$OFFENSE_TYPE_ID ==  3| # Statutory Rape
+                        all_df_joined$OFFENSE_TYPE_ID ==  4| # Sexual Assault With An Object
+                        all_df_joined$OFFENSE_TYPE_ID ==  6| # Family Offenses, Nonviolent
+                        all_df_joined$OFFENSE_TYPE_ID == 19| # Runaway
+                        all_df_joined$OFFENSE_TYPE_ID == 27| # Aggravated Assault
+                        all_df_joined$OFFENSE_TYPE_ID == 29| # Kidnapping/Abduction
+                        all_df_joined$OFFENSE_TYPE_ID == 32| # Murder and Nonnegligent Manslaughter
+                        all_df_joined$OFFENSE_TYPE_ID == 38 & # Negligent Manslaughter
+                        all_df_joined$LOCATION_ID == 20 & # Location was in a home
+                        all_df_joined$RELATIONSHIP_ID == "CH", 1, 0) # Victim Was Child
+
+
+all_df_joined$runn_away = ifelse(all_df_joined$OFFENSE_TYPE == 51)
 
 sum(all_df_joined$cwalf,na.rm=T) # Checking total
 
