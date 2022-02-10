@@ -61,6 +61,7 @@ ref_race=multiple_csv[[41]]
 ref_state=multiple_csv[[42]]
 
 
+
 # joined_df = left_join(incident, OFFENSE, by = "INCIDENT_ID")
 
 victim_offender_joined = full_join(offender, victim, by = "INCIDENT_ID")
@@ -340,6 +341,22 @@ sum(all_df_joined$cwalf,na.rm=T) # Checking total
 # REF_STATE=multiple_csv[[42]]  
 
 
+df = df %>% full_join(offender, victim, by = "INCIDENT_ID") %>% 
+            full_join(df,offense, by = "INCIDENT_ID") %>% 
+            full_join(df, victim_offender_rel, by = "VICTIM_ID") %>% 
+            full_join(df,  )# agencies
+  
+  
+  
+# Check with Harbaugh it is okay that we get different number of "
+# observations when by = "OFFENDER_ID"
+
+# Testing stuff
+# victim_rel_j = full_join(victim, victim_offender_rel, by = "VICTIM_ID")
+
+all_df_joined = victim_offender_offense_relationship_joined
+
+all_df_joined = all_df_joined %>% drop_na(RELATIONSHIP_ID)
 
 
 
