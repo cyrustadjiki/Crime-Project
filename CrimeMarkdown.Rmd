@@ -1,0 +1,142 @@
+---
+title: "CrimeMarkdown"
+author: "Cyrus Tadjiki"
+date: "2/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Managing Crime Data from NIBRS
+#load packages
+```{r}
+library(pacman)
+p_load(tidyverse, rvest, lubridate, janitor, 
+       data.table, readr, readxl, dplyr, skimr, 
+       broom, tidyr, stringr, stats)
+setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+```
+
+
+# Pull files
+```{r}
+NIBRS_incident <- read_csv("Crime_Data_2020/AR/NIBRS_incident.csv")
+NIBRS_VICTIM <- read_csv("Crime_Data_2020/AR/NIBRS_VICTIM.csv")
+agencies <- read_csv("Crime_Data_2020/AR/agencies.csv")
+NIBRS_OFFENSE <- read_csv("Crime_Data_2020/AL/NIBRS_OFFENSE.csv")
+NIBRS_VICTIM_OFFENDER_REL <- read_csv("Crime_data_2020/AL/NIBRS_VICTIM_OFFENDER_REL.csv")
+NIBRS_OFFENDER <- read_csv("Crime_Data_2020/AL/NIBRS_OFFENDER.csv")
+
+# function = function(NIBRS_file_name,dt_name,YEAR){
+#   for (i in files){
+#     NIBRS_file_name <- read_csv(gsub(' ', '', paste("Crime_Data_{YEAR}/", i, "/NIBRS_{file_name}.csv")))
+#     dt_name <- rbind(dt_name, NIBRS_file_name)
+#   }
+# }
+```
+
+# Gathering data this takes 3 minutes to run
+```{r}
+##INCIDENTS
+# get a list of the folders in Crime_Data_NIBRS
+files <- list.files(path="CRIME_DATA_2020")
+#make empty data set for incident data
+incidents <- data.frame(matrix(ncol = 15, nrow = 0))
+names(incidents) <- names(NIBRS_incident)
+#go through each folder in Crime_Data_NIBRS and find corresponding incident 
+#table to bind it to incidents data frame
+for (i in files){
+  NIBRS_incident <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/NIBRS_incident.csv")))
+  incidents <- rbind(incidents, NIBRS_incident)
+}
+#pull out unnecessary columns for incidents data set
+incidents <- incidents[ , c("DATA_YEAR", "AGENCY_ID", "INCIDENT_ID",
+                            "INCIDENT_DATE", "INCIDENT_HOUR")]
+##VICTIMS
+victims <- data.frame(matrix(ncol = 16, nrow = 0))
+names(victims) <- names(NIBRS_VICTIM)  
+for (i in files){
+  NIBRS_VICTIM <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/NIBRS_VICTIM.csv")))
+  victims <- rbind(victims, NIBRS_VICTIM)
+}
+victims <- victims[ , c("VICTIM_ID", "INCIDENT_ID", 
+                        "AGE_NUM", "SEX_CODE")]
+
+##AGENCY
+agency_list <- data.frame(matrix(ncol = 59, nrow = 0))
+names(agency_list) <- names(agencies)
+for (i in files){
+  agencies <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/agencies.csv")))
+  agency_list <- rbind(agency_list, agencies)
+}
+agency_list <- agency_list[ , c("YEARLY_AGENCY_ID", "AGENCY_ID", "STATE_NAME", "STATE_ABBR",
+                                "AGENCY_TYPE_NAME", "UCR_AGENCY_NAME", "COUNTY_NAME")]
+
+##OFFENDER
+offenders <- data.frame(matrix(ncol = 11, nrow = 0))
+names(offenders) <- names(NIBRS_OFFENDER)
+for (i in files){
+  NIBRS_OFFENDER <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/NIBRS_OFFENDER.csv")))
+  offenders <- rbind(offenders, NIBRS_OFFENDER)
+}
+offenders <- offenders[ , c("OFFENDER_ID", "INCIDENT_ID")]
+
+##OFFENSE
+offense <- data.frame(matrix(ncol = 8, nrow = 0))
+names(offense) <- names(NIBRS_OFFENSE)
+for (i in files){
+  NIBRS_OFFENSE <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/NIBRS_OFFENSE.csv")))
+  offense <- rbind(offense, NIBRS_OFFENSE)
+}
+offense <- offense[ , c("OFFENSE_ID", "INCIDENT_ID", 
+                        "OFFENSE_TYPE_ID", "LOCATION_ID")]
+
+##VICTIM OFFENDER REL
+victim_offender_rel <- data.frame(matrix(ncol = 5, nrow = 0))
+names(victim_offender_rel) <- names(NIBRS_VICTIM_OFFENDER_REL)
+for (i in files){
+  NIBRS_VICTIM_OFFENDER_REL <- read_csv(gsub(' ', '', paste("Crime_Data_2020/", i, "/NIBRS_VICTIM_OFFENDER_REL.csv")))
+  victim_offender_rel <- rbind(victim_offender_rel, NIBRS_VICTIM_OFFENDER_REL)
+}
+victim_offender_rel <- victim_offender_rel[ , c("VICTIM_ID", "OFFENDER_ID",
+                                                "RELATIONSHIP_ID")]
+
+rm(list= ls()[!(ls() %in% c('victims','offense','incidents','agency_list','victim_offender_rel',))])
+```
+
+# now we have incidents, victims, offenders, victim offender rel, and offense
+
+# Merging Data
+```{r}
+m1 <- left_join(victims, incidents, by = "INCIDENT_ID")
+m2 <- full_join(m1, offenders, by = "INCIDENT_ID")
+rm(m1)
+m3 <- left_join(m2, victim_offender_rel, by = c("VICTIM_ID", "OFFENDER_ID"))
+rm(m2)
+m4 <- left_join(m3, offense, by = "INCIDENT_ID")
+rm(m3)
+m5 <- left_join(m4, agency_list, by = "AGENCY_ID")
+rm(m4)
+m5 <- m5[ , c("DATA_YEAR", "COUNTY_NAME","AGENCY_ID", "STATE_ABBR", "INCIDENT_DATE",
+              "RELATIONSHIP_ID", "OFFENSE_TYPE_ID", "LOCATION_ID", "AGE_NUM")]
+```
+
+# Next Part
+```{r}
+# domestic2020 <- 
+  
+set.seed(525)
+df = m5 %>% sample_frac(0.1)
+# rm(m5)
+df <- df[ , c("DATA_YEAR", "COUNTY_NAME","AGENCY_ID", "STATE_ABBR", "INCIDENT_DATE",
+              "RELATIONSHIP_ID", "OFFENSE_TYPE_ID", "LOCATION_ID", "AGE_NUM")]
+# make another data set filtering out anything not relating to property crime
+
+df2 = df %>% na.omit(RELATIONSHIP_ID)
+
+```
+
+
