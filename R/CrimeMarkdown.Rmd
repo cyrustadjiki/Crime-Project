@@ -24,7 +24,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
 
 # Gathering data this takes 3 minutes to run
 ```{r, echo=FALSE}
-setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+# setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
 #pull example files
 NIBRS_incident <- read_csv("Crime_Data_2020/AR/NIBRS_incident.csv")
 NIBRS_VICTIM <- read_csv("Crime_Data_2020/AR/NIBRS_VICTIM.csv")
@@ -482,8 +482,9 @@ new = new %>%
 # First Regression
 ```{r}
 reg1 = lm(child_crime~students_home, data = new)
-tidy(reg1)
-# summary(reg1)
+# reported crime / total students~ percent student home +grandparents
+# tidy(reg1)
+summary(reg1)
 reg2 = lm(partner_crime~students_home, data = new)
 tidy(reg2)
 # summary(reg2)
