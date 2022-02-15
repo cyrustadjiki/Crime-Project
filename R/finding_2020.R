@@ -36,6 +36,8 @@ for (i in files){
 incidents <- incidents[ , c("DATA_YEAR", "AGENCY_ID", "INCIDENT_ID",
                             "INCIDENT_DATE", "INCIDENT_HOUR")]
 
+beepr::beep(sound = 3)
+
 # [1] "DATA_YEAR"          
 # [2] "AGENCY_ID"          
 # [3] "INCIDENT_ID"        
@@ -147,6 +149,7 @@ for (i in files){
 # isolate necessary column names
 victim_offender_rel <- victim_offender_rel[ , c("VICTIM_ID", "OFFENDER_ID",
                                                 "RELATIONSHIP_ID")]
+beepr::beep(sound = 3)
 
 # now we have incidents, victims, offenders, victim offender rel, and offense
 
@@ -163,6 +166,9 @@ m4 <- left_join(m3, offense, by = "INCIDENT_ID")
 rm(m3)
 m5 <- left_join(m4, agency_list, by = "AGENCY_ID")
 rm(m4)
+
+beepr::beep(sound = 3)
+
 
 names(m5)[names(m5) == 'SEX_CODE.x'] <- "SEX_VICTIM"
 names(m5)[names(m5) == 'SEX_CODE.y'] <- "SEX_OFFENDER"
@@ -190,10 +196,10 @@ df = m5
 
 # Child Relationship
 df$child_rel = ifelse(  df$RELATIONSHIP_ID ==  4|
-                        df$RELATIONSHIP_ID ==  5|
-                        df$RELATIONSHIP_ID == 10|
-                        df$RELATIONSHIP_ID == 20|
-                        df$RELATIONSHIP_ID == 23, 1,0)
+                          df$RELATIONSHIP_ID ==  5|
+                          df$RELATIONSHIP_ID == 10|
+                          df$RELATIONSHIP_ID == 20|
+                          df$RELATIONSHIP_ID == 23, 1,0)
 # Partner Relationship
 df$partner_rel = ifelse(df$RELATIONSHIP_ID ==  3|
                           df$RELATIONSHIP_ID == 27|
@@ -201,36 +207,36 @@ df$partner_rel = ifelse(df$RELATIONSHIP_ID ==  3|
                           df$RELATIONSHIP_ID == 21|
                           df$RELATIONSHIP_ID == 26, 1,0)
 # Property Relationship
-df$property_rel = ifelse( df$RELATIONSHIP_ID ==  1|
-                            df$RELATIONSHIP_ID ==  2|
-                            df$RELATIONSHIP_ID ==  4|
-                            df$RELATIONSHIP_ID ==  7|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  9|
-                            df$RELATIONSHIP_ID == 14|
-                            df$RELATIONSHIP_ID == 16|
-                            df$RELATIONSHIP_ID == 18|
-                            df$RELATIONSHIP_ID == 24, 1,0)
+df$property_rel = ifelse(   df$RELATIONSHIP_ID ==  1|
+                              df$RELATIONSHIP_ID ==  2|
+                              df$RELATIONSHIP_ID ==  4|
+                              df$RELATIONSHIP_ID ==  7|
+                              df$RELATIONSHIP_ID ==  8|
+                              df$RELATIONSHIP_ID ==  8|
+                              df$RELATIONSHIP_ID ==  9|
+                              df$RELATIONSHIP_ID == 14|
+                              df$RELATIONSHIP_ID == 16|
+                              df$RELATIONSHIP_ID == 18|
+                              df$RELATIONSHIP_ID == 24, 1,0)
 # Stranger Relationship
-df$stranger_rel = ifelse( df$RELATIONSHIP_ID ==  1|
-                            df$RELATIONSHIP_ID ==  2|
-                            df$RELATIONSHIP_ID ==  7|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  9|
-                            df$RELATIONSHIP_ID == 14|
-                            df$RELATIONSHIP_ID == 16|
-                            df$RELATIONSHIP_ID == 18|
-                            df$RELATIONSHIP_ID == 24|
-                            df$RELATIONSHIP_ID == 25, 1,0)
+df$stranger_rel = ifelse(   df$RELATIONSHIP_ID ==  1|
+                              df$RELATIONSHIP_ID ==  2|
+                              df$RELATIONSHIP_ID ==  7|
+                              df$RELATIONSHIP_ID ==  8|
+                              df$RELATIONSHIP_ID ==  8|
+                              df$RELATIONSHIP_ID ==  9|
+                              df$RELATIONSHIP_ID == 14|
+                              df$RELATIONSHIP_ID == 16|
+                              df$RELATIONSHIP_ID == 18|
+                              df$RELATIONSHIP_ID == 24|
+                              df$RELATIONSHIP_ID == 25, 1,0)
 # Burglary at home part
 df$burglary_home_stranger = ifelse(df$RELATIONSHIP_ID == 24 &
                                      df$OFFENSE_TYPE_ID == 49 &
                                      df$LOCATION_ID == 20, 1, 0)
 # Crimes against children
 df$child_crime = ifelse(
-    df$child_rel == 1 &
+  df$child_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
@@ -253,7 +259,7 @@ df$child_crime = ifelse(
     df$OFFENSE_TYPE_ID == 60,1, 0) # Human Trafficking, Involuntary Servitude
 # Crimes against partners
 df$partner_crime = ifelse(
-    df$partner_rel == 1 &
+  df$partner_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
@@ -274,7 +280,7 @@ df$partner_crime = ifelse(
     df$OFFENSE_TYPE_ID == 60,1, 0) # Human Trafficking, Involuntary Servitude
 # Crimes against strangers
 df$stranger_crime = ifelse(
-    df$stranger_rel == 1 &
+  df$stranger_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
@@ -311,6 +317,7 @@ df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
 
+beepr::beep(sound = 1)
 
 
 
@@ -340,7 +347,7 @@ df = mutate_at(df, c( "partner_crime",
                       "victim_unknown_sex",     
                       "offender_minor",        
                       "offender_adult"), 
-                      ~replace(., is.na(.), 0))
+               ~replace(., is.na(.), 0))
 
 
 df =separate(
@@ -354,6 +361,9 @@ df =separate(
       "county_4",
       "county_5"),
   remove = FALSE)
+
+beepr::beep(sound = 2)
+
 
 # # A tibble: 8 x 8
 # skim_variable n_missing complete_rate   min   max empty n_unique
@@ -400,16 +410,16 @@ df = clean_names(df)
 df$month = gsub("[^a-zA-Z]", "", df$incident_date)
 
 df$month =  ifelse(df$month == "JAN",1,
-            ifelse(df$month == "FEB",2,
-            ifelse(df$month == "MAR",3,
-            ifelse(df$month == "APR",4,
-            ifelse(df$month == "MAY",5,
-            ifelse(df$month == "JUN",6,
-            ifelse(df$month == "JUL",7,
-            ifelse(df$month == "AUG",8,
-            ifelse(df$month == "SEP",9,
-            ifelse(df$month == "OCT",10,
-            ifelse(df$month == "NOV",11,12)))))))))))
+                   ifelse(df$month == "FEB",2,
+                          ifelse(df$month == "MAR",3,
+                                 ifelse(df$month == "APR",4,
+                                        ifelse(df$month == "MAY",5,
+                                               ifelse(df$month == "JUN",6,
+                                                      ifelse(df$month == "JUL",7,
+                                                             ifelse(df$month == "AUG",8,
+                                                                    ifelse(df$month == "SEP",9,
+                                                                           ifelse(df$month == "OCT",10,
+                                                                                  ifelse(df$month == "NOV",11,12)))))))))))
 
 
 

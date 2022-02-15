@@ -1,0 +1,102 @@
+---
+title: "final"
+author: "Cyrus Tadjik"
+date: "2/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# knitr::opts_knit$set(root.dir = "C:/Users/cyrus/Downloads/EC 419/Crime Data")
+getwd()
+```
+
+```{r, Loading Packages}
+library(pacman)
+p_load(tidyverse, rvest, lubridate, janitor, 
+       data.table, readr, readxl, dplyr, 
+       skimr, broom, tidyr, stringr, stats)
+```
+
+
+```{r, reading data}
+setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+crime_2018 = read.csv("final_2018.csv")
+crime_2019 = read.csv("final_2019.csv")
+crime_2020 = read.csv("final_2020.csv")
+sc = read.csv("school_closure_data1.csv")
+# census = read.csv(".csv")
+```
+
+
+```{r, combining data sets}
+bound = rbind(crime_2018,crime_2019,crime_2020)
+# Sanity Check
+identical(nrow(bound),sum(nrow(crime_2018),nrow(crime_2019),nrow(crime_2020)))
+sc = sc %>% filter(year < 2021)
+sc = select(sc, -c( X,statefips,
+                    countyfips,
+                    countyfips2,
+                    countyfips3,
+                    year,
+                    state_abb,
+                    county_name)) 
+df = left_join(bound,sc, by = "combo")
+df = df %>% 
+      mutate(stud_per_school = total_students/number_schools) %>% 
+      mutate(closed25 = 0.25 * (share_all_closed_25*total_students)) %>% 
+      mutate(closed50 = 0.5  * (share_all_closed_50*total_students)) %>% 
+      mutate(closed75 = 0.75 * (share_all_closed_75*total_students)) %>% 
+      mutate(students_home = (closed25 + closed50 + closed75))
+```
+
+
+# Summary Stats
+```{r}
+skim(df)
+```
+
+
+Reading in other Data
+```{r}
+sc = read.csv("school_closure_data1.csv")
+sc = sc %>% filter(year < 2021)
+sc = select(sc, -c( X,statefips,
+                    countyfips,
+                    countyfips2,
+                    countyfips3,
+                    year,
+                    state_abb,
+                    county_name)) 
+new = merge(sc,df, by = "combo")
+new = new %>% 
+      mutate(stud_per_school = total_students/number_schools) %>% 
+      mutate(closed25 = 0.25 * (share_all_closed_25*total_students)) %>% 
+      mutate(closed50 = 0.5  * (share_all_closed_50*total_students)) %>% 
+      mutate(closed75 = 0.75 * (share_all_closed_75*total_students)) %>% 
+      mutate(students_home = (closed25 + closed50 + closed75))
+
+```
+
+
+# First Regression
+```{r}
+reg1 = lm(child_crime~students_home, data = df)
+# reported crime / total students~ percent student home +grandparents
+# tidy(reg1)
+summary(reg1)
+reg2 = lm(partner_crime~students_home, data = df)
+tidy(reg2)
+# summary(reg2)
+```
+
+```{r}
+write_csv(x = df, file = "data_draft_1.csv")
+```
+
+
+
+
+
+
+

@@ -150,6 +150,7 @@ victim_offender_rel <- victim_offender_rel[ , c("VICTIM_ID", "OFFENDER_ID",
 
 # now we have incidents, victims, offenders, victim offender rel, and offense
 
+beepr::beep(sound = 3)
 
 
 # t1 = left_join(victims)
@@ -183,6 +184,8 @@ m5 <- m5[ ,c("DATA_YEAR",
              "AGE_OFFENDER")]
 
 rm(list= ls()[!(ls() %in% c("m5","df"))])
+beepr::beep(sound = 2)
+
 
 df = m5
 # rm(m5)
@@ -311,7 +314,7 @@ df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
 
-
+beepr::beep(sound = 8)
 
 
 
@@ -342,7 +345,9 @@ df = mutate_at(df, c( "partner_crime",
                       "offender_adult"), 
                ~replace(., is.na(.), 0))
 
+beepr::beep(sound = 8)
 
+Sys.sleep(120)
 df =separate(
   data = df,
   col = COUNTY_NAME,
@@ -355,6 +360,7 @@ df =separate(
       "county_5"),
   remove = FALSE)
 
+beepr::beep(sound = 2)
 # # A tibble: 8 x 8
 # skim_variable n_missing complete_rate   min   max empty n_unique
 # * <chr>             <int>         <dbl> <int> <int> <int>    <int>
@@ -423,6 +429,9 @@ df = df %>%
             child_crime = sum(child_crime),
             stranger_crime = sum(stranger_crime),
             burglary_home_stranger = sum(burglary_home_stranger))
+
+beepr::beep(sound = 8)
+
 
 
 # Saving out data frame as a .csv file

@@ -310,7 +310,7 @@ df$victim_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
-
+beepr::beep(sound = 3)
 
 
 
@@ -354,6 +354,9 @@ df =separate(
       "county_4",
       "county_5"),
   remove = FALSE)
+
+beepr::beep(sound = 3)
+
 
 # # A tibble: 8 x 8
 # skim_variable n_missing complete_rate   min   max empty n_unique
@@ -425,6 +428,10 @@ df = df %>%
             burglary_home_stranger = sum(burglary_home_stranger))
 
 
+beepr::beep(sound = 3)
+
+
 # Saving out data frame as a .csv file
 write_csv(x = df, file = "final_2019.csv")
+beepr::beep(sound = 3)
 
