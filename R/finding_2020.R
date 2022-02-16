@@ -410,16 +410,16 @@ df = clean_names(df)
 df$month = gsub("[^a-zA-Z]", "", df$incident_date)
 
 df$month =  ifelse(df$month == "JAN",1,
-                   ifelse(df$month == "FEB",2,
-                          ifelse(df$month == "MAR",3,
-                                 ifelse(df$month == "APR",4,
-                                        ifelse(df$month == "MAY",5,
-                                               ifelse(df$month == "JUN",6,
-                                                      ifelse(df$month == "JUL",7,
-                                                             ifelse(df$month == "AUG",8,
-                                                                    ifelse(df$month == "SEP",9,
-                                                                           ifelse(df$month == "OCT",10,
-                                                                                  ifelse(df$month == "NOV",11,12)))))))))))
+            ifelse(df$month == "FEB",2,
+            ifelse(df$month == "MAR",3,
+            ifelse(df$month == "APR",4,
+            ifelse(df$month == "MAY",5,
+            ifelse(df$month == "JUN",6,
+            ifelse(df$month == "JUL",7,
+            ifelse(df$month == "AUG",8,
+            ifelse(df$month == "SEP",9,
+            ifelse(df$month == "OCT",10,
+            ifelse(df$month == "NOV",11,12)))))))))))
 
 
 
