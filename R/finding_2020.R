@@ -36,7 +36,7 @@ for (i in files){
 incidents <- incidents[ , c("DATA_YEAR", "AGENCY_ID", "INCIDENT_ID",
                             "INCIDENT_DATE", "INCIDENT_HOUR")]
 
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 
 # [1] "DATA_YEAR"          
 # [2] "AGENCY_ID"          
@@ -149,7 +149,7 @@ for (i in files){
 # isolate necessary column names
 victim_offender_rel <- victim_offender_rel[ , c("VICTIM_ID", "OFFENDER_ID",
                                                 "RELATIONSHIP_ID")]
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 
 # now we have incidents, victims, offenders, victim offender rel, and offense
 
@@ -167,7 +167,7 @@ rm(m3)
 m5 <- left_join(m4, agency_list, by = "AGENCY_ID")
 rm(m4)
 
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 
 
 names(m5)[names(m5) == 'SEX_CODE.x'] <- "SEX_VICTIM"
@@ -317,7 +317,7 @@ df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
 
-beepr::beep(sound = 1)
+# beepr::beep(sound = 1)
 
 
 
@@ -362,7 +362,7 @@ df =separate(
       "county_5"),
   remove = FALSE)
 
-beepr::beep(sound = 2)
+# beepr::beep(sound = 2)
 
 
 # # A tibble: 8 x 8
@@ -437,7 +437,7 @@ df = df %>%
             # VICTIM SEX
             victim_male = sum(victim_male),
             victim_female = sum(victim_female),
-            victim_unknown_sex = sum(victim_offender_male),
+            victim_unknown_sex = sum(victim_unknown_sex),
             
             # OFFENDER SEX
             offender_male = sum(offender_male),
@@ -453,11 +453,11 @@ df = df %>%
             offender_adult = sum(offender_adult)
   )
 
-
+beepr::beep(sound = 3)
 # Saving out data frame as a .csv file
 
 
-write_csv(x = df, file = "final_2018.csv")
-path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project"
+write_csv(x = df, file = "final_2020.csv")
+path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data"
 write.csv(df,paste(path_out,"final_2020.csv",sep = ''))
 

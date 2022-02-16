@@ -310,7 +310,7 @@ df$victim_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 
 
 
@@ -355,7 +355,7 @@ df =separate(
       "county_5"),
   remove = FALSE)
 
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 
 
 # # A tibble: 8 x 8
@@ -430,12 +430,12 @@ df = df %>%
             # VICTIM SEX
             victim_male = sum(victim_male),
             victim_female = sum(victim_female),
-            victim_unknown_sex = sum(victim_offender_male),
+            victim_unknown_sex = sum(victim_unknown_sex),
             
             # OFFENDER SEX
             offender_male = sum(offender_male),
             offender_female = sum(offender_female),
-            offender_unknown_sex = sum(offender_unknown_sex),
+            offender_unknown_sex = sum(victim_unknown_sex),
             
             # VICTIM AGE
             victim_minor = sum(victim_minor),
@@ -450,7 +450,9 @@ beepr::beep(sound = 3)
 
 
 # Saving out data frame as a .csv file
-path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project"
+write_csv(x = df, file = "final_2019.csv")
+
+path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data"
 write.csv(df,paste(path_out,"final_2018.csv",sep = ''))
-beepr::beep(sound = 3)
+# beepr::beep(sound = 3)
 

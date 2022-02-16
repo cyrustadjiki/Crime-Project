@@ -347,7 +347,7 @@ df = mutate_at(df, c( "partner_crime",
 
 beepr::beep(sound = 8)
 
-Sys.sleep(120)
+# Sys.sleep(120)
 df =separate(
   data = df,
   col = COUNTY_NAME,
@@ -432,7 +432,7 @@ df = df %>%
             # VICTIM SEX
             victim_male = sum(victim_male),
             victim_female = sum(victim_female),
-            victim_unknown_sex = sum(victim_offender_male),
+            victim_unknown_sex = sum(victim_unknown_sex),
             
             # OFFENDER SEX
             offender_male = sum(offender_male),
@@ -455,7 +455,7 @@ beepr::beep(sound = 8)
 
 # Saving out data frame as a .csv file
 write_csv(x = df, file = "final_2018.csv")
-path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project"
+path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data"
 write.csv(df,paste(path_out,"final_2018.csv",sep = ''))
 
 
