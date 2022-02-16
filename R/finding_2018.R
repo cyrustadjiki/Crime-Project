@@ -428,7 +428,26 @@ df = df %>%
   summarise(partner_crime = sum(partner_crime),
             child_crime = sum(child_crime),
             stranger_crime = sum(stranger_crime),
-            burglary_home_stranger = sum(burglary_home_stranger))
+            burglary_home_stranger = sum(burglary_home_stranger),
+            # VICTIM SEX
+            victim_male = sum(victim_male),
+            victim_female = sum(victim_female),
+            victim_unknown_sex = sum(victim_offender_male),
+            
+            # OFFENDER SEX
+            offender_male = sum(offender_male),
+            offender_female = sum(offender_female),
+            offender_unknown_sex = sum(offender_unknown_sex),
+            
+            # VICTIM AGE
+            victim_minor = sum(victim_minor),
+            victim_adult = sum(victim_adult),
+            
+            # OFFENDER AGE
+            offender_minor = sum(offender_minor),
+            offender_adult = sum(offender_adult)
+            )
+
 
 beepr::beep(sound = 8)
 
@@ -436,4 +455,7 @@ beepr::beep(sound = 8)
 
 # Saving out data frame as a .csv file
 write_csv(x = df, file = "final_2018.csv")
+path_out = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project"
+write.csv(df,paste(path_out,"final_2018.csv",sep = ''))
+
 

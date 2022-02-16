@@ -6,7 +6,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
        skimr, broom, tidyr, stringr, stats)
 
 # Setting Working Directory
-setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+setwd("C:/Users/cyrus/OneDrive/EC 419/Crime-Project")
 crime_2018 = read.csv("final_2018.csv")
 crime_2019 = read.csv("final_2019.csv")
 crime_2020 = read.csv("final_2020.csv")

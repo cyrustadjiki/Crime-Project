@@ -12,7 +12,7 @@ getwd()
 ```
 
 ```{r, Loading Packages}
-setwd("C:/Users/cyrus/Downloads/EC 419/Crime-Project/data")
+setwd("C:/Users/cyrus/OneDrive/EC 419/Crime-Project")
 library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
        data.table, readr, readxl, dplyr, 
