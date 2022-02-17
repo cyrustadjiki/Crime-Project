@@ -7,6 +7,9 @@ p_load(tidyverse, rvest, lubridate, janitor,
 
 # Setting Working Directory
 setwd("C:/Users/cyrus/OneDrive/EC 419/Crime-Project")
+setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+getwd()
+
 crime_2018 = read.csv("final_2018.csv")
 crime_2019 = read.csv("final_2019.csv")
 crime_2020 = read.csv("final_2020.csv")
@@ -67,7 +70,7 @@ df = select(df, -c(month))
 
 
 # write_csv(x = df, file = "data_draft_1.csv")
-# write_csv(x = df, file = "data_draft_2.csv")
+write_csv(x = df, file = "data_draft_2.csv")
 # write_csv(x = df, file = "data_draft_3.csv")
 # write_csv(x = df, file = "data_draft_4.csv")
 # write_csv(x = df, file = "data_draft_5.csv")
