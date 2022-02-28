@@ -10,22 +10,35 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = "C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data")
 getwd()
 ```
-
+## Set up
 ```{r, Loading Packages}
 setwd("C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data")
 library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
        data.table, readr, readxl, dplyr, zoo,
-       skimr, broom, tidyr, stringr, stats)
+       skimr, broom, tidyr, stringr, stats,
+       ggthemes, fixest)
 ```
-
 
 ```{r, reading data}
 # setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
-df = read.csv("data_draft_2.csv")
-# census = read.csv(".csv")
+df = read.csv("data_draft_4.csv")
+census = read.csv("acspop.csv")
 ```
 
+#Merging Census and draft_x
+```{r}
+# ☺
+
+head(census)
+sc = read.csv("school_closure_data1.csv")
+sc = select(sc, c("countyfips","county_name"))
+sc %>% group_by(county_name) %>% summarise(countyfips) %>% dim()
+sc = sc[duplicated(countyfips)]
+sc[duplicated(sc), ]
+dim(sc)
+names(sc)
+```
 
 # Summary Stats
 ```{r}
@@ -48,12 +61,13 @@ no_nas = mutate_at(df, c( "share_all_closed_25",
 ```
 
 
-
 # Regressions
 ```{r}
 # reg_test = lm(child_crime~ten, data = df)
 # tidy(reg_test)
-reg1 = lm(child_crime~share_all_closed_25, data = df)
+fe_reg = feols(child_crime~share_all_closed_25 | year_month, data = no_nas)
+tidy(fe_reg)
+reg1 = lm(child_crime~share_all_closed_25, data = no_nas)
 # reported crime / total students~ percent student home +grandparents
 # tidy(reg1)
 summary(reg1)
@@ -66,9 +80,9 @@ summary(reg1)
 #                       df$month==3), ]
 ```
 
-
 ```{r}
-fs = read.csv("data_draft_2.csv")
+fs = read.csv("data_draft_4.csv")
+
 # making NAs 0 for plotting
 fs = mutate_at(df, c( "share_all_closed_25",     
                           "share_all_closed_50",        
@@ -76,56 +90,133 @@ fs = mutate_at(df, c( "share_all_closed_25",
                           "number_schools",
                           "total_students"),
                ~replace(., is.na(.), 0))
-
 # piping data set together getting 4 helpful columns
 fs = fs %>% group_by(year_month) %>% 
+             # mutate(sr = sum(burglary_home_stranger)) %>% 
              summarise(
+             # child_crime_mean_pct = child_crime/sum(child_crime),
+             # burglary_home_stranger_mean_pct = burglary_home_stranger/sum(burglary_home_stranger),
              child_crime_mean = mean(child_crime),
              partner_crime_mean = mean(partner_crime),
+             stranger_crime_mean = mean(stranger_crime),
              child_crime = sum(child_crime),
-             partner_crime = sum(partner_crime)) %>% 
+             partner_crime = sum(partner_crime),
+             stranger_crime = sum(stranger_crime)) %>%
              mutate(year_month = as.yearmon(year_month))
-
 # Ordering by column year_month
 fs <- fs[order(fs$year_month, decreasing= TRUE),]
 
-# poo poo plot I made
-# p0 = ggplot(fs, aes(x = year_month, y = child_crime)) + 
-#   geom_col() + 
-#   scale_x_yearmon()
-# p0
 
-# Mean
-p1 = ggplot() + 
-  geom_area(data = fs, aes(x = year_month, y = child_crime_mean, fill = "blue")) + 
-  geom_area(data = fs, aes(x = year_month, y = partner_crime_mean, fill = "red")) + 
-  scale_x_yearmon(n = 47) +
-  scale_y_continuous(limits = c(0,50)) +
-  theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
-        legend.title = element_text())+
-  xlab("Time")+
-  ylab("Crime Average") +
-  guides(fill=guide_legend(title="Type of Crime")) +
-  scale_fill_discrete(name = "Dose", labels = c("Child","Partner")) +
-  labs(title = "Average amount of types of crime pre-covid to present")
-p1
+# data5 = df %>% group_by(year_month)
+# 
+# view(data5)
+# Ordering by column year_month
 
-# Sum
-p2 = ggplot() + 
-  geom_area(data = fs, aes(x = year_month, y = child_crime, fill = "blue")) + 
-  geom_area(data = fs, aes(x = year_month, y = partner_crime, fill = "red")) + 
-  scale_x_yearmon(n = 47) +
-  scale_y_continuous(limits = c(0,102185)) +
-  theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
-        legend.title = element_text())+
-  xlab("Time")+
-  ylab("Crime Frequency") +
-  guides(fill=guide_legend(title="Type of Crime")) +
-  scale_fill_discrete(name = "Dose", labels = c("Child","Partner")) +
-  labs(title = "Frequency of types of crime pre-covid to present")
-p2
+# df2 = df %>% 
+#   group_by(state) %>% 
+#   summarise( child_crime_mean_pct = mean(child_crime)/sum(child_crime),
+#              burglary_home_stranger = mean(burglary_home_stranger)/sum(burglary_home_stranger),
+#              partner_crime_mean = mean(partner_crime),
+#              child_crime = sum(child_crime),
+#              partner_crime = sum(partner_crime),
+#              stranger_crime = sum(stranger_crime),
+#              burglary_home_stranger = sum(burglary_home_stranger)) %>% 
+#              mutate(year_month = as.yearmon(year_month))
+# 
+# df2
+
+# Animated gorup by state bar cols of every state changing over year(time is animated) Y axis is sum(of cases)
 ```
 
 
+```{r}
+# Mean
+p1 = ggplot() + 
+  # theme_fivethirtyeight() +
+  geom_area(data = fs, aes(x = year_month, y = stranger_crime_mean, fill = "black")) +
+  geom_area(data = fs, aes(x = year_month, y = child_crime_mean, fill = "blue")) +
+  geom_area(data = fs, aes(x = year_month, y = partner_crime_mean, fill = "red")) +   scale_x_yearmon(n = 47, expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,60), expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
+        legend.title = element_text(), 
+        legend.position = "right",
+        legend.direction = "vertical",
+        plot.background = element_rect(fill = "white"),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(colour = "grey18")
+        )+
+  xlab("2018-2020")+
+  ylab("Crime Average") +
+  guides(fill=guide_legend(title="Type of Crime")) +
+  scale_fill_discrete(name = "Dose", labels = c("Stranger","Child","Partner")) +
+  labs(title = "Average amount of types of crime pre-covid to present",subtitle = "Filtered to just Police Agencies that reported 2018-2020") +
+  geom_hline(yintercept = 20,linetype = 'dotted', col = 'black') +
+  geom_hline(yintercept = 40,linetype = 'dotted', col = 'black') +
+  geom_hline(yintercept = 60,linetype = 'dotted', col = 'black') 
+p1
+
+# Sum
+p2 = ggplot() +
+  geom_area(data = fs, aes(x = year_month, y = stranger_crime, fill = "black")) +
+  geom_area(data = fs, aes(x = year_month, y = child_crime, fill = "blue")) + 
+  geom_area(data = fs, aes(x = year_month, y = partner_crime, fill = "red")) + 
+  labs(title = "Frequency of types of crime pre-covid to present",subtitle = "Filtered to just Police Agencies that reported 2018-2020", x = "2018-2020", y = "Crime Frequency")+
+  scale_x_yearmon(n = 47, expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,102185), expand = c(0, 0)) +
+  # theme_fivethirtyeight() +
+  theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
+        legend.title = element_text(), 
+        legend.position = "right",
+        legend.direction = "vertical",
+        plot.background = element_rect(fill = "white"),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(colour = "grey18")
+)+
+  xlab("2018-2020")+
+  ylab("Crime Frequency") +
+  guides(fill=guide_legend(title="Type of Crime")) +
+  scale_fill_discrete(name = "Dose", labels = c("Stranger","Child","Partner")) +
+  geom_hline(yintercept = 25000,linetype = 'dotted', col = 'black') +
+  geom_hline(yintercept = 50000,linetype = 'dotted', col = 'black') +
+  geom_hline(yintercept = 75000,linetype = 'dotted', col = 'black') +
+  geom_hline(yintercept = 100000,linetype = 'dotted', col = 'black') 
+p2
+```
+
+Atp. at Density Plots. Doesn't look that good. 
+```{r}
+# # Sum Denisty
+# p3 = ggplot() + 
+#   geom_area(data = fs, aes(x = year_month, y = child_crime), fill = "blue", alpha = 0.7) +
+#   geom_area(data = fs, aes(x = year_month, y = partner_crime), fill = "blue",  alpha = 0.7) + 
+#   geom_area(data = fs, aes(x = year_month, y = stranger_crime), fill = "red", alpha = 0.7) +
+#   scale_x_yearmon(n = 47) +
+#   scale_y_continuous(limits = c(0,102185)) +
+#   theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
+#         legend.title = element_text())+
+#   xlab("Time")+
+#   ylab("Crime Frequency") +
+#   guides(fill=guide_legend(title="Type of Crime")) +
+#   scale_fill_discrete(name = "Dose", labels = c("Child","Partner")) +
+#   labs(title = "Frequency of types of crime pre-covid to present")
+# p3
+# 
+# p4 = ggplot() + 
+#   geom_area(data = fs, aes(x = year_month, y = stranger_crime), fill = "red", alpha = 0.9) +
+#   geom_area(data = fs, aes(x = year_month, y = child_crime), fill = "blue", alpha = 0.9) + 
+#   # geom_area(data = fs, aes(x = year_month, y = partner_crime), fill = "blue",  alpha = 0.7) + 
+#   scale_x_yearmon(n = 47) +
+#   scale_y_continuous(limits = c(0,102185)) +
+#   theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
+#         legend.title = element_text())+
+#   xlab("Time")+
+#   ylab("Crime Frequency") +
+#   guides(fill=guide_legend(title="Type of Crime")) +
+#   scale_fill_discrete(name = "Dose", labels = c("Stranger","Child","Partner")) +
+#   labs(title = "Frequency of types of crime pre-covid to present", subtitle = "Filtered to just Police Agencies that reported 2018-2019")
+# p4
+```
 
 

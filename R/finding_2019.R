@@ -9,7 +9,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
        skimr, broom, tidyr, stringr, stats)
 
 # Cyrus
-setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+setwd("C:/Users/cyrus/Downloads/Crime Data")
 # Alex
 # setwd("~")
 
@@ -17,6 +17,7 @@ setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
 NIBRS_incident <- read_csv("Crime_Data_2019/AR/NIBRS_incident.csv")
 NIBRS_VICTIM <- read_csv("Crime_Data_2019/AR/NIBRS_VICTIM.csv")
 agencies <- read_csv("Crime_Data_2019/AR/agencies.csv")
+unique_agency_list = read_csv("unique_agency_list.csv")
 
 #INCIDENTS
 # make empty data set for incident data
@@ -151,7 +152,7 @@ victim_offender_rel <- victim_offender_rel[ , c("VICTIM_ID", "OFFENDER_ID",
 # now we have incidents, victims, offenders, victim offender rel, and offense
 
 
-
+beepr::beep(sound = 3)
 # t1 = left_join(victims)
 
 m1 <- left_join(victims, incidents, by = "INCIDENT_ID")
@@ -164,10 +165,20 @@ rm(m3)
 m5 <- left_join(m4, agency_list, by = "AGENCY_ID")
 rm(m4)
 
+# beepr::beep(sound = 3)
+
+
 names(m5)[names(m5) == 'SEX_CODE.x'] <- "SEX_VICTIM"
 names(m5)[names(m5) == 'SEX_CODE.y'] <- "SEX_OFFENDER"
 names(m5)[names(m5) == 'AGE_NUM.x'] <- "AGE_VICTIM"
 names(m5)[names(m5) == 'AGE_NUM.y'] <- "AGE_OFFENDER"
+
+# find list of unique agency ids and filter out agency
+# that don't match that
+m52 = m5
+
+m5 = m5 %>% filter(m5$AGENCY_ID %in% unique_agency_list$AGENCY_ID)
+identical(length(unique(m5$AGENCY_ID)),length(unique_agency_list$AGENCY_ID))
 
 
 m5 <- m5[ ,c("DATA_YEAR", 
@@ -182,7 +193,7 @@ m5 <- m5[ ,c("DATA_YEAR",
              "SEX_VICTIM",
              "AGE_OFFENDER")]
 
-rm(list= ls()[!(ls() %in% c("m5","df"))])
+rm(list= ls()[!(ls() %in% c("m5","df","m52"))])
 
 df = m5
 # rm(m5)
@@ -310,15 +321,38 @@ df$victim_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
+beepr::beep(sound = 6)
+
+# CHANGE
+#Property Crime
+prop_crime_id_list=c(46,50,58,2,5,7,11,12,13,14,
+                     17,18,20,21,23,25,26,28,37,
+                     40,41,45,47,49,57,63,64)
+
+df$property_crime = ifelse(df$OFFENSE_TYPE_ID %in% prop_crime_id_list,1,0)
+
+
+# People Crime
+people_crime_id_list=c(51,56,36,1,3,4,6,27,29,
+                       32,33,38,43,44,55,59,60,19)
+
+df$person_crime = ifelse(df$OFFENSE_TYPE_ID %in% people_crime_id_list,1,0)
+
+# Society Crime
+society_crime_id_list=setdiff(1:86,c(people_crime_id_list,
+                                     prop_crime_id_list))
+
+df$society_crime = ifelse(df$OFFENSE_TYPE_ID %in% society_crime_id_list,1,0) 
+
+
 # beepr::beep(sound = 3)
-
-
 
 
 #dropping relationship columns and age/sex/victim/offender columns
 df = select(df, -c(child_rel,
                    partner_rel,
-                   property_rel,
+                   # CHANGE
+                   # property_rel,
                    stranger_rel,
                    SEX_OFFENDER,
                    SEX_VICTIM,
@@ -355,7 +389,7 @@ df =separate(
       "county_5"),
   remove = FALSE)
 
-# beepr::beep(sound = 3)
+beepr::beep(sound = 6)
 
 
 # # A tibble: 8 x 8
@@ -427,6 +461,8 @@ df = df %>%
             child_crime = sum(child_crime),
             stranger_crime = sum(stranger_crime),
             burglary_home_stranger = sum(burglary_home_stranger),
+            # CHANGE
+            property_rel = sum(property_rel),
             # VICTIM SEX
             victim_male = sum(victim_male),
             victim_female = sum(victim_female),
@@ -443,8 +479,14 @@ df = df %>%
             
             # OFFENDER AGE
             offender_minor = sum(offender_minor),
-            offender_adult = sum(offender_adult)
-  )
+            offender_adult = sum(offender_adult),
+            
+            #CHANGE
+            # Type of crime
+            property_crime = sum(property_crime),
+            person_crime = sum(person_crime),
+            society_crime = sum(society_crime)
+            )
 
 beepr::beep(sound = 3)
 

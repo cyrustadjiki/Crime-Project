@@ -9,7 +9,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
        skimr, broom, tidyr, stringr, stats)
 
 # Cyrus
-setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
+setwd("C:/Users/cyrus/Downloads/Crime Data")
 # Alex
 # setwd("~")
 
@@ -17,6 +17,8 @@ setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
 NIBRS_incident <- read_csv("Crime_Data_2018/AR/NIBRS_incident.csv")
 NIBRS_VICTIM <- read_csv("Crime_Data_2018/AR/NIBRS_VICTIM.csv")
 agencies <- read_csv("Crime_Data_2018/AR/agencies.csv")
+unique_agency_list = read_csv("unique_agency_list.csv")
+# unique_agency_list
 
 #INCIDENTS
 # make empty data set for incident data
@@ -125,10 +127,11 @@ for (i in files){
   NIBRS_OFFENSE <- read_csv(gsub(' ', '', paste("Crime_Data_2018/", i, "/NIBRS_OFFENSE.csv")))
   offense <- rbind(offense, NIBRS_OFFENSE)
 }
+beepr::beep(sound = 3)
 # isolate necessary columns for offense
 offense <- offense[ , c("OFFENSE_ID", 
                         "INCIDENT_ID", 
-                        "OFFENSE_TYPE_ID", 
+                        "OFFENSE_TYPE_ID",
                         "LOCATION_ID")]
 
 
@@ -171,7 +174,16 @@ names(m5)[names(m5) == 'AGE_NUM.x'] <- "AGE_VICTIM"
 names(m5)[names(m5) == 'AGE_NUM.y'] <- "AGE_OFFENDER"
 
 
-m5 <- m5[ ,c("DATA_YEAR", 
+
+
+# find list of unique agency ids and filter out agency
+# that don't match that
+
+m5 = m5 %>% filter(m5$AGENCY_ID %in% unique_agency_list$AGENCY_ID)
+identical(length(unique(m5$AGENCY_ID)),length(unique_agency_list$AGENCY_ID))
+
+
+m5 <- m5[ ,c("DATA_YEAR",
              "COUNTY_NAME",
              "STATE_ABBR",
              "INCIDENT_DATE",
@@ -192,48 +204,48 @@ df = m5
 
 
 # Child Relationship
-df$child_rel = ifelse(  df$RELATIONSHIP_ID ==  4|
-                          df$RELATIONSHIP_ID ==  5|
-                          df$RELATIONSHIP_ID == 10|
-                          df$RELATIONSHIP_ID == 20|
-                          df$RELATIONSHIP_ID == 23, 1,0)
+df$child_rel = ifelse(df$RELATIONSHIP_ID ==  4|
+                      df$RELATIONSHIP_ID ==  5|
+                      df$RELATIONSHIP_ID == 10|
+                      df$RELATIONSHIP_ID == 20|
+                      df$RELATIONSHIP_ID == 23, 1,0)
 # Partner Relationship
 df$partner_rel = ifelse(df$RELATIONSHIP_ID ==  3|
-                          df$RELATIONSHIP_ID == 27|
-                          df$RELATIONSHIP_ID == 12|
-                          df$RELATIONSHIP_ID == 21|
-                          df$RELATIONSHIP_ID == 26, 1,0)
+                        df$RELATIONSHIP_ID == 27|
+                        df$RELATIONSHIP_ID == 12|
+                        df$RELATIONSHIP_ID == 21|
+                        df$RELATIONSHIP_ID == 26, 1,0)
 # Property Relationship
 df$property_rel = ifelse( df$RELATIONSHIP_ID ==  1|
-                            df$RELATIONSHIP_ID ==  2|
-                            df$RELATIONSHIP_ID ==  4|
-                            df$RELATIONSHIP_ID ==  7|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  9|
-                            df$RELATIONSHIP_ID == 14|
-                            df$RELATIONSHIP_ID == 16|
-                            df$RELATIONSHIP_ID == 18|
-                            df$RELATIONSHIP_ID == 24, 1,0)
+                          df$RELATIONSHIP_ID ==  2|
+                          df$RELATIONSHIP_ID ==  4|
+                          df$RELATIONSHIP_ID ==  7|
+                          df$RELATIONSHIP_ID ==  8|
+                          df$RELATIONSHIP_ID ==  8|
+                          df$RELATIONSHIP_ID ==  9|
+                          df$RELATIONSHIP_ID == 14|
+                          df$RELATIONSHIP_ID == 16|
+                          df$RELATIONSHIP_ID == 18|
+                          df$RELATIONSHIP_ID == 24, 1,0)
 # Stranger Relationship
 df$stranger_rel = ifelse( df$RELATIONSHIP_ID ==  1|
-                            df$RELATIONSHIP_ID ==  2|
-                            df$RELATIONSHIP_ID ==  7|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  8|
-                            df$RELATIONSHIP_ID ==  9|
-                            df$RELATIONSHIP_ID == 14|
-                            df$RELATIONSHIP_ID == 16|
-                            df$RELATIONSHIP_ID == 18|
-                            df$RELATIONSHIP_ID == 24|
-                            df$RELATIONSHIP_ID == 25, 1,0)
+                          df$RELATIONSHIP_ID ==  2|
+                          df$RELATIONSHIP_ID ==  7|
+                          df$RELATIONSHIP_ID ==  8|
+                          df$RELATIONSHIP_ID ==  8|
+                          df$RELATIONSHIP_ID ==  9|
+                          df$RELATIONSHIP_ID == 14|
+                          df$RELATIONSHIP_ID == 16|
+                          df$RELATIONSHIP_ID == 18|
+                          df$RELATIONSHIP_ID == 24|
+                          df$RELATIONSHIP_ID == 25, 1,0)
 # Burglary at home part
-df$burglary_home_stranger = ifelse(df$RELATIONSHIP_ID == 24 &
+df$burglary_home_stranger = ifelse(  df$RELATIONSHIP_ID == 24 &
                                      df$OFFENSE_TYPE_ID == 49 &
                                      df$LOCATION_ID == 20, 1, 0)
 # Crimes against children
 df$child_crime = ifelse(
-  df$child_rel == 1 &
+    df$child_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
@@ -256,7 +268,7 @@ df$child_crime = ifelse(
     df$OFFENSE_TYPE_ID == 60,1, 0) # Human Trafficking, Involuntary Servitude
 # Crimes against partners
 df$partner_crime = ifelse(
-  df$partner_rel == 1 &
+    df$partner_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
@@ -277,15 +289,13 @@ df$partner_crime = ifelse(
     df$OFFENSE_TYPE_ID == 60,1, 0) # Human Trafficking, Involuntary Servitude
 # Crimes against strangers
 df$stranger_crime = ifelse(
-  df$stranger_rel == 1 &
+    df$stranger_rel == 1 &
     df$OFFENSE_TYPE_ID == 51| # Simple Assault 
     df$OFFENSE_TYPE_ID == 56| # Fondling
     df$OFFENSE_TYPE_ID == 36| # Rape
     df$OFFENSE_TYPE_ID ==  1| # Homicide  
     df$OFFENSE_TYPE_ID ==  3| # Statutory Rape
     df$OFFENSE_TYPE_ID ==  4| # Sexual Assault With An Object
-    # df$OFFENSE_TYPE_ID ==  6| # Family Offenses, Nonviolent
-    # df$OFFENSE_TYPE_ID == 19| # Run Away
     df$OFFENSE_TYPE_ID == 19| # Runaway
     df$OFFENSE_TYPE_ID == 27| # Aggravated Assault
     df$RELATIONSHIP_ID == 30| # Prostitution Offenses
@@ -293,7 +303,7 @@ df$stranger_crime = ifelse(
     df$OFFENSE_TYPE_ID == 38| # Negligent Manslaughter 
     df$OFFENSE_TYPE_ID == 55| # Incest
     df$OFFENSE_TYPE_ID == 59| # Human Trafficking, Commercial Sex Acts
-    df$OFFENSE_TYPE_ID == 60,1, 0) # Human Trafficking, Involuntary Servitude
+    df$OFFENSE_TYPE_ID == 60,1,0) # Human Trafficking, Involuntary Servitude
 
 # VICTIM SEX
 df$victim_male = ifelse(df$SEX_VICTIM == "M",1,0)
@@ -313,15 +323,35 @@ df$victim_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 df$offender_minor = ifelse(df$AGE_VICTIM < 18,1,0)
 df$offender_adult = ifelse(df$AGE_VICTIM < 18,0,1)
 
+#CHANGE
+#Property Crime
+prop_crime_id_list=c(46,50,58,2,5,7,11,12,13,14,
+                     17,18,20,21,23,25,26,28,37,
+                     40,41,45,47,49,57,63,64)
 
-beepr::beep(sound = 8)
+df$property_crime = ifelse(df$OFFENSE_TYPE_ID %in% prop_crime_id_list,1,0)
 
+
+# People Crime
+people_crime_id_list=c(51,56,36,1,3,4,6,27,29,
+                       32,33,38,43,44,55,59,60,19)
+
+df$person_crime = ifelse(df$OFFENSE_TYPE_ID %in% people_crime_id_list,1,0)
+
+# Society Crime
+society_crime_id_list=setdiff(1:86,c(people_crime_id_list,
+                                     prop_crime_id_list))
+
+df$society_crime = ifelse(df$OFFENSE_TYPE_ID %in% society_crime_id_list,1,0)
+
+# beepr::beep(sound = 8)
 
 
 #dropping relationship columns and age/sex/victim/offender columns
 df = select(df, -c(child_rel,
                    partner_rel,
-                   property_rel,
+                   # CHANGE
+                   # property_rel,
                    stranger_rel,
                    SEX_OFFENDER,
                    SEX_VICTIM,
@@ -345,7 +375,7 @@ df = mutate_at(df, c( "partner_crime",
                       "offender_adult"), 
                ~replace(., is.na(.), 0))
 
-beepr::beep(sound = 8)
+# beepr::beep(sound = 8)
 
 # Sys.sleep(120)
 df =separate(
@@ -360,7 +390,7 @@ df =separate(
       "county_5"),
   remove = FALSE)
 
-beepr::beep(sound = 2)
+# beepr::beep(sound = 3)
 # # A tibble: 8 x 8
 # skim_variable n_missing complete_rate   min   max empty n_unique
 # * <chr>             <int>         <dbl> <int> <int> <int>    <int>
@@ -429,6 +459,8 @@ df = df %>%
             child_crime = sum(child_crime),
             stranger_crime = sum(stranger_crime),
             burglary_home_stranger = sum(burglary_home_stranger),
+            #CHANGE
+            property_rel = sum(property_rel),
             # VICTIM SEX
             victim_male = sum(victim_male),
             victim_female = sum(victim_female),
@@ -445,7 +477,13 @@ df = df %>%
             
             # OFFENDER AGE
             offender_minor = sum(offender_minor),
-            offender_adult = sum(offender_adult)
+            offender_adult = sum(offender_adult),
+            
+            #CHANGE
+            # Type of crime
+            property_crime = sum(property_crime),
+            person_crime = sum(person_crime),
+            society_crime = sum(society_crime)
             )
 
 

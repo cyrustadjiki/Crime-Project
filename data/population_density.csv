@@ -1,0 +1,6441 @@
+﻿GEOID,county,NAME,state,State,pop_dens
+,,,,,
+1001,AUTAUGA  ,Autauga  ,AL,Alabama,35.85341899
+,,,,,
+1003,BALDWIN  ,Baldwin  ,AL,Alabama,50.54150356
+,,,,,
+1005,BARBOUR  ,Barbour  ,AL,Alabama,11.24798121
+,,,,,
+1007,BIBB  ,Bibb  ,AL,Alabama,13.973114
+,,,,,
+1009,BLOUNT  ,Blount  ,AL,Alabama,34.51581642
+,,,,,
+1011,BULLOCK  ,Bullock  ,AL,Alabama,6.41761955
+,,,,,
+1013,BUTLER  ,Butler  ,AL,Alabama,9.952770785
+,,,,,
+1015,CALHOUN  ,Calhoun  ,AL,Alabama,73.348688
+,,,,,
+1017,CHAMBERS  ,Chambers  ,AL,Alabama,21.89263808
+,,,,,
+1019,CHEROKEE  ,Cherokee  ,AL,Alabama,18.0333283
+,,,,,
+1021,CHILTON  ,Chilton  ,AL,Alabama,24.48066939
+,,,,,
+1023,CHOCTAW  ,Choctaw  ,AL,Alabama,5.526508604
+,,,,,
+1025,CLARKE  ,Clarke  ,AL,Alabama,7.603131652
+,,,,,
+1027,CLAY  ,Clay  ,AL,Alabama,8.552331345
+,,,,,
+1029,CLEBURNE  ,Cleburne  ,AL,Alabama,10.29735391
+,,,,,
+1031,COFFEE  ,Coffee  ,AL,Alabama,29.16467291
+,,,,,
+1033,COLBERT  ,Colbert  ,AL,Alabama,35.49694998
+,,,,,
+1035,CONECUH  ,Conecuh  ,AL,Alabama,5.682995171
+,,,,,
+1037,COOSA  ,Coosa  ,AL,Alabama,6.438885282
+,,,,,
+1039,COVINGTON  ,Covington  ,AL,Alabama,13.99370346
+,,,,,
+1041,CRENSHAW  ,Crenshaw  ,AL,Alabama,8.792273306
+,,,,,
+1043,CULLMAN  ,Cullman  ,AL,Alabama,43.25267563
+,,,,,
+1045,DALE  ,Dale  ,AL,Alabama,33.89312549
+,,,,,
+1047,DALLAS  ,Dallas  ,AL,Alabama,15.79103338
+,,,,,
+1049,DEKALB  ,DeKalb  ,AL,Alabama,35.37577983
+,,,,,
+1051,ELMORE  ,Elmore  ,AL,Alabama,50.70144021
+,,,,,
+1053,ESCAMBIA  ,Escambia  ,AL,Alabama,15.24764898
+,,,,,
+1055,ETOWAH  ,Etowah  ,AL,Alabama,74.25054812
+,,,,,
+1057,FAYETTE  ,Fayette  ,AL,Alabama,10.20180135
+,,,,,
+1059,FRANKLIN  ,Franklin  ,AL,Alabama,19.21135615
+,,,,,
+1061,GENEVA  ,Geneva  ,AL,Alabama,17.80431585
+,,,,,
+1063,GREENE  ,Greene  ,AL,Alabama,5.028100131
+,,,,,
+1065,HALE  ,Hale  ,AL,Alabama,8.925557001
+,,,,,
+1067,HENRY  ,Henry  ,AL,Alabama,11.76966574
+,,,,,
+1069,HOUSTON  ,Houston  ,AL,Alabama,69.48209266
+,,,,,
+1071,JACKSON  ,Jackson  ,AL,Alabama,18.65848284
+,,,,,
+1073,JEFFERSON  ,Jefferson  ,AL,Alabama,229.2513381
+,,,,,
+1075,LAMAR  ,Lamar  ,AL,Alabama,8.894097028
+,,,,,
+1077,LAUDERDALE  ,Lauderdale  ,AL,Alabama,53.51282236
+,,,,,
+1079,LAWRENCE  ,Lawrence  ,AL,Alabama,18.54305046
+,,,,,
+1081,LEE  ,Lee  ,AL,Alabama,101.2278644
+,,,,,
+1083,LIMESTONE  ,Limestone  ,AL,Alabama,64.16149688
+,,,,,
+1085,LOWNDES  ,Lowndes  ,AL,Alabama,5.520435979
+,,,,,
+1087,MACON  ,Macon  ,AL,Alabama,12.08354055
+,,,,,
+1089,MADISON  ,Madison  ,AL,Alabama,172.2275
+,,,,,
+1091,MARENGO  ,Marengo  ,AL,Alabama,7.722101608
+,,,,,
+1093,MARION  ,Marion  ,AL,Alabama,15.58520673
+,,,,,
+1095,MARSHALL  ,Marshall  ,AL,Alabama,64.92182299
+,,,,,
+1097,MOBILE  ,Mobile  ,AL,Alabama,130.2299289
+,,,,,
+1099,MONROE  ,Monroe  ,AL,Alabama,8.097965626
+,,,,,
+1101,MONTGOMERY  ,Montgomery  ,AL,Alabama,111.5782173
+,,,,,
+1103,MORGAN  ,Morgan  ,AL,Alabama,79.38223066
+,,,,,
+1105,PERRY  ,Perry  ,AL,Alabama,5.089327131
+,,,,,
+1107,PICKENS  ,Pickens  ,AL,Alabama,8.891346444
+,,,,,
+1109,PIKE  ,Pike  ,AL,Alabama,19.18998514
+,,,,,
+1111,RANDOLPH  ,Randolph  ,AL,Alabama,15.0131423
+,,,,,
+1113,RUSSELL  ,Russell  ,AL,Alabama,35.05587426
+,,,,,
+1115,ST. CLAIR  ,St. Clair  ,AL,Alabama,53.370584
+,,,,,
+1117,SHELBY  ,Shelby  ,AL,Alabama,103.8590388
+,,,,,
+1119,SUMTER  ,Sumter  ,AL,Alabama,5.547014404
+,,,,,
+1121,TALLADEGA  ,Talladega  ,AL,Alabama,42.21915736
+,,,,,
+1123,TALLAPOOSA  ,Tallapoosa  ,AL,Alabama,21.89695846
+,,,,,
+1125,TUSCALOOSA  ,Tuscaloosa  ,AL,Alabama,60.27841134
+,,,,,
+1127,WALKER  ,Walker  ,AL,Alabama,31.4801768
+,,,,,
+1129,WASHINGTON  ,Washington  ,AL,Alabama,5.948771806
+,,,,,
+1131,WILCOX  ,Wilcox  ,AL,Alabama,4.69736954
+,,,,,
+1133,WINSTON  ,Winston  ,AL,Alabama,15.03833828
+,,,,,
+2013,ALEUTIANS EAST BOROUGH,Aleutians East Borough,AK,Alaska,0.189317984
+,,,,,
+2016,ALEUTIANS WEST CENSUS AREA,Aleutians West Census Area,AK,Alaska,0.505471803
+,,,,,
+2020,ANCHORAGE MUNICIPALITY,Anchorage Municipality,AK,Alaska,67.00029188
+,,,,,
+2050,BETHEL CENSUS AREA,Bethel Census Area,AK,Alaska,0.171435929
+,,,,,
+2060,BRISTOL BAY BOROUGH,Bristol Bay Borough,AK,Alaska,0.712955928
+,,,,,
+2068,DENALI BOROUGH,Denali Borough,AK,Alaska,0.068195198
+,,,,,
+2070,DILLINGHAM CENSUS AREA,Dillingham Census Area,AK,Alaska,0.104785322
+,,,,,
+2090,FAIRBANKS NORTH STAR BOROUGH,Fairbanks North Star Borough,AK,Alaska,5.249490983
+,,,,,
+2100,HAINES BOROUGH,Haines Borough,AK,Alaska,0.415544894
+,,,,,
+2105,HOONAH-ANGOON CENSUS AREA,Hoonah-Angoon Census Area,AK,Alaska,0.125547899
+,,,,,
+2110,JUNEAU CITY AND BOROUGH,Juneau City and Borough,AK,Alaska,4.616610188
+,,,,,
+2122,KENAI PENINSULA BOROUGH,Kenai Peninsula Borough,AK,Alaska,1.402885307
+,,,,,
+2130,KETCHIKAN GATEWAY BOROUGH,Ketchikan Gateway Borough,AK,Alaska,1.097363264
+,,,,,
+2150,KODIAK ISLAND BOROUGH,Kodiak Island Borough,AK,Alaska,0.796616254
+,,,,,
+2158,KUSILVAK CENSUS AREA,Kusilvak Census Area,AK,Alaska,0.185386083
+,,,,,
+2164,LAKE AND PENINSULA BOROUGH,Lake and Peninsula Borough,AK,Alaska,0.022215413
+,,,,,
+2170,MATANUSKA-SUSITNA BOROUGH,Matanuska-Susitna Borough,AK,Alaska,1.616412301
+,,,,,
+2180,NOME CENSUS AREA,Nome Census Area,AK,Alaska,0.16681479
+,,,,,
+2185,NORTH SLOPE BOROUGH,North Slope Borough,AK,Alaska,0.042585631
+,,,,,
+2188,NORTHWEST ARCTIC BOROUGH,Northwest Arctic Borough,AK,Alaska,0.083765592
+,,,,,
+2195,PETERSBURG BOROUGH,Petersburg Borough,AK,Alaska,0.433274538
+,,,,,
+2198,PRINCE OF WALES-HYDER CENSUS AREA,Prince of Wales-Hyder Census Area,AK,Alaska,0.4749637
+,,,,,
+2220,SITKA CITY AND BOROUGH,Sitka City and Borough,AK,Alaska,1.175520142
+,,,,,
+2230,SKAGWAY MUNICIPALITY,Skagway Municipality,AK,Alaska,0.944050025
+,,,,,
+2240,SOUTHEAST FAIRBANKS CENSUS AREA,Southeast Fairbanks Census Area,AK,Alaska,0.106951727
+,,,,,
+2261,VALDEZ-CORDOVA CENSUS AREA,Valdez-Cordova Census Area,AK,Alaska,0.104936773
+,,,,,
+2275,WRANGELL CITY AND BOROUGH,Wrangell City and Borough,AK,Alaska,0.375226755
+,,,,,
+2282,YAKUTAT CITY AND BOROUGH,Yakutat City and Borough,AK,Alaska,0.034896325
+,,,,,
+2290,YUKON-KOYUKUK CENSUS AREA,Yukon-Koyukuk Census Area,AK,Alaska,0.014362075
+,,,,,
+4001,APACHE  ,Apache  ,AZ,Arizona,2.466163547
+,,,,,
+4003,COCHISE  ,Cochise  ,AZ,Arizona,7.909160031
+,,,,,
+4005,COCONINO  ,Coconino  ,AZ,Arizona,2.907730578
+,,,,,
+4007,GILA  ,Gila  ,AZ,Arizona,4.333306678
+,,,,,
+4009,GRAHAM  ,Graham  ,AZ,Arizona,3.163771078
+,,,,,
+4011,GREENLEE  ,Greenlee  ,AZ,Arizona,1.992160031
+,,,,,
+4012,LA PAZ  ,La Paz  ,AZ,Arizona,1.776302238
+,,,,,
+4013,MARICOPA  ,Maricopa  ,AZ,Arizona,178.541174
+,,,,,
+4015,MOHAVE  ,Mohave  ,AZ,Arizona,5.977113496
+,,,,,
+4017,NAVAJO  ,Navajo  ,AZ,Arizona,4.218261644
+,,,,,
+4019,PIMA  ,Pima  ,AZ,Arizona,42.8548311
+,,,,,
+4021,PINAL  ,Pinal  ,AZ,Arizona,30.20127807
+,,,,,
+4023,SANTA CRUZ  ,Santa Cruz  ,AZ,Arizona,14.54108112
+,,,,,
+4025,YAVAPAI  ,Yavapai  ,AZ,Arizona,10.67714706
+,,,,,
+4027,YUMA  ,Yuma  ,AZ,Arizona,14.55270217
+,,,,,
+5001,ARKANSAS  ,Arkansas  ,AR,Arkansas,7.077235454
+,,,,,
+5003,ASHLEY  ,Ashley  ,AR,Arkansas,8.568999577
+,,,,,
+5005,BAXTER  ,Baxter  ,AR,Arkansas,28.71527107
+,,,,,
+5007,BENTON  ,Benton  ,AR,Arkansas,117.9774558
+,,,,,
+5009,BOONE  ,Boone  ,AR,Arkansas,24.40204536
+,,,,,
+5011,BRADLEY  ,Bradley  ,AR,Arkansas,6.510797369
+,,,,,
+5013,CALHOUN  ,Calhoun  ,AR,Arkansas,3.195379922
+,,,,,
+5015,CARROLL  ,Carroll  ,AR,Arkansas,17.09180309
+,,,,,
+5017,CHICOT  ,Chicot  ,AR,Arkansas,6.48720534
+,,,,,
+5019,CLARK  ,Clark  ,AR,Arkansas,9.979357949
+,,,,,
+5021,CLAY  ,Clay  ,AR,Arkansas,9.093629023
+,,,,,
+5023,CLEBURNE  ,Cleburne  ,AR,Arkansas,17.5920795
+,,,,,
+5025,CLEVELAND  ,Cleveland  ,AR,Arkansas,5.313083763
+,,,,,
+5027,COLUMBIA  ,Columbia  ,AR,Arkansas,12.04300901
+,,,,,
+5029,CONWAY  ,Conway  ,AR,Arkansas,14.61617031
+,,,,,
+5031,CRAIGHEAD  ,Craighead  ,AR,Arkansas,57.70123977
+,,,,,
+5033,CRAWFORD  ,Crawford  ,AR,Arkansas,40.79968711
+,,,,,
+5035,CRITTENDEN  ,Crittenden  ,AR,Arkansas,31.00606806
+,,,,,
+5037,CROSS  ,Cross  ,AR,Arkansas,10.64756188
+,,,,,
+5039,DALLAS  ,Dallas  ,AR,Arkansas,4.299625822
+,,,,,
+5041,DESHA  ,Desha  ,AR,Arkansas,5.974983295
+,,,,,
+5043,DREW  ,Drew  ,AR,Arkansas,8.623895565
+,,,,,
+5045,FAULKNER  ,Faulkner  ,AR,Arkansas,72.94679147
+,,,,,
+5047,FRANKLIN  ,Franklin  ,AR,Arkansas,11.27518456
+,,,,,
+5049,FULTON  ,Fulton  ,AR,Arkansas,7.581608118
+,,,,,
+5051,GARLAND  ,Garland  ,AR,Arkansas,55.99985179
+,,,,,
+5053,GRANT  ,Grant  ,AR,Arkansas,11.05241582
+,,,,,
+5055,GREENE  ,Greene  ,AR,Arkansas,29.82410541
+,,,,,
+5057,HEMPSTEAD  ,Hempstead  ,AR,Arkansas,11.68517302
+,,,,,
+5059,HOT SPRING  ,Hot Spring  ,AR,Arkansas,21.03703075
+,,,,,
+5061,HOWARD  ,Howard  ,AR,Arkansas,8.78324092
+,,,,,
+5063,INDEPENDENCE  ,Independence  ,AR,Arkansas,18.83321817
+,,,,,
+5065,IZARD  ,Izard  ,AR,Arkansas,9.017189389
+,,,,,
+5067,JACKSON  ,Jackson  ,AR,Arkansas,10.49119353
+,,,,,
+5069,JEFFERSON  ,Jefferson  ,AR,Arkansas,31.2545148
+,,,,,
+5071,JOHNSON  ,Johnson  ,AR,Arkansas,15.38292036
+,,,,,
+5073,LAFAYETTE  ,Lafayette  ,AR,Arkansas,5.053796893
+,,,,,
+5075,LAWRENCE  ,Lawrence  ,AR,Arkansas,10.95289483
+,,,,,
+5077,LEE  ,Lee  ,AR,Arkansas,6.021341533
+,,,,,
+5079,LINCOLN  ,Lincoln  ,AR,Arkansas,9.416005919
+,,,,,
+5081,LITTLE RIVER  ,Little River  ,AR,Arkansas,9.007542588
+,,,,,
+5083,LOGAN  ,Logan  ,AR,Arkansas,11.86296384
+,,,,,
+5085,LONOKE  ,Lonoke  ,AR,Arkansas,36.16397177
+,,,,,
+5087,MADISON  ,Madison  ,AR,Arkansas,7.440154385
+,,,,,
+5089,MARION  ,Marion  ,AR,Arkansas,10.63184711
+,,,,,
+5091,MILLER  ,Miller  ,AR,Arkansas,27.00125271
+,,,,,
+5093,MISSISSIPPI  ,Mississippi  ,AR,Arkansas,18.36285781
+,,,,,
+5095,MONROE  ,Monroe  ,AR,Arkansas,4.609912671
+,,,,,
+5097,MONTGOMERY  ,Montgomery  ,AR,Arkansas,4.452369013
+,,,,,
+5099,NEVADA  ,Nevada  ,AR,Arkansas,5.274363826
+,,,,,
+5101,NEWTON  ,Newton  ,AR,Arkansas,3.691189254
+,,,,,
+5103,OUACHITA  ,Ouachita  ,AR,Arkansas,12.70141532
+,,,,,
+5105,PERRY  ,Perry  ,AR,Arkansas,7.22554351
+,,,,,
+5107,PHILLIPS  ,Phillips  ,AR,Arkansas,10.56464774
+,,,,,
+5109,PIKE  ,Pike  ,AR,Arkansas,6.947737181
+,,,,,
+5111,POINSETT  ,Poinsett  ,AR,Arkansas,12.24652429
+,,,,,
+5113,POLK  ,Polk  ,AR,Arkansas,9.076778703
+,,,,,
+5115,POPE  ,Pope  ,AR,Arkansas,30.24304863
+,,,,,
+5117,PRAIRIE  ,Prairie  ,AR,Arkansas,4.912934335
+,,,,,
+5119,PULASKI  ,Pulaski  ,AR,Arkansas,200.1765891
+,,,,,
+5121,RANDOLPH  ,Randolph  ,AR,Arkansas,10.42059243
+,,,,,
+5123,ST. FRANCIS  ,St. Francis  ,AR,Arkansas,15.99262769
+,,,,,
+5125,SALINE  ,Saline  ,AR,Arkansas,62.97248504
+,,,,,
+5127,SCOTT  ,Scott  ,AR,Arkansas,4.518266116
+,,,,,
+5129,SEARCY  ,Searcy  ,AR,Arkansas,4.592572331
+,,,,,
+5131,SEBASTIAN  ,Sebastian  ,AR,Arkansas,92.52384261
+,,,,,
+5133,SEVIER  ,Sevier  ,AR,Arkansas,11.74641335
+,,,,,
+5135,SHARP  ,Sharp  ,AR,Arkansas,10.88689047
+,,,,,
+5137,STONE  ,Stone  ,AR,Arkansas,7.924463969
+,,,,,
+5139,UNION  ,Union  ,AR,Arkansas,14.76172209
+,,,,,
+5141,VAN BUREN  ,Van Buren  ,AR,Arkansas,9.076268141
+,,,,,
+5143,WASHINGTON  ,Washington  ,AR,Arkansas,93.66695805
+,,,,,
+5145,WHITE  ,White  ,AR,Arkansas,29.39513161
+,,,,,
+5147,WOODRUFF  ,Woodruff  ,AR,Arkansas,4.382376797
+,,,,,
+5149,YELL  ,Yell  ,AR,Arkansas,8.954998447
+,,,,,
+6001,ALAMEDA  ,Alameda  ,CA,California,860.7570749
+,,,,,
+6003,ALPINE  ,Alpine  ,CA,California,0.599280666
+,,,,,
+6005,AMADOR  ,Amador  ,CA,California,24.56534526
+,,,,,
+6007,BUTTE  ,Butte  ,CA,California,53.57515906
+,,,,,
+6009,CALAVERAS  ,Calaveras  ,CA,California,17.12260581
+,,,,,
+6011,COLUSA  ,Colusa  ,CA,California,7.201880119
+,,,,,
+6013,CONTRA COSTA  ,Contra Costa  ,CA,California,610.1802904
+,,,,,
+6015,DEL NORTE  ,Del Norte  ,CA,California,10.52293111
+,,,,,
+6017,EL DORADO  ,El Dorado  ,CA,California,42.19958001
+,,,,,
+6019,FRESNO  ,Fresno  ,CA,California,63.38567736
+,,,,,
+6021,GLENN  ,Glenn  ,CA,California,8.197380559
+,,,,,
+6023,HUMBOLDT  ,Humboldt  ,CA,California,14.69107797
+,,,,,
+6025,IMPERIAL  ,Imperial  ,CA,California,16.65999073
+,,,,,
+6027,INYO  ,Inyo  ,CA,California,0.685856011
+,,,,,
+6029,KERN  ,Kern  ,CA,California,41.92545231
+,,,,,
+6031,KINGS  ,Kings  ,CA,California,41.67726795
+,,,,,
+6033,LAKE  ,Lake  ,CA,California,19.71137641
+,,,,,
+6035,LASSEN  ,Lassen  ,CA,California,2.651421461
+,,,,,
+6037,LOS ANGELES  ,Los Angeles  ,CA,California,960.7427779
+,,,,,
+6039,MADERA  ,Madera  ,CA,California,28.00789771
+,,,,,
+6041,MARIN  ,Marin  ,CA,California,193.1005061
+,,,,,
+6043,MARIPOSA  ,Mariposa  ,CA,California,4.674251881
+,,,,,
+6045,MENDOCINO  ,Mendocino  ,CA,California,9.626461049
+,,,,,
+6047,MERCED  ,Merced  ,CA,California,53.67222176
+,,,,,
+6049,MODOC  ,Modoc  ,CA,California,0.881376109
+,,,,,
+6051,MONO  ,Mono  ,CA,California,1.794895517
+,,,,,
+6053,MONTEREY  ,Monterey  ,CA,California,50.96841445
+,,,,,
+6055,NAPA  ,Napa  ,CA,California,72.50862772
+,,,,,
+6057,NEVADA  ,Nevada  ,CA,California,39.9469912
+,,,,,
+6059,ORANGE  ,Orange  ,CA,California,1541.02667
+,,,,,
+6061,PLACER  ,Placer  ,CA,California,104.2928314
+,,,,,
+6063,PLUMAS  ,Plumas  ,CA,California,2.827868464
+,,,,,
+6065,RIVERSIDE  ,Riverside  ,CA,California,127.6881106
+,,,,,
+6067,SACRAMENTO  ,Sacramento  ,CA,California,603.8906191
+,,,,,
+6069,SAN BENITO  ,San Benito  ,CA,California,16.52008807
+,,,,,
+6071,SAN BERNARDINO  ,San Bernardino  ,CA,California,41.10128555
+,,,,,
+6073,SAN DIEGO  ,San Diego  ,CA,California,302.9941503
+,,,,,
+6075,SAN FRANCISCO  ,San Francisco  ,CA,California,7168.190471
+,,,,,
+6077,SAN JOAQUIN  ,San Joaquin  ,CA,California,203.0389818
+,,,,,
+6079,SAN LUIS OBISPO  ,San Luis Obispo  ,CA,California,32.9240586
+,,,,,
+6081,SAN MATEO  ,San Mateo  ,CA,California,659.1746544
+,,,,,
+6083,SANTA BARBARA  ,Santa Barbara  ,CA,California,62.63967412
+,,,,,
+6085,SANTA CLARA  ,Santa Clara  ,CA,California,574.8383699
+,,,,,
+6087,SANTA CRUZ  ,Santa Cruz  ,CA,California,237.464658
+,,,,,
+6089,SHASTA  ,Shasta  ,CA,California,18.31466417
+,,,,,
+6091,SIERRA  ,Sierra  ,CA,California,1.186862083
+,,,,,
+6093,SISKIYOU  ,Siskiyou  ,CA,California,2.677418441
+,,,,,
+6095,SOLANO  ,Solano  ,CA,California,206.0444057
+,,,,,
+6097,SONOMA  ,Sonoma  ,CA,California,122.8269245
+,,,,,
+6099,STANISLAUS  ,Stanislaus  ,CA,California,139.1865627
+,,,,,
+6101,SUTTER  ,Sutter  ,CA,California,61.43488729
+,,,,,
+6103,TEHAMA  ,Tehama  ,CA,California,8.296818814
+,,,,,
+6105,TRINITY  ,Trinity  ,CA,California,1.562009465
+,,,,,
+6107,TULARE  ,Tulare  ,CA,California,36.85265632
+,,,,,
+6109,TUOLUMNE  ,Tuolumne  ,CA,California,9.376087587
+,,,,,
+6111,VENTURA  ,Ventura  ,CA,California,177.7279193
+,,,,,
+6113,YOLO  ,Yolo  ,CA,California,81.79800558
+,,,,,
+6115,YUBA  ,Yuba  ,CA,California,46.11910409
+,,,,,
+8001,ADAMS  ,Adams  ,CO,Colorado,164.5753082
+,,,,,
+8003,ALAMOSA  ,Alamosa  ,CO,Colorado,8.78669511
+,,,,,
+8005,ARAPAHOE  ,Arapahoe  ,CO,Colorado,308.0717154
+,,,,,
+8007,ARCHULETA  ,Archuleta  ,CO,Colorado,3.691471259
+,,,,,
+8009,BACA  ,Baca  ,CO,Colorado,0.538428946
+,,,,,
+8011,BENT  ,Bent  ,CO,Colorado,1.482547663
+,,,,,
+8013,BOULDER  ,Boulder  ,CO,Colorado,170.6435299
+,,,,,
+8014,BROOMFIELD  ,Broomfield  ,CO,Colorado,773.5251676
+,,,,,
+8015,CHAFFEE  ,Chaffee  ,CO,Colorado,7.301362223
+,,,,,
+8017,CHEYENNE  ,Cheyenne  ,CO,Colorado,0.442710949
+,,,,,
+8019,CLEAR CREEK  ,Clear Creek  ,CO,Colorado,9.163100806
+,,,,,
+8021,CONEJOS  ,Conejos  ,CO,Colorado,2.441785257
+,,,,,
+8023,COSTILLA  ,Costilla  ,CO,Colorado,1.159633689
+,,,,,
+8025,CROWLEY  ,Crowley  ,CO,Colorado,2.760578135
+,,,,,
+8027,CUSTER  ,Custer  ,CO,Colorado,2.42546915
+,,,,,
+8029,DELTA  ,Delta  ,CO,Colorado,10.25862867
+,,,,,
+8031,DENVER  ,Denver  ,CO,Colorado,1746.533667
+,,,,,
+8033,DOLORES  ,Dolores  ,CO,Colorado,0.666073672
+,,,,,
+8035,DOUGLAS  ,Douglas  ,CO,Colorado,151.0009727
+,,,,,
+8037,EAGLE  ,Eagle  ,CO,Colorado,12.45931034
+,,,,,
+8039,ELBERT  ,Elbert  ,CO,Colorado,5.249033937
+,,,,,
+8041,EL PASO  ,El Paso  ,CO,Colorado,124.925569
+,,,,,
+8043,FREMONT  ,Fremont  ,CO,Colorado,11.83731376
+,,,,,
+8045,GARFIELD  ,Garfield  ,CO,Colorado,7.667957958
+,,,,,
+8047,GILPIN  ,Gilpin  ,CO,Colorado,15.2590355
+,,,,,
+8049,GRAND  ,Grand  ,CO,Colorado,3.150392993
+,,,,,
+8051,GUNNISON  ,Gunnison  ,CO,Colorado,1.971192463
+,,,,,
+8053,HINSDALE  ,Hinsdale  ,CO,Colorado,0.303426738
+,,,,,
+8055,HUERFANO  ,Huerfano  ,CO,Colorado,1.597522272
+,,,,,
+8057,JACKSON  ,Jackson  ,CO,Colorado,0.310082694
+,,,,,
+8059,JEFFERSON  ,Jefferson  ,CO,Colorado,288.1670164
+,,,,,
+8061,KIOWA  ,Kiowa  ,CO,Colorado,0.316472037
+,,,,,
+8063,KIT CARSON  ,Kit Carson  ,CO,Colorado,1.364245023
+,,,,,
+8065,LAKE  ,Lake  ,CO,Colorado,7.769797883
+,,,,,
+8067,LA PLATA  ,La Plata  ,CO,Colorado,12.59013432
+,,,,,
+8069,LARIMER  ,Larimer  ,CO,Colorado,50.29906087
+,,,,,
+8071,LAS ANIMAS  ,Las Animas  ,CO,Colorado,1.146996368
+,,,,,
+8073,LINCOLN  ,Lincoln  ,CO,Colorado,0.831016797
+,,,,,
+8075,LOGAN  ,Logan  ,CO,Colorado,4.554648651
+,,,,,
+8077,MESA  ,Mesa  ,CO,Colorado,17.39732685
+,,,,,
+8079,MINERAL  ,Mineral  ,CO,Colorado,0.36284133
+,,,,,
+8081,MOFFAT  ,Moffat  ,CO,Colorado,1.063089924
+,,,,,
+8083,MONTEZUMA  ,Montezuma  ,CO,Colorado,4.929472968
+,,,,,
+8085,MONTROSE  ,Montrose  ,CO,Colorado,7.110239919
+,,,,,
+8087,MORGAN  ,Morgan  ,CO,Colorado,8.520276893
+,,,,,
+8089,OTERO  ,Otero  ,CO,Colorado,5.606676985
+,,,,,
+8091,OURAY  ,Ouray  ,CO,Colorado,3.366318394
+,,,,,
+8093,PARK  ,Park  ,CO,Colorado,3.060796323
+,,,,,
+8095,PHILLIPS  ,Phillips  ,CO,Colorado,2.42349412
+,,,,,
+8097,PITKIN  ,Pitkin  ,CO,Colorado,7.123409994
+,,,,,
+8099,PROWERS  ,Prowers  ,CO,Colorado,2.840156146
+,,,,,
+8101,PUEBLO  ,Pueblo  ,CO,Colorado,26.6484169
+,,,,,
+8103,RIO BLANCO  ,Rio Blanco  ,CO,Colorado,0.774968455
+,,,,,
+8105,RIO GRANDE  ,Rio Grande  ,CO,Colorado,4.805762482
+,,,,,
+8107,ROUTT  ,Routt  ,CO,Colorado,4.065971747
+,,,,,
+8109,SAGUACHE  ,Saguache  ,CO,Colorado,0.78815115
+,,,,,
+8111,SAN JUAN  ,San Juan  ,CO,Colorado,0.542015888
+,,,,,
+8113,SAN MIGUEL  ,San Miguel  ,CO,Colorado,2.390921614
+,,,,,
+8115,SEDGWICK  ,Sedgwick  ,CO,Colorado,1.655606826
+,,,,,
+8117,SUMMIT  ,Summit  ,CO,Colorado,19.31275691
+,,,,,
+8119,TELLER  ,Teller  ,CO,Colorado,16.71340388
+,,,,,
+8121,WASHINGTON  ,Washington  ,CO,Colorado,0.742125633
+,,,,,
+8123,WELD  ,Weld  ,CO,Colorado,28.58676378
+,,,,,
+8125,YUMA  ,Yuma  ,CO,Colorado,1.644250309
+,,,,,
+9001,FAIRFIELD  ,Fairfield  ,CT,Connecticut,583.4165304
+,,,,,
+9003,HARTFORD  ,Hartford  ,CT,Connecticut,470.033815
+,,,,,
+9005,LITCHFIELD  ,Litchfield  ,CT,Connecticut,76.77098216
+,,,,,
+9007,MIDDLESEX  ,Middlesex  ,CT,Connecticut,170.7988153
+,,,,,
+9009,NEW HAVEN  ,New Haven  ,CT,Connecticut,548.8569872
+,,,,,
+9011,NEW LONDON  ,New London  ,CT,Connecticut,156.0796361
+,,,,,
+9013,TOLLAND  ,Tolland  ,CT,Connecticut,142.3296361
+,,,,,
+9015,WINDHAM  ,Windham  ,CT,Connecticut,87.72291173
+,,,,,
+10001,KENT  ,Kent  ,DE,Delaware,115.2242931
+,,,,,
+10003,NEW CASTLE  ,New Castle  ,DE,Delaware,502.7696186
+,,,,,
+10005,SUSSEX  ,Sussex  ,DE,Delaware,90.54899837
+,,,,,
+11001,DISTRICT OF COLUMBIA,District of Columbia,DC,District of Columbia,4322.952569
+,,,,,
+12001,ALACHUA  ,Alachua  ,FL,Florida,116.1122104
+,,,,,
+12003,BAKER  ,Baker  ,FL,Florida,18.33099273
+,,,,,
+12005,BAY  ,Bay  ,FL,Florida,92.88574252
+,,,,,
+12007,BRADFORD  ,Bradford  ,FL,Florida,35.43517528
+,,,,,
+12009,BREVARD  ,Brevard  ,FL,Florida,219.3764634
+,,,,,
+12011,BROWARD  ,Broward  ,FL,Florida,612.6877168
+,,,,,
+12013,CALHOUN  ,Calhoun  ,FL,Florida,9.829928189
+,,,,,
+12015,CHARLOTTE  ,Charlotte  ,FL,Florida,100.3107253
+,,,,,
+12017,CITRUS  ,Citrus  ,FL,Florida,94.93927794
+,,,,,
+12019,CLAY  ,Clay  ,FL,Florida,132.3380171
+,,,,,
+12021,COLLIER  ,Collier  ,FL,Florida,70.38522842
+,,,,,
+12023,COLUMBIA  ,Columbia  ,FL,Florida,33.45442557
+,,,,,
+12027,DESOTO  ,DeSoto  ,FL,Florida,22.07300896
+,,,,,
+12029,DIXIE  ,Dixie  ,FL,Florida,9.000593262
+,,,,,
+12031,DUVAL  ,Duval  ,FL,Florida,467.7286986
+,,,,,
+12033,ESCAMBIA  ,Escambia  ,FL,Florida,183.0818998
+,,,,,
+12035,FLAGLER  ,Flagler  ,FL,Florida,85.26646662
+,,,,,
+12037,FRANKLIN  ,Franklin  ,FL,Florida,8.312154044
+,,,,,
+12039,GADSDEN  ,Gadsden  ,FL,Florida,34.41309565
+,,,,,
+12041,GILCHRIST  ,Gilchrist  ,FL,Florida,19.44892619
+,,,,,
+12043,GLADES  ,Glades  ,FL,Florida,6.396443472
+,,,,,
+12045,GULF  ,Gulf  ,FL,Florida,11.20100125
+,,,,,
+12047,HAMILTON  ,Hamilton  ,FL,Florida,10.72301185
+,,,,,
+12049,HARDEE  ,Hardee  ,FL,Florida,16.48852955
+,,,,,
+12051,HENDRY  ,Hendry  ,FL,Florida,13.3997
+,,,,,
+12053,HERNANDO  ,Hernando  ,FL,Florida,149.2023044
+,,,,,
+12055,HIGHLANDS  ,Highlands  ,FL,Florida,38.75140638
+,,,,,
+12057,HILLSBOROUGH  ,Hillsborough  ,FL,Florida,521.0066098
+,,,,,
+12059,HOLMES  ,Holmes  ,FL,Florida,15.66641222
+,,,,,
+12061,INDIAN RIVER  ,Indian River  ,FL,Florida,115.9449839
+,,,,,
+12063,JACKSON  ,Jackson  ,FL,Florida,20.38294824
+,,,,,
+12065,JEFFERSON  ,Jefferson  ,FL,Florida,9.105798596
+,,,,,
+12067,LAFAYETTE  ,Lafayette  ,FL,Florida,6.213187459
+,,,,,
+12069,LAKE  ,Lake  ,FL,Florida,136.1988861
+,,,,,
+12071,LEE  ,Lee  ,FL,Florida,354.8307687
+,,,,,
+12073,LEON  ,Leon  ,FL,Florida,166.8139264
+,,,,,
+12075,LEVY  ,Levy  ,FL,Florida,13.79768236
+,,,,,
+12077,LIBERTY  ,Liberty  ,FL,Florida,3.865349802
+,,,,,
+12079,MADISON  ,Madison  ,FL,Florida,10.24056807
+,,,,,
+12081,MANATEE  ,Manatee  ,FL,Florida,194.2390085
+,,,,,
+12083,MARION  ,Marion  ,FL,Florida,84.68030731
+,,,,,
+12085,MARTIN  ,Martin  ,FL,Florida,111.8867742
+,,,,,
+12086,MIAMI-DADE  ,Miami-Dade  ,FL,Florida,552.1870708
+,,,,,
+12087,MONROE  ,Monroe  ,FL,Florida,29.97806808
+,,,,,
+12089,NASSAU  ,Nassau  ,FL,Florida,47.960964
+,,,,,
+12091,OKALOOSA  ,Okaloosa  ,FL,Florida,83.31780277
+,,,,,
+12093,OKEECHOBEE  ,Okeechobee  ,FL,Florida,20.37434037
+,,,,,
+12095,ORANGE  ,Orange  ,FL,Florida,565.2007179
+,,,,,
+12097,OSCEOLA  ,Osceola  ,FL,Florida,98.47136801
+,,,,,
+12099,PALM BEACH  ,Palm Beach  ,FL,Florida,284.088504
+,,,,,
+12101,PASCO  ,Pasco  ,FL,Florida,264.0275519
+,,,,,
+12103,PINELLAS  ,Pinellas  ,FL,Florida,1351.009895
+,,,,,
+12105,POLK  ,Polk  ,FL,Florida,143.6573523
+,,,,,
+12107,PUTNAM  ,Putnam  ,FL,Florida,38.59923128
+,,,,,
+12109,ST. JOHNS  ,St. Johns  ,FL,Florida,151.366953
+,,,,,
+12111,ST. LUCIE  ,St. Lucie  ,FL,Florida,206.3889596
+,,,,,
+12113,SANTA ROSA  ,Santa Rosa  ,FL,Florida,65.00332156
+,,,,,
+12115,SARASOTA  ,Sarasota  ,FL,Florida,285.7580921
+,,,,,
+12117,SEMINOLE  ,Seminole  ,FL,Florida,567.9030651
+,,,,,
+12119,SUMTER  ,Sumter  ,FL,Florida,83.85731716
+,,,,,
+12121,SUWANNEE  ,Suwannee  ,FL,Florida,24.63015902
+,,,,,
+12123,TAYLOR  ,Taylor  ,FL,Florida,8.177839655
+,,,,,
+12125,UNION  ,Union  ,FL,Florida,24.1579477
+,,,,,
+12127,VOLUSIA  ,Volusia  ,FL,Florida,184.9915148
+,,,,,
+12129,WAKULLA  ,Wakulla  ,FL,Florida,20.2958573
+,,,,,
+12131,WALTON  ,Walton  ,FL,Florida,24.50311443
+,,,,,
+12133,WASHINGTON  ,Washington  ,FL,Florida,16.22262188
+,,,,,
+13001,APPLING  ,Appling  ,GA,Georgia,14.01828756
+,,,,,
+13003,ATKINSON  ,Atkinson  ,GA,Georgia,9.311240898
+,,,,,
+13005,BACON  ,Bacon  ,GA,Georgia,15.26007768
+,,,,,
+13007,BAKER  ,Baker  ,GA,Georgia,3.600682675
+,,,,,
+13009,BALDWIN  ,Baldwin  ,GA,Georgia,67.58826619
+,,,,,
+13011,BANKS  ,Banks  ,GA,Georgia,30.7975219
+,,,,,
+13013,BARROW  ,Barrow  ,GA,Georgia,184.3449202
+,,,,,
+13015,BARTOW  ,Bartow  ,GA,Georgia,87.06431394
+,,,,,
+13017,BEN HILL  ,Ben Hill  ,GA,Georgia,26.47984793
+,,,,,
+13019,BERRIEN  ,Berrien  ,GA,Georgia,16.20197066
+,,,,,
+13021,BIBB  ,Bibb  ,GA,Georgia,237.6230669
+,,,,,
+13023,BLECKLEY  ,Bleckley  ,GA,Georgia,22.84919033
+,,,,,
+13025,BRANTLEY  ,Brantley  ,GA,Georgia,16.17660577
+,,,,,
+13027,BROOKS  ,Brooks  ,GA,Georgia,12.23231715
+,,,,,
+13029,BRYAN  ,Bryan  ,GA,Georgia,31.66554713
+,,,,,
+13031,BULLOCH  ,Bulloch  ,GA,Georgia,42.71567016
+,,,,,
+13033,BURKE  ,Burke  ,GA,Georgia,10.52749269
+,,,,,
+13035,BUTTS  ,Butts  ,GA,Georgia,49.92067542
+,,,,,
+13037,CALHOUN  ,Calhoun  ,GA,Georgia,8.851659627
+,,,,,
+13039,CAMDEN  ,Camden  ,GA,Georgia,32.29088126
+,,,,,
+13043,CANDLER  ,Candler  ,GA,Georgia,17.19879927
+,,,,,
+13045,CARROLL  ,Carroll  ,GA,Georgia,89.76724683
+,,,,,
+13047,CATOOSA  ,Catoosa  ,GA,Georgia,157.855196
+,,,,,
+13049,CHARLTON  ,Charlton  ,GA,Georgia,6.425905488
+,,,,,
+13051,CHATHAM  ,Chatham  ,GA,Georgia,255.8861832
+,,,,,
+13053,CHATTAHOOCHEE  ,Chattahoochee  ,GA,Georgia,16.71307246
+,,,,,
+13055,CHATTOOGA  ,Chattooga  ,GA,Georgia,30.5811718
+,,,,,
+13057,CHEROKEE  ,Cherokee  ,GA,Georgia,221.8137088
+,,,,,
+13059,CLARKE  ,Clarke  ,GA,Georgia,403.5373333
+,,,,,
+13061,CLAY  ,Clay  ,GA,Georgia,5.92972984
+,,,,,
+13063,CLAYTON  ,Clayton  ,GA,Georgia,759.4524648
+,,,,,
+13065,CLINCH  ,Clinch  ,GA,Georgia,3.194479252
+,,,,,
+13067,COBB  ,Cobb  ,GA,Georgia,846.6897774
+,,,,,
+13069,COFFEE  ,Coffee  ,GA,Georgia,28.0050694
+,,,,,
+13071,COLQUITT  ,Colquitt  ,GA,Georgia,32.18979963
+,,,,,
+13073,COLUMBIA  ,Columbia  ,GA,Georgia,196.0552786
+,,,,,
+13075,COOK  ,Cook  ,GA,Georgia,29.06445414
+,,,,,
+13077,COWETA  ,Coweta  ,GA,Georgia,123.0428652
+,,,,,
+13079,CRAWFORD  ,Crawford  ,GA,Georgia,14.66866007
+,,,,,
+13081,CRISP  ,Crisp  ,GA,Georgia,32.35111079
+,,,,,
+13083,DADE  ,Dade  ,GA,Georgia,36.01155909
+,,,,,
+13085,DAWSON  ,Dawson  ,GA,Georgia,43.69808396
+,,,,,
+13087,DECATUR  ,Decatur  ,GA,Georgia,17.34890996
+,,,,,
+13089,DEKALB  ,DeKalb  ,GA,Georgia,1071.792083
+,,,,,
+13091,DODGE  ,Dodge  ,GA,Georgia,16.28549963
+,,,,,
+13093,DOOLY  ,Dooly  ,GA,Georgia,13.67379756
+,,,,,
+13095,DOUGHERTY  ,Dougherty  ,GA,Georgia,106.9675386
+,,,,,
+13097,DOUGLAS  ,Douglas  ,GA,Georgia,273.6920768
+,,,,,
+13099,EARLY  ,Early  ,GA,Georgia,7.794360252
+,,,,,
+13101,ECHOLS  ,Echols  ,GA,Georgia,3.668091972
+,,,,,
+13103,EFFINGHAM  ,Effingham  ,GA,Georgia,47.32731502
+,,,,,
+13105,ELBERT  ,Elbert  ,GA,Georgia,21.12744236
+,,,,,
+13107,EMANUEL  ,Emanuel  ,GA,Georgia,12.76414276
+,,,,,
+13109,EVANS  ,Evans  ,GA,Georgia,22.64537743
+,,,,,
+13111,FANNIN  ,Fannin  ,GA,Georgia,24.86526439
+,,,,,
+13113,FAYETTE  ,Fayette  ,GA,Georgia,221.2247862
+,,,,,
+13115,FLOYD  ,Floyd  ,GA,Georgia,73.327379
+,,,,,
+13117,FORSYTH  ,Forsyth  ,GA,Georgia,378.0699634
+,,,,,
+13119,FRANKLIN  ,Franklin  ,GA,Georgia,33.23399178
+,,,,,
+13121,FULTON  ,Fulton  ,GA,Georgia,749.0585218
+,,,,,
+13123,GILMER  ,Gilmer  ,GA,Georgia,27.10603808
+,,,,,
+13125,GLASCOCK  ,Glascock  ,GA,Georgia,8.082208149
+,,,,,
+13127,GLYNN  ,Glynn  ,GA,Georgia,77.27916697
+,,,,,
+13129,GORDON  ,Gordon  ,GA,Georgia,61.62118087
+,,,,,
+13131,GRADY  ,Grady  ,GA,Georgia,21.17483154
+,,,,,
+13133,GREENE  ,Greene  ,GA,Georgia,16.90816692
+,,,,,
+13135,GWINNETT  ,Gwinnett  ,GA,Georgia,809.1434093
+,,,,,
+13137,HABERSHAM  ,Habersham  ,GA,Georgia,61.77157867
+,,,,,
+13139,HALL  ,Hall  ,GA,Georgia,192.5293528
+,,,,,
+13141,HANCOCK  ,Hancock  ,GA,Georgia,6.995568868
+,,,,,
+13143,HARALSON  ,Haralson  ,GA,Georgia,39.6220831
+,,,,,
+13145,HARRIS  ,Harris  ,GA,Georgia,27.95999603
+,,,,,
+13147,HART  ,Hart  ,GA,Georgia,42.57866856
+,,,,,
+13149,HEARD  ,Heard  ,GA,Georgia,15.23138636
+,,,,,
+13151,HENRY  ,Henry  ,GA,Georgia,268.1545574
+,,,,,
+13153,HOUSTON  ,Houston  ,GA,Georgia,155.7337104
+,,,,,
+13155,IRWIN  ,Irwin  ,GA,Georgia,10.09811305
+,,,,,
+13157,JACKSON  ,Jackson  ,GA,Georgia,74.74438404
+,,,,,
+13159,JASPER  ,Jasper  ,GA,Georgia,14.44602729
+,,,,,
+13161,JEFF DAVIS  ,Jeff Davis  ,GA,Georgia,17.49091774
+,,,,,
+13163,JEFFERSON  ,Jefferson  ,GA,Georgia,11.56507965
+,,,,,
+13165,JENKINS  ,Jenkins  ,GA,Georgia,9.812495124
+,,,,,
+13167,JOHNSON  ,Johnson  ,GA,Georgia,12.39782262
+,,,,,
+13169,JONES  ,Jones  ,GA,Georgia,27.98010351
+,,,,,
+13171,LAMAR  ,Lamar  ,GA,Georgia,38.95305074
+,,,,,
+13173,LANIER  ,Lanier  ,GA,Georgia,20.36437069
+,,,,,
+13175,LAURENS  ,Laurens  ,GA,Georgia,22.6783855
+,,,,,
+13177,LEE  ,Lee  ,GA,Georgia,31.84009173
+,,,,,
+13179,LIBERTY  ,Liberty  ,GA,Georgia,46.43059823
+,,,,,
+13181,LINCOLN  ,Lincoln  ,GA,Georgia,14.31311751
+,,,,,
+13183,LONG  ,Long  ,GA,Georgia,17.50796876
+,,,,,
+13185,LOWNDES  ,Lowndes  ,GA,Georgia,88.98728352
+,,,,,
+13187,LUMPKIN  ,Lumpkin  ,GA,Georgia,43.60027534
+,,,,,
+13189,MCDUFFIE  ,McDuffie  ,GA,Georgia,32.23819688
+,,,,,
+13191,MCINTOSH  ,McIntosh  ,GA,Georgia,12.63872337
+,,,,,
+13193,MACON  ,Macon  ,GA,Georgia,12.99014252
+,,,,,
+13195,MADISON  ,Madison  ,GA,Georgia,39.52268532
+,,,,,
+13197,MARION  ,Marion  ,GA,Georgia,8.9495611
+,,,,,
+13199,MERIWETHER  ,Meriwether  ,GA,Georgia,16.26375695
+,,,,,
+13201,MILLER  ,Miller  ,GA,Georgia,7.978434865
+,,,,,
+13205,MITCHELL  ,Mitchell  ,GA,Georgia,16.91088273
+,,,,,
+13207,MONROE  ,Monroe  ,GA,Georgia,26.32880923
+,,,,,
+13209,MONTGOMERY  ,Montgomery  ,GA,Georgia,14.46771444
+,,,,,
+13211,MORGAN  ,Morgan  ,GA,Georgia,20.26622642
+,,,,,
+13213,MURRAY  ,Murray  ,GA,Georgia,44.33472499
+,,,,,
+13215,MUSCOGEE  ,Muscogee  ,GA,Georgia,350.8393599
+,,,,,
+13217,NEWTON  ,Newton  ,GA,Georgia,150.205821
+,,,,,
+13219,OCONEE  ,Oconee  ,GA,Georgia,77.53671083
+,,,,,
+13221,OGLETHORPE  ,Oglethorpe  ,GA,Georgia,13.00073608
+,,,,,
+13223,PAULDING  ,Paulding  ,GA,Georgia,192.6729203
+,,,,,
+13225,PEACH  ,Peach  ,GA,Georgia,69.28779256
+,,,,,
+13227,PICKENS  ,Pickens  ,GA,Georgia,51.29878159
+,,,,,
+13229,PIERCE  ,Pierce  ,GA,Georgia,21.73383004
+,,,,,
+13231,PIKE  ,Pike  ,GA,Georgia,32.30892798
+,,,,,
+13233,POLK  ,Polk  ,GA,Georgia,51.78338682
+,,,,,
+13235,PULASKI  ,Pulaski  ,GA,Georgia,17.49578798
+,,,,,
+13237,PUTNAM  ,Putnam  ,GA,Georgia,24.08701172
+,,,,,
+13239,QUITMAN  ,Quitman  ,GA,Georgia,5.810523669
+,,,,,
+13241,RABUN  ,Rabun  ,GA,Georgia,17.16668982
+,,,,,
+13243,RANDOLPH  ,Randolph  ,GA,Georgia,6.389714553
+,,,,,
+13245,RICHMOND  ,Richmond  ,GA,Georgia,239.8436152
+,,,,,
+13247,ROCKDALE  ,Rockdale  ,GA,Georgia,264.7460085
+,,,,,
+13249,SCHLEY  ,Schley  ,GA,Georgia,12.05448566
+,,,,,
+13251,SCREVEN  ,Screven  ,GA,Georgia,8.364521574
+,,,,,
+13253,SEMINOLE  ,Seminole  ,GA,Georgia,13.71390191
+,,,,,
+13255,SPALDING  ,Spalding  ,GA,Georgia,127.5010942
+,,,,,
+13257,STEPHENS  ,Stephens  ,GA,Georgia,55.33657684
+,,,,,
+13259,STEWART  ,Stewart  ,GA,Georgia,5.085203438
+,,,,,
+13261,SUMTER  ,Sumter  ,GA,Georgia,24.26936641
+,,,,,
+13263,TALBOT  ,Talbot  ,GA,Georgia,6.292033252
+,,,,,
+13265,TALIAFERRO  ,Taliaferro  ,GA,Georgia,3.303368003
+,,,,,
+13267,TATTNALL  ,Tattnall  ,GA,Georgia,20.35864747
+,,,,,
+13269,TAYLOR  ,Taylor  ,GA,Georgia,8.397803352
+,,,,,
+13271,TELFAIR  ,Telfair  ,GA,Georgia,14.22805918
+,,,,,
+13273,TERRELL  ,Terrell  ,GA,Georgia,10.18791475
+,,,,,
+13275,THOMAS  ,Thomas  ,GA,Georgia,31.7114458
+,,,,,
+13277,TIFT  ,Tift  ,GA,Georgia,59.94980729
+,,,,,
+13279,TOOMBS  ,Toombs  ,GA,Georgia,28.68971257
+,,,,,
+13281,TOWNS  ,Towns  ,GA,Georgia,26.48100906
+,,,,,
+13283,TREUTLEN  ,Treutlen  ,GA,Georgia,13.12026026
+,,,,,
+13285,TROUP  ,Troup  ,GA,Georgia,65.07102644
+,,,,,
+13287,TURNER  ,Turner  ,GA,Georgia,10.77078095
+,,,,,
+13289,TWIGGS  ,Twiggs  ,GA,Georgia,8.902957893
+,,,,,
+13291,UNION  ,Union  ,GA,Georgia,27.30169352
+,,,,,
+13293,UPSON  ,Upson  ,GA,Georgia,31.29241612
+,,,,,
+13295,WALKER  ,Walker  ,GA,Georgia,59.52885189
+,,,,,
+13297,WALTON  ,Walton  ,GA,Georgia,106.4910448
+,,,,,
+13299,WARE  ,Ware  ,GA,Georgia,15.28610844
+,,,,,
+13301,WARREN  ,Warren  ,GA,Georgia,7.258817371
+,,,,,
+13303,WASHINGTON  ,Washington  ,GA,Georgia,11.64315277
+,,,,,
+13305,WAYNE  ,Wayne  ,GA,Georgia,17.90377435
+,,,,,
+13307,WEBSTER  ,Webster  ,GA,Georgia,4.818979543
+,,,,,
+13309,WHEELER  ,Wheeler  ,GA,Georgia,10.3735147
+,,,,,
+13311,WHITE  ,White  ,GA,Georgia,46.39448436
+,,,,,
+13313,WHITFIELD  ,Whitfield  ,GA,Georgia,138.0549123
+,,,,,
+13315,WILCOX  ,Wilcox  ,GA,Georgia,9.04013343
+,,,,,
+13317,WILKES  ,Wilkes  ,GA,Georgia,8.128280055
+,,,,,
+13319,WILKINSON  ,Wilkinson  ,GA,Georgia,7.802589675
+,,,,,
+13321,WORTH  ,Worth  ,GA,Georgia,13.97434093
+,,,,,
+15001,HAWAII  ,Hawaii  ,HI,Hawaii,18.94430327
+,,,,,
+15003,HONOLULU  ,Honolulu  ,HI,Hawaii,634.9517851
+,,,,,
+15005,KALAWAO  ,Kalawao  ,HI,Hawaii,2.414867625
+,,,,,
+15007,KAUAI  ,Kauai  ,HI,Hawaii,44.45801384
+,,,,,
+15009,MAUI  ,Maui  ,HI,Hawaii,54.94076903
+,,,,,
+16001,ADA  ,Ada  ,ID,Idaho,163.7075373
+,,,,,
+16003,ADAMS  ,Adams  ,ID,Idaho,1.138640153
+,,,,,
+16005,BANNOCK  ,Bannock  ,ID,Idaho,29.5228912
+,,,,,
+16007,BEAR LAKE  ,Bear Lake  ,ID,Idaho,2.359204372
+,,,,,
+16009,BENEWAH  ,Benewah  ,ID,Idaho,4.515359408
+,,,,,
+16011,BINGHAM  ,Bingham  ,ID,Idaho,8.399768947
+,,,,,
+16013,BLAINE  ,Blaine  ,ID,Idaho,3.219398972
+,,,,,
+16015,BOISE  ,Boise  ,ID,Idaho,1.455945665
+,,,,,
+16017,BONNER  ,Bonner  ,ID,Idaho,9.514596564
+,,,,,
+16019,BONNEVILLE  ,Bonneville  ,ID,Idaho,23.25677336
+,,,,,
+16021,BOUNDARY  ,Boundary  ,ID,Idaho,3.514744341
+,,,,,
+16023,BUTTE  ,Butte  ,ID,Idaho,0.44920357
+,,,,,
+16025,CAMAS  ,Camas  ,ID,Idaho,0.318446855
+,,,,,
+16027,CANYON  ,Canyon  ,ID,Idaho,139.5848719
+,,,,,
+16029,CARIBOU  ,Caribou  ,ID,Idaho,1.514037097
+,,,,,
+16031,CASSIA  ,Cassia  ,ID,Idaho,3.553855593
+,,,,,
+16033,CLARK  ,Clark  ,ID,Idaho,0.235846759
+,,,,,
+16035,CLEARWATER  ,Clearwater  ,ID,Idaho,1.357548779
+,,,,,
+16037,CUSTER  ,Custer  ,ID,Idaho,0.324825617
+,,,,,
+16039,ELMORE  ,Elmore  ,ID,Idaho,3.318886841
+,,,,,
+16041,FRANKLIN  ,Franklin  ,ID,Idaho,7.732887224
+,,,,,
+16043,FREMONT  ,Fremont  ,ID,Idaho,2.685581046
+,,,,,
+16045,GEM  ,Gem  ,ID,Idaho,11.76165012
+,,,,,
+16047,GOODING  ,Gooding  ,ID,Idaho,8.030460038
+,,,,,
+16049,IDAHO  ,Idaho  ,ID,Idaho,0.744058927
+,,,,,
+16051,JEFFERSON  ,Jefferson  ,ID,Idaho,9.873907162
+,,,,,
+16053,JEROME  ,Jerome  ,ID,Idaho,15.14174383
+,,,,,
+16055,KOOTENAI  ,Kootenai  ,ID,Idaho,47.91421073
+,,,,,
+16057,LATAH  ,Latah  ,ID,Idaho,14.08190883
+,,,,,
+16059,LEMHI  ,Lemhi  ,ID,Idaho,0.659734273
+,,,,,
+16061,LEWIS  ,Lewis  ,ID,Idaho,3.100451505
+,,,,,
+16063,LINCOLN  ,Lincoln  ,ID,Idaho,1.710098036
+,,,,,
+16065,MADISON  ,Madison  ,ID,Idaho,31.84557978
+,,,,,
+16067,MINIDOKA  ,Minidoka  ,ID,Idaho,10.51458226
+,,,,,
+16069,NEZ PERCE  ,Nez Perce  ,ID,Idaho,18.27603307
+,,,,,
+16071,ONEIDA  ,Oneida  ,ID,Idaho,1.39311591
+,,,,,
+16073,OWYHEE  ,Owyhee  ,ID,Idaho,0.576771202
+,,,,,
+16075,PAYETTE  ,Payette  ,ID,Idaho,21.86372277
+,,,,,
+16077,POWER  ,Power  ,ID,Idaho,2.12134991
+,,,,,
+16079,SHOSHONE  ,Shoshone  ,ID,Idaho,1.833726538
+,,,,,
+16081,TETON  ,Teton  ,ID,Idaho,9.525938818
+,,,,,
+16083,TWIN FALLS  ,Twin Falls  ,ID,Idaho,16.80980654
+,,,,,
+16085,VALLEY  ,Valley  ,ID,Idaho,1.09569475
+,,,,,
+16087,WASHINGTON  ,Washington  ,ID,Idaho,2.664189578
+,,,,,
+17001,ADAMS  ,Adams  ,IL,Illinois,29.99225904
+,,,,,
+17003,ALEXANDER  ,Alexander  ,IL,Illinois,10.7082503
+,,,,,
+17005,BOND  ,Bond  ,IL,Illinois,16.96523477
+,,,,,
+17007,BOONE  ,Boone  ,IL,Illinois,73.71852195
+,,,,,
+17009,BROWN  ,Brown  ,IL,Illinois,8.431176356
+,,,,,
+17011,BUREAU  ,Bureau  ,IL,Illinois,14.82995898
+,,,,,
+17013,CALHOUN  ,Calhoun  ,IL,Illinois,7.389684233
+,,,,,
+17015,CARROLL  ,Carroll  ,IL,Illinois,12.63341931
+,,,,,
+17017,CASS  ,Cass  ,IL,Illinois,13.01388792
+,,,,,
+17019,CHAMPAIGN  ,Champaign  ,IL,Illinois,81.18425593
+,,,,,
+17021,CHRISTIAN  ,Christian  ,IL,Illinois,18.08415147
+,,,,,
+17023,CLARK  ,Clark  ,IL,Illinois,12.1937788
+,,,,,
+17025,CLAY  ,Clay  ,IL,Illinois,10.99754848
+,,,,,
+17027,CLINTON  ,Clinton  ,IL,Illinois,30.65007094
+,,,,,
+17029,COLES  ,Coles  ,IL,Illinois,39.29935727
+,,,,,
+17031,COOK  ,Cook  ,IL,Illinois,2134.420727
+,,,,,
+17033,CRAWFORD  ,Crawford  ,IL,Illinois,16.61337463
+,,,,,
+17035,CUMBERLAND  ,Cumberland  ,IL,Illinois,12.12707605
+,,,,,
+17037,DEKALB  ,DeKalb  ,IL,Illinois,63.72410485
+,,,,,
+17039,DE WITT  ,De Witt  ,IL,Illinois,15.57998011
+,,,,,
+17041,DOUGLAS  ,Douglas  ,IL,Illinois,18.26796996
+,,,,,
+17043,DUPAGE  ,DuPage  ,IL,Illinois,1097.706801
+,,,,,
+17045,EDGAR  ,Edgar  ,IL,Illinois,10.86302996
+,,,,,
+17047,EDWARDS  ,Edwards  ,IL,Illinois,11.29565936
+,,,,,
+17049,EFFINGHAM  ,Effingham  ,IL,Illinois,27.56033687
+,,,,,
+17051,FAYETTE  ,Fayette  ,IL,Illinois,11.70653283
+,,,,,
+17053,FORD  ,Ford  ,IL,Illinois,10.65286252
+,,,,,
+17055,FRANKLIN  ,Franklin  ,IL,Illinois,36.94368005
+,,,,,
+17057,FULTON  ,Fulton  ,IL,Illinois,15.79639524
+,,,,,
+17059,GALLATIN  ,Gallatin  ,IL,Illinois,6.164676977
+,,,,,
+17061,GREENE  ,Greene  ,IL,Illinois,9.398361553
+,,,,,
+17063,GRUNDY  ,Grundy  ,IL,Illinois,46.64480696
+,,,,,
+17065,HAMILTON  ,Hamilton  ,IL,Illinois,7.303033893
+,,,,,
+17067,HANCOCK  ,Hancock  ,IL,Illinois,8.810529687
+,,,,,
+17069,HARDIN  ,Hardin  ,IL,Illinois,8.721837437
+,,,,,
+17071,HENDERSON  ,Henderson  ,IL,Illinois,7.016907047
+,,,,,
+17073,HENRY  ,Henry  ,IL,Illinois,23.20555427
+,,,,,
+17075,IROQUOIS  ,Iroquois  ,IL,Illinois,9.733358959
+,,,,,
+17077,JACKSON  ,Jackson  ,IL,Illinois,38.70528382
+,,,,,
+17079,JASPER  ,Jasper  ,IL,Illinois,7.492328536
+,,,,,
+17081,JEFFERSON  ,Jefferson  ,IL,Illinois,25.79999368
+,,,,,
+17083,JERSEY  ,Jersey  ,IL,Illinois,23.07397937
+,,,,,
+17085,JO DAVIESS  ,Jo Daviess  ,IL,Illinois,14.02907606
+,,,,,
+17087,JOHNSON  ,Johnson  ,IL,Illinois,14.14742746
+,,,,,
+17089,KANE  ,Kane  ,IL,Illinois,394.6365022
+,,,,,
+17091,KANKAKEE  ,Kankakee  ,IL,Illinois,63.38660191
+,,,,,
+17093,KENDALL  ,Kendall  ,IL,Illinois,150.2481058
+,,,,,
+17095,KNOX  ,Knox  ,IL,Illinois,27.48428763
+,,,,,
+17097,LAKE  ,Lake  ,IL,Illinois,611.9473932
+,,,,,
+17099,LASALLE  ,LaSalle  ,IL,Illinois,37.54987471
+,,,,,
+17101,LAWRENCE  ,Lawrence  ,IL,Illinois,16.79466841
+,,,,,
+17103,LEE  ,Lee  ,IL,Illinois,18.39148611
+,,,,,
+17105,LIVINGSTON  ,Livingston  ,IL,Illinois,13.43849744
+,,,,,
+17107,LOGAN  ,Logan  ,IL,Illinois,18.24530364
+,,,,,
+17109,MCDONOUGH  ,McDonough  ,IL,Illinois,20.22523095
+,,,,,
+17111,MCHENRY  ,McHenry  ,IL,Illinois,196.9447844
+,,,,,
+17113,MCLEAN  ,McLean  ,IL,Illinois,56.52329122
+,,,,,
+17115,MACON  ,Macon  ,IL,Illinois,70.834027
+,,,,,
+17117,MACOUPIN  ,Macoupin  ,IL,Illinois,20.45636741
+,,,,,
+17119,MADISON  ,Madison  ,IL,Illinois,143.2523604
+,,,,,
+17121,MARION  ,Marion  ,IL,Illinois,25.68659269
+,,,,,
+17123,MARSHALL  ,Marshall  ,IL,Illinois,11.77202362
+,,,,,
+17125,MASON  ,Mason  ,IL,Illinois,9.864005992
+,,,,,
+17127,MASSAC  ,Massac  ,IL,Illinois,23.48666437
+,,,,,
+17129,MENARD  ,Menard  ,IL,Illinois,15.18551962
+,,,,,
+17131,MERCER  ,Mercer  ,IL,Illinois,10.79671493
+,,,,,
+17133,MONROE  ,Monroe  ,IL,Illinois,34.00712549
+,,,,,
+17135,MONTGOMERY  ,Montgomery  ,IL,Illinois,15.91758335
+,,,,,
+17137,MORGAN  ,Morgan  ,IL,Illinois,23.36849172
+,,,,,
+17139,MOULTRIE  ,Moultrie  ,IL,Illinois,16.89759553
+,,,,,
+17141,OGLE  ,Ogle  ,IL,Illinois,26.1245481
+,,,,,
+17143,PEORIA  ,Peoria  ,IL,Illinois,115.1201013
+,,,,,
+17145,PERRY  ,Perry  ,IL,Illinois,18.68972794
+,,,,,
+17147,PIATT  ,Piatt  ,IL,Illinois,14.44259449
+,,,,,
+17149,PIKE  ,Pike  ,IL,Illinois,7.316126073
+,,,,,
+17151,POPE  ,Pope  ,IL,Illinois,4.448703804
+,,,,,
+17153,PULASKI  ,Pulaski  ,IL,Illinois,10.8764031
+,,,,,
+17155,PUTNAM  ,Putnam  ,IL,Illinois,13.85716437
+,,,,,
+17157,RANDOLPH  ,Randolph  ,IL,Illinois,21.84206736
+,,,,,
+17159,RICHLAND  ,Richland  ,IL,Illinois,17.0298773
+,,,,,
+17161,ROCK ISLAND  ,Rock Island  ,IL,Illinois,131.2377894
+,,,,,
+17163,ST. CLAIR  ,St. Clair  ,IL,Illinois,154.6589893
+,,,,,
+17165,SALINE  ,Saline  ,IL,Illinois,24.62737221
+,,,,,
+17167,SANGAMON  ,Sangamon  ,IL,Illinois,87.89318766
+,,,,,
+17169,SCHUYLER  ,Schuyler  ,IL,Illinois,6.237462724
+,,,,,
+17171,SCOTT  ,Scott  ,IL,Illinois,7.766273484
+,,,,,
+17173,SHELBY  ,Shelby  ,IL,Illinois,11.11301667
+,,,,,
+17175,STARK  ,Stark  ,IL,Illinois,7.372807136
+,,,,,
+17177,STEPHENSON  ,Stephenson  ,IL,Illinois,31.07125531
+,,,,,
+17179,TAZEWELL  ,Tazewell  ,IL,Illinois,79.94877325
+,,,,,
+17181,UNION  ,Union  ,IL,Illinois,15.99374516
+,,,,,
+17183,VERMILION  ,Vermilion  ,IL,Illinois,33.70082419
+,,,,,
+17185,WABASH  ,Wabash  ,IL,Illinois,20.0133439
+,,,,,
+17187,WARREN  ,Warren  ,IL,Illinois,12.34242775
+,,,,,
+17189,WASHINGTON  ,Washington  ,IL,Illinois,9.714770175
+,,,,,
+17191,WAYNE  ,Wayne  ,IL,Illinois,8.916961044
+,,,,,
+17193,WHITE  ,White  ,IL,Illinois,10.94427594
+,,,,,
+17195,WHITESIDE  ,Whiteside  ,IL,Illinois,31.82333406
+,,,,,
+17197,WILL  ,Will  ,IL,Illinois,318.1154816
+,,,,,
+17199,WILLIAMSON  ,Williamson  ,IL,Illinois,61.84074421
+,,,,,
+17201,WINNEBAGO  ,Winnebago  ,IL,Illinois,215.2923728
+,,,,,
+17203,WOODFORD  ,Woodford  ,IL,Illinois,28.39687664
+,,,,,
+18001,ADAMS  ,Adams  ,IN,Indiana,40.08179351
+,,,,,
+18003,ALLEN  ,Allen  ,IN,Indiana,217.3430355
+,,,,,
+18005,BARTHOLOMEW  ,Bartholomew  ,IN,Indiana,77.70463936
+,,,,,
+18007,BENTON  ,Benton  ,IN,Indiana,8.233768324
+,,,,,
+18009,BLACKFORD  ,Blackford  ,IN,Indiana,28.36798485
+,,,,,
+18011,BOONE  ,Boone  ,IN,Indiana,58.72257117
+,,,,,
+18013,BROWN  ,Brown  ,IN,Indiana,18.60542575
+,,,,,
+18015,CARROLL  ,Carroll  ,IN,Indiana,20.73948855
+,,,,,
+18017,CASS  ,Cass  ,IN,Indiana,35.67665338
+,,,,,
+18019,CLARK  ,Clark  ,IN,Indiana,119.8157579
+,,,,,
+18021,CLAY  ,Clay  ,IN,Indiana,28.36099234
+,,,,,
+18023,CLINTON  ,Clinton  ,IN,Indiana,30.78868401
+,,,,,
+18025,CRAWFORD  ,Crawford  ,IN,Indiana,13.36770047
+,,,,,
+18027,DAVIESS  ,Daviess  ,IN,Indiana,29.60963487
+,,,,,
+18029,DEARBORN  ,Dearborn  ,IN,Indiana,62.64777877
+,,,,,
+18031,DECATUR  ,Decatur  ,IN,Indiana,27.51656313
+,,,,,
+18033,DEKALB  ,DeKalb  ,IN,Indiana,45.44274523
+,,,,,
+18035,DELAWARE  ,Delaware  ,IN,Indiana,113.8465819
+,,,,,
+18037,DUBOIS  ,Dubois  ,IN,Indiana,38.33111647
+,,,,,
+18039,ELKHART  ,Elkhart  ,IN,Indiana,169.7260192
+,,,,,
+18041,FAYETTE  ,Fayette  ,IN,Indiana,41.76501177
+,,,,,
+18043,FLOYD  ,Floyd  ,IN,Indiana,200.4267844
+,,,,,
+18045,FOUNTAIN  ,Fountain  ,IN,Indiana,16.08752413
+,,,,,
+18047,FRANKLIN  ,Franklin  ,IN,Indiana,22.94131686
+,,,,,
+18049,FULTON  ,Fulton  ,IN,Indiana,21.1833331
+,,,,,
+18051,GIBSON  ,Gibson  ,IN,Indiana,26.61237944
+,,,,,
+18053,GRANT  ,Grant  ,IN,Indiana,62.42078621
+,,,,,
+18055,GREENE  ,Greene  ,IN,Indiana,22.98602823
+,,,,,
+18057,HAMILTON  ,Hamilton  ,IN,Indiana,309.5004043
+,,,,,
+18059,HANCOCK  ,Hancock  ,IN,Indiana,93.1702752
+,,,,,
+18061,HARRISON  ,Harrison  ,IN,Indiana,31.64581592
+,,,,,
+18063,HENDRICKS  ,Hendricks  ,IN,Indiana,152.7163239
+,,,,,
+18065,HENRY  ,Henry  ,IN,Indiana,47.76859054
+,,,,,
+18067,HOWARD  ,Howard  ,IN,Indiana,108.5658021
+,,,,,
+18069,HUNTINGTON  ,Huntington  ,IN,Indiana,36.70626238
+,,,,,
+18071,JACKSON  ,Jackson  ,IN,Indiana,33.26551785
+,,,,,
+18073,JASPER  ,Jasper  ,IN,Indiana,23.07748838
+,,,,,
+18075,JAY  ,Jay  ,IN,Indiana,21.11313165
+,,,,,
+18077,JEFFERSON  ,Jefferson  ,IN,Indiana,34.51373468
+,,,,,
+18079,JENNINGS  ,Jennings  ,IN,Indiana,28.42732454
+,,,,,
+18081,JOHNSON  ,Johnson  ,IN,Indiana,182.6191346
+,,,,,
+18083,KNOX  ,Knox  ,IN,Indiana,27.99003863
+,,,,,
+18085,KOSCIUSKO  ,Kosciusko  ,IN,Indiana,57.25465489
+,,,,,
+18087,LAGRANGE  ,LaGrange  ,IN,Indiana,39.60594245
+,,,,,
+18089,LAKE  ,Lake  ,IN,Indiana,376.8351487
+,,,,,
+18091,LAPORTE  ,LaPorte  ,IN,Indiana,71.34668635
+,,,,,
+18093,LAWRENCE  ,Lawrence  ,IN,Indiana,39.21290011
+,,,,,
+18095,MADISON  ,Madison  ,IN,Indiana,110.6436258
+,,,,,
+18097,MARION  ,Marion  ,IN,Indiana,919.8842006
+,,,,,
+18099,MARSHALL  ,Marshall  ,IN,Indiana,40.55371396
+,,,,,
+18101,MARTIN  ,Martin  ,IN,Indiana,11.74081825
+,,,,,
+18103,MIAMI  ,Miami  ,IN,Indiana,37.07835076
+,,,,,
+18105,MONROE  ,Monroe  ,IN,Indiana,142.2998736
+,,,,,
+18107,MONTGOMERY  ,Montgomery  ,IN,Indiana,29.28470884
+,,,,,
+18109,MORGAN  ,Morgan  ,IN,Indiana,66.66490505
+,,,,,
+18111,NEWTON  ,Newton  ,IN,Indiana,13.47185339
+,,,,,
+18113,NOBLE  ,Noble  ,IN,Indiana,44.59381316
+,,,,,
+18115,OHIO  ,Ohio  ,IN,Indiana,26.38409816
+,,,,,
+18117,ORANGE  ,Orange  ,IN,Indiana,18.94466405
+,,,,,
+18119,OWEN  ,Owen  ,IN,Indiana,20.9216928
+,,,,,
+18121,PARKE  ,Parke  ,IN,Indiana,14.7560218
+,,,,,
+18123,PERRY  ,Perry  ,IN,Indiana,19.35977641
+,,,,,
+18125,PIKE  ,Pike  ,IN,Indiana,14.33429022
+,,,,,
+18127,PORTER  ,Porter  ,IN,Indiana,155.1921167
+,,,,,
+18129,POSEY  ,Posey  ,IN,Indiana,24.13447884
+,,,,,
+18131,PULASKI  ,Pulaski  ,IN,Indiana,11.27148482
+,,,,,
+18133,PUTNAM  ,Putnam  ,IN,Indiana,30.17790917
+,,,,,
+18135,RANDOLPH  ,Randolph  ,IN,Indiana,21.40217336
+,,,,,
+18137,RIPLEY  ,Ripley  ,IN,Indiana,24.58406455
+,,,,,
+18139,RUSH  ,Rush  ,IN,Indiana,15.80268731
+,,,,,
+18141,ST. JOSEPH  ,St. Joseph  ,IN,Indiana,227.030765
+,,,,,
+18143,SCOTT  ,Scott  ,IN,Indiana,48.14793346
+,,,,,
+18145,SHELBY  ,Shelby  ,IN,Indiana,41.6959742
+,,,,,
+18147,SPENCER  ,Spencer  ,IN,Indiana,19.97423724
+,,,,,
+18149,STARKE  ,Starke  ,IN,Indiana,28.65190254
+,,,,,
+18151,STEUBEN  ,Steuben  ,IN,Indiana,43.10708625
+,,,,,
+18153,SULLIVAN  ,Sullivan  ,IN,Indiana,17.95244612
+,,,,,
+18155,SWITZERLAND  ,Switzerland  ,IN,Indiana,18.59635835
+,,,,,
+18157,TIPPECANOE  ,Tippecanoe  ,IN,Indiana,146.493852
+,,,,,
+18159,TIPTON  ,Tipton  ,IN,Indiana,22.55194746
+,,,,,
+18161,UNION  ,Union  ,IN,Indiana,17.13372852
+,,,,,
+18163,VANDERBURGH  ,Vanderburgh  ,IN,Indiana,299.58893
+,,,,,
+18165,VERMILLION  ,Vermillion  ,IN,Indiana,23.38881211
+,,,,,
+18167,VIGO  ,Vigo  ,IN,Indiana,103.036695
+,,,,,
+18169,WABASH  ,Wabash  ,IN,Indiana,29.60432149
+,,,,,
+18171,WARREN  ,Warren  ,IN,Indiana,8.731197785
+,,,,,
+18173,WARRICK  ,Warrick  ,IN,Indiana,62.13523904
+,,,,,
+18175,WASHINGTON  ,Washington  ,IN,Indiana,20.91543017
+,,,,,
+18177,WAYNE  ,Wayne  ,IN,Indiana,64.01937413
+,,,,,
+18179,WELLS  ,Wells  ,IN,Indiana,29.31479067
+,,,,,
+18181,WHITE  ,White  ,IN,Indiana,18.51066263
+,,,,,
+18183,WHITLEY  ,Whitley  ,IN,Indiana,38.71472137
+,,,,,
+19001,ADAIR  ,Adair  ,IA,Iowa,4.831782244
+,,,,,
+19003,ADAMS  ,Adams  ,IA,Iowa,3.397507664
+,,,,,
+19005,ALLAMAKEE  ,Allamakee  ,IA,Iowa,8.386120959
+,,,,,
+19007,APPANOOSE  ,Appanoose  ,IA,Iowa,9.71289233
+,,,,,
+19009,AUDUBON  ,Audubon  ,IA,Iowa,4.913426442
+,,,,,
+19011,BENTON  ,Benton  ,IA,Iowa,13.81681748
+,,,,,
+19013,BLACK HAWK  ,Black Hawk  ,IA,Iowa,90.75418035
+,,,,,
+19015,BOONE  ,Boone  ,IA,Iowa,17.83319785
+,,,,,
+19017,BREMER  ,Bremer  ,IA,Iowa,21.97208698
+,,,,,
+19019,BUCHANAN  ,Buchanan  ,IA,Iowa,14.28246931
+,,,,,
+19021,BUENA VISTA  ,Buena Vista  ,IA,Iowa,13.60661307
+,,,,,
+19023,BUTLER  ,Butler  ,IA,Iowa,9.806636156
+,,,,,
+19025,CALHOUN  ,Calhoun  ,IA,Iowa,6.626489394
+,,,,,
+19027,CARROLL  ,Carroll  ,IA,Iowa,13.79408452
+,,,,,
+19029,CASS  ,Cass  ,IA,Iowa,9.026137483
+,,,,,
+19031,CEDAR  ,Cedar  ,IA,Iowa,12.29012208
+,,,,,
+19033,CERRO GORDO  ,Cerro Gordo  ,IA,Iowa,29.2032628
+,,,,,
+19035,CHEROKEE  ,Cherokee  ,IA,Iowa,7.675106756
+,,,,,
+19037,CHICKASAW  ,Chickasaw  ,IA,Iowa,9.262594494
+,,,,,
+19039,CLARKE  ,Clarke  ,IA,Iowa,8.311870359
+,,,,,
+19041,CLAY  ,Clay  ,IA,Iowa,11.10377907
+,,,,,
+19043,CLAYTON  ,Clayton  ,IA,Iowa,8.764586182
+,,,,,
+19045,CLINTON  ,Clinton  ,IA,Iowa,26.23486556
+,,,,,
+19047,CRAWFORD  ,Crawford  ,IA,Iowa,9.261827704
+,,,,,
+19049,DALLAS  ,Dallas  ,IA,Iowa,55.12878593
+,,,,,
+19051,DAVIS  ,Davis  ,IA,Iowa,6.831137227
+,,,,,
+19053,DECATUR  ,Decatur  ,IA,Iowa,5.839279272
+,,,,,
+19055,DELAWARE  ,Delaware  ,IA,Iowa,11.53463723
+,,,,,
+19057,DES MOINES  ,Des Moines  ,IA,Iowa,36.74252075
+,,,,,
+19059,DICKINSON  ,Dickinson  ,IA,Iowa,17.30620856
+,,,,,
+19061,DUBUQUE  ,Dubuque  ,IA,Iowa,61.44255068
+,,,,,
+19063,EMMET  ,Emmet  ,IA,Iowa,9.315063516
+,,,,,
+19065,FAYETTE  ,Fayette  ,IA,Iowa,10.52861836
+,,,,,
+19067,FLOYD  ,Floyd  ,IA,Iowa,12.23015567
+,,,,,
+19069,FRANKLIN  ,Franklin  ,IA,Iowa,6.796916751
+,,,,,
+19071,FREMONT  ,Fremont  ,IA,Iowa,5.263174731
+,,,,,
+19073,GREENE  ,Greene  ,IA,Iowa,6.10247441
+,,,,,
+19075,GRUNDY  ,Grundy  ,IA,Iowa,9.494553801
+,,,,,
+19077,GUTHRIE  ,Guthrie  ,IA,Iowa,6.977844134
+,,,,,
+19079,HAMILTON  ,Hamilton  ,IA,Iowa,10.11524843
+,,,,,
+19081,HANCOCK  ,Hancock  ,IA,Iowa,7.362253331
+,,,,,
+19083,HARDIN  ,Hardin  ,IA,Iowa,11.61542289
+,,,,,
+19085,HARRISON  ,Harrison  ,IA,Iowa,7.836261216
+,,,,,
+19087,HENRY  ,Henry  ,IA,Iowa,17.71515424
+,,,,,
+19089,HOWARD  ,Howard  ,IA,Iowa,7.558112542
+,,,,,
+19091,HUMBOLDT  ,Humboldt  ,IA,Iowa,8.502999552
+,,,,,
+19093,IDA  ,Ida  ,IA,Iowa,6.188261505
+,,,,,
+19095,IOWA  ,Iowa  ,IA,Iowa,10.67013973
+,,,,,
+19097,JACKSON  ,Jackson  ,IA,Iowa,11.77365436
+,,,,,
+19099,JASPER  ,Jasper  ,IA,Iowa,19.500879
+,,,,,
+19101,JEFFERSON  ,Jefferson  ,IA,Iowa,16.025712
+,,,,,
+19103,JOHNSON  ,Johnson  ,IA,Iowa,92.59088846
+,,,,,
+19105,JONES  ,Jones  ,IA,Iowa,13.79608334
+,,,,,
+19107,KEOKUK  ,Keokuk  ,IA,Iowa,6.799743695
+,,,,,
+19109,KOSSUTH  ,Kossuth  ,IA,Iowa,5.983658257
+,,,,,
+19111,LEE  ,Lee  ,IA,Iowa,25.76824008
+,,,,,
+19113,LINN  ,Linn  ,IA,Iowa,119.5965626
+,,,,,
+19115,LOUISA  ,Louisa  ,IA,Iowa,10.7852898
+,,,,,
+19117,LUCAS  ,Lucas  ,IA,Iowa,7.708532684
+,,,,,
+19119,LYON  ,Lyon  ,IA,Iowa,7.732552439
+,,,,,
+19121,MADISON  ,Madison  ,IA,Iowa,10.93600046
+,,,,,
+19123,MAHASKA  ,Mahaska  ,IA,Iowa,15.02034603
+,,,,,
+19125,MARION  ,Marion  ,IA,Iowa,23.12270871
+,,,,,
+19127,MARSHALL  ,Marshall  ,IA,Iowa,27.15919211
+,,,,,
+19129,MILLS  ,Mills  ,IA,Iowa,13.20181439
+,,,,,
+19131,MITCHELL  ,Mitchell  ,IA,Iowa,8.7494411
+,,,,,
+19133,MONONA  ,Monona  ,IA,Iowa,4.893087803
+,,,,,
+19135,MONROE  ,Monroe  ,IA,Iowa,6.999781518
+,,,,,
+19137,MONTGOMERY  ,Montgomery  ,IA,Iowa,9.245217486
+,,,,,
+19139,MUSCATINE  ,Muscatine  ,IA,Iowa,37.9089724
+,,,,,
+19141,O'BRIEN  ,O'Brien  ,IA,Iowa,9.373015524
+,,,,,
+19143,OSCEOLA  ,Osceola  ,IA,Iowa,5.921980088
+,,,,,
+19145,PAGE  ,Page  ,IA,Iowa,11.08843544
+,,,,,
+19147,PALO ALTO  ,Palo Alto  ,IA,Iowa,6.200391523
+,,,,,
+19149,PLYMOUTH  ,Plymouth  ,IA,Iowa,11.20455973
+,,,,,
+19151,POCAHONTAS  ,Pocahontas  ,IA,Iowa,4.613901338
+,,,,,
+19153,POLK  ,Polk  ,IA,Iowa,320.0174034
+,,,,,
+19155,POTTAWATTAMIE  ,Pottawattamie  ,IA,Iowa,37.9810442
+,,,,,
+19157,POWESHIEK  ,Poweshiek  ,IA,Iowa,12.28097258
+,,,,,
+19159,RINGGOLD  ,Ringgold  ,IA,Iowa,3.593542221
+,,,,,
+19161,SAC  ,Sac  ,IA,Iowa,6.625930765
+,,,,,
+19163,SCOTT  ,Scott  ,IA,Iowa,145.2145154
+,,,,,
+19165,SHELBY  ,Shelby  ,IA,Iowa,7.642585061
+,,,,,
+19167,SIOUX  ,Sioux  ,IA,Iowa,17.50981089
+,,,,,
+19169,STORY  ,Story  ,IA,Iowa,65.34233437
+,,,,,
+19171,TAMA  ,Tama  ,IA,Iowa,9.176343253
+,,,,,
+19173,TAYLOR  ,Taylor  ,IA,Iowa,4.501244934
+,,,,,
+19175,UNION  ,Union  ,IA,Iowa,11.34942911
+,,,,,
+19177,VAN BUREN  ,Van Buren  ,IA,Iowa,5.752416083
+,,,,,
+19179,WAPELLO  ,Wapello  ,IA,Iowa,31.57485744
+,,,,,
+19181,WARREN  ,Warren  ,IA,Iowa,33.44528713
+,,,,,
+19183,WASHINGTON  ,Washington  ,IA,Iowa,15.03038264
+,,,,,
+19185,WAYNE  ,Wayne  ,IA,Iowa,4.711928652
+,,,,,
+19187,WEBSTER  ,Webster  ,IA,Iowa,19.82923648
+,,,,,
+19189,WINNEBAGO  ,Winnebago  ,IA,Iowa,10.19125402
+,,,,,
+19191,WINNESHIEK  ,Winneshiek  ,IA,Iowa,11.41847033
+,,,,,
+19193,WOODBURY  ,Woodbury  ,IA,Iowa,45.29299731
+,,,,,
+19195,WORTH  ,Worth  ,IA,Iowa,7.226567749
+,,,,,
+19197,WRIGHT  ,Wright  ,IA,Iowa,8.517437047
+,,,,,
+20001,ALLEN  ,Allen  ,KS,Kansas,9.747146923
+,,,,,
+20003,ANDERSON  ,Anderson  ,KS,Kansas,5.230212046
+,,,,,
+20005,ATCHISON  ,Atchison  ,KS,Kansas,14.65251573
+,,,,,
+20007,BARBER  ,Barber  ,KS,Kansas,1.611380319
+,,,,,
+20009,BARTON  ,Barton  ,KS,Kansas,11.5542922
+,,,,,
+20011,BOURBON  ,Bourbon  ,KS,Kansas,8.932705769
+,,,,,
+20013,BROWN  ,Brown  ,KS,Kansas,6.536133047
+,,,,,
+20015,BUTLER  ,Butler  ,KS,Kansas,17.95065849
+,,,,,
+20017,CHASE  ,Chase  ,KS,Kansas,1.321045619
+,,,,,
+20019,CHAUTAUQUA  ,Chautauqua  ,KS,Kansas,2.034817149
+,,,,,
+20021,CHEROKEE  ,Cherokee  ,KS,Kansas,13.35991581
+,,,,,
+20023,CHEYENNE  ,Cheyenne  ,KS,Kansas,1.013438597
+,,,,,
+20025,CLARK  ,Clark  ,KS,Kansas,0.813294675
+,,,,,
+20027,CLAY  ,Clay  ,KS,Kansas,4.871615365
+,,,,,
+20029,CLOUD  ,Cloud  ,KS,Kansas,4.890089966
+,,,,,
+20031,COFFEY  ,Coffey  ,KS,Kansas,5.109557631
+,,,,,
+20033,COMANCHE  ,Comanche  ,KS,Kansas,0.871830565
+,,,,,
+20035,COWLEY  ,Cowley  ,KS,Kansas,12.20689123
+,,,,,
+20037,CRAWFORD  ,Crawford  ,KS,Kansas,25.60264884
+,,,,,
+20039,DECATUR  ,Decatur  ,KS,Kansas,1.244923019
+,,,,,
+20041,DICKINSON  ,Dickinson  ,KS,Kansas,8.662222525
+,,,,,
+20043,DONIPHAN  ,Doniphan  ,KS,Kansas,7.590969279
+,,,,,
+20045,DOUGLAS  ,Douglas  ,KS,Kansas,101.0833249
+,,,,,
+20047,EDWARDS  ,Edwards  ,KS,Kansas,1.81598148
+,,,,,
+20049,ELK  ,Elk  ,KS,Kansas,1.53538511
+,,,,,
+20051,ELLIS  ,Ellis  ,KS,Kansas,12.38993784
+,,,,,
+20053,ELLSWORTH  ,Ellsworth  ,KS,Kansas,3.395507757
+,,,,,
+20055,FINNEY  ,Finney  ,KS,Kansas,10.95945138
+,,,,,
+20057,FORD  ,Ford  ,KS,Kansas,12.12300932
+,,,,,
+20059,FRANKLIN  ,Franklin  ,KS,Kansas,17.26231922
+,,,,,
+20061,GEARY  ,Geary  ,KS,Kansas,35.02556585
+,,,,,
+20063,GOVE  ,Gove  ,KS,Kansas,0.943579106
+,,,,,
+20065,GRAHAM  ,Graham  ,KS,Kansas,1.093601149
+,,,,,
+20067,GRANT  ,Grant  ,KS,Kansas,5.115714933
+,,,,,
+20069,GRAY  ,Gray  ,KS,Kansas,2.682686448
+,,,,,
+20071,GREELEY  ,Greeley  ,KS,Kansas,0.595220999
+,,,,,
+20073,GREENWOOD  ,Greenwood  ,KS,Kansas,2.07892651
+,,,,,
+20075,HAMILTON  ,Hamilton  ,KS,Kansas,1.013577
+,,,,,
+20077,HARPER  ,Harper  ,KS,Kansas,2.733593392
+,,,,,
+20079,HARVEY  ,Harvey  ,KS,Kansas,24.71813981
+,,,,,
+20081,HASKELL  ,Haskell  ,KS,Kansas,2.705629722
+,,,,,
+20083,HODGEMAN  ,Hodgeman  ,KS,Kansas,0.826984606
+,,,,,
+20085,JACKSON  ,Jackson  ,KS,Kansas,7.835959798
+,,,,,
+20087,JEFFERSON  ,Jefferson  ,KS,Kansas,13.69330407
+,,,,,
+20089,JEWELL  ,Jewell  ,KS,Kansas,1.237263753
+,,,,,
+20091,JOHNSON  ,Johnson  ,KS,Kansas,477.3188482
+,,,,,
+20093,KEARNY  ,Kearny  ,KS,Kansas,1.743915297
+,,,,,
+20095,KINGMAN  ,Kingman  ,KS,Kansas,3.340637513
+,,,,,
+20097,KIOWA  ,Kiowa  ,KS,Kansas,1.349627327
+,,,,,
+20099,LABETTE  ,Labette  ,KS,Kansas,12.18442316
+,,,,,
+20101,LANE  ,Lane  ,KS,Kansas,0.883707806
+,,,,,
+20103,LEAVENWORTH  ,Leavenworth  ,KS,Kansas,66.68979644
+,,,,,
+20105,LINCOLN  ,Lincoln  ,KS,Kansas,1.662170248
+,,,,,
+20107,LINN  ,Linn  ,KS,Kansas,6.261931225
+,,,,,
+20109,LOGAN  ,Logan  ,KS,Kansas,1.011140639
+,,,,,
+20111,LYON  ,Lyon  ,KS,Kansas,15.17048729
+,,,,,
+20113,MCPHERSON  ,McPherson  ,KS,Kansas,12.30581098
+,,,,,
+20115,MARION  ,Marion  ,KS,Kansas,4.91960919
+,,,,,
+20117,MARSHALL  ,Marshall  ,KS,Kansas,4.202549527
+,,,,,
+20119,MEADE  ,Meade  ,KS,Kansas,1.682047343
+,,,,,
+20121,MIAMI  ,Miami  ,KS,Kansas,22.21024227
+,,,,,
+20123,MITCHELL  ,Mitchell  ,KS,Kansas,3.423133399
+,,,,,
+20125,MONTGOMERY  ,Montgomery  ,KS,Kansas,19.7792301
+,,,,,
+20127,MORRIS  ,Morris  ,KS,Kansas,3.090626674
+,,,,,
+20129,MORTON  ,Morton  ,KS,Kansas,1.501591773
+,,,,,
+20131,NEMAHA  ,Nemaha  ,KS,Kansas,5.43773105
+,,,,,
+20133,NEOSHO  ,Neosho  ,KS,Kansas,10.89445191
+,,,,,
+20135,NESS  ,Ness  ,KS,Kansas,1.06158934
+,,,,,
+20137,NORTON  ,Norton  ,KS,Kansas,2.412358825
+,,,,,
+20139,OSAGE  ,Osage  ,KS,Kansas,8.691733943
+,,,,,
+20141,OSBORNE  ,Osborne  ,KS,Kansas,1.558657342
+,,,,,
+20143,OTTAWA  ,Ottawa  ,KS,Kansas,3.161757751
+,,,,,
+20145,PAWNEE  ,Pawnee  ,KS,Kansas,3.434292967
+,,,,,
+20147,PHILLIPS  ,Phillips  ,KS,Kansas,2.357047716
+,,,,,
+20149,POTTAWATOMIE  ,Pottawatomie  ,KS,Kansas,10.81224348
+,,,,,
+20151,PRATT  ,Pratt  ,KS,Kansas,5.033247832
+,,,,,
+20153,RAWLINS  ,Rawlins  ,KS,Kansas,0.90584952
+,,,,,
+20155,RENO  ,Reno  ,KS,Kansas,19.40502446
+,,,,,
+20157,REPUBLIC  ,Republic  ,KS,Kansas,2.522068827
+,,,,,
+20159,RICE  ,Rice  ,KS,Kansas,5.189969677
+,,,,,
+20161,RILEY  ,Riley  ,KS,Kansas,47.68079694
+,,,,,
+20163,ROOKS  ,Rooks  ,KS,Kansas,2.218990522
+,,,,,
+20165,RUSH  ,Rush  ,KS,Kansas,1.668641256
+,,,,,
+20167,RUSSELL  ,Russell  ,KS,Kansas,3.039553587
+,,,,,
+20169,SALINE  ,Saline  ,KS,Kansas,29.47167687
+,,,,,
+20171,SCOTT  ,Scott  ,KS,Kansas,2.662847404
+,,,,,
+20173,SEDGWICK  ,Sedgwick  ,KS,Kansas,198.2078776
+,,,,,
+20175,SEWARD  ,Seward  ,KS,Kansas,13.69716362
+,,,,,
+20177,SHAWNEE  ,Shawnee  ,KS,Kansas,126.5335231
+,,,,,
+20179,SHERIDAN  ,Sheridan  ,KS,Kansas,1.079931148
+,,,,,
+20181,SHERMAN  ,Sherman  ,KS,Kansas,2.181198713
+,,,,,
+20183,SMITH  ,Smith  ,KS,Kansas,1.579395489
+,,,,,
+20185,STAFFORD  ,Stafford  ,KS,Kansas,2.054217141
+,,,,,
+20187,STANTON  ,Stanton  ,KS,Kansas,1.170759906
+,,,,,
+20189,STEVENS  ,Stevens  ,KS,Kansas,3.018694584
+,,,,,
+20191,SUMNER  ,Sumner  ,KS,Kansas,7.583249161
+,,,,,
+20193,THOMAS  ,Thomas  ,KS,Kansas,2.810925259
+,,,,,
+20195,TREGO  ,Trego  ,KS,Kansas,1.240598197
+,,,,,
+20197,WABAUNSEE  ,Wabaunsee  ,KS,Kansas,3.348043622
+,,,,,
+20199,WALLACE  ,Wallace  ,KS,Kansas,0.665582497
+,,,,,
+20201,WASHINGTON  ,Washington  ,KS,Kansas,2.384118733
+,,,,,
+20203,WICHITA  ,Wichita  ,KS,Kansas,1.151483051
+,,,,,
+20205,WILSON  ,Wilson  ,KS,Kansas,5.942943942
+,,,,,
+20207,WOODSON  ,Woodson  ,KS,Kansas,2.458613973
+,,,,,
+20209,WYANDOTTE  ,Wyandotte  ,KS,Kansas,418.4522062
+,,,,,
+21001,ADAIR  ,Adair  ,KY,Kentucky,18.33015572
+,,,,,
+21003,ALLEN  ,Allen  ,KY,Kentucky,23.31589108
+,,,,,
+21005,ANDERSON  ,Anderson  ,KY,Kentucky,42.43425602
+,,,,,
+21007,BALLARD  ,Ballard  ,KY,Kentucky,12.65273497
+,,,,,
+21009,BARREN  ,Barren  ,KY,Kentucky,34.5887888
+,,,,,
+21011,BATH  ,Bath  ,KY,Kentucky,16.98977355
+,,,,,
+21013,BELL  ,Bell  ,KY,Kentucky,29.23546513
+,,,,,
+21015,BOONE  ,Boone  ,KY,Kentucky,202.3834146
+,,,,,
+21017,BOURBON  ,Bourbon  ,KY,Kentucky,26.84294204
+,,,,,
+21019,BOYD  ,Boyd  ,KY,Kentucky,116.1466556
+,,,,,
+21021,BOYLE  ,Boyle  ,KY,Kentucky,64.03928685
+,,,,,
+21023,BRACKEN  ,Bracken  ,KY,Kentucky,15.81994256
+,,,,,
+21025,BREATHITT  ,Breathitt  ,KY,Kentucky,10.28421391
+,,,,,
+21027,BRECKINRIDGE  ,Breckinridge  ,KY,Kentucky,13.60626856
+,,,,,
+21029,BULLITT  ,Bullitt  ,KY,Kentucky,103.2955927
+,,,,,
+21031,BUTLER  ,Butler  ,KY,Kentucky,11.54886161
+,,,,,
+21033,CALDWELL  ,Caldwell  ,KY,Kentucky,14.25192729
+,,,,,
+21035,CALLOWAY  ,Calloway  ,KY,Kentucky,38.88396268
+,,,,,
+21037,CAMPBELL  ,Campbell  ,KY,Kentucky,235.395229
+,,,,,
+21039,CARLISLE  ,Carlisle  ,KY,Kentucky,9.866558938
+,,,,,
+21041,CARROLL  ,Carroll  ,KY,Kentucky,32.16556487
+,,,,,
+21043,CARTER  ,Carter  ,KY,Kentucky,25.73102982
+,,,,,
+21045,CASEY  ,Casey  ,KY,Kentucky,13.72881922
+,,,,,
+21047,CHRISTIAN  ,Christian  ,KY,Kentucky,38.88576193
+,,,,,
+21049,CLARK  ,Clark  ,KY,Kentucky,54.85553722
+,,,,,
+21051,CLAY  ,Clay  ,KY,Kentucky,16.96542072
+,,,,,
+21053,CLINTON  ,Clinton  ,KY,Kentucky,19.98726953
+,,,,,
+21055,CRITTENDEN  ,Crittenden  ,KY,Kentucky,9.742567724
+,,,,,
+21057,CUMBERLAND  ,Cumberland  ,KY,Kentucky,8.492596421
+,,,,,
+21059,DAVIESS  ,Daviess  ,KY,Kentucky,84.17676813
+,,,,,
+21061,EDMONSON  ,Edmonson  ,KY,Kentucky,15.45250458
+,,,,,
+21063,ELLIOTT  ,Elliott  ,KY,Kentucky,12.38625284
+,,,,,
+21065,ESTILL  ,Estill  ,KY,Kentucky,21.8349095
+,,,,,
+21067,FAYETTE  ,Fayette  ,KY,Kentucky,433.8783812
+,,,,,
+21069,FLEMING  ,Fleming  ,KY,Kentucky,16.03917638
+,,,,,
+21071,FLOYD  ,Floyd  ,KY,Kentucky,36.25164412
+,,,,,
+21073,FRANKLIN  ,Franklin  ,KY,Kentucky,93.4339071
+,,,,,
+21075,FULTON  ,Fulton  ,KY,Kentucky,11.64318162
+,,,,,
+21077,GALLATIN  ,Gallatin  ,KY,Kentucky,34.16949365
+,,,,,
+21079,GARRARD  ,Garrard  ,KY,Kentucky,29.0761375
+,,,,,
+21081,GRANT  ,Grant  ,KY,Kentucky,37.28883301
+,,,,,
+21083,GRAVES  ,Graves  ,KY,Kentucky,26.09718483
+,,,,,
+21085,GRAYSON  ,Grayson  ,KY,Kentucky,20.21768556
+,,,,,
+21087,GREEN  ,Green  ,KY,Kentucky,14.87858376
+,,,,,
+21089,GREENUP  ,Greenup  ,KY,Kentucky,40.08840324
+,,,,,
+21091,HANCOCK  ,Hancock  ,KY,Kentucky,17.93766824
+,,,,,
+21093,HARDIN  ,Hardin  ,KY,Kentucky,66.94972341
+,,,,,
+21095,HARLAN  ,Harlan  ,KY,Kentucky,22.48991942
+,,,,,
+21097,HARRISON  ,Harrison  ,KY,Kentucky,23.5230933
+,,,,,
+21099,HART  ,Hart  ,KY,Kentucky,17.43235989
+,,,,,
+21101,HENDERSON  ,Henderson  ,KY,Kentucky,40.81079235
+,,,,,
+21103,HENRY  ,Henry  ,KY,Kentucky,21.32703228
+,,,,,
+21105,HICKMAN  ,Hickman  ,KY,Kentucky,7.279820792
+,,,,,
+21107,HOPKINS  ,Hopkins  ,KY,Kentucky,32.52551379
+,,,,,
+21109,JACKSON  ,Jackson  ,KY,Kentucky,14.95775337
+,,,,,
+21111,JEFFERSON  ,Jefferson  ,KY,Kentucky,778.0698343
+,,,,,
+21113,JESSAMINE  ,Jessamine  ,KY,Kentucky,117.5630452
+,,,,,
+21115,JOHNSON  ,Johnson  ,KY,Kentucky,33.66765309
+,,,,,
+21117,KENTON  ,Kenton  ,KY,Kentucky,396.7181937
+,,,,,
+21119,KNOTT  ,Knott  ,KY,Kentucky,17.03924339
+,,,,,
+21121,KNOX  ,Knox  ,KY,Kentucky,31.45054702
+,,,,,
+21123,LARUE  ,Larue  ,KY,Kentucky,20.89697527
+,,,,,
+21125,LAUREL  ,Laurel  ,KY,Kentucky,53.53987233
+,,,,,
+21127,LAWRENCE  ,Lawrence  ,KY,Kentucky,14.66293087
+,,,,,
+21129,LEE  ,Lee  ,KY,Kentucky,12.48007927
+,,,,,
+21131,LESLIE  ,Leslie  ,KY,Kentucky,10.08662946
+,,,,,
+21133,LETCHER  ,Letcher  ,KY,Kentucky,25.90845342
+,,,,,
+21135,LEWIS  ,Lewis  ,KY,Kentucky,10.78726509
+,,,,,
+21137,LINCOLN  ,Lincoln  ,KY,Kentucky,28.37157269
+,,,,,
+21139,LIVINGSTON  ,Livingston  ,KY,Kentucky,11.42171308
+,,,,,
+21141,LOGAN  ,Logan  ,KY,Kentucky,18.77258386
+,,,,,
+21143,LYON  ,Lyon  ,KY,Kentucky,14.7802121
+,,,,,
+21145,MCCRACKEN  ,McCracken  ,KY,Kentucky,101.3342058
+,,,,,
+21147,MCCREARY  ,McCreary  ,KY,Kentucky,15.95325956
+,,,,,
+21149,MCLEAN  ,McLean  ,KY,Kentucky,14.2667498
+,,,,,
+21151,MADISON  ,Madison  ,KY,Kentucky,79.18923969
+,,,,,
+21153,MAGOFFIN  ,Magoffin  ,KY,Kentucky,15.85496055
+,,,,,
+21155,MARION  ,Marion  ,KY,Kentucky,21.64635424
+,,,,,
+21157,MARSHALL  ,Marshall  ,KY,Kentucky,39.94224602
+,,,,,
+21159,MARTIN  ,Martin  ,KY,Kentucky,20.04174147
+,,,,,
+21161,MASON  ,Mason  ,KY,Kentucky,27.58053737
+,,,,,
+21163,MEADE  ,Meade  ,KY,Kentucky,35.80829015
+,,,,,
+21165,MENIFEE  ,Menifee  ,KY,Kentucky,12.14717282
+,,,,,
+21167,MERCER  ,Mercer  ,KY,Kentucky,33.35473342
+,,,,,
+21169,METCALFE  ,Metcalfe  ,KY,Kentucky,13.33542593
+,,,,,
+21171,MONROE  ,Monroe  ,KY,Kentucky,12.4633622
+,,,,,
+21173,MONTGOMERY  ,Montgomery  ,KY,Kentucky,54.30880936
+,,,,,
+21175,MORGAN  ,Morgan  ,KY,Kentucky,13.45842234
+,,,,,
+21177,MUHLENBERG  ,Muhlenberg  ,KY,Kentucky,25.67719612
+,,,,,
+21179,NELSON  ,Nelson  ,KY,Kentucky,41.97326654
+,,,,,
+21181,NICHOLAS  ,Nicholas  ,KY,Kentucky,14.04646094
+,,,,,
+21183,OHIO  ,Ohio  ,KY,Kentucky,15.82514916
+,,,,,
+21185,OLDHAM  ,Oldham  ,KY,Kentucky,134.8063456
+,,,,,
+21187,OWEN  ,Owen  ,KY,Kentucky,11.81153494
+,,,,,
+21189,OWSLEY  ,Owsley  ,KY,Kentucky,8.729023441
+,,,,,
+21191,PENDLETON  ,Pendleton  ,KY,Kentucky,20.2274497
+,,,,,
+21193,PERRY  ,Perry  ,KY,Kentucky,30.59418111
+,,,,,
+21195,PIKE  ,Pike  ,KY,Kentucky,29.68313316
+,,,,,
+21197,POWELL  ,Powell  ,KY,Kentucky,26.57916715
+,,,,,
+21199,PULASKI  ,Pulaski  ,KY,Kentucky,37.61562899
+,,,,,
+21201,ROBERTSON  ,Robertson  ,KY,Kentucky,8.280686349
+,,,,,
+21203,ROCKCASTLE  ,Rockcastle  ,KY,Kentucky,20.52438963
+,,,,,
+21205,ROWAN  ,Rowan  ,KY,Kentucky,33.80245019
+,,,,,
+21207,RUSSELL  ,Russell  ,KY,Kentucky,27.02947483
+,,,,,
+21209,SCOTT  ,Scott  ,KY,Kentucky,73.33424745
+,,,,,
+21211,SHELBY  ,Shelby  ,KY,Kentucky,47.56735556
+,,,,,
+21213,SIMPSON  ,Simpson  ,KY,Kentucky,29.77797972
+,,,,,
+21215,SPENCER  ,Spencer  ,KY,Kentucky,37.72896853
+,,,,,
+21217,TAYLOR  ,Taylor  ,KY,Kentucky,36.96236602
+,,,,,
+21219,TODD  ,Todd  ,KY,Kentucky,12.73252536
+,,,,,
+21221,TRIGG  ,Trigg  ,KY,Kentucky,12.54244908
+,,,,,
+21223,TRIMBLE  ,Trimble  ,KY,Kentucky,21.99016694
+,,,,,
+21225,UNION  ,Union  ,KY,Kentucky,16.66905409
+,,,,,
+21227,WARREN  ,Warren  ,KY,Kentucky,90.10818904
+,,,,,
+21229,WASHINGTON  ,Washington  ,KY,Kentucky,15.62616521
+,,,,,
+21231,WAYNE  ,Wayne  ,KY,Kentucky,17.36678404
+,,,,,
+21233,WEBSTER  ,Webster  ,KY,Kentucky,15.29416243
+,,,,,
+21235,WHITLEY  ,Whitley  ,KY,Kentucky,31.82517611
+,,,,,
+21237,WOLFE  ,Wolfe  ,KY,Kentucky,12.55259004
+,,,,,
+21239,WOODFORD  ,Woodford  ,KY,Kentucky,53.00114511
+,,,,,
+22001,ACADIA PARISH,Acadia Parish,LA,Louisiana,36.87236211
+,,,,,
+22003,ALLEN PARISH,Allen Parish,LA,Louisiana,13.00552965
+,,,,,
+22005,ASCENSION PARISH,Ascension Parish,LA,Louisiana,161.3021959
+,,,,,
+22007,ASSUMPTION PARISH,Assumption Parish,LA,Louisiana,25.89877241
+,,,,,
+22009,AVOYELLES PARISH,Avoyelles Parish,LA,Louisiana,18.9711161
+,,,,,
+22011,BEAUREGARD PARISH,Beauregard Parish,LA,Louisiana,12.26632947
+,,,,,
+22013,BIENVILLE PARISH,Bienville Parish,LA,Louisiana,6.504831559
+,,,,,
+22015,BOSSIER PARISH,Bossier Parish,LA,Louisiana,57.95449905
+,,,,,
+22017,CADDO PARISH,Caddo Parish,LA,Louisiana,109.1141448
+,,,,,
+22019,CALCASIEU PARISH,Calcasieu Parish,LA,Louisiana,72.62153265
+,,,,,
+22021,CALDWELL PARISH,Caldwell Parish,LA,Louisiana,7.289798969
+,,,,,
+22023,CAMERON PARISH,Cameron Parish,LA,Louisiana,2.063828365
+,,,,,
+22025,CATAHOULA PARISH,Catahoula Parish,LA,Louisiana,5.394858883
+,,,,,
+22027,CLAIBORNE PARISH,Claiborne Parish,LA,Louisiana,8.261874246
+,,,,,
+22029,CONCORDIA PARISH,Concordia Parish,LA,Louisiana,11.09090819
+,,,,,
+22031,DE SOTO PARISH,De Soto Parish,LA,Louisiana,11.99008553
+,,,,,
+22033,EAST BATON ROUGE PARISH,East Baton Rouge Parish,LA,Louisiana,376.5643735
+,,,,,
+22035,EAST CARROLL PARISH,East Carroll Parish,LA,Louisiana,6.63070011
+,,,,,
+22037,EAST FELICIANA PARISH,East Feliciana Parish,LA,Louisiana,16.60468344
+,,,,,
+22039,EVANGELINE PARISH,Evangeline Parish,LA,Louisiana,19.60644704
+,,,,,
+22041,FRANKLIN PARISH,Franklin Parish,LA,Louisiana,12.5625307
+,,,,,
+22043,GRANT PARISH,Grant Parish,LA,Louisiana,13.41875837
+,,,,,
+22045,IBERIA PARISH,Iberia Parish,LA,Louisiana,48.88778944
+,,,,,
+22047,IBERVILLE PARISH,Iberville Parish,LA,Louisiana,20.56865747
+,,,,,
+22049,JACKSON PARISH,Jackson Parish,LA,Louisiana,10.80317751
+,,,,,
+22051,JEFFERSON PARISH,Jefferson Parish,LA,Louisiana,568.4608792
+,,,,,
+22053,JEFFERSON DAVIS PARISH,Jefferson Davis Parish,LA,Louisiana,18.65235746
+,,,,,
+22055,LAFAYETTE PARISH,Lafayette Parish,LA,Louisiana,344.9383309
+,,,,,
+22057,LAFOURCHE PARISH,Lafourche Parish,LA,Louisiana,35.4943687
+,,,,,
+22059,LASALLE PARISH,LaSalle Parish,LA,Louisiana,9.239609885
+,,,,,
+22061,LINCOLN PARISH,Lincoln Parish,LA,Louisiana,38.75901342
+,,,,,
+22063,LIVINGSTON PARISH,Livingston Parish,LA,Louisiana,82.27008668
+,,,,,
+22065,MADISON PARISH,Madison Parish,LA,Louisiana,7.093740468
+,,,,,
+22067,MOREHOUSE PARISH,Morehouse Parish,LA,Louisiana,12.62446152
+,,,,,
+22069,NATCHITOCHES PARISH,Natchitoches Parish,LA,Louisiana,12.01309757
+,,,,,
+22071,ORLEANS PARISH,Orleans Parish,LA,Louisiana,887.9442128
+,,,,,
+22073,OUACHITA PARISH,Ouachita Parish,LA,Louisiana,98.72412134
+,,,,,
+22075,PLAQUEMINES PARISH,Plaquemines Parish,LA,Louisiana,11.56468855
+,,,,,
+22077,POINTE COUPEE PARISH,Pointe Coupee Parish,LA,Louisiana,15.35347669
+,,,,,
+22079,RAPIDES PARISH,Rapides Parish,LA,Louisiana,38.46738735
+,,,,,
+22081,RED RIVER PARISH,Red River Parish,LA,Louisiana,8.551783642
+,,,,,
+22083,RICHLAND PARISH,Richland Parish,LA,Louisiana,14.22468189
+,,,,,
+22085,SABINE PARISH,Sabine Parish,LA,Louisiana,10.73135837
+,,,,,
+22087,ST. BERNARD PARISH,St. Bernard Parish,LA,Louisiana,46.73374091
+,,,,,
+22089,ST. CHARLES PARISH,St. Charles Parish,LA,Louisiana,73.29353389
+,,,,,
+22091,ST. HELENA PARISH,St. Helena Parish,LA,Louisiana,9.842380269
+,,,,,
+22093,ST. JAMES PARISH,St. James Parish,LA,Louisiana,34.13874236
+,,,,,
+22095,ST. JOHN THE BAPTIST PARISH,St. John the Baptist Parish,LA,Louisiana,78.26893586
+,,,,,
+22097,ST. LANDRY PARISH,St. Landry Parish,LA,Louisiana,34.87325247
+,,,,,
+22099,ST. MARTIN PARISH,St. Martin Parish,LA,Louisiana,28.15151992
+,,,,,
+22101,ST. MARY PARISH,St. Mary Parish,LA,Louisiana,35.95261205
+,,,,,
+22103,ST. TAMMANY PARISH,St. Tammany Parish,LA,Louisiana,115.0206595
+,,,,,
+22105,TANGIPAHOA PARISH,Tangipahoa Parish,LA,Louisiana,63.67638823
+,,,,,
+22107,TENSAS PARISH,Tensas Parish,LA,Louisiana,2.988717991
+,,,,,
+22109,TERREBONNE PARISH,Terrebonne Parish,LA,Louisiana,35.34650913
+,,,,,
+22111,UNION PARISH,Union Parish,LA,Louisiana,9.894953492
+,,,,,
+22113,VERMILION PARISH,Vermilion Parish,LA,Louisiana,19.70213394
+,,,,,
+22115,VERNON PARISH,Vernon Parish,LA,Louisiana,14.83067473
+,,,,,
+22117,WASHINGTON PARISH,Washington Parish,LA,Louisiana,26.79066518
+,,,,,
+22119,WEBSTER PARISH,Webster Parish,LA,Louisiana,25.79577098
+,,,,,
+22121,WEST BATON ROUGE PARISH,West Baton Rouge Parish,LA,Louisiana,51.89708458
+,,,,,
+22123,WEST CARROLL PARISH,West Carroll Parish,LA,Louisiana,12.00242233
+,,,,,
+22125,WEST FELICIANA PARISH,West Feliciana Parish,LA,Louisiana,14.72060896
+,,,,,
+22127,WINN PARISH,Winn Parish,LA,Louisiana,5.890165171
+,,,,,
+23001,ANDROSCOGGIN  ,Androscoggin  ,ME,Maine,88.65336766
+,,,,,
+23003,AROOSTOOK  ,Aroostook  ,ME,Maine,3.951100932
+,,,,,
+23005,CUMBERLAND  ,Cumberland  ,ME,Maine,134.4200117
+,,,,,
+23007,FRANKLIN  ,Franklin  ,ME,Maine,6.829858409
+,,,,,
+23009,HANCOCK  ,Hancock  ,ME,Maine,13.26827489
+,,,,,
+23011,KENNEBEC  ,Kennebec  ,ME,Maine,54.09850381
+,,,,,
+23013,KNOX  ,Knox  ,ME,Maine,42.11023048
+,,,,,
+23015,LINCOLN  ,Lincoln  ,ME,Maine,28.8534917
+,,,,,
+23017,OXFORD  ,Oxford  ,ME,Maine,10.65676782
+,,,,,
+23019,PENOBSCOT  ,Penobscot  ,ME,Maine,17.24666118
+,,,,,
+23021,PISCATAQUIS  ,Piscataquis  ,ME,Maine,1.646063948
+,,,,,
+23023,SAGADAHOC  ,Sagadahoc  ,ME,Maine,53.63021744
+,,,,,
+23025,SOMERSET  ,Somerset  ,ME,Maine,4.989161243
+,,,,,
+23027,WALDO  ,Waldo  ,ME,Maine,20.84929659
+,,,,,
+23029,WASHINGTON  ,Washington  ,ME,Maine,4.775067856
+,,,,,
+23031,YORK  ,York  ,ME,Maine,79.1261164
+,,,,,
+24001,ALLEGANY  ,Allegany  ,MD,Maryland,65.82512308
+,,,,,
+24003,ANNE ARUNDEL  ,Anne Arundel  ,MD,Maryland,528.4397218
+,,,,,
+24005,BALTIMORE  ,Baltimore  ,MD,Maryland,534.0413784
+,,,,,
+24009,CALVERT  ,Calvert  ,MD,Maryland,164.9551742
+,,,,,
+24011,CAROLINE  ,Caroline  ,MD,Maryland,39.7352873
+,,,,,
+24013,CARROLL  ,Carroll  ,MD,Maryland,144.4971047
+,,,,,
+24015,CECIL  ,Cecil  ,MD,Maryland,114.3069038
+,,,,,
+24017,CHARLES  ,Charles  ,MD,Maryland,132.9772265
+,,,,,
+24019,DORCHESTER  ,Dorchester  ,MD,Maryland,23.03451107
+,,,,,
+24021,FREDERICK  ,Frederick  ,MD,Maryland,145.2537914
+,,,,,
+24023,GARRETT  ,Garrett  ,MD,Maryland,17.47424746
+,,,,,
+24025,HARFORD  ,Harford  ,MD,Maryland,221.7271443
+,,,,,
+24027,HOWARD  ,Howard  ,MD,Maryland,485.1603249
+,,,,,
+24029,KENT  ,Kent  ,MD,Maryland,27.3066914
+,,,,,
+24031,MONTGOMERY  ,Montgomery  ,MD,Maryland,814.4747962
+,,,,,
+24033,PRINCE GEORGE'S  ,Prince George's  ,MD,Maryland,724.9258165
+,,,,,
+24035,QUEEN ANNE'S  ,Queen Anne's  ,MD,Maryland,51.26963696
+,,,,,
+24037,ST. MARY'S  ,St. Mary's  ,MD,Maryland,120.0551638
+,,,,,
+24039,SOMERSET  ,Somerset  ,MD,Maryland,31.07787965
+,,,,,
+24041,TALBOT  ,Talbot  ,MD,Maryland,53.49765439
+,,,,,
+24043,WASHINGTON  ,Washington  ,MD,Maryland,126.3575575
+,,,,,
+24045,WICOMICO  ,Wicomico  ,MD,Maryland,105.3600627
+,,,,,
+24047,WORCESTER  ,Worcester  ,MD,Maryland,42.51432218
+,,,,,
+24510,BALTIMORE CITY,Baltimore city,MD,Maryland,2932.040761
+,,,,,
+25001,BARNSTABLE  ,Barnstable  ,MA,Massachusetts,209.2848818
+,,,,,
+25003,BERKSHIRE  ,Berkshire  ,MA,Massachusetts,53.04016386
+,,,,,
+25005,BRISTOL  ,Bristol  ,MA,Massachusetts,390.1505028
+,,,,,
+25007,DUKES  ,Dukes  ,MA,Massachusetts,64.7697872
+,,,,,
+25009,ESSEX  ,Essex  ,MA,Massachusetts,612.3264362
+,,,,,
+25011,FRANKLIN  ,Franklin  ,MA,Massachusetts,39.1694219
+,,,,,
+25013,HAMPDEN  ,Hampden  ,MA,Massachusetts,293.5650603
+,,,,,
+25015,HAMPSHIRE  ,Hampshire  ,MA,Massachusetts,118.019676
+,,,,,
+25017,MIDDLESEX  ,Middlesex  ,MA,Massachusetts,753.0895333
+,,,,,
+25019,NANTUCKET  ,Nantucket  ,MA,Massachusetts,92.90351158
+,,,,,
+25021,NORFOLK  ,Norfolk  ,MA,Massachusetts,680.6297135
+,,,,,
+25023,PLYMOUTH  ,Plymouth  ,MA,Massachusetts,300.0827076
+,,,,,
+25025,SUFFOLK  ,Suffolk  ,MA,Massachusetts,5248.519833
+,,,,,
+25027,WORCESTER  ,Worcester  ,MA,Massachusetts,210.1639701
+,,,,,
+26001,ALCONA  ,Alcona  ,MI,Michigan,5.931269853
+,,,,,
+26003,ALGER  ,Alger  ,MI,Michigan,3.879446925
+,,,,,
+26005,ALLEGAN  ,Allegan  ,MI,Michigan,53.92102964
+,,,,,
+26007,ALPENA  ,Alpena  ,MI,Michigan,19.31776341
+,,,,,
+26009,ANTRIM  ,Antrim  ,MI,Michigan,18.81251469
+,,,,,
+26011,ARENAC  ,Arenac  ,MI,Michigan,16.12227532
+,,,,,
+26013,BARAGA  ,Baraga  ,MI,Michigan,3.655915256
+,,,,,
+26015,BARRY  ,Barry  ,MI,Michigan,41.92435909
+,,,,,
+26017,BAY  ,Bay  ,MI,Michigan,91.48441331
+,,,,,
+26019,BENZIE  ,Benzie  ,MI,Michigan,21.197698
+,,,,,
+26021,BERRIEN  ,Berrien  ,MI,Michigan,105.2725308
+,,,,,
+26023,BRANCH  ,Branch  ,MI,Michigan,33.22953627
+,,,,,
+26025,CALHOUN  ,Calhoun  ,MI,Michigan,73.51472524
+,,,,,
+26027,CASS  ,Cass  ,MI,Michigan,40.53988578
+,,,,,
+26029,CHARLEVOIX  ,Charlevoix  ,MI,Michigan,24.31537847
+,,,,,
+26031,CHEBOYGAN  ,Cheboygan  ,MI,Michigan,13.74212731
+,,,,,
+26033,CHIPPEWA  ,Chippewa  ,MI,Michigan,9.372935438
+,,,,,
+26035,CLARE  ,Clare  ,MI,Michigan,20.94547115
+,,,,,
+26037,CLINTON  ,Clinton  ,MI,Michigan,53.09820863
+,,,,,
+26039,CRAWFORD  ,Crawford  ,MI,Michigan,9.601162039
+,,,,,
+26041,DELTA  ,Delta  ,MI,Michigan,11.93153821
+,,,,,
+26043,DICKINSON  ,Dickinson  ,MI,Michigan,12.97412949
+,,,,,
+26045,EATON  ,Eaton  ,MI,Michigan,73.26986942
+,,,,,
+26047,EMMET  ,Emmet  ,MI,Michigan,27.28536454
+,,,,,
+26049,GENESEE  ,Genesee  ,MI,Michigan,248.1385245
+,,,,,
+26051,GLADWIN  ,Gladwin  ,MI,Michigan,19.45875815
+,,,,,
+26053,GOGEBIC  ,Gogebic  ,MI,Michigan,5.399860881
+,,,,,
+26055,GRAND TRAVERSE  ,Grand Traverse  ,MI,Michigan,76.28762679
+,,,,,
+26057,GRATIOT  ,Gratiot  ,MI,Michigan,27.89690217
+,,,,,
+26059,HILLSDALE  ,Hillsdale  ,MI,Michigan,29.58287449
+,,,,,
+26061,HOUGHTON  ,Houghton  ,MI,Michigan,13.91206727
+,,,,,
+26063,HURON  ,Huron  ,MI,Michigan,14.56719108
+,,,,,
+26065,INGHAM  ,Ingham  ,MI,Michigan,201.0352465
+,,,,,
+26067,IONIA  ,Ionia  ,MI,Michigan,43.37072155
+,,,,,
+26069,IOSCO  ,Iosco  ,MI,Michigan,17.75237723
+,,,,,
+26071,IRON  ,Iron  ,MI,Michigan,3.712682017
+,,,,,
+26073,ISABELLA  ,Isabella  ,MI,Michigan,47.7151145
+,,,,,
+26075,JACKSON  ,Jackson  ,MI,Michigan,87.41753194
+,,,,,
+26077,KALAMAZOO  ,Kalamazoo  ,MI,Michigan,179.6764763
+,,,,,
+26079,KALKASKA  ,Kalkaska  ,MI,Michigan,12.04569854
+,,,,,
+26081,KENT  ,Kent  ,MI,Michigan,292.8105753
+,,,,,
+26083,KEWEENAW  ,Keweenaw  ,MI,Michigan,1.522643144
+,,,,,
+26085,LAKE  ,Lake  ,MI,Michigan,8.001922192
+,,,,,
+26087,LAPEER  ,Lapeer  ,MI,Michigan,52.83187468
+,,,,,
+26089,LEELANAU  ,Leelanau  ,MI,Michigan,24.06356429
+,,,,,
+26091,LENAWEE  ,Lenawee  ,MI,Michigan,50.7194931
+,,,,,
+26093,LIVINGSTON  ,Livingston  ,MI,Michigan,128.7462614
+,,,,,
+26095,LUCE  ,Luce  ,MI,Michigan,2.732980156
+,,,,,
+26097,MACKINAC  ,Mackinac  ,MI,Michigan,4.087103862
+,,,,,
+26099,MACOMB  ,Macomb  ,MI,Michigan,699.8635883
+,,,,,
+26101,MANISTEE  ,Manistee  ,MI,Michigan,17.40261535
+,,,,,
+26103,MARQUETTE  ,Marquette  ,MI,Michigan,14.28674789
+,,,,,
+26105,MASON  ,Mason  ,MI,Michigan,22.53091769
+,,,,,
+26107,MECOSTA  ,Mecosta  ,MI,Michigan,30.0915382
+,,,,,
+26109,MENOMINEE  ,Menominee  ,MI,Michigan,8.592286346
+,,,,,
+26111,MIDLAND  ,Midland  ,MI,Michigan,62.36493775
+,,,,,
+26113,MISSAUKEE  ,Missaukee  ,MI,Michigan,10.25845311
+,,,,,
+26115,MONROE  ,Monroe  ,MI,Michigan,105.2143241
+,,,,,
+26117,MONTCALM  ,Montcalm  ,MI,Michigan,34.60108249
+,,,,,
+26119,MONTMORENCY  ,Montmorency  ,MI,Michigan,6.540803771
+,,,,,
+26121,MUSKEGON  ,Muskegon  ,MI,Michigan,132.5934611
+,,,,,
+26123,NEWAYGO  ,Newaygo  ,MI,Michigan,22.15734823
+,,,,,
+26125,OAKLAND  ,Oakland  ,MI,Michigan,556.7798567
+,,,,,
+26127,OCEANA  ,Oceana  ,MI,Michigan,18.95519222
+,,,,,
+26129,OGEMAW  ,Ogemaw  ,MI,Michigan,14.33948507
+,,,,,
+26131,ONTONAGON  ,Ontonagon  ,MI,Michigan,1.757663769
+,,,,,
+26133,OSCEOLA  ,Osceola  ,MI,Michigan,15.83991701
+,,,,,
+26135,OSCODA  ,Oscoda  ,MI,Michigan,5.649489754
+,,,,,
+26137,OTSEGO  ,Otsego  ,MI,Michigan,18.2897872
+,,,,,
+26139,OTTAWA  ,Ottawa  ,MI,Michigan,194.610162
+,,,,,
+26141,PRESQUE ISLE  ,Presque Isle  ,MI,Michigan,7.500864573
+,,,,,
+26143,ROSCOMMON  ,Roscommon  ,MI,Michigan,17.73229412
+,,,,,
+26145,SAGINAW  ,Saginaw  ,MI,Michigan,92.98590075
+,,,,,
+26147,ST. CLAIR  ,St. Clair  ,MI,Michigan,85.4121096
+,,,,,
+26149,ST. JOSEPH  ,St. Joseph  ,MI,Michigan,46.96898707
+,,,,,
+26151,SANILAC  ,Sanilac  ,MI,Michigan,16.59656849
+,,,,,
+26153,SCHOOLCRAFT  ,Schoolcraft  ,MI,Michigan,2.658521495
+,,,,,
+26155,SHIAWASSEE  ,Shiawassee  ,MI,Michigan,49.80663028
+,,,,,
+26157,TUSCOLA  ,Tuscola  ,MI,Michigan,25.55592587
+,,,,,
+26159,VAN BUREN  ,Van Buren  ,MI,Michigan,47.81657698
+,,,,,
+26161,WASHTENAW  ,Washtenaw  ,MI,Michigan,200.1470343
+,,,,,
+26163,WAYNE  ,Wayne  ,MI,Michigan,1111.243974
+,,,,,
+26165,WEXFORD  ,Wexford  ,MI,Michigan,22.629962
+,,,,,
+27001,AITKIN  ,Aitkin  ,MN,Minnesota,3.355774681
+,,,,,
+27003,ANOKA  ,Anoka  ,MN,Minnesota,317.8925949
+,,,,,
+27005,BECKER  ,Becker  ,MN,Minnesota,9.915577814
+,,,,,
+27007,BELTRAMI  ,Beltrami  ,MN,Minnesota,7.108971232
+,,,,,
+27009,BENTON  ,Benton  ,MN,Minnesota,37.61666773
+,,,,,
+27011,BIG STONE  ,Big Stone  ,MN,Minnesota,3.87977138
+,,,,,
+27013,BLUE EARTH  ,Blue Earth  ,MN,Minnesota,34.24424159
+,,,,,
+27015,BROWN  ,Brown  ,MN,Minnesota,15.92903909
+,,,,,
+27017,CARLTON  ,Carlton  ,MN,Minnesota,15.93174014
+,,,,,
+27019,CARVER  ,Carver  ,MN,Minnesota,109.4606279
+,,,,,
+27021,CASS  ,Cass  ,MN,Minnesota,5.543212648
+,,,,,
+27023,CHIPPEWA  ,Chippewa  ,MN,Minnesota,7.979724605
+,,,,,
+27025,CHISAGO  ,Chisago  ,MN,Minnesota,50.92789964
+,,,,,
+27027,CLAY  ,Clay  ,MN,Minnesota,23.19904548
+,,,,,
+27029,CLEARWATER  ,Clearwater  ,MN,Minnesota,3.4066548
+,,,,,
+27031,COOK  ,Cook  ,MN,Minnesota,1.411880747
+,,,,,
+27033,COTTONWOOD  ,Cottonwood  ,MN,Minnesota,6.860833752
+,,,,,
+27035,CROW WING  ,Crow Wing  ,MN,Minnesota,24.69495301
+,,,,,
+27037,DAKOTA  ,Dakota  ,MN,Minnesota,287.0862611
+,,,,,
+27039,DODGE  ,Dodge  ,MN,Minnesota,18.09049033
+,,,,,
+27041,DOUGLAS  ,Douglas  ,MN,Minnesota,22.55843074
+,,,,,
+27043,FARIBAULT  ,Faribault  ,MN,Minnesota,7.530445672
+,,,,,
+27045,FILLMORE  ,Fillmore  ,MN,Minnesota,9.363680281
+,,,,,
+27047,FREEBORN  ,Freeborn  ,MN,Minnesota,16.66426612
+,,,,,
+27049,GOODHUE  ,Goodhue  ,MN,Minnesota,23.57660276
+,,,,,
+27051,GRANT  ,Grant  ,MN,Minnesota,4.185268289
+,,,,,
+27053,HENNEPIN  ,Hennepin  ,MN,Minnesota,861.2850078
+,,,,,
+27055,HOUSTON  ,Houston  ,MN,Minnesota,13.05300211
+,,,,,
+27057,HUBBARD  ,Hubbard  ,MN,Minnesota,8.698506431
+,,,,,
+27059,ISANTI  ,Isanti  ,MN,Minnesota,34.53384188
+,,,,,
+27061,ITASCA  ,Itasca  ,MN,Minnesota,6.543269942
+,,,,,
+27063,JACKSON  ,Jackson  ,MN,Minnesota,5.518239361
+,,,,,
+27065,KANABEC  ,Kanabec  ,MN,Minnesota,11.84603911
+,,,,,
+27067,KANDIYOHI  ,Kandiyohi  ,MN,Minnesota,20.65528477
+,,,,,
+27069,KITTSON  ,Kittson  ,MN,Minnesota,1.523938398
+,,,,,
+27071,KOOCHICHING  ,Koochiching  ,MN,Minnesota,1.572662334
+,,,,,
+27073,LAC QUI PARLE  ,Lac qui Parle  ,MN,Minnesota,3.418299557
+,,,,,
+27075,LAKE  ,Lake  ,MN,Minnesota,1.934660717
+,,,,,
+27077,LAKE OF THE WOODS  ,Lake of the Woods  ,MN,Minnesota,1.133137767
+,,,,,
+27079,LE SUEUR  ,Le Sueur  ,MN,Minnesota,24.08072321
+,,,,,
+27081,LINCOLN  ,Lincoln  ,MN,Minnesota,4.104994209
+,,,,,
+27083,LYON  ,Lyon  ,MN,Minnesota,13.96464829
+,,,,,
+27085,MCLEOD  ,McLeod  ,MN,Minnesota,28.14346915
+,,,,,
+27087,MAHNOMEN  ,Mahnomen  ,MN,Minnesota,3.810728538
+,,,,,
+27089,MARSHALL  ,Marshall  ,MN,Minnesota,2.042900712
+,,,,,
+27091,MARTIN  ,Martin  ,MN,Minnesota,10.82101817
+,,,,,
+27093,MEEKER  ,Meeker  ,MN,Minnesota,14.65436517
+,,,,,
+27095,MILLE LACS  ,Mille Lacs  ,MN,Minnesota,17.35546372
+,,,,,
+27097,MORRISON  ,Morrison  ,MN,Minnesota,11.30721277
+,,,,,
+27099,MOWER  ,Mower  ,MN,Minnesota,21.49557969
+,,,,,
+27101,MURRAY  ,Murray  ,MN,Minnesota,4.576826326
+,,,,,
+27103,NICOLLET  ,Nicollet  ,MN,Minnesota,29.07368911
+,,,,,
+27105,NOBLES  ,Nobles  ,MN,Minnesota,11.79157554
+,,,,,
+27107,NORMAN  ,Norman  ,MN,Minnesota,2.901554031
+,,,,,
+27109,OLMSTED  ,Olmsted  ,MN,Minnesota,90.43287249
+,,,,,
+27111,OTTER TAIL  ,Otter Tail  ,MN,Minnesota,11.35525316
+,,,,,
+27113,PENNINGTON  ,Pennington  ,MN,Minnesota,8.882049316
+,,,,,
+27115,PINE  ,Pine  ,MN,Minnesota,7.969148816
+,,,,,
+27117,PIPESTONE  ,Pipestone  ,MN,Minnesota,7.625646039
+,,,,,
+27119,POLK  ,Polk  ,MN,Minnesota,6.188180671
+,,,,,
+27121,POPE  ,Pope  ,MN,Minnesota,6.331688418
+,,,,,
+27123,RAMSEY  ,Ramsey  ,MN,Minnesota,1373.486689
+,,,,,
+27125,RED LAKE  ,Red Lake  ,MN,Minnesota,3.578797267
+,,,,,
+27127,REDWOOD  ,Redwood  ,MN,Minnesota,6.737440087
+,,,,,
+27129,RENVILLE  ,Renville  ,MN,Minnesota,5.782590878
+,,,,,
+27131,RICE  ,Rice  ,MN,Minnesota,51.21026588
+,,,,,
+27133,ROCK  ,Rock  ,MN,Minnesota,7.533047083
+,,,,,
+27135,ROSEAU  ,Roseau  ,MN,Minnesota,3.571336243
+,,,,,
+27137,ST. LOUIS  ,St. Louis  ,MN,Minnesota,12.36461145
+,,,,,
+27139,SCOTT  ,Scott  ,MN,Minnesota,155.3858522
+,,,,,
+27141,SHERBURNE  ,Sherburne  ,MN,Minnesota,83.15061917
+,,,,,
+27143,SIBLEY  ,Sibley  ,MN,Minnesota,9.777886502
+,,,,,
+27145,STEARNS  ,Stearns  ,MN,Minnesota,45.09063611
+,,,,,
+27147,STEELE  ,Steele  ,MN,Minnesota,32.95902354
+,,,,,
+27149,STEVENS  ,Stevens  ,MN,Minnesota,6.702543102
+,,,,,
+27151,SWIFT  ,Swift  ,MN,Minnesota,4.896789923
+,,,,,
+27153,TODD  ,Todd  ,MN,Minnesota,9.985919718
+,,,,,
+27155,TRAVERSE  ,Traverse  ,MN,Minnesota,2.245140892
+,,,,,
+27157,WABASHA  ,Wabasha  ,MN,Minnesota,15.87359205
+,,,,,
+27159,WADENA  ,Wadena  ,MN,Minnesota,9.824684807
+,,,,,
+27161,WASECA  ,Waseca  ,MN,Minnesota,17.15359088
+,,,,,
+27163,WASHINGTON  ,Washington  ,MN,Minnesota,254.4333331
+,,,,,
+27165,WATONWAN  ,Watonwan  ,MN,Minnesota,9.740561887
+,,,,,
+27167,WILKIN  ,Wilkin  ,MN,Minnesota,3.261048572
+,,,,,
+27169,WINONA  ,Winona  ,MN,Minnesota,31.35532941
+,,,,,
+27171,WRIGHT  ,Wright  ,MN,Minnesota,77.52473687
+,,,,,
+27173,YELLOW MEDICINE  ,Yellow Medicine  ,MN,Minnesota,5.019167855
+,,,,,
+28001,ADAMS  ,Adams  ,MS,Mississippi,26.34483607
+,,,,,
+28003,ALCORN  ,Alcorn  ,MS,Mississippi,35.88420614
+,,,,,
+28005,AMITE  ,Amite  ,MS,Mississippi,6.593508175
+,,,,,
+28007,ATTALA  ,Attala  ,MS,Mississippi,9.761341766
+,,,,,
+28009,BENTON  ,Benton  ,MS,Mississippi,7.836628889
+,,,,,
+28011,BOLIVAR  ,Bolivar  ,MS,Mississippi,14.35428471
+,,,,,
+28013,CALHOUN  ,Calhoun  ,MS,Mississippi,9.591117351
+,,,,,
+28015,CARROLL  ,Carroll  ,MS,Mississippi,6.224560229
+,,,,,
+28017,CHICKASAW  ,Chickasaw  ,MS,Mississippi,13.29553467
+,,,,,
+28019,CHOCTAW  ,Choctaw  ,MS,Mississippi,7.682417421
+,,,,,
+28021,CLAIBORNE  ,Claiborne  ,MS,Mississippi,7.224334492
+,,,,,
+28023,CLARKE  ,Clarke  ,MS,Mississippi,8.892475729
+,,,,,
+28025,CLAY  ,Clay  ,MS,Mississippi,18.65044155
+,,,,,
+28027,COAHOMA  ,Coahoma  ,MS,Mississippi,16.6338302
+,,,,,
+28029,COPIAH  ,Copiah  ,MS,Mississippi,14.26663426
+,,,,,
+28031,COVINGTON  ,Covington  ,MS,Mississippi,17.81234204
+,,,,,
+28033,DESOTO  ,DeSoto  ,MS,Mississippi,142.7718716
+,,,,,
+28035,FORREST  ,Forrest  ,MS,Mississippi,62.56364293
+,,,,,
+28037,FRANKLIN  ,Franklin  ,MS,Mississippi,5.310617435
+,,,,,
+28039,GEORGE  ,George  ,MS,Mississippi,19.12378631
+,,,,,
+28041,GREENE  ,Greene  ,MS,Mississippi,7.42912219
+,,,,,
+28043,GRENADA  ,Grenada  ,MS,Mississippi,19.46233744
+,,,,,
+28045,HANCOCK  ,Hancock  ,MS,Mississippi,38.0046386
+,,,,,
+28047,HARRISON  ,Harrison  ,MS,Mississippi,136.3818479
+,,,,,
+28049,HINDS  ,Hinds  ,MS,Mississippi,107.3264588
+,,,,,
+28051,HOLMES  ,Holmes  ,MS,Mississippi,9.222988945
+,,,,,
+28053,HUMPHREYS  ,Humphreys  ,MS,Mississippi,7.877689387
+,,,,,
+28055,ISSAQUENA  ,Issaquena  ,MS,Mississippi,1.241373363
+,,,,,
+28057,ITAWAMBA  ,Itawamba  ,MS,Mississippi,17.01531858
+,,,,,
+28059,JACKSON  ,Jackson  ,MS,Mississippi,75.86074194
+,,,,,
+28061,JASPER  ,Jasper  ,MS,Mississippi,9.437315628
+,,,,,
+28063,JEFFERSON  ,Jefferson  ,MS,Mississippi,5.45513727
+,,,,,
+28065,JEFFERSON DAVIS  ,Jefferson Davis  ,MS,Mississippi,10.86616101
+,,,,,
+28067,JONES  ,Jones  ,MS,Mississippi,38.03942488
+,,,,,
+28069,KEMPER  ,Kemper  ,MS,Mississippi,5.093219192
+,,,,,
+28071,LAFAYETTE  ,Lafayette  ,MS,Mississippi,32.67504104
+,,,,,
+28073,LAMAR  ,Lamar  ,MS,Mississippi,47.59319855
+,,,,,
+28075,LAUDERDALE  ,Lauderdale  ,MS,Mississippi,42.42785064
+,,,,,
+28077,LAWRENCE  ,Lawrence  ,MS,Mississippi,11.32278836
+,,,,,
+28079,LEAKE  ,Leake  ,MS,Mississippi,15.14873331
+,,,,,
+28081,LEE  ,Lee  ,MS,Mississippi,72.86541382
+,,,,,
+28083,LEFLORE  ,Leflore  ,MS,Mississippi,19.37028134
+,,,,,
+28085,LINCOLN  ,Lincoln  ,MS,Mississippi,22.6813684
+,,,,,
+28087,LOWNDES  ,Lowndes  ,MS,Mississippi,45.4032083
+,,,,,
+28089,MADISON  ,Madison  ,MS,Mississippi,55.92727918
+,,,,,
+28091,MARION  ,Marion  ,MS,Mississippi,17.94030858
+,,,,,
+28093,MARSHALL  ,Marshall  ,MS,Mississippi,19.56630999
+,,,,,
+28095,MONROE  ,Monroe  ,MS,Mississippi,18.08666701
+,,,,,
+28097,MONTGOMERY  ,Montgomery  ,MS,Mississippi,9.67483601
+,,,,,
+28099,NESHOBA  ,Neshoba  ,MS,Mississippi,19.89379786
+,,,,,
+28101,NEWTON  ,Newton  ,MS,Mississippi,14.38157924
+,,,,,
+28103,NOXUBEE  ,Noxubee  ,MS,Mississippi,6.014045636
+,,,,,
+28105,OKTIBBEHA  ,Oktibbeha  ,MS,Mississippi,41.69167639
+,,,,,
+28107,PANOLA  ,Panola  ,MS,Mississippi,19.2962311
+,,,,,
+28109,PEARL RIVER  ,Pearl River  ,MS,Mississippi,26.24515785
+,,,,,
+28111,PERRY  ,Perry  ,MS,Mississippi,7.175499358
+,,,,,
+28113,PIKE  ,Pike  ,MS,Mississippi,37.51072001
+,,,,,
+28115,PONTOTOC  ,Pontotoc  ,MS,Mississippi,24.29022523
+,,,,,
+28117,PRENTISS  ,Prentiss  ,MS,Mississippi,23.5949236
+,,,,,
+28119,QUITMAN  ,Quitman  ,MS,Mississippi,7.02780924
+,,,,,
+28121,RANKIN  ,Rankin  ,MS,Mississippi,75.29564324
+,,,,,
+28123,SCOTT  ,Scott  ,MS,Mississippi,18.00808841
+,,,,,
+28125,SHARKEY  ,Sharkey  ,MS,Mississippi,4.03434357
+,,,,,
+28127,SIMPSON  ,Simpson  ,MS,Mississippi,17.7419576
+,,,,,
+28129,SMITH  ,Smith  ,MS,Mississippi,9.747403215
+,,,,,
+28131,STONE  ,Stone  ,MS,Mississippi,15.92563533
+,,,,,
+28133,SUNFLOWER  ,Sunflower  ,MS,Mississippi,14.68138043
+,,,,,
+28135,TALLAHATCHIE  ,Tallahatchie  ,MS,Mississippi,8.59369213
+,,,,,
+28137,TATE  ,Tate  ,MS,Mississippi,27.17935372
+,,,,,
+28139,TIPPAH  ,Tippah  ,MS,Mississippi,18.54515252
+,,,,,
+28141,TISHOMINGO  ,Tishomingo  ,MS,Mississippi,17.72437119
+,,,,,
+28143,TUNICA  ,Tunica  ,MS,Mississippi,8.636126794
+,,,,,
+28145,UNION  ,Union  ,MS,Mississippi,26.34292915
+,,,,,
+28147,WALTHALL  ,Walthall  ,MS,Mississippi,13.95663243
+,,,,,
+28149,WARREN  ,Warren  ,MS,Mississippi,30.88399826
+,,,,,
+28151,WASHINGTON  ,Washington  ,MS,Mississippi,25.08498098
+,,,,,
+28153,WAYNE  ,Wayne  ,MS,Mississippi,9.725940258
+,,,,,
+28155,WEBSTER  ,Webster  ,MS,Mississippi,9.014770636
+,,,,,
+28157,WILKINSON  ,Wilkinson  ,MS,Mississippi,5.118752942
+,,,,,
+28159,WINSTON  ,Winston  ,MS,Mississippi,11.67237598
+,,,,,
+28161,YALOBUSHA  ,Yalobusha  ,MS,Mississippi,10.26601327
+,,,,,
+28163,YAZOO  ,Yazoo  ,MS,Mississippi,11.71024944
+,,,,,
+29001,ADAIR  ,Adair  ,MO,Missouri,17.23537089
+,,,,,
+29003,ANDREW  ,Andrew  ,MO,Missouri,15.5313136
+,,,,,
+29005,ATCHISON  ,Atchison  ,MO,Missouri,3.717911062
+,,,,,
+29007,AUDRAIN  ,Audrain  ,MO,Missouri,14.35392985
+,,,,,
+29009,BARRY  ,Barry  ,MO,Missouri,17.60854903
+,,,,,
+29011,BARTON  ,Barton  ,MO,Missouri,7.728171676
+,,,,,
+29013,BATES  ,Bates  ,MO,Missouri,7.555966482
+,,,,,
+29015,BENTON  ,Benton  ,MO,Missouri,10.41371619
+,,,,,
+29017,BOLLINGER  ,Bollinger  ,MO,Missouri,7.673882055
+,,,,,
+29019,BOONE  ,Boone  ,MO,Missouri,99.41363667
+,,,,,
+29021,BUCHANAN  ,Buchanan  ,MO,Missouri,84.24475137
+,,,,,
+29023,BUTLER  ,Butler  ,MO,Missouri,23.75128649
+,,,,,
+29025,CALDWELL  ,Caldwell  ,MO,Missouri,8.193956256
+,,,,,
+29027,CALLAWAY  ,Callaway  ,MO,Missouri,20.74470794
+,,,,,
+29029,CAMDEN  ,Camden  ,MO,Missouri,26.54100904
+,,,,,
+29031,CAPE GIRARDEAU  ,Cape Girardeau  ,MO,Missouri,52.27181693
+,,,,,
+29033,CARROLL  ,Carroll  ,MO,Missouri,4.915339508
+,,,,,
+29035,CARTER  ,Carter  ,MO,Missouri,4.715945821
+,,,,,
+29037,CASS  ,Cass  ,MO,Missouri,56.90980617
+,,,,,
+29039,CEDAR  ,Cedar  ,MO,Missouri,11.34180243
+,,,,,
+29041,CHARITON  ,Chariton  ,MO,Missouri,3.878610694
+,,,,,
+29043,CHRISTIAN  ,Christian  ,MO,Missouri,57.83181595
+,,,,,
+29045,CLARK  ,Clark  ,MO,Missouri,5.203054047
+,,,,,
+29047,CLAY  ,Clay  ,MO,Missouri,232.2097386
+,,,,,
+29049,CLINTON  ,Clinton  ,MO,Missouri,18.86931837
+,,,,,
+29051,COLE  ,Cole  ,MO,Missouri,75.67995645
+,,,,,
+29053,COOPER  ,Cooper  ,MO,Missouri,12.04755146
+,,,,,
+29055,CRAWFORD  ,Crawford  ,MO,Missouri,12.62606615
+,,,,,
+29057,DADE  ,Dade  ,MO,Missouri,5.980517182
+,,,,,
+29059,DALLAS  ,Dallas  ,MO,Missouri,11.77610429
+,,,,,
+29061,DAVIESS  ,Daviess  ,MO,Missouri,5.690563996
+,,,,,
+29063,DEKALB  ,DeKalb  ,MO,Missouri,11.51275537
+,,,,,
+29065,DENT  ,Dent  ,MO,Missouri,7.952232527
+,,,,,
+29067,DOUGLAS  ,Douglas  ,MO,Missouri,6.346587852
+,,,,,
+29069,DUNKLIN  ,Dunklin  ,MO,Missouri,21.71187675
+,,,,,
+29071,FRANKLIN  ,Franklin  ,MO,Missouri,43.00662407
+,,,,,
+29073,GASCONADE  ,Gasconade  ,MO,Missouri,10.9699606
+,,,,,
+29075,GENTRY  ,Gentry  ,MO,Missouri,5.236582122
+,,,,,
+29077,GREENE  ,Greene  ,MO,Missouri,164.9031583
+,,,,,
+29079,GRUNDY  ,Grundy  ,MO,Missouri,8.904548618
+,,,,,
+29081,HARRISON  ,Harrison  ,MO,Missouri,4.57112958
+,,,,,
+29083,HENRY  ,Henry  ,MO,Missouri,12.05766505
+,,,,,
+29085,HICKORY  ,Hickory  ,MO,Missouri,9.069544684
+,,,,,
+29087,HOLT  ,Holt  ,MO,Missouri,3.718385395
+,,,,,
+29089,HOWARD  ,Howard  ,MO,Missouri,8.419006275
+,,,,,
+29091,HOWELL  ,Howell  ,MO,Missouri,16.6982967
+,,,,,
+29093,IRON  ,Iron  ,MO,Missouri,7.171734272
+,,,,,
+29095,JACKSON  ,Jackson  ,MO,Missouri,441.9796225
+,,,,,
+29097,JASPER  ,Jasper  ,MO,Missouri,72.10268318
+,,,,,
+29099,JEFFERSON  ,Jefferson  ,MO,Missouri,131.327441
+,,,,,
+29101,JOHNSON  ,Johnson  ,MO,Missouri,24.99754762
+,,,,,
+29103,KNOX  ,Knox  ,MO,Missouri,3.026712691
+,,,,,
+29105,LACLEDE  ,Laclede  ,MO,Missouri,17.92770478
+,,,,,
+29107,LAFAYETTE  ,Lafayette  ,MO,Missouri,20.02231721
+,,,,,
+29109,LAWRENCE  ,Lawrence  ,MO,Missouri,24.06788678
+,,,,,
+29111,LEWIS  ,Lewis  ,MO,Missouri,7.6655937
+,,,,,
+29113,LINCOLN  ,Lincoln  ,MO,Missouri,34.2392392
+,,,,,
+29115,LINN  ,Linn  ,MO,Missouri,7.643167885
+,,,,,
+29117,LIVINGSTON  ,Livingston  ,MO,Missouri,10.9353774
+,,,,,
+29119,MCDONALD  ,McDonald  ,MO,Missouri,16.33712376
+,,,,,
+29121,MACON  ,Macon  ,MO,Missouri,7.350907175
+,,,,,
+29123,MADISON  ,Madison  ,MO,Missouri,9.531744995
+,,,,,
+29125,MARIES  ,Maries  ,MO,Missouri,6.509058175
+,,,,,
+29127,MARION  ,Marion  ,MO,Missouri,25.33705272
+,,,,,
+29129,MERCER  ,Mercer  ,MO,Missouri,3.117163151
+,,,,,
+29131,MILLER  ,Miller  ,MO,Missouri,16.32035586
+,,,,,
+29133,MISSISSIPPI  ,Mississippi  ,MO,Missouri,12.89686587
+,,,,,
+29135,MONITEAU  ,Moniteau  ,MO,Missouri,14.84578973
+,,,,,
+29137,MONROE  ,Monroe  ,MO,Missouri,5.159116544
+,,,,,
+29139,MONTGOMERY  ,Montgomery  ,MO,Missouri,8.331136413
+,,,,,
+29141,MORGAN  ,Morgan  ,MO,Missouri,13.00961905
+,,,,,
+29143,NEW MADRID  ,New Madrid  ,MO,Missouri,10.19012491
+,,,,,
+29145,NEWTON  ,Newton  ,MO,Missouri,35.96925233
+,,,,,
+29147,NODAWAY  ,Nodaway  ,MO,Missouri,9.926797763
+,,,,,
+29149,OREGON  ,Oregon  ,MO,Missouri,5.23034364
+,,,,,
+29151,OSAGE  ,Osage  ,MO,Missouri,8.668811026
+,,,,,
+29153,OZARK  ,Ozark  ,MO,Missouri,4.786813376
+,,,,,
+29155,PEMISCOT  ,Pemiscot  ,MO,Missouri,13.34854591
+,,,,,
+29157,PERRY  ,Perry  ,MO,Missouri,15.58391918
+,,,,,
+29159,PETTIS  ,Pettis  ,MO,Missouri,23.97969004
+,,,,,
+29161,PHELPS  ,Phelps  ,MO,Missouri,25.74230576
+,,,,,
+29163,PIKE  ,Pike  ,MO,Missouri,10.64771721
+,,,,,
+29165,PLATTE  ,Platte  ,MO,Missouri,90.89432517
+,,,,,
+29167,POLK  ,Polk  ,MO,Missouri,19.16699993
+,,,,,
+29169,PULASKI  ,Pulaski  ,MO,Missouri,37.11399762
+,,,,,
+29171,PUTNAM  ,Putnam  ,MO,Missouri,3.593702353
+,,,,,
+29173,RALLS  ,Ralls  ,MO,Missouri,8.397114239
+,,,,,
+29175,RANDOLPH  ,Randolph  ,MO,Missouri,19.952522
+,,,,,
+29177,RAY  ,Ray  ,MO,Missouri,15.49338692
+,,,,,
+29179,REYNOLDS  ,Reynolds  ,MO,Missouri,3.015836521
+,,,,,
+29181,RIPLEY  ,Ripley  ,MO,Missouri,8.398043917
+,,,,,
+29183,ST. CHARLES  ,St. Charles  ,MO,Missouri,268.6522511
+,,,,,
+29185,ST. CLAIR  ,St. Clair  ,MO,Missouri,5.36725552
+,,,,,
+29186,STE. GENEVIEVE  ,Ste. Genevieve  ,MO,Missouri,13.8234786
+,,,,,
+29187,ST. FRANCOIS  ,St. Francois  ,MO,Missouri,56.68575765
+,,,,,
+29189,ST. LOUIS  ,St. Louis  ,MO,Missouri,759.9012477
+,,,,,
+29195,SALINE  ,Saline  ,MO,Missouri,11.80651013
+,,,,,
+29197,SCHUYLER  ,Schuyler  ,MO,Missouri,5.656372927
+,,,,,
+29199,SCOTLAND  ,Scotland  ,MO,Missouri,4.332410851
+,,,,,
+29201,SCOTT  ,Scott  ,MO,Missouri,35.6039403
+,,,,,
+29203,SHANNON  ,Shannon  ,MO,Missouri,3.171679413
+,,,,,
+29205,SHELBY  ,Shelby  ,MO,Missouri,4.672262407
+,,,,,
+29207,STODDARD  ,Stoddard  ,MO,Missouri,13.84160574
+,,,,,
+29209,STONE  ,Stone  ,MO,Missouri,26.2325202
+,,,,,
+29211,SULLIVAN  ,Sullivan  ,MO,Missouri,3.764006173
+,,,,,
+29213,TANEY  ,Taney  ,MO,Missouri,33.41085262
+,,,,,
+29215,TEXAS  ,Texas  ,MO,Missouri,8.419195202
+,,,,,
+29217,VERNON  ,Vernon  ,MO,Missouri,9.667138206
+,,,,,
+29219,WARREN  ,Warren  ,MO,Missouri,30.54539784
+,,,,,
+29221,WASHINGTON  ,Washington  ,MO,Missouri,12.66790806
+,,,,,
+29223,WAYNE  ,Wayne  ,MO,Missouri,6.768118295
+,,,,,
+29225,WEBSTER  ,Webster  ,MO,Missouri,24.81348099
+,,,,,
+29227,WORTH  ,Worth  ,MO,Missouri,2.954102851
+,,,,,
+29229,WRIGHT  ,Wright  ,MO,Missouri,10.35972684
+,,,,,
+29510,ST. LOUIS CITY,St. Louis city,MO,Missouri,1946.488522
+,,,,,
+30001,BEAVERHEAD  ,Beaverhead  ,MT,Montana,0.654314038
+,,,,,
+30003,BIG HORN  ,Big Horn  ,MT,Montana,1.033353047
+,,,,,
+30005,BLAINE  ,Blaine  ,MT,Montana,0.614439103
+,,,,,
+30007,BROADWATER  ,Broadwater  ,MT,Montana,1.8891289
+,,,,,
+30009,CARBON  ,Carbon  ,MT,Montana,1.988486632
+,,,,,
+30011,CARTER  ,Carter  ,MT,Montana,0.152338308
+,,,,,
+30013,CASCADE  ,Cascade  ,MT,Montana,11.6976558
+,,,,,
+30015,CHOUTEAU  ,Chouteau  ,MT,Montana,0.562649284
+,,,,,
+30017,CUSTER  ,Custer  ,MT,Montana,1.208830904
+,,,,,
+30019,DANIELS  ,Daniels  ,MT,Montana,0.474634872
+,,,,,
+30021,DAWSON  ,Dawson  ,MT,Montana,1.496116434
+,,,,,
+30023,DEER LODGE  ,Deer Lodge  ,MT,Montana,4.769393728
+,,,,,
+30025,FALLON  ,Fallon  ,MT,Montana,0.676164257
+,,,,,
+30027,FERGUS  ,Fergus  ,MT,Montana,1.003042044
+,,,,,
+30029,FLATHEAD  ,Flathead  ,MT,Montana,7.444166724
+,,,,,
+30031,GALLATIN  ,Gallatin  ,MT,Montana,15.52240319
+,,,,,
+30033,GARFIELD  ,Garfield  ,MT,Montana,0.094202281
+,,,,,
+30035,GLACIER  ,Glacier  ,MT,Montana,1.766046266
+,,,,,
+30037,GOLDEN VALLEY  ,Golden Valley  ,MT,Montana,0.238021614
+,,,,,
+30039,GRANITE  ,Granite  ,MT,Montana,0.730775675
+,,,,,
+30041,HILL  ,Hill  ,MT,Montana,2.189293274
+,,,,,
+30043,JEFFERSON  ,Jefferson  ,MT,Montana,2.744652136
+,,,,,
+30045,JUDITH BASIN  ,Judith Basin  ,MT,Montana,0.402893841
+,,,,,
+30047,LAKE  ,Lake  ,MT,Montana,7.712890069
+,,,,,
+30049,LEWIS AND CLARK  ,Lewis and Clark  ,MT,Montana,7.488642018
+,,,,,
+30051,LIBERTY  ,Liberty  ,MT,Montana,0.615610724
+,,,,,
+30053,LINCOLN  ,Lincoln  ,MT,Montana,2.068965945
+,,,,,
+30055,MCCONE  ,McCone  ,MT,Montana,0.238188064
+,,,,,
+30057,MADISON  ,Madison  ,MT,Montana,0.884294427
+,,,,,
+30059,MEAGHER  ,Meagher  ,MT,Montana,0.317680164
+,,,,,
+30061,MINERAL  ,Mineral  ,MT,Montana,1.333101286
+,,,,,
+30063,MISSOULA  ,Missoula  ,MT,Montana,17.27000868
+,,,,,
+30065,MUSSELSHELL  ,Musselshell  ,MT,Montana,0.993063277
+,,,,,
+30067,PARK  ,Park  ,MT,Montana,2.238245101
+,,,,,
+30069,PETROLEUM  ,Petroleum  ,MT,Montana,0.100745144
+,,,,,
+30071,PHILLIPS  ,Phillips  ,MT,Montana,0.309754319
+,,,,,
+30073,PONDERA  ,Pondera  ,MT,Montana,1.43644547
+,,,,,
+30075,POWDER RIVER  ,Powder River  ,MT,Montana,0.189527657
+,,,,,
+30077,POWELL  ,Powell  ,MT,Montana,1.138864613
+,,,,,
+30079,PRAIRIE  ,Prairie  ,MT,Montana,0.298369405
+,,,,,
+30081,RAVALLI  ,Ravalli  ,MT,Montana,6.766403778
+,,,,,
+30083,RICHLAND  ,Richland  ,MT,Montana,2.104315038
+,,,,,
+30085,ROOSEVELT  ,Roosevelt  ,MT,Montana,1.841367561
+,,,,,
+30087,ROSEBUD  ,Rosebud  ,MT,Montana,0.713128729
+,,,,,
+30089,SANDERS  ,Sanders  ,MT,Montana,1.611462735
+,,,,,
+30091,SHERIDAN  ,Sheridan  ,MT,Montana,0.823443132
+,,,,,
+30093,SILVER BOW  ,Silver Bow  ,MT,Montana,18.72154978
+,,,,,
+30095,STILLWATER  ,Stillwater  ,MT,Montana,2.022111715
+,,,,,
+30097,SWEET GRASS  ,Sweet Grass  ,MT,Montana,0.760133429
+,,,,,
+30099,TETON  ,Teton  ,MT,Montana,1.033411611
+,,,,,
+30101,TOOLE  ,Toole  ,MT,Montana,1.00325234
+,,,,,
+30103,TREASURE  ,Treasure  ,MT,Montana,0.306812412
+,,,,,
+30105,VALLEY  ,Valley  ,MT,Montana,0.590349696
+,,,,,
+30107,WHEATLAND  ,Wheatland  ,MT,Montana,0.583300336
+,,,,,
+30109,WIBAUX  ,Wibaux  ,MT,Montana,0.510539111
+,,,,,
+30111,YELLOWSTONE  ,Yellowstone  ,MT,Montana,23.13797825
+,,,,,
+31001,ADAMS  ,Adams  ,NE,Nebraska,21.6489608
+,,,,,
+31003,ANTELOPE  ,Antelope  ,NE,Nebraska,2.869970753
+,,,,,
+31005,ARTHUR  ,Arthur  ,NE,Nebraska,0.225609394
+,,,,,
+31007,BANNER  ,Banner  ,NE,Nebraska,0.360122313
+,,,,,
+31009,BLAINE  ,Blaine  ,NE,Nebraska,0.260774045
+,,,,,
+31011,BOONE  ,Boone  ,NE,Nebraska,2.987909948
+,,,,,
+31013,BOX BUTTE  ,Box Butte  ,NE,Nebraska,3.981695167
+,,,,,
+31015,BOYD  ,Boyd  ,NE,Nebraska,1.460214964
+,,,,,
+31017,BROWN  ,Brown  ,NE,Nebraska,0.944584305
+,,,,,
+31019,BUFFALO  ,Buffalo  ,NE,Nebraska,19.55194317
+,,,,,
+31021,BURT  ,Burt  ,NE,Nebraska,5.127233038
+,,,,,
+31023,BUTLER  ,Butler  ,NE,Nebraska,5.325150983
+,,,,,
+31025,CASS  ,Cass  ,NE,Nebraska,17.80487703
+,,,,,
+31027,CEDAR  ,Cedar  ,NE,Nebraska,4.445499238
+,,,,,
+31029,CHASE  ,Chase  ,NE,Nebraska,1.611891253
+,,,,,
+31031,CHERRY  ,Cherry  ,NE,Nebraska,0.375076078
+,,,,,
+31033,CHEYENNE  ,Cheyenne  ,NE,Nebraska,3.179738737
+,,,,,
+31035,CLAY  ,Clay  ,NE,Nebraska,4.204495806
+,,,,,
+31037,COLFAX  ,Colfax  ,NE,Nebraska,10.09229052
+,,,,,
+31039,CUMING  ,Cuming  ,NE,Nebraska,6.084652306
+,,,,,
+31041,CUSTER  ,Custer  ,NE,Nebraska,1.623503835
+,,,,,
+31043,DAKOTA  ,Dakota  ,NE,Nebraska,29.68487481
+,,,,,
+31045,DAWES  ,Dawes  ,NE,Nebraska,2.459581421
+,,,,,
+31047,DAWSON  ,Dawson  ,NE,Nebraska,9.072036211
+,,,,,
+31049,DEUEL  ,Deuel  ,NE,Nebraska,1.662557131
+,,,,,
+31051,DIXON  ,Dixon  ,NE,Nebraska,4.659724922
+,,,,,
+31053,DODGE  ,Dodge  ,NE,Nebraska,26.77064844
+,,,,,
+31055,DOUGLAS  ,Douglas  ,NE,Nebraska,656.4846395
+,,,,,
+31057,DUNDY  ,Dundy  ,NE,Nebraska,0.849301948
+,,,,,
+31059,FILLMORE  ,Fillmore  ,NE,Nebraska,3.740430537
+,,,,,
+31061,FRANKLIN  ,Franklin  ,NE,Nebraska,2.015615508
+,,,,,
+31063,FRONTIER  ,Frontier  ,NE,Nebraska,1.033560721
+,,,,,
+31065,FURNAS  ,Furnas  ,NE,Nebraska,2.569606067
+,,,,,
+31067,GAGE  ,Gage  ,NE,Nebraska,9.792428628
+,,,,,
+31069,GARDEN  ,Garden  ,NE,Nebraska,0.421092294
+,,,,,
+31071,GARFIELD  ,Garfield  ,NE,Nebraska,1.339384095
+,,,,,
+31073,GOSPER  ,Gosper  ,NE,Nebraska,1.698105872
+,,,,,
+31075,GRANT  ,Grant  ,NE,Nebraska,0.356844403
+,,,,,
+31077,GREELEY  ,Greeley  ,NE,Nebraska,1.633007952
+,,,,,
+31079,HALL  ,Hall  ,NE,Nebraska,43.34746351
+,,,,,
+31081,HAMILTON  ,Hamilton  ,NE,Nebraska,6.539323541
+,,,,,
+31083,HARLAN  ,Harlan  ,NE,Nebraska,2.398373809
+,,,,,
+31085,HAYES  ,Hayes  ,NE,Nebraska,0.510607004
+,,,,,
+31087,HITCHCOCK  ,Hitchcock  ,NE,Nebraska,1.546165195
+,,,,,
+31089,HOLT  ,Holt  ,NE,Nebraska,1.639703994
+,,,,,
+31091,HOOKER  ,Hooker  ,NE,Nebraska,0.369954722
+,,,,,
+31093,HOWARD  ,Howard  ,NE,Nebraska,4.343614272
+,,,,,
+31095,JEFFERSON  ,Jefferson  ,NE,Nebraska,4.86749085
+,,,,,
+31097,JOHNSON  ,Johnson  ,NE,Nebraska,5.33560115
+,,,,,
+31099,KEARNEY  ,Kearney  ,NE,Nebraska,4.900290674
+,,,,,
+31101,KEITH  ,Keith  ,NE,Nebraska,2.945592319
+,,,,,
+31103,KEYA PAHA  ,Keya Paha  ,NE,Nebraska,0.395553506
+,,,,,
+31105,KIMBALL  ,Kimball  ,NE,Nebraska,1.487464399
+,,,,,
+31107,KNOX  ,Knox  ,NE,Nebraska,2.946855855
+,,,,,
+31109,LANCASTER  ,Lancaster  ,NE,Nebraska,142.9473945
+,,,,,
+31111,LINCOLN  ,Lincoln  ,NE,Nebraska,5.335433147
+,,,,,
+31113,LOGAN  ,Logan  ,NE,Nebraska,0.599457131
+,,,,,
+31115,LOUP  ,Loup  ,NE,Nebraska,0.400818445
+,,,,,
+31117,MCPHERSON  ,McPherson  ,NE,Nebraska,0.204069379
+,,,,,
+31119,MADISON  ,Madison  ,NE,Nebraska,23.71004316
+,,,,,
+31121,MERRICK  ,Merrick  ,NE,Nebraska,6.200975825
+,,,,,
+31123,MORRILL  ,Morrill  ,NE,Nebraska,1.312734764
+,,,,,
+31125,NANCE  ,Nance  ,NE,Nebraska,3.10711532
+,,,,,
+31127,NEMAHA  ,Nemaha  ,NE,Nebraska,6.638229442
+,,,,,
+31129,NUCKOLLS  ,Nuckolls  ,NE,Nebraska,2.869810904
+,,,,,
+31131,OTOE  ,Otoe  ,NE,Nebraska,9.968883881
+,,,,,
+31133,PAWNEE  ,Pawnee  ,NE,Nebraska,2.396822475
+,,,,,
+31135,PERKINS  ,Perkins  ,NE,Nebraska,1.270637464
+,,,,,
+31137,PHELPS  ,Phelps  ,NE,Nebraska,6.523378493
+,,,,,
+31139,PIERCE  ,Pierce  ,NE,Nebraska,4.820478828
+,,,,,
+31141,PLATTE  ,Platte  ,NE,Nebraska,18.93739637
+,,,,,
+31143,POLK  ,Polk  ,NE,Nebraska,4.62869233
+,,,,,
+31145,RED WILLOW  ,Red Willow  ,NE,Nebraska,5.81894875
+,,,,,
+31147,RICHARDSON  ,Richardson  ,NE,Nebraska,5.603593945
+,,,,,
+31149,ROCK  ,Rock  ,NE,Nebraska,0.516950977
+,,,,,
+31151,SALINE  ,Saline  ,NE,Nebraska,9.609820964
+,,,,,
+31153,SARPY  ,Sarpy  ,NE,Nebraska,289.1498948
+,,,,,
+31155,SAUNDERS  ,Saunders  ,NE,Nebraska,10.81906276
+,,,,,
+31157,SCOTTS BLUFF  ,Scotts Bluff  ,NE,Nebraska,18.93133088
+,,,,,
+31159,SEWARD  ,Seward  ,NE,Nebraska,11.57233115
+,,,,,
+31161,SHERIDAN  ,Sheridan  ,NE,Nebraska,0.827895094
+,,,,,
+31163,SHERMAN  ,Sherman  ,NE,Nebraska,2.075757321
+,,,,,
+31165,SIOUX  ,Sioux  ,NE,Nebraska,0.236515051
+,,,,,
+31167,STANTON  ,Stanton  ,NE,Nebraska,5.410380323
+,,,,,
+31169,THAYER  ,Thayer  ,NE,Nebraska,3.430332655
+,,,,,
+31171,THOMAS  ,Thomas  ,NE,Nebraska,0.349327722
+,,,,,
+31173,THURSTON  ,Thurston  ,NE,Nebraska,7.00427631
+,,,,,
+31175,VALLEY  ,Valley  ,NE,Nebraska,2.870729905
+,,,,,
+31177,WASHINGTON  ,Washington  ,NE,Nebraska,20.01910761
+,,,,,
+31179,WAYNE  ,Wayne  ,NE,Nebraska,8.165474763
+,,,,,
+31181,WEBSTER  ,Webster  ,NE,Nebraska,2.39822493
+,,,,,
+31183,WHEELER  ,Wheeler  ,NE,Nebraska,0.551782334
+,,,,,
+31185,YORK  ,York  ,NE,Nebraska,9.306082763
+,,,,,
+32001,CHURCHILL  ,Churchill  ,NV,Nevada,1.880169072
+,,,,,
+32003,CLARK  ,Clark  ,NV,Nevada,104.7773624
+,,,,,
+32005,DOUGLAS  ,Douglas  ,NV,Nevada,26.01935166
+,,,,,
+32007,ELKO  ,Elko  ,NV,Nevada,1.175046521
+,,,,,
+32009,ESMERALDA  ,Esmeralda  ,NV,Nevada,0.105744821
+,,,,,
+32011,EUREKA  ,Eureka  ,NV,Nevada,0.169210084
+,,,,,
+32013,HUMBOLDT  ,Humboldt  ,NV,Nevada,0.67698502
+,,,,,
+32015,LANDER  ,Lander  ,NV,Nevada,0.404097487
+,,,,,
+32017,LINCOLN  ,Lincoln  ,NV,Nevada,0.187869851
+,,,,,
+32019,LYON  ,Lyon  ,NV,Nevada,10.25530062
+,,,,,
+32021,MINERAL  ,Mineral  ,NV,Nevada,0.457621869
+,,,,,
+32023,NYE  ,Nye  ,NV,Nevada,0.928097868
+,,,,,
+32027,PERSHING  ,Pershing  ,NV,Nevada,0.422841718
+,,,,,
+32029,STOREY  ,Storey  ,NV,Nevada,5.76438581
+,,,,,
+32031,WASHOE  ,Washoe  ,NV,Nevada,27.60229777
+,,,,,
+32033,WHITE PINE  ,White Pine  ,NV,Nevada,0.423622183
+,,,,,
+32510,CARSON CITY,Carson City,NV,Nevada,145.3721513
+,,,,,
+33001,BELKNAP  ,Belknap  ,NH,New Hampshire,58.26447251
+,,,,,
+33003,CARROLL  ,Carroll  ,NH,New Hampshire,19.8217429
+,,,,,
+33005,CHESHIRE  ,Cheshire  ,NH,New Hampshire,41.66540897
+,,,,,
+33007,COOS  ,Coos  ,NH,New Hampshire,6.892993893
+,,,,,
+33009,GRAFTON  ,Grafton  ,NH,New Hampshire,20.29512615
+,,,,,
+33011,HILLSBOROUGH  ,Hillsborough  ,NH,New Hampshire,181.0770805
+,,,,,
+33013,MERRIMACK  ,Merrimack  ,NH,New Hampshire,61.85570414
+,,,,,
+33015,ROCKINGHAM  ,Rockingham  ,NH,New Hampshire,169.417981
+,,,,,
+33017,STRAFFORD  ,Strafford  ,NH,New Hampshire,134.7083877
+,,,,,
+33019,SULLIVAN  ,Sullivan  ,NH,New Hampshire,30.97544782
+,,,,,
+34001,ATLANTIC  ,Atlantic  ,NJ,New Jersey,186.6445126
+,,,,,
+34003,BERGEN  ,Bergen  ,NJ,New Jersey,1542.514631
+,,,,,
+34005,BURLINGTON  ,Burlington  ,NJ,New Jersey,215.6107178
+,,,,,
+34007,CAMDEN  ,Camden  ,NJ,New Jersey,885.0013032
+,,,,,
+34009,CAPE MAY  ,Cape May  ,NJ,New Jersey,143.8511318
+,,,,,
+34011,CUMBERLAND  ,Cumberland  ,NJ,New Jersey,122.5339021
+,,,,,
+34013,ESSEX  ,Essex  ,NJ,New Jersey,2430.062385
+,,,,,
+34015,GLOUCESTER  ,Gloucester  ,NJ,New Jersey,348.783328
+,,,,,
+34017,HUDSON  ,Hudson  ,NJ,New Jersey,5589.05695
+,,,,,
+34019,HUNTERDON  ,Hunterdon  ,NJ,New Jersey,112.8552591
+,,,,,
+34021,MERCER  ,Mercer  ,NJ,New Jersey,634.3949589
+,,,,,
+34023,MIDDLESEX  ,Middlesex  ,NJ,New Jersey,1032.248366
+,,,,,
+34025,MONMOUTH  ,Monmouth  ,NJ,New Jersey,514.1065673
+,,,,,
+34027,MORRIS  ,Morris  ,NJ,New Jersey,414.4534852
+,,,,,
+34029,OCEAN  ,Ocean  ,NJ,New Jersey,363.7218004
+,,,,,
+34031,PASSAIC  ,Passaic  ,NJ,New Jersey,1046.233338
+,,,,,
+34033,SALEM  ,Salem  ,NJ,New Jersey,73.69160463
+,,,,,
+34035,SOMERSET  ,Somerset  ,NJ,New Jersey,422.3190815
+,,,,,
+34037,SUSSEX  ,Sussex  ,NJ,New Jersey,105.9174896
+,,,,,
+34039,UNION  ,Union  ,NJ,New Jersey,2077.943059
+,,,,,
+34041,WARREN  ,Warren  ,NJ,New Jersey,115.1076239
+,,,,,
+35001,BERNALILLO  ,Bernalillo  ,NM,New Mexico,225.3235596
+,,,,,
+35003,CATRON  ,Catron  ,NM,New Mexico,0.197339545
+,,,,,
+35005,CHAVES  ,Chaves  ,NM,New Mexico,4.165683658
+,,,,,
+35006,CIBOLA  ,Cibola  ,NM,New Mexico,2.294339254
+,,,,,
+35007,COLFAX  ,Colfax  ,NM,New Mexico,1.269172936
+,,,,,
+35009,CURRY  ,Curry  ,NM,New Mexico,13.79056247
+,,,,,
+35011,DE BACA  ,De Baca  ,NM,New Mexico,0.342373576
+,,,,,
+35013,DOÑA ANA  ,Doña Ana  ,NM,New Mexico,21.83262512
+,,,,,
+35015,EDDY  ,Eddy  ,NM,New Mexico,5.309932336
+,,,,,
+35017,GRANT  ,Grant  ,NM,New Mexico,2.735142715
+,,,,,
+35019,GUADALUPE  ,Guadalupe  ,NM,New Mexico,0.55842484
+,,,,,
+35021,HARDING  ,Harding  ,NM,New Mexico,0.083379305
+,,,,,
+35023,HIDALGO  ,Hidalgo  ,NM,New Mexico,0.490812579
+,,,,,
+35025,LEA  ,Lea  ,NM,New Mexico,6.165546329
+,,,,,
+35027,LINCOLN  ,Lincoln  ,NM,New Mexico,1.556999256
+,,,,,
+35028,LOS ALAMOS  ,Los Alamos  ,NM,New Mexico,64.90186053
+,,,,,
+35029,LUNA  ,Luna  ,NM,New Mexico,3.159397718
+,,,,,
+35031,MCKINLEY  ,McKinley  ,NM,New Mexico,5.160303396
+,,,,,
+35033,MORA  ,Mora  ,NM,New Mexico,0.914618967
+,,,,,
+35035,OTERO  ,Otero  ,NM,New Mexico,3.838797533
+,,,,,
+35037,QUAY  ,Quay  ,NM,New Mexico,1.124899084
+,,,,,
+35039,RIO ARRIBA  ,Rio Arriba  ,NM,New Mexico,2.58946426
+,,,,,
+35041,ROOSEVELT  ,Roosevelt  ,NM,New Mexico,3.01756389
+,,,,,
+35043,SANDOVAL  ,Sandoval  ,NM,New Mexico,14.64948722
+,,,,,
+35045,SAN JUAN  ,San Juan  ,NM,New Mexico,8.919493131
+,,,,,
+35047,SAN MIGUEL  ,San Miguel  ,NM,New Mexico,2.292482223
+,,,,,
+35049,SANTA FE  ,Santa Fe  ,NM,New Mexico,30.10170894
+,,,,,
+35051,SIERRA  ,Sierra  ,NM,New Mexico,1.028233873
+,,,,,
+35053,SOCORRO  ,Socorro  ,NM,New Mexico,0.987564721
+,,,,,
+35055,TAOS  ,Taos  ,NM,New Mexico,5.76565773
+,,,,,
+35057,TORRANCE  ,Torrance  ,NM,New Mexico,1.79996145
+,,,,,
+35059,UNION  ,Union  ,NM,New Mexico,0.421424886
+,,,,,
+35061,VALENCIA  ,Valencia  ,NM,New Mexico,27.49185961
+,,,,,
+36001,ALBANY  ,Albany  ,NY,New York,227.0299683
+,,,,,
+36003,ALLEGANY  ,Allegany  ,NY,New York,17.63858838
+,,,,,
+36005,BRONX  ,Bronx  ,NY,New York,13202.5153
+,,,,,
+36007,BROOME  ,Broome  ,NY,New York,106.3436213
+,,,,,
+36009,CATTARAUGUS  ,Cattaraugus  ,NY,New York,22.92557801
+,,,,,
+36011,CAYUGA  ,Cayuga  ,NY,New York,43.4727628
+,,,,,
+36013,CHAUTAUQUA  ,Chautauqua  ,NY,New York,47.21686759
+,,,,,
+36015,CHEMUNG  ,Chemung  ,NY,New York,81.26735421
+,,,,,
+36017,CHENANGO  ,Chenango  ,NY,New York,20.89013457
+,,,,,
+36019,CLINTON  ,Clinton  ,NY,New York,30.05984747
+,,,,,
+36021,COLUMBIA  ,Columbia  ,NY,New York,37.06052091
+,,,,,
+36023,CORTLAND  ,Cortland  ,NY,New York,37.25221569
+,,,,,
+36025,DELAWARE  ,Delaware  ,NY,New York,12.17982076
+,,,,,
+36027,DUTCHESS  ,Dutchess  ,NY,New York,142.6173355
+,,,,,
+36029,ERIE  ,Erie  ,NY,New York,340.609971
+,,,,,
+36031,ESSEX  ,Essex  ,NY,New York,8.124182895
+,,,,,
+36033,FRANKLIN  ,Franklin  ,NY,New York,12.01333702
+,,,,,
+36035,FULTON  ,Fulton  ,NY,New York,41.880882
+,,,,,
+36037,GENESEE  ,Genesee  ,NY,New York,45.51733961
+,,,,,
+36039,GREENE  ,Greene  ,NY,New York,28.40871645
+,,,,,
+36041,HAMILTON  ,Hamilton  ,NY,New York,1.028556276
+,,,,,
+36043,HERKIMER  ,Herkimer  ,NY,New York,17.09745413
+,,,,,
+36045,JEFFERSON  ,Jefferson  ,NY,New York,34.82996277
+,,,,,
+36047,KINGS  ,Kings  ,NY,New York,14475.02544
+,,,,,
+36049,LEWIS  ,Lewis  ,NY,New York,8.093460876
+,,,,,
+36051,LIVINGSTON  ,Livingston  ,NY,New York,39.05683212
+,,,,,
+36053,MADISON  ,Madison  ,NY,New York,42.07261082
+,,,,,
+36055,MONROE  ,Monroe  ,NY,New York,437.4604077
+,,,,,
+36057,MONTGOMERY  ,Montgomery  ,NY,New York,47.3398751
+,,,,,
+36059,NASSAU  ,Nassau  ,NY,New York,1840.443984
+,,,,,
+36061,NEW YORK  ,New York  ,NY,New York,27819.8048
+,,,,,
+36063,NIAGARA  ,Niagara  ,NY,New York,156.4831231
+,,,,,
+36065,ONEIDA  ,Oneida  ,NY,New York,73.49927817
+,,,,,
+36067,ONONDAGA  ,Onondaga  ,NY,New York,230.2773622
+,,,,,
+36069,ONTARIO  ,Ontario  ,NY,New York,65.62805041
+,,,,,
+36071,ORANGE  ,Orange  ,NY,New York,179.7740783
+,,,,,
+36073,ORLEANS  ,Orleans  ,NY,New York,40.63188004
+,,,,,
+36075,OSWEGO  ,Oswego  ,NY,New York,48.32299623
+,,,,,
+36077,OTSEGO  ,Otsego  ,NY,New York,23.22022723
+,,,,,
+36079,PUTNAM  ,Putnam  ,NY,New York,166.0782406
+,,,,,
+36081,QUEENS  ,Queens  ,NY,New York,8158.437153
+,,,,,
+36083,RENSSELAER  ,Rensselaer  ,NY,New York,94.3461432
+,,,,,
+36085,RICHMOND  ,Richmond  ,NY,New York,3182.469323
+,,,,,
+36087,ROCKLAND  ,Rockland  ,NY,New York,720.588009
+,,,,,
+36089,ST. LAWRENCE  ,St. Lawrence  ,NY,New York,15.78810561
+,,,,,
+36091,SARATOGA  ,Saratoga  ,NY,New York,108.3842223
+,,,,,
+36093,SCHENECTADY  ,Schenectady  ,NY,New York,292.3099656
+,,,,,
+36095,SCHOHARIE  ,Schoharie  ,NY,New York,19.47465415
+,,,,,
+36097,SCHUYLER  ,Schuyler  ,NY,New York,21.15696809
+,,,,,
+36099,SENECA  ,Seneca  ,NY,New York,41.28321835
+,,,,,
+36101,STEUBEN  ,Steuben  ,NY,New York,26.91291732
+,,,,,
+36103,SUFFOLK  ,Suffolk  ,NY,New York,630.0681534
+,,,,,
+36105,SULLIVAN  ,Sullivan  ,NY,New York,29.99485049
+,,,,,
+36107,TIOGA  ,Tioga  ,NY,New York,36.51369922
+,,,,,
+36109,TOMPKINS  ,Tompkins  ,NY,New York,83.75559012
+,,,,,
+36111,ULSTER  ,Ulster  ,NY,New York,61.57895417
+,,,,,
+36113,WARREN  ,Warren  ,NY,New York,28.70684208
+,,,,,
+36115,WASHINGTON  ,Washington  ,NY,New York,28.72095934
+,,,,,
+36117,WAYNE  ,Wayne  ,NY,New York,58.09538513
+,,,,,
+36119,WESTCHESTER  ,Westchester  ,NY,New York,868.7630666
+,,,,,
+36121,WYOMING  ,Wyoming  ,NY,New York,26.42298174
+,,,,,
+36123,YATES  ,Yates  ,NY,New York,28.55607296
+,,,,,
+37001,ALAMANCE  ,Alamance  ,NC,North Carolina,146.4195117
+,,,,,
+37003,ALEXANDER  ,Alexander  ,NC,North Carolina,55.12519437
+,,,,,
+37005,ALLEGHANY  ,Alleghany  ,NC,North Carolina,18.07442269
+,,,,,
+37007,ANSON  ,Anson  ,NC,North Carolina,18.38460003
+,,,,,
+37009,ASHE  ,Ashe  ,NC,North Carolina,24.3309623
+,,,,,
+37011,AVERY  ,Avery  ,NC,North Carolina,27.31960936
+,,,,,
+37013,BEAUFORT  ,Beaufort  ,NC,North Carolina,21.92453498
+,,,,,
+37015,BERTIE  ,Bertie  ,NC,North Carolina,10.84789289
+,,,,,
+37017,BLADEN  ,Bladen  ,NC,North Carolina,14.9071817
+,,,,,
+37019,BRUNSWICK  ,Brunswick  ,NC,North Carolina,57.67976134
+,,,,,
+37021,BUNCOMBE  ,Buncombe  ,NC,North Carolina,149.6625061
+,,,,,
+37023,BURKE  ,Burke  ,NC,North Carolina,68.42254022
+,,,,,
+37025,CABARRUS  ,Cabarrus  ,NC,North Carolina,215.3137563
+,,,,,
+37027,CALDWELL  ,Caldwell  ,NC,North Carolina,66.91171792
+,,,,,
+37029,CAMDEN  ,Camden  ,NC,North Carolina,16.78371294
+,,,,,
+37031,CARTERET  ,Carteret  ,NC,North Carolina,52.42275604
+,,,,,
+37033,CASWELL  ,Caswell  ,NC,North Carolina,20.64641073
+,,,,,
+37035,CATAWBA  ,Catawba  ,NC,North Carolina,150.7660738
+,,,,,
+37037,CHATHAM  ,Chatham  ,NC,North Carolina,39.52730186
+,,,,,
+37039,CHEROKEE  ,Cherokee  ,NC,North Carolina,23.45075357
+,,,,,
+37041,CHOWAN  ,Chowan  ,NC,North Carolina,31.76573696
+,,,,,
+37043,CLAY  ,Clay  ,NC,North Carolina,19.4197422
+,,,,,
+37045,CLEVELAND  ,Cleveland  ,NC,North Carolina,80.81165896
+,,,,,
+37047,COLUMBUS  ,Columbus  ,NC,North Carolina,23.16860564
+,,,,,
+37049,CRAVEN  ,Craven  ,NC,North Carolina,56.326586
+,,,,,
+37051,CUMBERLAND  ,Cumberland  ,NC,North Carolina,196.4978597
+,,,,,
+37053,CURRITUCK  ,Currituck  ,NC,North Carolina,38.02387756
+,,,,,
+37055,DARE  ,Dare  ,NC,North Carolina,36.00929191
+,,,,,
+37057,DAVIDSON  ,Davidson  ,NC,North Carolina,114.9316993
+,,,,,
+37059,DAVIE  ,Davie  ,NC,North Carolina,61.48313306
+,,,,,
+37061,DUPLIN  ,Duplin  ,NC,North Carolina,27.98934165
+,,,,,
+37063,DURHAM  ,Durham  ,NC,North Carolina,413.0661931
+,,,,,
+37065,EDGECOMBE  ,Edgecombe  ,NC,North Carolina,40.74050477
+,,,,,
+37067,FORSYTH  ,Forsyth  ,NC,North Carolina,351.818409
+,,,,,
+37069,FRANKLIN  ,Franklin  ,NC,North Carolina,50.95320151
+,,,,,
+37071,GASTON  ,Gaston  ,NC,North Carolina,235.0834095
+,,,,,
+37073,GATES  ,Gates  ,NC,North Carolina,13.10727687
+,,,,,
+37075,GRAHAM  ,Graham  ,NC,North Carolina,11.31599656
+,,,,,
+37077,GRANVILLE  ,Granville  ,NC,North Carolina,42.72888447
+,,,,,
+37079,GREENE  ,Greene  ,NC,North Carolina,30.40886897
+,,,,,
+37081,GUILFORD  ,Guilford  ,NC,North Carolina,312.9883303
+,,,,,
+37083,HALIFAX  ,Halifax  ,NC,North Carolina,27.60090416
+,,,,,
+37085,HARNETT  ,Harnett  ,NC,North Carolina,84.58897537
+,,,,,
+37087,HAYWOOD  ,Haywood  ,NC,North Carolina,42.15136875
+,,,,,
+37089,HENDERSON  ,Henderson  ,NC,North Carolina,117.6382408
+,,,,,
+37091,HERTFORD  ,Hertford  ,NC,North Carolina,26.40568695
+,,,,,
+37093,HOKE  ,Hoke  ,NC,North Carolina,52.69099177
+,,,,,
+37095,HYDE  ,Hyde  ,NC,North Carolina,3.40051688
+,,,,,
+37097,IREDELL  ,Iredell  ,NC,North Carolina,116.0105487
+,,,,,
+37099,JACKSON  ,Jackson  ,NC,North Carolina,33.21533826
+,,,,,
+37101,JOHNSTON  ,Johnston  ,NC,North Carolina,93.28731529
+,,,,,
+37103,JONES  ,Jones  ,NC,North Carolina,7.941273325
+,,,,,
+37105,LEE  ,Lee  ,NC,North Carolina,91.01472262
+,,,,,
+37107,LENOIR  ,Lenoir  ,NC,North Carolina,55.36507148
+,,,,,
+37109,LINCOLN  ,Lincoln  ,NC,North Carolina,106.2885681
+,,,,,
+37111,MCDOWELL  ,McDowell  ,NC,North Carolina,39.58744155
+,,,,,
+37113,MACON  ,Macon  ,NC,North Carolina,25.76839886
+,,,,,
+37115,MADISON  ,Madison  ,NC,North Carolina,18.38131549
+,,,,,
+37117,MARTIN  ,Martin  ,NC,North Carolina,19.50200006
+,,,,,
+37119,MECKLENBURG  ,Mecklenburg  ,NC,North Carolina,777.490679
+,,,,,
+37121,MITCHELL  ,Mitchell  ,NC,North Carolina,26.24596882
+,,,,,
+37123,MONTGOMERY  ,Montgomery  ,NC,North Carolina,21.47453903
+,,,,,
+37125,MOORE  ,Moore  ,NC,North Carolina,52.92208077
+,,,,,
+37127,NASH  ,Nash  ,NC,North Carolina,67.15748107
+,,,,,
+37129,NEW HANOVER  ,New Hanover  ,NC,North Carolina,450.4417618
+,,,,,
+37131,NORTHAMPTON  ,Northampton  ,NC,North Carolina,14.52336894
+,,,,,
+37133,ONSLOW  ,Onslow  ,NC,North Carolina,98.26201274
+,,,,,
+37135,ORANGE  ,Orange  ,NC,North Carolina,138.8280019
+,,,,,
+37137,PAMLICO  ,Pamlico  ,NC,North Carolina,14.62017189
+,,,,,
+37139,PASQUOTANK  ,Pasquotank  ,NC,North Carolina,67.18498084
+,,,,,
+37141,PENDER  ,Pender  ,NC,North Carolina,26.15386784
+,,,,,
+37143,PERQUIMANS  ,Perquimans  ,NC,North Carolina,21.0264128
+,,,,,
+37145,PERSON  ,Person  ,NC,North Carolina,38.68063514
+,,,,,
+37147,PITT  ,Pitt  ,NC,North Carolina,104.9774445
+,,,,,
+37149,POLK  ,Polk  ,NC,North Carolina,33.23227784
+,,,,,
+37151,RANDOLPH  ,Randolph  ,NC,North Carolina,70.55487528
+,,,,,
+37153,RICHMOND  ,Richmond  ,NC,North Carolina,36.83225335
+,,,,,
+37155,ROBESON  ,Robeson  ,NC,North Carolina,54.3898503
+,,,,,
+37157,ROCKINGHAM  ,Rockingham  ,NC,North Carolina,62.30119042
+,,,,,
+37159,ROWAN  ,Rowan  ,NC,North Carolina,105.3842697
+,,,,,
+37161,RUTHERFORD  ,Rutherford  ,NC,North Carolina,45.43057632
+,,,,,
+37163,SAMPSON  ,Sampson  ,NC,North Carolina,25.95007128
+,,,,,
+37165,SCOTLAND  ,Scotland  ,NC,North Carolina,42.66062983
+,,,,,
+37167,STANLY  ,Stanly  ,NC,North Carolina,59.71835464
+,,,,,
+37169,STOKES  ,Stokes  ,NC,North Carolina,39.47323116
+,,,,,
+37171,SURRY  ,Surry  ,NC,North Carolina,52.1554812
+,,,,,
+37173,SWAIN  ,Swain  ,NC,North Carolina,10.42865887
+,,,,,
+37175,TRANSYLVANIA  ,Transylvania  ,NC,North Carolina,34.19200208
+,,,,,
+37177,TYRRELL  ,Tyrrell  ,NC,North Carolina,4.069740194
+,,,,,
+37179,UNION  ,Union  ,NC,North Carolina,138.3415406
+,,,,,
+37181,VANCE  ,Vance  ,NC,North Carolina,68.04566958
+,,,,,
+37183,WAKE  ,Wake  ,NC,North Carolina,484.0293229
+,,,,,
+37185,WARREN  ,Warren  ,NC,North Carolina,18.02480365
+,,,,,
+37187,WASHINGTON  ,Washington  ,NC,North Carolina,13.54495067
+,,,,,
+37189,WATAUGA  ,Watauga  ,NC,North Carolina,66.88043417
+,,,,,
+37191,WAYNE  ,Wayne  ,NC,North Carolina,86.43433211
+,,,,,
+37193,WILKES  ,Wilkes  ,NC,North Carolina,35.03134634
+,,,,,
+37195,WILSON  ,Wilson  ,NC,North Carolina,85.43582742
+,,,,,
+37197,YADKIN  ,Yadkin  ,NC,North Carolina,43.41806243
+,,,,,
+37199,YANCEY  ,Yancey  ,NC,North Carolina,21.82161709
+,,,,,
+38001,ADAMS  ,Adams  ,ND,North Dakota,0.919113298
+,,,,,
+38003,BARNES  ,Barnes  ,ND,North Dakota,2.80499578
+,,,,,
+38005,BENSON  ,Benson  ,ND,North Dakota,1.914602497
+,,,,,
+38007,BILLINGS  ,Billings  ,ND,North Dakota,0.317931699
+,,,,,
+38009,BOTTINEAU  ,Bottineau  ,ND,North Dakota,1.524809163
+,,,,,
+38011,BOWMAN  ,Bowman  ,ND,North Dakota,1.061706473
+,,,,,
+38013,BURKE  ,Burke  ,ND,North Dakota,0.774245882
+,,,,,
+38015,BURLEIGH  ,Burleigh  ,ND,North Dakota,22.1694151
+,,,,,
+38017,CASS  ,Cass  ,ND,North Dakota,38.10818851
+,,,,,
+38019,CAVALIER  ,Cavalier  ,ND,North Dakota,0.991599941
+,,,,,
+38021,DICKEY  ,Dickey  ,ND,North Dakota,1.695959278
+,,,,,
+38023,DIVIDE  ,Divide  ,ND,North Dakota,0.725505176
+,,,,,
+38025,DUNN  ,Dunn  ,ND,North Dakota,0.843341809
+,,,,,
+38027,EDDY  ,Eddy  ,ND,North Dakota,1.417163096
+,,,,,
+38029,EMMONS  ,Emmons  ,ND,North Dakota,0.857256796
+,,,,,
+38031,FOSTER  ,Foster  ,ND,North Dakota,1.999015167
+,,,,,
+38033,GOLDEN VALLEY  ,Golden Valley  ,ND,North Dakota,0.725549989
+,,,,,
+38035,GRAND FORKS  ,Grand Forks  ,ND,North Dakota,18.92762217
+,,,,,
+38037,GRANT  ,Grant  ,ND,North Dakota,0.553851572
+,,,,,
+38039,GRIGGS  ,Griggs  ,ND,North Dakota,1.234321195
+,,,,,
+38041,HETTINGER  ,Hettinger  ,ND,North Dakota,0.878449452
+,,,,,
+38043,KIDDER  ,Kidder  ,ND,North Dakota,0.70295402
+,,,,,
+38045,LAMOURE  ,LaMoure  ,ND,North Dakota,1.381413591
+,,,,,
+38047,LOGAN  ,Logan  ,ND,North Dakota,0.749418756
+,,,,,
+38049,MCHENRY  ,McHenry  ,ND,North Dakota,1.221167228
+,,,,,
+38051,MCINTOSH  ,McIntosh  ,ND,North Dakota,1.05127794
+,,,,,
+38053,MCKENZIE  ,McKenzie  ,ND,North Dakota,1.753380816
+,,,,,
+38055,MCLEAN  ,McLean  ,ND,North Dakota,1.757861143
+,,,,,
+38057,MERCER  ,Mercer  ,ND,North Dakota,3.173475024
+,,,,,
+38059,MORTON  ,Morton  ,ND,North Dakota,6.122544916
+,,,,,
+38061,MOUNTRAIL  ,Mountrail  ,ND,North Dakota,2.147448976
+,,,,,
+38063,NELSON  ,Nelson  ,ND,North Dakota,1.14834598
+,,,,,
+38065,OLIVER  ,Oliver  ,ND,North Dakota,0.981672527
+,,,,,
+38067,PEMBINA  ,Pembina  ,ND,North Dakota,2.421474483
+,,,,,
+38069,PIERCE  ,Pierce  ,ND,North Dakota,1.596034519
+,,,,,
+38071,RAMSEY  ,Ramsey  ,ND,North Dakota,3.759383435
+,,,,,
+38073,RANSOM  ,Ransom  ,ND,North Dakota,2.40027493
+,,,,,
+38075,RENVILLE  ,Renville  ,ND,North Dakota,1.098365691
+,,,,,
+38077,RICHLAND  ,Richland  ,ND,North Dakota,4.380133041
+,,,,,
+38079,ROLETTE  ,Rolette  ,ND,North Dakota,6.243389729
+,,,,,
+38081,SARGENT  ,Sargent  ,ND,North Dakota,1.746330823
+,,,,,
+38083,SHERIDAN  ,Sheridan  ,ND,North Dakota,0.55788079
+,,,,,
+38085,SIOUX  ,Sioux  ,ND,North Dakota,1.557332831
+,,,,,
+38087,SLOPE  ,Slope  ,ND,North Dakota,0.223737517
+,,,,,
+38089,STARK  ,Stark  ,ND,North Dakota,8.931224583
+,,,,,
+38091,STEELE  ,Steele  ,ND,North Dakota,1.035447223
+,,,,,
+38093,STUTSMAN  ,Stutsman  ,ND,North Dakota,3.660565624
+,,,,,
+38095,TOWNER  ,Towner  ,ND,North Dakota,0.846399517
+,,,,,
+38097,TRAILL  ,Traill  ,ND,North Dakota,3.592037206
+,,,,,
+38099,WALSH  ,Walsh  ,ND,North Dakota,3.254098253
+,,,,,
+38101,WARD  ,Ward  ,ND,North Dakota,13.24099277
+,,,,,
+38103,WELLS  ,Wells  ,ND,North Dakota,1.232182117
+,,,,,
+38105,WILLIAMS  ,Williams  ,ND,North Dakota,6.328861656
+,,,,,
+39001,ADAMS  ,Adams  ,OH,Ohio,18.43528327
+,,,,,
+39003,ALLEN  ,Allen  ,OH,Ohio,99.41870485
+,,,,,
+39005,ASHLAND  ,Ashland  ,OH,Ohio,48.81671864
+,,,,,
+39007,ASHTABULA  ,Ashtabula  ,OH,Ohio,53.96951051
+,,,,,
+39009,ATHENS  ,Athens  ,OH,Ohio,50.54941896
+,,,,,
+39011,AUGLAIZE  ,Auglaize  ,OH,Ohio,44.03976778
+,,,,,
+39013,BELMONT  ,Belmont  ,OH,Ohio,49.68223263
+,,,,,
+39015,BROWN  ,Brown  ,OH,Ohio,34.4162569
+,,,,,
+39017,BUTLER  ,Butler  ,OH,Ohio,313.0169285
+,,,,,
+39019,CARROLL  ,Carroll  ,OH,Ohio,26.98352715
+,,,,,
+39021,CHAMPAIGN  ,Champaign  ,OH,Ohio,34.97825851
+,,,,,
+39023,CLARK  ,Clark  ,OH,Ohio,131.5326244
+,,,,,
+39025,CLERMONT  ,Clermont  ,OH,Ohio,173.5467612
+,,,,,
+39027,CLINTON  ,Clinton  ,OH,Ohio,39.58094919
+,,,,,
+39029,COLUMBIANA  ,Columbiana  ,OH,Ohio,75.49120655
+,,,,,
+39031,COSHOCTON  ,Coshocton  ,OH,Ohio,25.04020235
+,,,,,
+39033,CRAWFORD  ,Crawford  ,OH,Ohio,40.3807481
+,,,,,
+39035,CUYAHOGA  ,Cuyahoga  ,OH,Ohio,1058.845542
+,,,,,
+39037,DARKE  ,Darke  ,OH,Ohio,33.39676244
+,,,,,
+39039,DEFIANCE  ,Defiance  ,OH,Ohio,35.92080315
+,,,,,
+39041,DELAWARE  ,Delaware  ,OH,Ohio,171.6427445
+,,,,,
+39043,ERIE  ,Erie  ,OH,Ohio,115.3782918
+,,,,,
+39045,FAIRFIELD  ,Fairfield  ,OH,Ohio,117.0455016
+,,,,,
+39047,FAYETTE  ,Fayette  ,OH,Ohio,27.21693041
+,,,,,
+39049,FRANKLIN  ,Franklin  ,OH,Ohio,924.8617766
+,,,,,
+39051,FULTON  ,Fulton  ,OH,Ohio,40.28660522
+,,,,,
+39053,GALLIA  ,Gallia  ,OH,Ohio,24.98947146
+,,,,,
+39055,GEAUGA  ,Geauga  ,OH,Ohio,90.62809664
+,,,,,
+39057,GREENE  ,Greene  ,OH,Ohio,154.7781165
+,,,,,
+39059,GUERNSEY  ,Guernsey  ,OH,Ohio,29.03526107
+,,,,,
+39061,HAMILTON  ,Hamilton  ,OH,Ohio,772.3432857
+,,,,,
+39063,HANCOCK  ,Hancock  ,OH,Ohio,55.00347628
+,,,,,
+39065,HARDIN  ,Hardin  ,OH,Ohio,25.88926772
+,,,,,
+39067,HARRISON  ,Harrison  ,OH,Ohio,14.68955905
+,,,,,
+39069,HENRY  ,Henry  ,OH,Ohio,25.35218255
+,,,,,
+39071,HIGHLAND  ,Highland  ,OH,Ohio,30.0227579
+,,,,,
+39073,HOCKING  ,Hocking  ,OH,Ohio,26.11268645
+,,,,,
+39075,HOLMES  ,Holmes  ,OH,Ohio,40.07562584
+,,,,,
+39077,HURON  ,Huron  ,OH,Ohio,45.92191061
+,,,,,
+39079,JACKSON  ,Jackson  ,OH,Ohio,29.87693554
+,,,,,
+39081,JEFFERSON  ,Jefferson  ,OH,Ohio,63.27687522
+,,,,,
+39083,KNOX  ,Knox  ,OH,Ohio,44.97621412
+,,,,,
+39085,LAKE  ,Lake  ,OH,Ohio,387.4186669
+,,,,,
+39087,LAWRENCE  ,Lawrence  ,OH,Ohio,51.6272581
+,,,,,
+39089,LICKING  ,Licking  ,OH,Ohio,97.47807618
+,,,,,
+39091,LOGAN  ,Logan  ,OH,Ohio,38.1576236
+,,,,,
+39093,LORAIN  ,Lorain  ,OH,Ohio,241.0812951
+,,,,,
+39095,LUCAS  ,Lucas  ,OH,Ohio,489.9833862
+,,,,,
+39097,MADISON  ,Madison  ,OH,Ohio,36.45923381
+,,,,,
+39099,MAHONING  ,Mahoning  ,OH,Ohio,216.7995986
+,,,,,
+39101,MARION  ,Marion  ,OH,Ohio,62.4866796
+,,,,,
+39103,MEDINA  ,Medina  ,OH,Ohio,162.4115331
+,,,,,
+39105,MEIGS  ,Meigs  ,OH,Ohio,20.79073257
+,,,,,
+39107,MERCER  ,Mercer  ,OH,Ohio,34.06963532
+,,,,,
+39109,MIAMI  ,Miami  ,OH,Ohio,99.53878287
+,,,,,
+39111,MONROE  ,Monroe  ,OH,Ohio,11.93746325
+,,,,,
+39113,MONTGOMERY  ,Montgomery  ,OH,Ohio,445.1215694
+,,,,,
+39115,MORGAN  ,Morgan  ,OH,Ohio,13.63141217
+,,,,,
+39117,MORROW  ,Morrow  ,OH,Ohio,33.25090811
+,,,,,
+39119,MUSKINGUM  ,Muskingum  ,OH,Ohio,50.01043464
+,,,,,
+39121,NOBLE  ,Noble  ,OH,Ohio,14.01081595
+,,,,,
+39123,OTTAWA  ,Ottawa  ,OH,Ohio,61.70172325
+,,,,,
+39125,PAULDING  ,Paulding  ,OH,Ohio,17.49738383
+,,,,,
+39127,PERRY  ,Perry  ,OH,Ohio,34.05914789
+,,,,,
+39129,PICKAWAY  ,Pickaway  ,OH,Ohio,44.23060638
+,,,,,
+39131,PIKE  ,Pike  ,OH,Ohio,24.7420808
+,,,,,
+39133,PORTAGE  ,Portage  ,OH,Ohio,128.8401928
+,,,,,
+39135,PREBLE  ,Preble  ,OH,Ohio,37.50382619
+,,,,,
+39137,PUTNAM  ,Putnam  ,OH,Ohio,27.1799056
+,,,,,
+39139,RICHLAND  ,Richland  ,OH,Ohio,94.59562525
+,,,,,
+39141,ROSS  ,Ross  ,OH,Ohio,43.16614992
+,,,,,
+39143,SANDUSKY  ,Sandusky  ,OH,Ohio,56.05385903
+,,,,,
+39145,SCIOTO  ,Scioto  ,OH,Ohio,48.32494083
+,,,,,
+39147,SENECA  ,Seneca  ,OH,Ohio,38.87112962
+,,,,,
+39149,SHELBY  ,Shelby  ,OH,Ohio,46.21247465
+,,,,,
+39151,STARK  ,Stark  ,OH,Ohio,250.6435257
+,,,,,
+39153,SUMMIT  ,Summit  ,OH,Ohio,506.7518997
+,,,,,
+39155,TRUMBULL  ,Trumbull  ,OH,Ohio,126.0650673
+,,,,,
+39157,TUSCARAWAS  ,Tuscarawas  ,OH,Ohio,62.95821055
+,,,,,
+39159,UNION  ,Union  ,OH,Ohio,49.76986219
+,,,,,
+39161,VAN WERT  ,Van Wert  ,OH,Ohio,26.68768789
+,,,,,
+39163,VINTON  ,Vinton  ,OH,Ohio,12.27625098
+,,,,,
+39165,WARREN  ,Warren  ,OH,Ohio,218.0111163
+,,,,,
+39167,WASHINGTON  ,Washington  ,OH,Ohio,37.06671934
+,,,,,
+39169,WAYNE  ,Wayne  ,OH,Ohio,80.86307207
+,,,,,
+39171,WILLIAMS  ,Williams  ,OH,Ohio,33.90166936
+,,,,,
+39173,WOOD  ,Wood  ,OH,Ohio,81.28457967
+,,,,,
+39175,WYANDOT  ,Wyandot  ,OH,Ohio,20.97888479
+,,,,,
+40001,ADAIR  ,Adair  ,OK,Oklahoma,14.8826669
+,,,,,
+40003,ALFALFA  ,Alfalfa  ,OK,Oklahoma,2.609946132
+,,,,,
+40005,ATOKA  ,Atoka  ,OK,Oklahoma,5.491211135
+,,,,,
+40007,BEAVER  ,Beaver  ,OK,Oklahoma,1.152122952
+,,,,,
+40009,BECKHAM  ,Beckham  ,OK,Oklahoma,9.684911042
+,,,,,
+40011,BLAINE  ,Blaine  ,OK,Oklahoma,4.006477878
+,,,,,
+40013,BRYAN  ,Bryan  ,OK,Oklahoma,19.53287138
+,,,,,
+40015,CADDO  ,Caddo  ,OK,Oklahoma,8.865771627
+,,,,,
+40017,CANADIAN  ,Canadian  ,OK,Oklahoma,58.86855908
+,,,,,
+40019,CARTER  ,Carter  ,OK,Oklahoma,22.73184655
+,,,,,
+40021,CHEROKEE  ,Cherokee  ,OK,Oklahoma,25.04226859
+,,,,,
+40023,CHOCTAW  ,Choctaw  ,OK,Oklahoma,7.46084931
+,,,,,
+40025,CIMARRON  ,Cimarron  ,OK,Oklahoma,0.460637106
+,,,,,
+40027,CLEVELAND  ,Cleveland  ,OK,Oklahoma,198.2719805
+,,,,,
+40029,COAL  ,Coal  ,OK,Oklahoma,4.198174431
+,,,,,
+40031,COMANCHE  ,Comanche  ,OK,Oklahoma,44.25467632
+,,,,,
+40033,COTTON  ,Cotton  ,OK,Oklahoma,3.618406191
+,,,,,
+40035,CRAIG  ,Craig  ,OK,Oklahoma,7.349775298
+,,,,,
+40037,CREEK  ,Creek  ,OK,Oklahoma,28.91594453
+,,,,,
+40039,CUSTER  ,Custer  ,OK,Oklahoma,11.40516457
+,,,,,
+40041,DELAWARE  ,Delaware  ,OK,Oklahoma,22.02796331
+,,,,,
+40043,DEWEY  ,Dewey  ,OK,Oklahoma,1.899829565
+,,,,,
+40045,ELLIS  ,Ellis  ,OK,Oklahoma,1.276646652
+,,,,,
+40047,GARFIELD  ,Garfield  ,OK,Oklahoma,22.68483466
+,,,,,
+40049,GARVIN  ,Garvin  ,OK,Oklahoma,13.39361015
+,,,,,
+40051,GRADY  ,Grady  ,OK,Oklahoma,19.20248497
+,,,,,
+40053,GRANT  ,Grant  ,OK,Oklahoma,1.704314344
+,,,,,
+40055,GREER  ,Greer  ,OK,Oklahoma,3.589108409
+,,,,,
+40057,HARMON  ,Harmon  ,OK,Oklahoma,1.955687754
+,,,,,
+40059,HARPER  ,Harper  ,OK,Oklahoma,1.429558199
+,,,,,
+40061,HASKELL  ,Haskell  ,OK,Oklahoma,8.507924809
+,,,,,
+40063,HUGHES  ,Hughes  ,OK,Oklahoma,6.458634327
+,,,,,
+40065,JACKSON  ,Jackson  ,OK,Oklahoma,12.21056252
+,,,,,
+40067,JEFFERSON  ,Jefferson  ,OK,Oklahoma,3.166332713
+,,,,,
+40069,JOHNSTON  ,Johnston  ,OK,Oklahoma,6.630386843
+,,,,,
+40071,KAY  ,Kay  ,OK,Oklahoma,18.84251977
+,,,,,
+40073,KINGFISHER  ,Kingfisher  ,OK,Oklahoma,6.714645735
+,,,,,
+40075,KIOWA  ,Kiowa  ,OK,Oklahoma,3.423462101
+,,,,,
+40077,LATIMER  ,Latimer  ,OK,Oklahoma,5.612008676
+,,,,,
+40079,LE FLORE  ,Le Flore  ,OK,Oklahoma,12.12495101
+,,,,,
+40081,LINCOLN  ,Lincoln  ,OK,Oklahoma,14.13096671
+,,,,,
+40083,LOGAN  ,Logan  ,OK,Oklahoma,23.90007388
+,,,,,
+40085,LOVE  ,Love  ,OK,Oklahoma,7.461461164
+,,,,,
+40087,MCCLAIN  ,McClain  ,OK,Oklahoma,26.13700699
+,,,,,
+40089,MCCURTAIN  ,McCurtain  ,OK,Oklahoma,6.877753343
+,,,,,
+40091,MCINTOSH  ,McIntosh  ,OK,Oklahoma,12.37219882
+,,,,,
+40093,MAJOR  ,Major  ,OK,Oklahoma,3.120390997
+,,,,,
+40095,MARSHALL  ,Marshall  ,OK,Oklahoma,17.01694281
+,,,,,
+40097,MAYES  ,Mayes  ,OK,Oklahoma,24.14234951
+,,,,,
+40099,MURRAY  ,Murray  ,OK,Oklahoma,12.8676675
+,,,,,
+40101,MUSKOGEE  ,Muskogee  ,OK,Oklahoma,32.91482009
+,,,,,
+40103,NOBLE  ,Noble  ,OK,Oklahoma,6.019803977
+,,,,,
+40105,NOWATA  ,Nowata  ,OK,Oklahoma,7.085638349
+,,,,,
+40107,OKFUSKEE  ,Okfuskee  ,OK,Oklahoma,7.562013175
+,,,,,
+40109,OKLAHOMA  ,Oklahoma  ,OK,Oklahoma,425.9895277
+,,,,,
+40111,OKMULGEE  ,Okmulgee  ,OK,Oklahoma,21.53175106
+,,,,,
+40113,OSAGE  ,Osage  ,OK,Oklahoma,8.131074758
+,,,,,
+40115,OTTAWA  ,Ottawa  ,OK,Oklahoma,25.88506875
+,,,,,
+40117,PAWNEE  ,Pawnee  ,OK,Oklahoma,11.16390864
+,,,,,
+40119,PAYNE  ,Payne  ,OK,Oklahoma,45.96384754
+,,,,,
+40121,PITTSBURG  ,Pittsburg  ,OK,Oklahoma,13.12639847
+,,,,,
+40123,PONTOTOC  ,Pontotoc  ,OK,Oklahoma,20.55752993
+,,,,,
+40125,POTTAWATOMIE  ,Pottawatomie  ,OK,Oklahoma,35.2930702
+,,,,,
+40127,PUSHMATAHA  ,Pushmataha  ,OK,Oklahoma,3.075614374
+,,,,,
+40129,ROGER MILLS  ,Roger Mills  ,OK,Oklahoma,1.254602985
+,,,,,
+40131,ROGERS  ,Rogers  ,OK,Oklahoma,51.89825915
+,,,,,
+40133,SEMINOLE  ,Seminole  ,OK,Oklahoma,15.29614109
+,,,,,
+40135,SEQUOYAH  ,Sequoyah  ,OK,Oklahoma,23.7180228
+,,,,,
+40137,STEPHENS  ,Stephens  ,OK,Oklahoma,19.51390969
+,,,,,
+40139,TEXAS  ,Texas  ,OK,Oklahoma,3.99494895
+,,,,,
+40141,TILLMAN  ,Tillman  ,OK,Oklahoma,3.330782233
+,,,,,
+40143,TULSA  ,Tulsa  ,OK,Oklahoma,435.1573978
+,,,,,
+40145,WAGONER  ,Wagoner  ,OK,Oklahoma,53.52482117
+,,,,,
+40147,WASHINGTON  ,Washington  ,OK,Oklahoma,48.32717924
+,,,,,
+40149,WASHITA  ,Washita  ,OK,Oklahoma,4.399986391
+,,,,,
+40151,WOODS  ,Woods  ,OK,Oklahoma,2.739277816
+,,,,,
+40153,WOODWARD  ,Woodward  ,OK,Oklahoma,6.515945639
+,,,,,
+41001,BAKER  ,Baker  ,OR,Oregon,2.011578964
+,,,,,
+41003,BENTON  ,Benton  ,OR,Oregon,51.34062774
+,,,,,
+41005,CLACKAMAS  ,Clackamas  ,OR,Oregon,83.75337597
+,,,,,
+41007,CLATSOP  ,Clatsop  ,OR,Oregon,17.97862428
+,,,,,
+41009,COLUMBIA  ,Columbia  ,OR,Oregon,29.83323986
+,,,,,
+41011,COOS  ,Coos  ,OR,Oregon,15.31503757
+,,,,,
+41013,CROOK  ,Crook  ,OR,Oregon,2.895155114
+,,,,,
+41015,CURRY  ,Curry  ,OR,Oregon,5.336588466
+,,,,,
+41017,DESCHUTES  ,Deschutes  ,OR,Oregon,23.11291108
+,,,,,
+41019,DOUGLAS  ,Douglas  ,OR,Oregon,8.305534845
+,,,,,
+41021,GILLIAM  ,Gilliam  ,OR,Oregon,0.611176039
+,,,,,
+41023,GRANT  ,Grant  ,OR,Oregon,0.612521991
+,,,,,
+41025,HARNEY  ,Harney  ,OR,Oregon,0.275372597
+,,,,,
+41027,HOOD RIVER  ,Hood River  ,OR,Oregon,17.1061539
+,,,,,
+41029,JACKSON  ,Jackson  ,OR,Oregon,29.72381076
+,,,,,
+41031,JEFFERSON  ,Jefferson  ,OR,Oregon,5.013675055
+,,,,,
+41033,JOSEPHINE  ,Josephine  ,OR,Oregon,20.14121644
+,,,,,
+41035,KLAMATH  ,Klamath  ,OR,Oregon,4.308182939
+,,,,,
+41037,LAKE  ,Lake  ,OR,Oregon,0.372078663
+,,,,,
+41039,LANE  ,Lane  ,OR,Oregon,31.25707027
+,,,,,
+41041,LINCOLN  ,Lincoln  ,OR,Oregon,18.85655988
+,,,,,
+41043,LINN  ,Linn  ,OR,Oregon,20.74232448
+,,,,,
+41045,MALHEUR  ,Malheur  ,OR,Oregon,1.188290765
+,,,,,
+41047,MARION  ,Marion  ,OR,Oregon,109.743371
+,,,,,
+41049,MORROW  ,Morrow  ,OR,Oregon,2.13251583
+,,,,,
+41051,MULTNOMAH  ,Multnomah  ,OR,Oregon,715.2753775
+,,,,,
+41053,POLK  ,Polk  ,OR,Oregon,42.43236446
+,,,,,
+41055,SHERMAN  ,Sherman  ,OR,Oregon,0.752407833
+,,,,,
+41057,TILLAMOOK  ,Tillamook  ,OR,Oregon,9.133056771
+,,,,,
+41059,UMATILLA  ,Umatilla  ,OR,Oregon,9.233697886
+,,,,,
+41061,UNION  ,Union  ,OR,Oregon,4.933658396
+,,,,,
+41063,WALLOWA  ,Wallowa  ,OR,Oregon,0.849796257
+,,,,,
+41065,WASCO  ,Wasco  ,OR,Oregon,4.194184323
+,,,,,
+41067,WASHINGTON  ,Washington  ,OR,Oregon,310.1644586
+,,,,,
+41069,WHEELER  ,Wheeler  ,OR,Oregon,0.320847793
+,,,,,
+41071,YAMHILL  ,Yamhill  ,OR,Oregon,55.99273285
+,,,,,
+42001,ADAMS  ,Adams  ,PA,Pennsylvania,75.93345667
+,,,,,
+42003,ALLEGHENY  ,Allegheny  ,PA,Pennsylvania,648.1038604
+,,,,,
+42005,ARMSTRONG  ,Armstrong  ,PA,Pennsylvania,39.20909708
+,,,,,
+42007,BEAVER  ,Beaver  ,PA,Pennsylvania,148.2328331
+,,,,,
+42009,BEDFORD  ,Bedford  ,PA,Pennsylvania,18.54071919
+,,,,,
+42011,BERKS  ,Berks  ,PA,Pennsylvania,187.8468263
+,,,,,
+42013,BLAIR  ,Blair  ,PA,Pennsylvania,90.93865631
+,,,,,
+42015,BRADFORD  ,Bradford  ,PA,Pennsylvania,20.6285945
+,,,,,
+42017,BUCKS  ,Bucks  ,PA,Pennsylvania,400.1185087
+,,,,,
+42019,BUTLER  ,Butler  ,PA,Pennsylvania,91.3441609
+,,,,,
+42021,CAMBRIA  ,Cambria  ,PA,Pennsylvania,75.46916128
+,,,,,
+42023,CAMERON  ,Cameron  ,PA,Pennsylvania,4.566212902
+,,,,,
+42025,CARBON  ,Carbon  ,PA,Pennsylvania,64.70895899
+,,,,,
+42027,CENTRE  ,Centre  ,PA,Pennsylvania,56.1632729
+,,,,,
+42029,CHESTER  ,Chester  ,PA,Pennsylvania,266.0474171
+,,,,,
+42031,CLARION  ,Clarion  ,PA,Pennsylvania,24.95053504
+,,,,,
+42033,CLEARFIELD  ,Clearfield  ,PA,Pennsylvania,27.05690534
+,,,,,
+42035,CLINTON  ,Clinton  ,PA,Pennsylvania,16.98966779
+,,,,,
+42037,COLUMBIA  ,Columbia  ,PA,Pennsylvania,52.92346829
+,,,,,
+42039,CRAWFORD  ,Crawford  ,PA,Pennsylvania,32.86381961
+,,,,,
+42041,CUMBERLAND  ,Cumberland  ,PA,Pennsylvania,175.1320535
+,,,,,
+42043,DAUPHIN  ,Dauphin  ,PA,Pennsylvania,201.9232145
+,,,,,
+42045,DELAWARE  ,Delaware  ,PA,Pennsylvania,1183.661036
+,,,,,
+42047,ELK  ,Elk  ,PA,Pennsylvania,14.28374092
+,,,,,
+42049,ERIE  ,Erie  ,PA,Pennsylvania,133.3443917
+,,,,,
+42051,FAYETTE  ,Fayette  ,PA,Pennsylvania,64.62681405
+,,,,,
+42053,FOREST  ,Forest  ,PA,Pennsylvania,6.642726411
+,,,,,
+42055,FRANKLIN  ,Franklin  ,PA,Pennsylvania,76.87362413
+,,,,,
+42057,FULTON  ,Fulton  ,PA,Pennsylvania,12.80032135
+,,,,,
+42059,GREENE  ,Greene  ,PA,Pennsylvania,24.90043264
+,,,,,
+42061,HUNTINGDON  ,Huntingdon  ,PA,Pennsylvania,20.05043477
+,,,,,
+42063,INDIANA  ,Indiana  ,PA,Pennsylvania,40.01371619
+,,,,,
+42065,JEFFERSON  ,Jefferson  ,PA,Pennsylvania,26.08845165
+,,,,,
+42067,JUNIATA  ,Juniata  ,PA,Pennsylvania,24.23260901
+,,,,,
+42069,LACKAWANNA  ,Lackawanna  ,PA,Pennsylvania,177.9591753
+,,,,,
+42071,LANCASTER  ,Lancaster  ,PA,Pennsylvania,220.2186681
+,,,,,
+42073,LAWRENCE  ,Lawrence  ,PA,Pennsylvania,94.19382999
+,,,,,
+42075,LEBANON  ,Lebanon  ,PA,Pennsylvania,147.9865105
+,,,,,
+42077,LEHIGH  ,Lehigh  ,PA,Pennsylvania,405.5747841
+,,,,,
+42079,LUZERNE  ,Luzerne  ,PA,Pennsylvania,137.8517954
+,,,,,
+42081,LYCOMING  ,Lycoming  ,PA,Pennsylvania,36.09134841
+,,,,,
+42083,MCKEAN  ,McKean  ,PA,Pennsylvania,16.48457402
+,,,,,
+42085,MERCER  ,Mercer  ,PA,Pennsylvania,64.65631438
+,,,,,
+42087,MIFFLIN  ,Mifflin  ,PA,Pennsylvania,43.54865793
+,,,,,
+42089,MONROE  ,Monroe  ,PA,Pennsylvania,106.3782509
+,,,,,
+42091,MONTGOMERY  ,Montgomery  ,PA,Pennsylvania,656.5915611
+,,,,,
+42093,MONTOUR  ,Montour  ,PA,Pennsylvania,54.23236423
+,,,,,
+42095,NORTHAMPTON  ,Northampton  ,PA,Pennsylvania,315.2131093
+,,,,,
+42097,NORTHUMBERLAND  ,Northumberland  ,PA,Pennsylvania,77.83131226
+,,,,,
+42099,PERRY  ,Perry  ,PA,Pennsylvania,32.15416035
+,,,,,
+42101,PHILADELPHIA  ,Philadelphia  ,PA,Pennsylvania,4531.771822
+,,,,,
+42103,PIKE  ,Pike  ,PA,Pennsylvania,39.32009236
+,,,,,
+42105,POTTER  ,Potter  ,PA,Pennsylvania,6.047605239
+,,,,,
+42107,SCHUYLKILL  ,Schuylkill  ,PA,Pennsylvania,71.18503147
+,,,,,
+42109,SNYDER  ,Snyder  ,PA,Pennsylvania,47.52070799
+,,,,,
+42111,SOMERSET  ,Somerset  ,PA,Pennsylvania,26.93495636
+,,,,,
+42113,SULLIVAN  ,Sullivan  ,PA,Pennsylvania,5.300606117
+,,,,,
+42115,SUSQUEHANNA  ,Susquehanna  ,PA,Pennsylvania,19.38256646
+,,,,,
+42117,TIOGA  ,Tioga  ,PA,Pennsylvania,14.03935994
+,,,,,
+42119,UNION  ,Union  ,PA,Pennsylvania,55.12978945
+,,,,,
+42121,VENANGO  ,Venango  ,PA,Pennsylvania,29.99105013
+,,,,,
+42123,WARREN  ,Warren  ,PA,Pennsylvania,17.48323295
+,,,,,
+42125,WASHINGTON  ,Washington  ,PA,Pennsylvania,93.50688126
+,,,,,
+42127,WAYNE  ,Wayne  ,PA,Pennsylvania,27.42372792
+,,,,,
+42129,WESTMORELAND  ,Westmoreland  ,PA,Pennsylvania,133.2342207
+,,,,,
+42131,WYOMING  ,Wyoming  ,PA,Pennsylvania,26.81007779
+,,,,,
+42133,YORK  ,York  ,PA,Pennsylvania,189.5970158
+,,,,,
+44001,BRISTOL  ,Bristol  ,RI,Rhode Island,782.2287733
+,,,,,
+44003,KENT  ,Kent  ,RI,Rhode Island,375.3431064
+,,,,,
+44005,NEWPORT  ,Newport  ,RI,Rhode Island,313.1220486
+,,,,,
+44007,PROVIDENCE  ,Providence  ,RI,Rhode Island,598.297855
+,,,,,
+44009,WASHINGTON  ,Washington  ,RI,Rhode Island,148.0276107
+,,,,,
+45001,ABBEVILLE  ,Abbeville  ,SC,South Carolina,19.37240492
+,,,,,
+45003,AIKEN  ,Aiken  ,SC,South Carolina,60.19984103
+,,,,,
+45005,ALLENDALE  ,Allendale  ,SC,South Carolina,8.717537594
+,,,,,
+45007,ANDERSON  ,Anderson  ,SC,South Carolina,106.0081343
+,,,,,
+45009,BAMBERG  ,Bamberg  ,SC,South Carolina,14.33037251
+,,,,,
+45011,BARNWELL  ,Barnwell  ,SC,South Carolina,15.19191492
+,,,,,
+45013,BEAUFORT  ,Beaufort  ,SC,South Carolina,122.4013952
+,,,,,
+45015,BERKELEY  ,Berkeley  ,SC,South Carolina,73.14238371
+,,,,,
+45017,CALHOUN  ,Calhoun  ,SC,South Carolina,14.90408159
+,,,,,
+45019,CHARLESTON  ,Charleston  ,SC,South Carolina,166.0251337
+,,,,,
+45021,CHEROKEE  ,Cherokee  ,SC,South Carolina,55.66818034
+,,,,,
+45023,CHESTER  ,Chester  ,SC,South Carolina,21.4948758
+,,,,,
+45025,CHESTERFIELD  ,Chesterfield  ,SC,South Carolina,22.24152394
+,,,,,
+45027,CLARENDON  ,Clarendon  ,SC,South Carolina,21.63904402
+,,,,,
+45029,COLLETON  ,Colleton  ,SC,South Carolina,13.72963373
+,,,,,
+45031,DARLINGTON  ,Darlington  ,SC,South Carolina,46.31614806
+,,,,,
+45033,DILLON  ,Dillon  ,SC,South Carolina,29.42579422
+,,,,,
+45035,DORCHESTER  ,Dorchester  ,SC,South Carolina,105.5742009
+,,,,,
+45037,EDGEFIELD  ,Edgefield  ,SC,South Carolina,20.63974653
+,,,,,
+45039,FAIRFIELD  ,Fairfield  ,SC,South Carolina,12.77783997
+,,,,,
+45041,FLORENCE  ,Florence  ,SC,South Carolina,66.83074177
+,,,,,
+45043,GEORGETOWN  ,Georgetown  ,SC,South Carolina,29.22503388
+,,,,,
+45045,GREENVILLE  ,Greenville  ,SC,South Carolina,245.1195013
+,,,,,
+45047,GREENWOOD  ,Greenwood  ,SC,South Carolina,59.66041952
+,,,,,
+45049,HAMPTON  ,Hampton  ,SC,South Carolina,13.65691346
+,,,,,
+45051,HORRY  ,Horry  ,SC,South Carolina,109.2951844
+,,,,,
+45053,JASPER  ,Jasper  ,SC,South Carolina,16.44212272
+,,,,,
+45055,KERSHAW  ,Kershaw  ,SC,South Carolina,34.20633477
+,,,,,
+45057,LANCASTER  ,Lancaster  ,SC,South Carolina,62.96831369
+,,,,,
+45059,LAURENS  ,Laurens  ,SC,South Carolina,36.08632214
+,,,,,
+45061,LEE  ,Lee  ,SC,South Carolina,16.57234354
+,,,,,
+45063,LEXINGTON  ,Lexington  ,SC,South Carolina,158.1527621
+,,,,,
+45065,MCCORMICK  ,McCormick  ,SC,South Carolina,10.32747646
+,,,,,
+45067,MARION  ,Marion  ,SC,South Carolina,24.90741962
+,,,,,
+45069,MARLBORO  ,Marlboro  ,SC,South Carolina,21.82936278
+,,,,,
+45071,NEWBERRY  ,Newberry  ,SC,South Carolina,23.32888419
+,,,,,
+45073,OCONEE  ,Oconee  ,SC,South Carolina,47.27075452
+,,,,,
+45075,ORANGEBURG  ,Orangeburg  ,SC,South Carolina,30.86966264
+,,,,,
+45077,PICKENS  ,Pickens  ,SC,South Carolina,95.373278
+,,,,,
+45079,RICHLAND  ,Richland  ,SC,South Carolina,208.1441279
+,,,,,
+45081,SALUDA  ,Saluda  ,SC,South Carolina,17.30521151
+,,,,,
+45083,SPARTANBURG  ,Spartanburg  ,SC,South Carolina,144.4493659
+,,,,,
+45085,SUMTER  ,Sumter  ,SC,South Carolina,62.11476628
+,,,,,
+45087,UNION  ,Union  ,SC,South Carolina,20.75848345
+,,,,,
+45089,WILLIAMSBURG  ,Williamsburg  ,SC,South Carolina,13.1408535
+,,,,,
+45091,YORK  ,York  ,SC,South Carolina,146.7105208
+,,,,,
+46003,AURORA  ,Aurora  ,SC,South Dakota,1.503621827
+,,,,,
+46005,BEADLE  ,Beadle  ,SC,South Dakota,5.636125726
+,,,,,
+46007,BENNETT  ,Bennett  ,SC,South Dakota,1.12019789
+,,,,,
+46009,BON HOMME  ,Bon Homme  ,SC,South Dakota,4.77464071
+,,,,,
+46011,BROOKINGS  ,Brookings  ,SC,South Dakota,16.68723249
+,,,,,
+46013,BROWN  ,Brown  ,SC,South Dakota,8.754198719
+,,,,,
+46015,BRULE  ,Brule  ,SC,South Dakota,2.483176222
+,,,,,
+46017,BUFFALO  ,Buffalo  ,SC,South Dakota,1.681499839
+,,,,,
+46019,BUTTE  ,Butte  ,SC,South Dakota,1.746369489
+,,,,,
+46021,CAMPBELL  ,Campbell  ,SC,South Dakota,0.755178034
+,,,,,
+46023,CHARLES MIX  ,Charles Mix  ,SC,South Dakota,3.287268901
+,,,,,
+46025,CLARK  ,Clark  ,SC,South Dakota,1.480939773
+,,,,,
+46027,CLAY  ,Clay  ,SC,South Dakota,13.04872079
+,,,,,
+46029,CODINGTON  ,Codington  ,SC,South Dakota,15.71901255
+,,,,,
+46031,CORSON  ,Corson  ,SC,South Dakota,0.651608542
+,,,,,
+46033,CUSTER  ,Custer  ,SC,South Dakota,2.125990404
+,,,,,
+46035,DAVISON  ,Davison  ,SC,South Dakota,17.63827458
+,,,,,
+46037,DAY  ,Day  ,SC,South Dakota,2.066980814
+,,,,,
+46039,DEUEL  ,Deuel  ,SC,South Dakota,2.669748283
+,,,,,
+46041,DEWEY  ,Dewey  ,SC,South Dakota,0.969075244
+,,,,,
+46043,DOUGLAS  ,Douglas  ,SC,South Dakota,2.619910613
+,,,,,
+46045,EDMUNDS  ,Edmunds  ,SC,South Dakota,1.351037913
+,,,,,
+46047,FALL RIVER  ,Fall River  ,SC,South Dakota,1.503231393
+,,,,,
+46049,FAULK  ,Faulk  ,SC,South Dakota,0.913249342
+,,,,,
+46051,GRANT  ,Grant  ,SC,South Dakota,4.089097249
+,,,,,
+46053,GREGORY  ,Gregory  ,SC,South Dakota,1.598123783
+,,,,,
+46055,HAAKON  ,Haakon  ,SC,South Dakota,0.44399115
+,,,,,
+46057,HAMLIN  ,Hamlin  ,SC,South Dakota,4.567135659
+,,,,,
+46059,HAND  ,Hand  ,SC,South Dakota,0.887149679
+,,,,,
+46061,HANSON  ,Hanson  ,SC,South Dakota,3.018014667
+,,,,,
+46063,HARDING  ,Harding  ,SC,South Dakota,0.189469124
+,,,,,
+46065,HUGHES  ,Hughes  ,SC,South Dakota,9.172911312
+,,,,,
+46067,HUTCHINSON  ,Hutchinson  ,SC,South Dakota,3.47391294
+,,,,,
+46069,HYDE  ,Hyde  ,SC,South Dakota,0.597123449
+,,,,,
+46071,JACKSON  ,Jackson  ,SC,South Dakota,0.680900107
+,,,,,
+46073,JERAULD  ,Jerauld  ,SC,South Dakota,1.488980595
+,,,,,
+46075,JONES  ,Jones  ,SC,South Dakota,0.292660933
+,,,,,
+46077,KINGSBURY  ,Kingsbury  ,SC,South Dakota,2.304355281
+,,,,,
+46079,LAKE  ,Lake  ,SC,South Dakota,8.624841137
+,,,,,
+46081,LAWRENCE  ,Lawrence  ,SC,South Dakota,12.17782292
+,,,,,
+46083,LINCOLN  ,Lincoln  ,SC,South Dakota,36.72729843
+,,,,,
+46085,LYMAN  ,Lyman  ,SC,South Dakota,0.909680872
+,,,,,
+46087,MCCOOK  ,McCook  ,SC,South Dakota,3.705658954
+,,,,,
+46089,MCPHERSON  ,McPherson  ,SC,South Dakota,0.80301836
+,,,,,
+46091,MARSHALL  ,Marshall  ,SC,South Dakota,2.255007832
+,,,,,
+46093,MEADE  ,Meade  ,SC,South Dakota,3.05060014
+,,,,,
+46095,MELLETTE  ,Mellette  ,SC,South Dakota,0.606918477
+,,,,,
+46097,MINER  ,Miner  ,SC,South Dakota,1.509411897
+,,,,,
+46099,MINNEHAHA  ,Minnehaha  ,SC,South Dakota,89.3667699
+,,,,,
+46101,MOODY  ,Moody  ,SC,South Dakota,4.836466846
+,,,,,
+46102,OGLALA LAKOTA  ,Oglala Lakota  ,SC,South Dakota,2.643662271
+,,,,,
+46103,PENNINGTON  ,Pennington  ,SC,South Dakota,15.19701245
+,,,,,
+46105,PERKINS  ,Perkins  ,SC,South Dakota,0.391014693
+,,,,,
+46107,POTTER  ,Potter  ,SC,South Dakota,1.042891944
+,,,,,
+46109,ROBERTS  ,Roberts  ,SC,South Dakota,3.606617053
+,,,,,
+46111,SANBORN  ,Sanborn  ,SC,South Dakota,1.619700788
+,,,,,
+46115,SPINK  ,Spink  ,SC,South Dakota,1.68022014
+,,,,,
+46117,STANLEY  ,Stanley  ,SC,South Dakota,0.801109688
+,,,,,
+46119,SULLY  ,Sully  ,SC,South Dakota,0.51046981
+,,,,,
+46121,TODD  ,Todd  ,SC,South Dakota,2.821118668
+,,,,,
+46123,TRIPP  ,Tripp  ,SC,South Dakota,1.309309422
+,,,,,
+46125,TURNER  ,Turner  ,SC,South Dakota,5.17085459
+,,,,,
+46127,UNION  ,Union  ,SC,South Dakota,12.71833634
+,,,,,
+46129,WALWORTH  ,Walworth  ,SC,South Dakota,3.002112486
+,,,,,
+46135,YANKTON  ,Yankton  ,SC,South Dakota,16.82898322
+,,,,,
+46137,ZIEBACH  ,Ziebach  ,SC,South Dakota,0.553981829
+,,,,,
+47001,ANDERSON  ,Anderson  ,TN,Tennessee,86.76335586
+,,,,,
+47003,BEDFORD  ,Bedford  ,TN,Tennessee,38.76843022
+,,,,,
+47005,BENTON  ,Benton  ,TN,Tennessee,15.77676934
+,,,,,
+47007,BLEDSOE  ,Bledsoe  ,TN,Tennessee,13.87184444
+,,,,,
+47009,BLOUNT  ,Blount  ,TN,Tennessee,88.74484763
+,,,,,
+47011,BRADLEY  ,Bradley  ,TN,Tennessee,122.7931096
+,,,,,
+47013,CAMPBELL  ,Campbell  ,TN,Tennessee,31.91258985
+,,,,,
+47015,CANNON  ,Cannon  ,TN,Tennessee,20.314177
+,,,,,
+47017,CARROLL  ,Carroll  ,TN,Tennessee,18.10034868
+,,,,,
+47019,CARTER  ,Carter  ,TN,Tennessee,63.80119171
+,,,,,
+47021,CHEATHAM  ,Cheatham  ,TN,Tennessee,50.96936621
+,,,,,
+47023,CHESTER  ,Chester  ,TN,Tennessee,23.17400182
+,,,,,
+47025,CLAIBORNE  ,Claiborne  ,TN,Tennessee,28.08523655
+,,,,,
+47027,CLAY  ,Clay  ,TN,Tennessee,12.54598431
+,,,,,
+47029,COCKE  ,Cocke  ,TN,Tennessee,31.30451466
+,,,,,
+47031,COFFEE  ,Coffee  ,TN,Tennessee,49.08221218
+,,,,,
+47033,CROCKETT  ,Crockett  ,TN,Tennessee,21.08128157
+,,,,,
+47035,CUMBERLAND  ,Cumberland  ,TN,Tennessee,33.24205865
+,,,,,
+47037,DAVIDSON  ,Davidson  ,TN,Tennessee,524.5397733
+,,,,,
+47039,DECATUR  ,Decatur  ,TN,Tennessee,13.51043522
+,,,,,
+47041,DEKALB  ,DeKalb  ,TN,Tennessee,24.86317869
+,,,,,
+47043,DICKSON  ,Dickson  ,TN,Tennessee,40.97315977
+,,,,,
+47045,DYER  ,Dyer  ,TN,Tennessee,28.31771478
+,,,,,
+47047,FAYETTE  ,Fayette  ,TN,Tennessee,21.74475872
+,,,,,
+47049,FENTRESS  ,Fentress  ,TN,Tennessee,13.93374432
+,,,,,
+47051,FRANKLIN  ,Franklin  ,TN,Tennessee,28.90574331
+,,,,,
+47053,GIBSON  ,Gibson  ,TN,Tennessee,31.50016988
+,,,,,
+47055,GILES  ,Giles  ,TN,Tennessee,18.43323706
+,,,,,
+47057,GRAINGER  ,Grainger  ,TN,Tennessee,31.66712655
+,,,,,
+47059,GREENE  ,Greene  ,TN,Tennessee,42.61423905
+,,,,,
+47061,GRUNDY  ,Grundy  ,TN,Tennessee,14.27992675
+,,,,,
+47063,HAMBLEN  ,Hamblen  ,TN,Tennessee,152.6789637
+,,,,,
+47065,HAMILTON  ,Hamilton  ,TN,Tennessee,254.5437533
+,,,,,
+47067,HANCOCK  ,Hancock  ,TN,Tennessee,11.43594269
+,,,,,
+47069,HARDEMAN  ,Hardeman  ,TN,Tennessee,14.78043343
+,,,,,
+47071,HARDIN  ,Hardin  ,TN,Tennessee,17.23497927
+,,,,,
+47073,HAWKINS  ,Hawkins  ,TN,Tennessee,44.71150082
+,,,,,
+47075,HAYWOOD  ,Haywood  ,TN,Tennessee,12.87641416
+,,,,,
+47077,HENDERSON  ,Henderson  ,TN,Tennessee,20.68507097
+,,,,,
+47079,HENRY  ,Henry  ,TN,Tennessee,22.18244473
+,,,,,
+47081,HICKMAN  ,Hickman  ,TN,Tennessee,15.55671412
+,,,,,
+47083,HOUSTON  ,Houston  ,TN,Tennessee,15.7607149
+,,,,,
+47085,HUMPHREYS  ,Humphreys  ,TN,Tennessee,13.32539223
+,,,,,
+47087,JACKSON  ,Jackson  ,TN,Tennessee,14.53021139
+,,,,,
+47089,JEFFERSON  ,Jefferson  ,TN,Tennessee,74.77965723
+,,,,,
+47091,JOHNSON  ,Johnson  ,TN,Tennessee,23.01424116
+,,,,,
+47093,KNOX  ,Knox  ,TN,Tennessee,346.4944717
+,,,,,
+47095,LAKE  ,Lake  ,TN,Tennessee,17.52754715
+,,,,,
+47097,LAUDERDALE  ,Lauderdale  ,TN,Tennessee,21.51278869
+,,,,,
+47099,LAWRENCE  ,Lawrence  ,TN,Tennessee,26.86334744
+,,,,,
+47101,LEWIS  ,Lewis  ,TN,Tennessee,16.36430177
+,,,,,
+47103,LINCOLN  ,Lincoln  ,TN,Tennessee,22.82119849
+,,,,,
+47105,LOUDON  ,Loudon  ,TN,Tennessee,86.91306118
+,,,,,
+47107,MCMINN  ,McMinn  ,TN,Tennessee,47.37264734
+,,,,,
+47109,MCNAIRY  ,McNairy  ,TN,Tennessee,17.76912339
+,,,,,
+47111,MACON  ,Macon  ,TN,Tennessee,29.52488839
+,,,,,
+47113,MADISON  ,Madison  ,TN,Tennessee,67.69833274
+,,,,,
+47115,MARION  ,Marion  ,TN,Tennessee,22.02068813
+,,,,,
+47117,MARSHALL  ,Marshall  ,TN,Tennessee,33.18345915
+,,,,,
+47119,MAURY  ,Maury  ,TN,Tennessee,56.53325273
+,,,,,
+47121,MEIGS  ,Meigs  ,TN,Tennessee,23.66849078
+,,,,,
+47123,MONROE  ,Monroe  ,TN,Tennessee,27.86336705
+,,,,,
+47125,MONTGOMERY  ,Montgomery  ,TN,Tennessee,140.6349873
+,,,,,
+47127,MOORE  ,Moore  ,TN,Tennessee,18.88941143
+,,,,,
+47129,MORGAN  ,Morgan  ,TN,Tennessee,15.96817982
+,,,,,
+47131,OBION  ,Obion  ,TN,Tennessee,21.62768778
+,,,,,
+47133,OVERTON  ,Overton  ,TN,Tennessee,19.59880477
+,,,,,
+47135,PERRY  ,Perry  ,TN,Tennessee,7.365577626
+,,,,,
+47137,PICKETT  ,Pickett  ,TN,Tennessee,12.05364058
+,,,,,
+47139,POLK  ,Polk  ,TN,Tennessee,14.90915689
+,,,,,
+47141,PUTNAM  ,Putnam  ,TN,Tennessee,73.5806145
+,,,,,
+47143,RHEA  ,Rhea  ,TN,Tennessee,39.94427257
+,,,,,
+47145,ROANE  ,Roane  ,TN,Tennessee,56.61751473
+,,,,,
+47147,ROBERTSON  ,Robertson  ,TN,Tennessee,56.21051169
+,,,,,
+47149,RUTHERFORD  ,Rutherford  ,TN,Tennessee,191.4947533
+,,,,,
+47151,SCOTT  ,Scott  ,TN,Tennessee,15.92424879
+,,,,,
+47153,SEQUATCHIE  ,Sequatchie  ,TN,Tennessee,21.39275549
+,,,,,
+47155,SEVIER  ,Sevier  ,TN,Tennessee,62.74662472
+,,,,,
+47157,SHELBY  ,Shelby  ,TN,Tennessee,473.7972806
+,,,,,
+47159,SMITH  ,Smith  ,TN,Tennessee,23.90357374
+,,,,,
+47161,STEWART  ,Stewart  ,TN,Tennessee,11.16966555
+,,,,,
+47163,SULLIVAN  ,Sullivan  ,TN,Tennessee,146.3852856
+,,,,,
+47165,SUMNER  ,Sumner  ,TN,Tennessee,130.8924075
+,,,,,
+47167,TIPTON  ,Tipton  ,TN,Tennessee,51.75439917
+,,,,,
+47169,TROUSDALE  ,Trousdale  ,TN,Tennessee,32.32553571
+,,,,,
+47171,UNICOI  ,Unicoi  ,TN,Tennessee,36.8953964
+,,,,,
+47173,UNION  ,Union  ,TN,Tennessee,33.31807577
+,,,,,
+47175,VAN BUREN  ,Van Buren  ,TN,Tennessee,8.054876905
+,,,,,
+47177,WARREN  ,Warren  ,TN,Tennessee,36.09968672
+,,,,,
+47179,WASHINGTON  ,Washington  ,TN,Tennessee,150.253193
+,,,,,
+47181,WAYNE  ,Wayne  ,TN,Tennessee,8.756484006
+,,,,,
+47183,WEAKLEY  ,Weakley  ,TN,Tennessee,22.37098228
+,,,,,
+47185,WHITE  ,White  ,TN,Tennessee,27.2449927
+,,,,,
+47187,WILLIAMSON  ,Williamson  ,TN,Tennessee,144.8367408
+,,,,,
+47189,WILSON  ,Wilson  ,TN,Tennessee,89.69051632
+,,,,,
+48001,ANDERSON  ,Anderson  ,TX,Texas,21.02428029
+,,,,,
+48003,ANDREWS  ,Andrews  ,TX,Texas,4.584174535
+,,,,,
+48005,ANGELINA  ,Angelina  ,TX,Texas,42.39912091
+,,,,,
+48007,ARANSAS  ,Aransas  ,TX,Texas,37.93324765
+,,,,,
+48009,ARCHER  ,Archer  ,TX,Texas,3.756773403
+,,,,,
+48011,ARMSTRONG  ,Armstrong  ,TX,Texas,0.813732656
+,,,,,
+48013,ATASCOSA  ,Atascosa  ,TX,Texas,15.45876401
+,,,,,
+48015,AUSTIN  ,Austin  ,TX,Texas,17.65700997
+,,,,,
+48017,BAILEY  ,Bailey  ,TX,Texas,3.311160591
+,,,,,
+48019,BANDERA  ,Bandera  ,TX,Texas,10.62300586
+,,,,,
+48021,BASTROP  ,Bastrop  ,TX,Texas,35.89726414
+,,,,,
+48023,BAYLOR  ,Baylor  ,TX,Texas,1.598298298
+,,,,,
+48025,BEE  ,Bee  ,TX,Texas,14.33935601
+,,,,,
+48027,BELL  ,Bell  ,TX,Texas,125.6914911
+,,,,,
+48029,BEXAR  ,Bexar  ,TX,Texas,599.5581109
+,,,,,
+48031,BLANCO  ,Blanco  ,TX,Texas,6.14007402
+,,,,,
+48033,BORDEN  ,Borden  ,TX,Texas,0.286099512
+,,,,,
+48035,BOSQUE  ,Bosque  ,TX,Texas,7.118088885
+,,,,,
+48037,BOWIE  ,Bowie  ,TX,Texas,40.94769801
+,,,,,
+48039,BRAZORIA  ,Brazoria  ,TX,Texas,100.3298284
+,,,,,
+48041,BRAZOS  ,Brazos  ,TX,Texas,144.5413721
+,,,,,
+48043,BREWSTER  ,Brewster  ,TX,Texas,0.575429251
+,,,,,
+48045,BRISCOE  ,Briscoe  ,TX,Texas,0.663237203
+,,,,,
+48047,BROOKS  ,Brooks  ,TX,Texas,2.938676197
+,,,,,
+48049,BROWN  ,Brown  ,TX,Texas,15.46694199
+,,,,,
+48051,BURLESON  ,Burleson  ,TX,Texas,10.46523905
+,,,,,
+48053,BURNET  ,Burnet  ,TX,Texas,17.76606423
+,,,,,
+48055,CALDWELL  ,Caldwell  ,TX,Texas,29.3176956
+,,,,,
+48057,CALHOUN  ,Calhoun  ,TX,Texas,16.61223705
+,,,,,
+48059,CALLAHAN  ,Callahan  ,TX,Texas,5.911486775
+,,,,,
+48061,CAMERON  ,Cameron  ,TX,Texas,182.7492668
+,,,,,
+48063,CAMP  ,Camp  ,TX,Texas,25.26018797
+,,,,,
+48065,CARSON  ,Carson  ,TX,Texas,2.530841245
+,,,,,
+48067,CASS  ,Cass  ,TX,Texas,12.39828554
+,,,,,
+48069,CASTRO  ,Castro  ,TX,Texas,3.361391124
+,,,,,
+48071,CHAMBERS  ,Chambers  ,TX,Texas,26.05167617
+,,,,,
+48073,CHEROKEE  ,Cherokee  ,TX,Texas,19.03201416
+,,,,,
+48075,CHILDRESS  ,Childress  ,TX,Texas,4.005643982
+,,,,,
+48077,CLAY  ,Clay  ,TX,Texas,3.683503049
+,,,,,
+48079,COCHRAN  ,Cochran  ,TX,Texas,1.446608613
+,,,,,
+48081,COKE  ,Coke  ,TX,Texas,1.387051036
+,,,,,
+48083,COLEMAN  ,Coleman  ,TX,Texas,2.565322929
+,,,,,
+48085,COLLIN  ,Collin  ,TX,Texas,433.4078589
+,,,,,
+48087,COLLINGSWORTH  ,Collingsworth  ,TX,Texas,1.259485062
+,,,,,
+48089,COLORADO  ,Colorado  ,TX,Texas,8.452333459
+,,,,,
+48091,COMAL  ,Comal  ,TX,Texas,93.22629951
+,,,,,
+48093,COMANCHE  ,Comanche  ,TX,Texas,5.556312873
+,,,,,
+48095,CONCHO  ,Concho  ,TX,Texas,1.661359051
+,,,,,
+48097,COOKE  ,Cooke  ,TX,Texas,17.46488577
+,,,,,
+48099,CORYELL  ,Coryell  ,TX,Texas,27.66384138
+,,,,,
+48101,COTTLE  ,Cottle  ,TX,Texas,0.695835228
+,,,,,
+48103,CRANE  ,Crane  ,TX,Texas,2.379852022
+,,,,,
+48105,CROCKETT  ,Crockett  ,TX,Texas,0.499660631
+,,,,,
+48107,CROSBY  ,Crosby  ,TX,Texas,2.513828595
+,,,,,
+48109,CULBERSON  ,Culberson  ,TX,Texas,0.226972575
+,,,,,
+48111,DALLAM  ,Dallam  ,TX,Texas,1.86047344
+,,,,,
+48113,DALLAS  ,Dallas  ,TX,Texas,1145.193915
+,,,,,
+48115,DAWSON  ,Dawson  ,TX,Texas,5.559697453
+,,,,,
+48117,DEAF SMITH  ,Deaf Smith  ,TX,Texas,4.874959015
+,,,,,
+48119,DELTA  ,Delta  ,TX,Texas,7.839840233
+,,,,,
+48121,DENTON  ,Denton  ,TX,Texas,354.6578718
+,,,,,
+48123,DEWITT  ,DeWitt  ,TX,Texas,8.680091237
+,,,,,
+48125,DICKENS  ,Dickens  ,TX,Texas,0.94885164
+,,,,,
+48127,DIMMIT  ,Dimmit  ,TX,Texas,3.098092379
+,,,,,
+48129,DONLEY  ,Donley  ,TX,Texas,1.41085255
+,,,,,
+48131,DUVAL  ,Duval  ,TX,Texas,2.444519895
+,,,,,
+48133,EASTLAND  ,Eastland  ,TX,Texas,7.613648639
+,,,,,
+48135,ECTOR  ,Ector  ,TX,Texas,68.09470609
+,,,,,
+48137,EDWARDS  ,Edwards  ,TX,Texas,0.374640418
+,,,,,
+48139,ELLIS  ,Ellis  ,TX,Texas,69.67134826
+,,,,,
+48141,EL PASO  ,El Paso  ,TX,Texas,319.2109187
+,,,,,
+48143,ERATH  ,Erath  ,TX,Texas,14.78639166
+,,,,,
+48145,FALLS  ,Falls  ,TX,Texas,8.72565312
+,,,,,
+48147,FANNIN  ,Fannin  ,TX,Texas,14.81199977
+,,,,,
+48149,FAYETTE  ,Fayette  ,TX,Texas,10.18880085
+,,,,,
+48151,FISHER  ,Fisher  ,TX,Texas,1.667760396
+,,,,,
+48153,FLOYD  ,Floyd  ,TX,Texas,2.285147416
+,,,,,
+48155,FOARD  ,Foard  ,TX,Texas,0.771769618
+,,,,,
+48157,FORT BEND  ,Fort Bend  ,TX,Texas,331.3226402
+,,,,,
+48159,FRANKLIN  ,Franklin  ,TX,Texas,14.49827658
+,,,,,
+48161,FREESTONE  ,Freestone  ,TX,Texas,8.669729906
+,,,,,
+48163,FRIO  ,Frio  ,TX,Texas,6.606140452
+,,,,,
+48165,GAINES  ,Gaines  ,TX,Texas,5.222423619
+,,,,,
+48167,GALVESTON  ,Galveston  ,TX,Texas,333.2739017
+,,,,,
+48169,GARZA  ,Garza  ,TX,Texas,2.717453742
+,,,,,
+48171,GILLESPIE  ,Gillespie  ,TX,Texas,9.562453834
+,,,,,
+48173,GLASSCOCK  ,Glasscock  ,TX,Texas,0.613325116
+,,,,,
+48175,GOLIAD  ,Goliad  ,TX,Texas,3.412790481
+,,,,,
+48177,GONZALES  ,Gonzales  ,TX,Texas,7.48071221
+,,,,,
+48179,GRAY  ,Gray  ,TX,Texas,9.458934503
+,,,,,
+48181,GRAYSON  ,Grayson  ,TX,Texas,53.21147867
+,,,,,
+48183,GREGG  ,Gregg  ,TX,Texas,174.4136949
+,,,,,
+48185,GRIMES  ,Grimes  ,TX,Texas,13.54723861
+,,,,,
+48187,GUADALUPE  ,Guadalupe  ,TX,Texas,84.21585377
+,,,,,
+48189,HALE  ,Hale  ,TX,Texas,13.10974838
+,,,,,
+48191,HALL  ,Hall  ,TX,Texas,1.343394301
+,,,,,
+48193,HAMILTON  ,Hamilton  ,TX,Texas,3.81938413
+,,,,,
+48195,HANSFORD  ,Hansford  ,TX,Texas,2.328425389
+,,,,,
+48197,HARDEMAN  ,Hardeman  ,TX,Texas,2.195144099
+,,,,,
+48199,HARDIN  ,Hardin  ,TX,Texas,24.44235616
+,,,,,
+48201,HARRIS  ,Harris  ,TX,Texas,1042.130651
+,,,,,
+48203,HARRISON  ,Harrison  ,TX,Texas,28.59227683
+,,,,,
+48205,HARTLEY  ,Hartley  ,TX,Texas,1.523068328
+,,,,,
+48207,HASKELL  ,Haskell  ,TX,Texas,2.483429755
+,,,,,
+48209,HAYS  ,Hays  ,TX,Texas,116.2599464
+,,,,,
+48211,HEMPHILL  ,Hemphill  ,TX,Texas,1.730094947
+,,,,,
+48213,HENDERSON  ,Henderson  ,TX,Texas,35.55360591
+,,,,,
+48215,HIDALGO  ,Hidalgo  ,TX,Texas,208.7663614
+,,,,,
+48217,HILL  ,Hill  ,TX,Texas,14.25411078
+,,,,,
+48219,HOCKLEY  ,Hockley  ,TX,Texas,9.844759073
+,,,,,
+48221,HOOD  ,Hood  ,TX,Texas,52.22105783
+,,,,,
+48223,HOPKINS  ,Hopkins  ,TX,Texas,18.23601667
+,,,,,
+48225,HOUSTON  ,Houston  ,TX,Texas,7.199788203
+,,,,,
+48227,HOWARD  ,Howard  ,TX,Texas,15.71641016
+,,,,,
+48229,HUDSPETH  ,Hudspeth  ,TX,Texas,0.346184877
+,,,,,
+48231,HUNT  ,Hunt  ,TX,Texas,42.3401085
+,,,,,
+48233,HUTCHINSON  ,Hutchinson  ,TX,Texas,9.385191216
+,,,,,
+48235,IRION  ,Irion  ,TX,Texas,0.559576955
+,,,,,
+48237,JACK  ,Jack  ,TX,Texas,3.747684856
+,,,,,
+48239,JACKSON  ,Jackson  ,TX,Texas,6.898648982
+,,,,,
+48241,JASPER  ,Jasper  ,TX,Texas,14.60405643
+,,,,,
+48243,JEFF DAVIS  ,Jeff Davis  ,TX,Texas,0.380892481
+,,,,,
+48245,JEFFERSON  ,Jefferson  ,TX,Texas,112.4375645
+,,,,,
+48247,JIM HOGG  ,Jim Hogg  ,TX,Texas,1.79496563
+,,,,,
+48249,JIM WELLS  ,Jim Wells  ,TX,Texas,18.38288464
+,,,,,
+48251,JOHNSON  ,Johnson  ,TX,Texas,87.08339862
+,,,,,
+48253,JONES  ,Jones  ,TX,Texas,8.270735221
+,,,,,
+48255,KARNES  ,Karnes  ,TX,Texas,7.947796386
+,,,,,
+48257,KAUFMAN  ,Kaufman  ,TX,Texas,58.80985742
+,,,,,
+48259,KENDALL  ,Kendall  ,TX,Texas,24.46863361
+,,,,,
+48261,KENEDY  ,Kenedy  ,TX,Texas,0.157516767
+,,,,,
+48263,KENT  ,Kent  ,TX,Texas,0.32043027
+,,,,,
+48265,KERR  ,Kerr  ,TX,Texas,17.97486233
+,,,,,
+48267,KIMBLE  ,Kimble  ,TX,Texas,1.360478719
+,,,,,
+48269,KING  ,King  ,TX,Texas,0.096645027
+,,,,,
+48271,KINNEY  ,Kinney  ,TX,Texas,1.043285525
+,,,,,
+48273,KLEBERG  ,Kleberg  ,TX,Texas,13.76736154
+,,,,,
+48275,KNOX  ,Knox  ,TX,Texas,1.694423633
+,,,,,
+48277,LAMAR  ,Lamar  ,TX,Texas,21.08113447
+,,,,,
+48279,LAMB  ,Lamb  ,TX,Texas,5.038949878
+,,,,,
+48281,LAMPASAS  ,Lampasas  ,TX,Texas,11.17941385
+,,,,,
+48283,LA SALLE  ,La Salle  ,TX,Texas,1.924142838
+,,,,,
+48285,LAVACA  ,Lavaca  ,TX,Texas,7.939765127
+,,,,,
+48287,LEE  ,Lee  ,TX,Texas,10.40507438
+,,,,,
+48289,LEON  ,Leon  ,TX,Texas,6.151550137
+,,,,,
+48291,LIBERTY  ,Liberty  ,TX,Texas,27.28547422
+,,,,,
+48293,LIMESTONE  ,Limestone  ,TX,Texas,10.02749114
+,,,,,
+48295,LIPSCOMB  ,Lipscomb  ,TX,Texas,1.436825191
+,,,,,
+48297,LIVE OAK  ,Live Oak  ,TX,Texas,4.502010534
+,,,,,
+48299,LLANO  ,Llano  ,TX,Texas,8.531804258
+,,,,,
+48301,LOVING  ,Loving  ,TX,Texas,0.058883634
+,,,,,
+48303,LUBBOCK  ,Lubbock  ,TX,Texas,129.959318
+,,,,,
+48305,LYNN  ,Lynn  ,TX,Texas,2.514367513
+,,,,,
+48307,MCCULLOCH  ,McCulloch  ,TX,Texas,2.934171152
+,,,,,
+48309,MCLENNAN  ,McLennan  ,TX,Texas,92.48574837
+,,,,,
+48311,MCMULLEN  ,McMullen  ,TX,Texas,0.224249738
+,,,,,
+48313,MADISON  ,Madison  ,TX,Texas,11.70405069
+,,,,,
+48315,MARION  ,Marion  ,TX,Texas,10.22113762
+,,,,,
+48317,MARTIN  ,Martin  ,TX,Texas,2.369051671
+,,,,,
+48319,MASON  ,Mason  ,TX,Texas,1.729660721
+,,,,,
+48321,MATAGORDA  ,Matagorda  ,TX,Texas,12.98070098
+,,,,,
+48323,MAVERICK  ,Maverick  ,TX,Texas,17.49341839
+,,,,,
+48325,MEDINA  ,Medina  ,TX,Texas,14.37193047
+,,,,,
+48327,MENARD  ,Menard  ,TX,Texas,0.908725915
+,,,,,
+48329,MIDLAND  ,Midland  ,TX,Texas,70.4197335
+,,,,,
+48331,MILAM  ,Milam  ,TX,Texas,9.364422736
+,,,,,
+48333,MILLS  ,Mills  ,TX,Texas,2.529585275
+,,,,,
+48335,MITCHELL  ,Mitchell  ,TX,Texas,3.626715415
+,,,,,
+48337,MONTAGUE  ,Montague  ,TX,Texas,8.050071102
+,,,,,
+48339,MONTGOMERY  ,Montgomery  ,TX,Texas,205.3210869
+,,,,,
+48341,MOORE  ,Moore  ,TX,Texas,9.355820427
+,,,,,
+48343,MORRIS  ,Morris  ,TX,Texas,19.03626021
+,,,,,
+48345,MOTLEY  ,Motley  ,TX,Texas,0.451040297
+,,,,,
+48347,NACOGDOCHES  ,Nacogdoches  ,TX,Texas,26.74120542
+,,,,,
+48349,NAVARRO  ,Navarro  ,TX,Texas,18.57904398
+,,,,,
+48351,NEWTON  ,Newton  ,TX,Texas,5.812971257
+,,,,,
+48353,NOLAN  ,Nolan  ,TX,Texas,6.335990177
+,,,,,
+48355,NUECES  ,Nueces  ,TX,Texas,166.0286344
+,,,,,
+48357,OCHILTREE  ,Ochiltree  ,TX,Texas,4.353767497
+,,,,,
+48359,OLDHAM  ,Oldham  ,TX,Texas,0.537781448
+,,,,,
+48361,ORANGE  ,Orange  ,TX,Texas,97.22158024
+,,,,,
+48363,PALO PINTO  ,Palo Pinto  ,TX,Texas,11.47789183
+,,,,,
+48365,PANOLA  ,Panola  ,TX,Texas,11.15446361
+,,,,,
+48367,PARKER  ,Parker  ,TX,Texas,55.47078511
+,,,,,
+48369,PARMER  ,Parmer  ,TX,Texas,4.318567289
+,,,,,
+48371,PECOS  ,Pecos  ,TX,Texas,1.280324847
+,,,,,
+48373,POLK  ,Polk  ,TX,Texas,17.47321699
+,,,,,
+48375,POTTER  ,Potter  ,TX,Texas,51.38693315
+,,,,,
+48377,PRESIDIO  ,Presidio  ,TX,Texas,0.713365951
+,,,,,
+48379,RAINS  ,Rains  ,TX,Texas,19.30569599
+,,,,,
+48381,RANDALL  ,Randall  ,TX,Texas,56.08887126
+,,,,,
+48383,REAGAN  ,Reagan  ,TX,Texas,1.23256881
+,,,,,
+48385,REAL  ,Real  ,TX,Texas,1.871535184
+,,,,,
+48387,RED RIVER  ,Red River  ,TX,Texas,4.540197664
+,,,,,
+48389,REEVES  ,Reeves  ,TX,Texas,2.215943729
+,,,,,
+48391,REFUGIO  ,Refugio  ,TX,Texas,3.626076071
+,,,,,
+48393,ROBERTS  ,Roberts  ,TX,Texas,0.369782546
+,,,,,
+48395,ROBERTSON  ,Robertson  ,TX,Texas,7.626248593
+,,,,,
+48397,ROCKWALL  ,Rockwall  ,TX,Texas,284.441672
+,,,,,
+48399,RUNNELS  ,Runnels  ,TX,Texas,3.787295325
+,,,,,
+48401,RUSK  ,Rusk  ,TX,Texas,22.3942854
+,,,,,
+48403,SABINE  ,Sabine  ,TX,Texas,8.211989701
+,,,,,
+48405,SAN AUGUSTINE  ,San Augustine  ,TX,Texas,6.058665011
+,,,,,
+48407,SAN JACINTO  ,San Jacinto  ,TX,Texas,18.86888102
+,,,,,
+48409,SAN PATRICIO  ,San Patricio  ,TX,Texas,37.33092318
+,,,,,
+48411,SAN SABA  ,San Saba  ,TX,Texas,2.027582768
+,,,,,
+48413,SCHLEICHER  ,Schleicher  ,TX,Texas,0.901740597
+,,,,,
+48415,SCURRY  ,Scurry  ,TX,Texas,7.351102282
+,,,,,
+48417,SHACKELFORD  ,Shackelford  ,TX,Texas,1.398232697
+,,,,,
+48419,SHELBY  ,Shelby  ,TX,Texas,12.36456287
+,,,,,
+48421,SHERMAN  ,Sherman  ,TX,Texas,1.279149414
+,,,,,
+48423,SMITH  ,Smith  ,TX,Texas,94.28252666
+,,,,,
+48425,SOMERVELL  ,Somervell  ,TX,Texas,18.10375235
+,,,,,
+48427,STARR  ,Starr  ,TX,Texas,20.16843813
+,,,,,
+48429,STEPHENS  ,Stephens  ,TX,Texas,4.0353116
+,,,,,
+48431,STERLING  ,Sterling  ,TX,Texas,0.47706198
+,,,,,
+48433,STONEWALL  ,Stonewall  ,TX,Texas,0.583590686
+,,,,,
+48435,SUTTON  ,Sutton  ,TX,Texas,1.026376474
+,,,,,
+48437,SWISHER  ,Swisher  ,TX,Texas,3.246146702
+,,,,,
+48439,TARRANT  ,Tarrant  ,TX,Texas,903.0520092
+,,,,,
+48441,TAYLOR  ,Taylor  ,TX,Texas,57.50100154
+,,,,,
+48443,TERRELL  ,Terrell  ,TX,Texas,0.14114406
+,,,,,
+48445,TERRY  ,Terry  ,TX,Texas,5.47981911
+,,,,,
+48447,THROCKMORTON  ,Throckmorton  ,TX,Texas,0.662999944
+,,,,,
+48449,TITUS  ,Titus  ,TX,Texas,31.1215268
+,,,,,
+48451,TOM GREEN  ,Tom Green  ,TX,Texas,29.7988409
+,,,,,
+48453,TRAVIS  ,Travis  ,TX,Texas,468.3628628
+,,,,,
+48455,TRINITY  ,Trinity  ,TX,Texas,8.107741185
+,,,,,
+48457,TYLER  ,Tyler  ,TX,Texas,8.978519268
+,,,,,
+48459,UPSHUR  ,Upshur  ,TX,Texas,27.00094529
+,,,,,
+48461,UPTON  ,Upton  ,TX,Texas,1.130322867
+,,,,,
+48463,UVALDE  ,Uvalde  ,TX,Texas,6.71956645
+,,,,,
+48465,VAL VERDE  ,Val Verde  ,TX,Texas,6.019376385
+,,,,,
+48467,VAN ZANDT  ,Van Zandt  ,TX,Texas,24.91390478
+,,,,,
+48469,VICTORIA  ,Victoria  ,TX,Texas,40.25570864
+,,,,,
+48471,WALKER  ,Walker  ,TX,Texas,35.22136929
+,,,,,
+48473,WALLER  ,Waller  ,TX,Texas,37.59734277
+,,,,,
+48475,WARD  ,Ward  ,TX,Texas,5.353476716
+,,,,,
+48477,WASHINGTON  ,Washington  ,TX,Texas,22.23629541
+,,,,,
+48479,WEBB  ,Webb  ,TX,Texas,31.24823864
+,,,,,
+48481,WHARTON  ,Wharton  ,TX,Texas,14.77044695
+,,,,,
+48483,WHEELER  ,Wheeler  ,TX,Texas,2.314443856
+,,,,,
+48485,WICHITA  ,Wichita  ,TX,Texas,81.09581497
+,,,,,
+48487,WILBARGER  ,Wilbarger  ,TX,Texas,5.132144777
+,,,,,
+48489,WILLACY  ,Willacy  ,TX,Texas,14.22180693
+,,,,,
+48491,WILLIAMSON  ,Williamson  ,TX,Texas,181.9645215
+,,,,,
+48493,WILSON  ,Wilson  ,TX,Texas,23.15360526
+,,,,,
+48495,WINKLER  ,Winkler  ,TX,Texas,3.580745035
+,,,,,
+48497,WISE  ,Wise  ,TX,Texas,27.59556666
+,,,,,
+48499,WOOD  ,Wood  ,TX,Texas,26.21804117
+,,,,,
+48501,YOAKUM  ,Yoakum  ,TX,Texas,4.13807592
+,,,,,
+48503,YOUNG  ,Young  ,TX,Texas,7.647754706
+,,,,,
+48505,ZAPATA  ,Zapata  ,TX,Texas,5.556723827
+,,,,,
+48507,ZAVALA  ,Zavala  ,TX,Texas,3.61012777
+,,,,,
+49001,BEAVER  ,Beaver  ,UT,Utah,0.963125031
+,,,,,
+49003,BOX ELDER  ,Box Elder  ,UT,Utah,3.561651789
+,,,,,
+49005,CACHE  ,Cache  ,UT,Utah,40.55374337
+,,,,,
+49007,CARBON  ,Carbon  ,UT,Utah,5.313401251
+,,,,,
+49009,DAGGETT  ,Daggett  ,UT,Utah,0.339023252
+,,,,,
+49011,DAVIS  ,Davis  ,UT,Utah,439.7942758
+,,,,,
+49013,DUCHESNE  ,Duchesne  ,UT,Utah,2.41291168
+,,,,,
+49015,EMERY  ,Emery  ,UT,Utah,0.88671668
+,,,,,
+49017,GARFIELD  ,Garfield  ,UT,Utah,0.374303192
+,,,,,
+49019,GRAND  ,Grand  ,UT,Utah,1.010895117
+,,,,,
+49021,IRON  ,Iron  ,UT,Utah,5.820339547
+,,,,,
+49023,JUAB  ,Juab  ,UT,Utah,1.246299196
+,,,,,
+49025,KANE  ,Kane  ,UT,Utah,0.711250453
+,,,,,
+49027,MILLARD  ,Millard  ,UT,Utah,0.744322167
+,,,,,
+49029,MORGAN  ,Morgan  ,UT,Utah,7.219823534
+,,,,,
+49031,PIUTE  ,Piute  ,UT,Utah,0.96927941
+,,,,,
+49033,RICH  ,Rich  ,UT,Utah,0.881900083
+,,,,,
+49035,SALT LAKE  ,Salt Lake  ,UT,Utah,583.1622532
+,,,,,
+49037,SAN JUAN  ,San Juan  ,UT,Utah,0.754500567
+,,,,,
+49039,SANPETE  ,Sanpete  ,UT,Utah,7.131302246
+,,,,,
+49041,SEVIER  ,Sevier  ,UT,Utah,4.267987066
+,,,,,
+49043,SUMMIT  ,Summit  ,UT,Utah,8.361785805
+,,,,,
+49045,TOOELE  ,Tooele  ,UT,Utah,3.625506481
+,,,,,
+49047,UINTAH  ,Uintah  ,UT,Utah,3.128779417
+,,,,,
+49049,UTAH  ,Utah  ,UT,Utah,113.7790082
+,,,,,
+49051,WASATCH  ,Wasatch  ,UT,Utah,10.01257034
+,,,,,
+49053,WASHINGTON  ,Washington  ,UT,Utah,25.53460375
+,,,,,
+49055,WAYNE  ,Wayne  ,UT,Utah,0.422653771
+,,,,,
+49057,WEBER  ,Weber  ,UT,Utah,165.9814234
+,,,,,
+50001,ADDISON  ,Addison  ,VT,Vermont,18.61112733
+,,,,,
+50003,BENNINGTON  ,Bennington  ,VT,Vermont,20.54645979
+,,,,,
+50005,CALEDONIA  ,Caledonia  ,VT,Vermont,18.09986548
+,,,,,
+50007,CHITTENDEN  ,Chittenden  ,VT,Vermont,116.6051304
+,,,,,
+50009,ESSEX  ,Essex  ,VT,Vermont,3.611995841
+,,,,,
+50011,FRANKLIN  ,Franklin  ,VT,Vermont,29.85033365
+,,,,,
+50013,GRAND ISLE  ,Grand Isle  ,VT,Vermont,32.87212693
+,,,,,
+50015,LAMOILLE  ,Lamoille  ,VT,Vermont,21.26097217
+,,,,,
+50017,ORANGE  ,Orange  ,VT,Vermont,16.26226653
+,,,,,
+50019,ORLEANS  ,Orleans  ,VT,Vermont,14.98095861
+,,,,,
+50021,RUTLAND  ,Rutland  ,VT,Vermont,24.61284762
+,,,,,
+50023,WASHINGTON  ,Washington  ,VT,Vermont,32.86279321
+,,,,,
+50025,WINDHAM  ,Windham  ,VT,Vermont,21.20963174
+,,,,,
+50027,WINDSOR  ,Windsor  ,VT,Vermont,22.07196335
+,,,,,
+51001,ACCOMACK  ,Accomack  ,VA,Virginia,28.13596811
+,,,,,
+51003,ALBEMARLE  ,Albemarle  ,VA,Virginia,56.99600947
+,,,,,
+51005,ALLEGHANY  ,Alleghany  ,VA,Virginia,13.21622297
+,,,,,
+51007,AMELIA  ,Amelia  ,VA,Virginia,13.96955997
+,,,,,
+51009,AMHERST  ,Amherst  ,VA,Virginia,25.97196021
+,,,,,
+51011,APPOMATTOX  ,Appomattox  ,VA,Virginia,17.99514229
+,,,,,
+51013,ARLINGTON  ,Arlington  ,VA,Virginia,3442.635855
+,,,,,
+51015,AUGUSTA  ,Augusta  ,VA,Virginia,29.82422931
+,,,,,
+51017,BATH  ,Bath  ,VA,Virginia,3.20510469
+,,,,,
+51019,BEDFORD  ,Bedford  ,VA,Virginia,39.57522961
+,,,,,
+51021,BLAND  ,Bland  ,VA,Virginia,6.95986351
+,,,,,
+51023,BOTETOURT  ,Botetourt  ,VA,Virginia,23.69783168
+,,,,,
+51025,BRUNSWICK  ,Brunswick  ,VA,Virginia,11.36348173
+,,,,,
+51027,BUCHANAN  ,Buchanan  ,VA,Virginia,16.99802047
+,,,,,
+51029,BUCKINGHAM  ,Buckingham  ,VA,Virginia,11.32682197
+,,,,,
+51031,CAMPBELL  ,Campbell  ,VA,Virginia,42.33097538
+,,,,,
+51033,CAROLINE  ,Caroline  ,VA,Virginia,22.0885014
+,,,,,
+51035,CARROLL  ,Carroll  ,VA,Virginia,24.18545246
+,,,,,
+51036,CHARLES CITY  ,Charles City  ,VA,Virginia,14.77315106
+,,,,,
+51037,CHARLOTTE  ,Charlotte  ,VA,Virginia,9.825264483
+,,,,,
+51041,CHESTERFIELD  ,Chesterfield  ,VA,Virginia,309.4226545
+,,,,,
+51043,CLARKE  ,Clarke  ,VA,Virginia,31.52541172
+,,,,,
+51045,CRAIG  ,Craig  ,VA,Virginia,6.016918983
+,,,,,
+51047,CULPEPER  ,Culpeper  ,VA,Virginia,51.37008084
+,,,,,
+51049,CUMBERLAND  ,Cumberland  ,VA,Virginia,12.70041679
+,,,,,
+51051,DICKENSON  ,Dickenson  ,VA,Virginia,17.47948146
+,,,,,
+51053,DINWIDDIE  ,Dinwiddie  ,VA,Virginia,21.69042745
+,,,,,
+51057,ESSEX  ,Essex  ,VA,Virginia,16.57344405
+,,,,,
+51059,FAIRFAX  ,Fairfax  ,VA,Virginia,1129.205805
+,,,,,
+51061,FAUQUIER  ,Fauquier  ,VA,Virginia,41.18090441
+,,,,,
+51063,FLOYD  ,Floyd  ,VA,Virginia,15.87900692
+,,,,,
+51065,FLUVANNA  ,Fluvanna  ,VA,Virginia,35.34282556
+,,,,,
+51067,FRANKLIN  ,Franklin  ,VA,Virginia,31.43790306
+,,,,,
+51069,FREDERICK  ,Frederick  ,VA,Virginia,79.57468414
+,,,,,
+51071,GILES  ,Giles  ,VA,Virginia,18.17326423
+,,,,,
+51073,GLOUCESTER  ,Gloucester  ,VA,Virginia,65.87453804
+,,,,,
+51075,GOOCHLAND  ,Goochland  ,VA,Virginia,30.931579
+,,,,,
+51077,GRAYSON  ,Grayson  ,VA,Virginia,13.81816123
+,,,,,
+51079,GREENE  ,Greene  ,VA,Virginia,48.06060325
+,,,,,
+51081,GREENSVILLE  ,Greensville  ,VA,Virginia,15.2478069
+,,,,,
+51083,HALIFAX  ,Halifax  ,VA,Virginia,16.42137718
+,,,,,
+51085,HANOVER  ,Hanover  ,VA,Virginia,86.19196373
+,,,,,
+51087,HENRICO  ,Henrico  ,VA,Virginia,538.0908406
+,,,,,
+51089,HENRY  ,Henry  ,VA,Virginia,52.09423569
+,,,,,
+51091,HIGHLAND  ,Highland  ,VA,Virginia,2.059023667
+,,,,,
+51093,ISLE OF WIGHT  ,Isle of Wight  ,VA,Virginia,44.48767262
+,,,,,
+51095,JAMES CITY  ,James City  ,VA,Virginia,201.1067399
+,,,,,
+51097,KING AND QUEEN  ,King and Queen  ,VA,Virginia,8.639625114
+,,,,,
+51099,KING GEORGE  ,King George  ,VA,Virginia,55.66270872
+,,,,,
+51101,KING WILLIAM  ,King William  ,VA,Virginia,23.25252503
+,,,,,
+51103,LANCASTER  ,Lancaster  ,VA,Virginia,31.2942736
+,,,,,
+51105,LEE  ,Lee  ,VA,Virginia,21.4025546
+,,,,,
+51107,LOUDOUN  ,Loudoun  ,VA,Virginia,288.317756
+,,,,,
+51109,LOUISA  ,Louisa  ,VA,Virginia,27.53357204
+,,,,,
+51111,LUNENBURG  ,Lunenburg  ,VA,Virginia,10.98115119
+,,,,,
+51113,MADISON  ,Madison  ,VA,Virginia,15.82158638
+,,,,,
+51115,MATHEWS  ,Mathews  ,VA,Virginia,39.5327671
+,,,,,
+51117,MECKLENBURG  ,Mecklenburg  ,VA,Virginia,19.04720888
+,,,,,
+51119,MIDDLESEX  ,Middlesex  ,VA,Virginia,31.69861802
+,,,,,
+51121,MONTGOMERY  ,Montgomery  ,VA,Virginia,97.80916474
+,,,,,
+51125,NELSON  ,Nelson  ,VA,Virginia,12.14870629
+,,,,,
+51127,NEW KENT  ,New Kent  ,VA,Virginia,38.79298696
+,,,,,
+51131,NORTHAMPTON  ,Northampton  ,VA,Virginia,21.80808623
+,,,,,
+51133,NORTHUMBERLAND  ,Northumberland  ,VA,Virginia,24.65466112
+,,,,,
+51135,NOTTOWAY  ,Nottoway  ,VA,Virginia,19.03555833
+,,,,,
+51137,ORANGE  ,Orange  ,VA,Virginia,40.30898953
+,,,,,
+51139,PAGE  ,Page  ,VA,Virginia,29.57719489
+,,,,,
+51141,PATRICK  ,Patrick  ,VA,Virginia,14.27753533
+,,,,,
+51143,PITTSYLVANIA  ,Pittsylvania  ,VA,Virginia,24.57499339
+,,,,,
+51145,POWHATAN  ,Powhatan  ,VA,Virginia,42.39988143
+,,,,,
+51147,PRINCE EDWARD  ,Prince Edward  ,VA,Virginia,25.32667924
+,,,,,
+51149,PRINCE GEORGE  ,Prince George  ,VA,Virginia,55.13934016
+,,,,,
+51153,PRINCE WILLIAM  ,Prince William  ,VA,Virginia,525.2628815
+,,,,,
+51155,PULASKI  ,Pulaski  ,VA,Virginia,41.32659225
+,,,,,
+51157,RAPPAHANNOCK  ,Rappahannock  ,VA,Virginia,10.62761296
+,,,,,
+51159,RICHMOND  ,Richmond  ,VA,Virginia,17.90188511
+,,,,,
+51161,ROANOKE  ,Roanoke  ,VA,Virginia,144.2166524
+,,,,,
+51163,ROCKBRIDGE  ,Rockbridge  ,VA,Virginia,14.56857294
+,,,,,
+51165,ROCKINGHAM  ,Rockingham  ,VA,Virginia,36.09542556
+,,,,,
+51167,RUSSELL  ,Russell  ,VA,Virginia,22.34797874
+,,,,,
+51169,SCOTT  ,Scott  ,VA,Virginia,15.85906997
+,,,,,
+51171,SHENANDOAH  ,Shenandoah  ,VA,Virginia,32.71150971
+,,,,,
+51173,SMYTH  ,Smyth  ,VA,Virginia,26.56904103
+,,,,,
+51175,SOUTHAMPTON  ,Southampton  ,VA,Virginia,11.55962629
+,,,,,
+51177,SPOTSYLVANIA  ,Spotsylvania  ,VA,Virginia,126.3714018
+,,,,,
+51179,STAFFORD  ,Stafford  ,VA,Virginia,206.5466381
+,,,,,
+51181,SURRY  ,Surry  ,VA,Virginia,9.135254713
+,,,,,
+51183,SUSSEX  ,Sussex  ,VA,Virginia,9.046380986
+,,,,,
+51185,TAZEWELL  ,Tazewell  ,VA,Virginia,31.31740226
+,,,,,
+51187,WARREN  ,Warren  ,VA,Virginia,70.99727487
+,,,,,
+51191,WASHINGTON  ,Washington  ,VA,Virginia,37.43397086
+,,,,,
+51193,WESTMORELAND  ,Westmoreland  ,VA,Virginia,29.69606172
+,,,,,
+51195,WISE  ,Wise  ,VA,Virginia,37.34795996
+,,,,,
+51197,WYTHE  ,Wythe  ,VA,Virginia,24.18978897
+,,,,,
+51199,YORK  ,York  ,VA,Virginia,249.4741948
+,,,,,
+51510,ALEXANDRIA CITY,Alexandria city,VA,Virginia,4046.493213
+,,,,,
+51520,BRISTOL CITY,Bristol city,VA,Virginia,503.9769988
+,,,,,
+51530,BUENA VISTA CITY,Buena Vista city,VA,Virginia,383.7539484
+,,,,,
+51540,CHARLOTTESVILLE CITY,Charlottesville city,VA,Virginia,1772.923952
+,,,,,
+51550,CHESAPEAKE CITY,Chesapeake city,VA,Virginia,271.2555353
+,,,,,
+51570,COLONIAL HEIGHTS CITY,Colonial Heights city,VA,Virginia,903.3525249
+,,,,,
+51580,COVINGTON CITY,Covington city,VA,Virginia,394.1021087
+,,,,,
+51590,DANVILLE CITY,Danville city,VA,Virginia,374.5065476
+,,,,,
+51595,EMPORIA CITY,Emporia city,VA,Virginia,300.9327573
+,,,,,
+51600,FAIRFAX CITY,Fairfax city,VA,Virginia,1476.545205
+,,,,,
+51610,FALLS CHURCH CITY,Falls Church city,VA,Virginia,2654.018242
+,,,,,
+51620,FRANKLIN CITY,Franklin city,VA,Virginia,380.7806276
+,,,,,
+51630,FREDERICKSBURG CITY,Fredericksburg city,VA,Virginia,1051.790825
+,,,,,
+51640,GALAX CITY,Galax city,VA,Virginia,311.1745899
+,,,,,
+51650,HAMPTON CITY,Hampton city,VA,Virginia,1018.340272
+,,,,,
+51660,HARRISONBURG CITY,Harrisonburg city,VA,Virginia,1188.886976
+,,,,,
+51670,HOPEWELL CITY,Hopewell city,VA,Virginia,835.5357439
+,,,,,
+51678,LEXINGTON CITY,Lexington city,VA,Virginia,1098.408436
+,,,,,
+51680,LYNCHBURG CITY,Lynchburg city,VA,Virginia,631.7360439
+,,,,,
+51683,MANASSAS CITY,Manassas city,VA,Virginia,1625.070068
+,,,,,
+51685,MANASSAS PARK CITY,Manassas Park city,VA,Virginia,2511.654041
+,,,,,
+51690,MARTINSVILLE CITY,Martinsville city,VA,Virginia,461.6830877
+,,,,,
+51700,NEWPORT NEWS CITY,Newport News city,VA,Virginia,1006.30368
+,,,,,
+51710,NORFOLK CITY,Norfolk city,VA,Virginia,1779.834904
+,,,,,
+51720,NORTON CITY,Norton city,VA,Virginia,206.0299865
+,,,,,
+51730,PETERSBURG CITY,Petersburg city,VA,Virginia,540.8614293
+,,,,,
+51735,POQUOSON CITY,Poquoson city,VA,Virginia,302.2038591
+,,,,,
+51740,PORTSMOUTH CITY,Portsmouth city,VA,Virginia,1105.078045
+,,,,,
+51750,RADFORD CITY,Radford city,VA,Virginia,703.4623074
+,,,,,
+51760,RICHMOND CITY,Richmond city,VA,Virginia,1442.146687
+,,,,,
+51770,ROANOKE CITY,Roanoke city,VA,Virginia,904.6484086
+,,,,,
+51775,SALEM CITY,Salem city,VA,Virginia,678.6850398
+,,,,,
+51790,STAUNTON CITY,Staunton city,VA,Virginia,473.9327215
+,,,,,
+51800,SUFFOLK CITY,Suffolk city,VA,Virginia,86.24469607
+,,,,,
+51810,VIRGINIA BEACH CITY,Virginia Beach city,VA,Virginia,710.1799674
+,,,,,
+51820,WAYNESBORO CITY,Waynesboro city,VA,Virginia,565.5191575
+,,,,,
+51830,WILLIAMSBURG CITY,Williamsburg city,VA,Virginia,638.6440087
+,,,,,
+51840,WINCHESTER CITY,Winchester city,VA,Virginia,1167.139657
+,,,,,
+53001,ADAMS  ,Adams  ,WA,Washington,3.901559352
+,,,,,
+53003,ASOTIN  ,Asotin  ,WA,Washington,13.55857989
+,,,,,
+53005,BENTON  ,Benton  ,WA,Washington,44.09960568
+,,,,,
+53007,CHELAN  ,Chelan  ,WA,Washington,10.0131002
+,,,,,
+53009,CLALLAM  ,Clallam  ,WA,Washington,16.54104323
+,,,,,
+53011,CLARK  ,Clark  ,WA,Washington,285.9036491
+,,,,,
+53013,COLUMBIA  ,Columbia  ,WA,Washington,1.778518857
+,,,,,
+53015,COWLITZ  ,Cowlitz  ,WA,Washington,35.58128382
+,,,,,
+53017,DOUGLAS  ,Douglas  ,WA,Washington,8.780166107
+,,,,,
+53019,FERRY  ,Ferry  ,WA,Washington,1.327641282
+,,,,,
+53021,FRANKLIN  ,Franklin  ,WA,Washington,28.19276626
+,,,,,
+53023,GARFIELD  ,Garfield  ,WA,Washington,1.208003087
+,,,,,
+53025,GRANT  ,Grant  ,WA,Washington,13.66887645
+,,,,,
+53027,GRAYS HARBOR  ,Grays Harbor  ,WA,Washington,14.61430512
+,,,,,
+53029,ISLAND  ,Island  ,WA,Washington,151.16567
+,,,,,
+53031,JEFFERSON  ,Jefferson  ,WA,Washington,6.605031399
+,,,,,
+53033,KING  ,King  ,WA,Washington,394.8557332
+,,,,,
+53035,KITSAP  ,Kitsap  ,WA,Washington,256.478252
+,,,,,
+53037,KITTITAS  ,Kittitas  ,WA,Washington,7.533642585
+,,,,,
+53039,KLICKITAT  ,Klickitat  ,WA,Washington,4.413807036
+,,,,,
+53041,LEWIS  ,Lewis  ,WA,Washington,12.36463646
+,,,,,
+53043,LINCOLN  ,Lincoln  ,WA,Washington,1.743694107
+,,,,,
+53045,MASON  ,Mason  ,WA,Washington,25.20310389
+,,,,,
+53047,OKANOGAN  ,Okanogan  ,WA,Washington,3.05278394
+,,,,,
+53049,PACIFIC  ,Pacific  ,WA,Washington,8.808827018
+,,,,,
+53051,PEND OREILLE  ,Pend Oreille  ,WA,Washington,3.644973251
+,,,,,
+53053,PIERCE  ,Pierce  ,WA,Washington,199.0552976
+,,,,,
+53055,SAN JUAN  ,San Juan  ,WA,Washington,36.57179587
+,,,,,
+53057,SKAGIT  ,Skagit  ,WA,Washington,27.65011534
+,,,,,
+53059,SKAMANIA  ,Skamania  ,WA,Washington,2.705541935
+,,,,,
+53061,SNOHOMISH  ,Snohomish  ,WA,Washington,145.5609686
+,,,,,
+53063,SPOKANE  ,Spokane  ,WA,Washington,108.9811133
+,,,,,
+53065,STEVENS  ,Stevens  ,WA,Washington,6.890758741
+,,,,,
+53067,THURSTON  ,Thurston  ,WA,Washington,146.7926993
+,,,,,
+53069,WAHKIAKUM  ,Wahkiakum  ,WA,Washington,6.151638319
+,,,,,
+53071,WALLA WALLA  ,Walla Walla  ,WA,Washington,18.31232697
+,,,,,
+53073,WHATCOM  ,Whatcom  ,WA,Washington,39.71331035
+,,,,,
+53075,WHITMAN  ,Whitman  ,WA,Washington,8.689018867
+,,,,,
+53077,YAKIMA  ,Yakima  ,WA,Washington,22.41575481
+,,,,,
+54001,BARBOUR  ,Barbour  ,WV,West Virginia,18.93951433
+,,,,,
+54003,BERKELEY  ,Berkeley  ,WV,West Virginia,136.4498415
+,,,,,
+54005,BOONE  ,Boone  ,WV,West Virginia,17.56549137
+,,,,,
+54007,BRAXTON  ,Braxton  ,WV,West Virginia,10.79518704
+,,,,,
+54009,BROOKE  ,Brooke  ,WV,West Virginia,98.56552662
+,,,,,
+54011,CABELL  ,Cabell  ,WV,West Virginia,130.9605756
+,,,,,
+54013,CALHOUN  ,Calhoun  ,WV,West Virginia,10.22602104
+,,,,,
+54015,CLAY  ,Clay  ,WV,West Virginia,9.919635136
+,,,,,
+54017,DODDRIDGE  ,Doddridge  ,WV,West Virginia,10.30820666
+,,,,,
+54019,FAYETTE  ,Fayette  ,WV,West Virginia,25.75092717
+,,,,,
+54021,GILMER  ,Gilmer  ,WV,West Virginia,9.358771578
+,,,,,
+54023,GRANT  ,Grant  ,WV,West Virginia,9.415308783
+,,,,,
+54025,GREENBRIER  ,Greenbrier  ,WV,West Virginia,13.38240761
+,,,,,
+54027,HAMPSHIRE  ,Hampshire  ,WV,West Virginia,14.08584133
+,,,,,
+54029,HANCOCK  ,Hancock  ,WV,West Virginia,138.7193411
+,,,,,
+54031,HARDY  ,Hardy  ,WV,West Virginia,9.177860175
+,,,,,
+54033,HARRISON  ,Harrison  ,WV,West Virginia,63.30566415
+,,,,,
+54035,JACKSON  ,Jackson  ,WV,West Virginia,24.12771551
+,,,,,
+54037,JEFFERSON  ,Jefferson  ,WV,West Virginia,103.6373274
+,,,,,
+54039,KANAWHA  ,Kanawha  ,WV,West Virginia,79.52584488
+,,,,,
+54041,LEWIS  ,Lewis  ,WV,West Virginia,16.24122175
+,,,,,
+54043,LINCOLN  ,Lincoln  ,WV,West Virginia,18.62130124
+,,,,,
+54045,LOGAN  ,Logan  ,WV,West Virginia,28.7616404
+,,,,,
+54047,MCDOWELL  ,McDowell  ,WV,West Virginia,13.90876411
+,,,,,
+54049,MARION  ,Marion  ,WV,West Virginia,70.65279753
+,,,,,
+54051,MARSHALL  ,Marshall  ,WV,West Virginia,40.00311004
+,,,,,
+54053,MASON  ,Mason  ,WV,West Virginia,24.14576217
+,,,,,
+54055,MERCER  ,Mercer  ,WV,West Virginia,55.74156947
+,,,,,
+54057,MINERAL  ,Mineral  ,WV,West Virginia,32.12303315
+,,,,,
+54059,MINGO  ,Mingo  ,WV,West Virginia,22.57541655
+,,,,,
+54061,MONONGALIA  ,Monongalia  ,WV,West Virginia,112.8548858
+,,,,,
+54063,MONROE  ,Monroe  ,WV,West Virginia,10.99861625
+,,,,,
+54065,MORGAN  ,Morgan  ,WV,West Virginia,29.70526622
+,,,,,
+54067,NICHOLAS  ,Nicholas  ,WV,West Virginia,15.11587899
+,,,,,
+54069,OHIO  ,Ohio  ,WV,West Virginia,155.224963
+,,,,,
+54071,PENDLETON  ,Pendleton  ,WV,West Virginia,3.913999285
+,,,,,
+54073,PLEASANTS  ,Pleasants  ,WV,West Virginia,22.27546376
+,,,,,
+54075,POCAHONTAS  ,Pocahontas  ,WV,West Virginia,3.502970421
+,,,,,
+54077,PRESTON  ,Preston  ,WV,West Virginia,20.13604234
+,,,,,
+54079,PUTNAM  ,Putnam  ,WV,West Virginia,63.27692094
+,,,,,
+54081,RALEIGH  ,Raleigh  ,WV,West Virginia,48.62138983
+,,,,,
+54083,RANDOLPH  ,Randolph  ,WV,West Virginia,10.79355424
+,,,,,
+54085,RITCHIE  ,Ritchie  ,WV,West Virginia,8.484183822
+,,,,,
+54087,ROANE  ,Roane  ,WV,West Virginia,11.3420203
+,,,,,
+54089,SUMMERS  ,Summers  ,WV,West Virginia,13.93929225
+,,,,,
+54091,TAYLOR  ,Taylor  ,WV,West Virginia,37.88144123
+,,,,,
+54093,TUCKER  ,Tucker  ,WV,West Virginia,6.474592811
+,,,,,
+54095,TYLER  ,Tyler  ,WV,West Virginia,13.42083618
+,,,,,
+54097,UPSHUR  ,Upshur  ,WV,West Virginia,26.78804072
+,,,,,
+54099,WAYNE  ,Wayne  ,WV,West Virginia,31.06248326
+,,,,,
+54101,WEBSTER  ,Webster  ,WV,West Virginia,5.942176683
+,,,,,
+54103,WETZEL  ,Wetzel  ,WV,West Virginia,16.83651403
+,,,,,
+54105,WIRT  ,Wirt  ,WV,West Virginia,9.626352729
+,,,,,
+54107,WOOD  ,Wood  ,WV,West Virginia,90.12947947
+,,,,,
+54109,WYOMING  ,Wyoming  ,WV,West Virginia,16.78314146
+,,,,,
+55001,ADAMS  ,Adams  ,WI,Wisconsin,12.00365698
+,,,,,
+55003,ASHLAND  ,Ashland  ,WI,Wisconsin,5.805334489
+,,,,,
+55005,BARRON  ,Barron  ,WI,Wisconsin,20.24490268
+,,,,,
+55007,BAYFIELD  ,Bayfield  ,WI,Wisconsin,3.916718463
+,,,,,
+55009,BROWN  ,Brown  ,WI,Wisconsin,189.2196973
+,,,,,
+55011,BUFFALO  ,Buffalo  ,WI,Wisconsin,7.522769421
+,,,,,
+55013,BURNETT  ,Burnett  ,WI,Wisconsin,7.170697467
+,,,,,
+55015,CALUMET  ,Calumet  ,WI,Wisconsin,60.42036361
+,,,,,
+55017,CHIPPEWA  ,Chippewa  ,WI,Wisconsin,24.36602328
+,,,,,
+55019,CLARK  ,Clark  ,WI,Wisconsin,11.00859372
+,,,,,
+55021,COLUMBIA  ,Columbia  ,WI,Wisconsin,28.7246932
+,,,,,
+55023,CRAWFORD  ,Crawford  ,WI,Wisconsin,11.02051478
+,,,,,
+55025,DANE  ,Dane  ,WI,Wisconsin,170.9771651
+,,,,,
+55027,DODGE  ,Dodge  ,WI,Wisconsin,38.70069472
+,,,,,
+55029,DOOR  ,Door  ,WI,Wisconsin,21.9814925
+,,,,,
+55031,DOUGLAS  ,Douglas  ,WI,Wisconsin,12.84804206
+,,,,,
+55033,DUNN  ,Dunn  ,WI,Wisconsin,20.20886208
+,,,,,
+55035,EAU CLAIRE  ,Eau Claire  ,WI,Wisconsin,62.33524773
+,,,,,
+55037,FLORENCE  ,Florence  ,WI,Wisconsin,3.430539987
+,,,,,
+55039,FOND DU LAC  ,Fond du Lac  ,WI,Wisconsin,54.89984741
+,,,,,
+55041,FOREST  ,Forest  ,WI,Wisconsin,3.432971861
+,,,,,
+55043,GRANT  ,Grant  ,WI,Wisconsin,17.44813292
+,,,,,
+55045,GREEN  ,Green  ,WI,Wisconsin,24.37023942
+,,,,,
+55047,GREEN LAKE  ,Green Lake  ,WI,Wisconsin,20.71875952
+,,,,,
+55049,IOWA  ,Iowa  ,WI,Wisconsin,11.95719362
+,,,,,
+55051,IRON  ,Iron  ,WI,Wisconsin,2.910323624
+,,,,,
+55053,JACKSON  ,Jackson  ,WI,Wisconsin,8.019932341
+,,,,,
+55055,JEFFERSON  ,Jefferson  ,WI,Wisconsin,58.73553431
+,,,,,
+55057,JUNEAU  ,Juneau  ,WI,Wisconsin,13.29845005
+,,,,,
+55059,KENOSHA  ,Kenosha  ,WI,Wisconsin,239.067524
+,,,,,
+55061,KEWAUNEE  ,Kewaunee  ,WI,Wisconsin,22.95502266
+,,,,,
+55063,LA CROSSE  ,La Crosse  ,WI,Wisconsin,100.7198938
+,,,,,
+55065,LAFAYETTE  ,Lafayette  ,WI,Wisconsin,10.19814104
+,,,,,
+55067,LANGLADE  ,Langlade  ,WI,Wisconsin,8.49807714
+,,,,,
+55069,LINCOLN  ,Lincoln  ,WI,Wisconsin,12.23639532
+,,,,,
+55071,MANITOWOC  ,Manitowoc  ,WI,Wisconsin,52.02609895
+,,,,,
+55073,MARATHON  ,Marathon  ,WI,Wisconsin,33.79720586
+,,,,,
+55075,MARINETTE  ,Marinette  ,WI,Wisconsin,11.18398201
+,,,,,
+55077,MARQUETTE  ,Marquette  ,WI,Wisconsin,12.88427892
+,,,,,
+55078,MENOMINEE  ,Menominee  ,WI,Wisconsin,4.943762846
+,,,,,
+55079,MILWAUKEE  ,Milwaukee  ,WI,Wisconsin,1525.658962
+,,,,,
+55081,MONROE  ,Monroe  ,WI,Wisconsin,19.50088167
+,,,,,
+55083,OCONTO  ,Oconto  ,WI,Wisconsin,14.53706619
+,,,,,
+55085,ONEIDA  ,Oneida  ,WI,Wisconsin,12.25093863
+,,,,,
+55087,OUTAGAMIE  ,Outagamie  ,WI,Wisconsin,111.8825436
+,,,,,
+55089,OZAUKEE  ,Ozaukee  ,WI,Wisconsin,146.2840382
+,,,,,
+55091,PEPIN  ,Pepin  ,WI,Wisconsin,12.08531652
+,,,,,
+55093,PIERCE  ,Pierce  ,WI,Wisconsin,27.9915072
+,,,,,
+55095,POLK  ,Polk  ,WI,Wisconsin,18.31064911
+,,,,,
+55097,PORTAGE  ,Portage  ,WI,Wisconsin,34.03568264
+,,,,,
+55099,PRICE  ,Price  ,WI,Wisconsin,4.153340903
+,,,,,
+55101,RACINE  ,Racine  ,WI,Wisconsin,226.8381087
+,,,,,
+55103,RICHLAND  ,Richland  ,WI,Wisconsin,11.55310319
+,,,,,
+55105,ROCK  ,Rock  ,WI,Wisconsin,86.97423732
+,,,,,
+55107,RUSK  ,Rusk  ,WI,Wisconsin,5.994272278
+,,,,,
+55109,ST. CROIX  ,St. Croix  ,WI,Wisconsin,46.98626536
+,,,,,
+55111,SAUK  ,Sauk  ,WI,Wisconsin,29.52890454
+,,,,,
+55113,SAWYER  ,Sawyer  ,WI,Wisconsin,5.025763379
+,,,,,
+55115,SHAWANO  ,Shawano  ,WI,Wisconsin,17.72640377
+,,,,,
+55117,SHEBOYGAN  ,Sheboygan  ,WI,Wisconsin,86.95694423
+,,,,,
+55119,TAYLOR  ,Taylor  ,WI,Wisconsin,8.060764469
+,,,,,
+55121,TREMPEALEAU  ,Trempealeau  ,WI,Wisconsin,15.50614807
+,,,,,
+55123,VERNON  ,Vernon  ,WI,Wisconsin,14.88486802
+,,,,,
+55125,VILAS  ,Vilas  ,WI,Wisconsin,9.720213475
+,,,,,
+55127,WALWORTH  ,Walworth  ,WI,Wisconsin,71.60799887
+,,,,,
+55129,WASHBURN  ,Washburn  ,WI,Wisconsin,7.599367804
+,,,,,
+55131,WASHINGTON  ,Washington  ,WI,Wisconsin,120.6200114
+,,,,,
+55133,WAUKESHA  ,Waukesha  ,WI,Wisconsin,280.1570664
+,,,,,
+55135,WAUPACA  ,Waupaca  ,WI,Wisconsin,26.56527306
+,,,,,
+55137,WAUSHARA  ,Waushara  ,WI,Wisconsin,14.87042915
+,,,,,
+55139,WINNEBAGO  ,Winnebago  ,WI,Wisconsin,150.9318152
+,,,,,
+55141,WOOD  ,Wood  ,WI,Wisconsin,35.67561459
+,,,,,
+56001,ALBANY  ,Albany  ,WY,Wyoming,3.441773464
+,,,,,
+56003,BIG HORN  ,Big Horn  ,WY,Wyoming,1.464795836
+,,,,,
+56005,CAMPBELL  ,Campbell  ,WY,Wyoming,3.835883282
+,,,,,
+56007,CARBON  ,Carbon  ,WY,Wyoming,0.756628568
+,,,,,
+56009,CONVERSE  ,Converse  ,WY,Wyoming,1.270110157
+,,,,,
+56011,CROOK  ,Crook  ,WY,Wyoming,1.002290125
+,,,,,
+56013,FREMONT  ,Fremont  ,WY,Wyoming,1.684899931
+,,,,,
+56015,GOSHEN  ,Goshen  ,WY,Wyoming,2.331241154
+,,,,,
+56017,HOT SPRINGS  ,Hot Springs  ,WY,Wyoming,0.901482712
+,,,,,
+56019,JOHNSON  ,Johnson  ,WY,Wyoming,0.791415419
+,,,,,
+56021,LARAMIE  ,Laramie  ,WY,Wyoming,14.04356168
+,,,,,
+56023,LINCOLN  ,Lincoln  ,WY,Wyoming,1.801124318
+,,,,,
+56025,NATRONA  ,Natrona  ,WY,Wyoming,5.827834773
+,,,,,
+56027,NIOBRARA  ,Niobrara  ,WY,Wyoming,0.35992692
+,,,,,
+56029,PARK  ,Park  ,WY,Wyoming,1.620351387
+,,,,,
+56031,PLATTE  ,Platte  ,WY,Wyoming,1.608814326
+,,,,,
+56033,SHERIDAN  ,Sheridan  ,WY,Wyoming,4.592168052
+,,,,,
+56035,SUBLETTE  ,Sublette  ,WY,Wyoming,0.786271794
+,,,,,
+56037,SWEETWATER  ,Sweetwater  ,WY,Wyoming,1.633614807
+,,,,,
+56039,TETON  ,Teton  ,WY,Wyoming,2.227538686
+,,,,,
+56041,UINTA  ,Uinta  ,WY,Wyoming,3.822404961
+,,,,,
+56043,WASHAKIE  ,Washakie  ,WY,Wyoming,1.402001631
+,,,,,
+56045,WESTON  ,Weston  ,WY,Wyoming,1.143169204
+,,,,,
+72001,ADJUNTAS MUNICIPIO,Adjuntas Municipio,,Puerto Rico,105.2593606
+,,,,,
+72003,AGUADA MUNICIPIO,Aguada Municipio,,Puerto Rico,483.4990361
+,,,,,
+72005,AGUADILLA MUNICIPIO,Aguadilla Municipio,,Puerto Rico,572.4802227
+,,,,,
+72007,AGUAS BUENAS MUNICIPIO,Aguas Buenas Municipio,,Puerto Rico,337.2070282
+,,,,,
+72009,AIBONITO MUNICIPIO,Aibonito Municipio,,Puerto Rico,289.2552496
+,,,,,
+72011,AÑASCO MUNICIPIO,Añasco Municipio,,Puerto Rico,268.9797774
+,,,,,
+72013,ARECIBO MUNICIPIO,Arecibo Municipio,,Puerto Rico,267.4661567
+,,,,,
+72015,ARROYO MUNICIPIO,Arroyo Municipio,,Puerto Rico,465.9438667
+,,,,,
+72017,BARCELONETA MUNICIPIO,Barceloneta Municipio,,Puerto Rico,501.8184128
+,,,,,
+72019,BARRANQUITAS MUNICIPIO,Barranquitas Municipio,,Puerto Rico,324.1313252
+,,,,,
+72021,BAYAMÓN MUNICIPIO,Bayamón Municipio,,Puerto Rico,1593.459017
+,,,,,
+72023,CABO ROJO MUNICIPIO,Cabo Rojo Municipio,,Puerto Rico,268.8675521
+,,,,,
+72025,CAGUAS MUNICIPIO,Caguas Municipio,,Puerto Rico,865.4821147
+,,,,,
+72027,CAMUY MUNICIPIO,Camuy Municipio,,Puerto Rico,268.3863226
+,,,,,
+72029,CANÓVANAS MUNICIPIO,Canóvanas Municipio,,Puerto Rico,541.6328381
+,,,,,
+72031,CAROLINA MUNICIPIO,Carolina Municipio,,Puerto Rico,1339.922295
+,,,,,
+72033,CATAÑO MUNICIPIO,Cataño Municipio,,Puerto Rico,1970.656943
+,,,,,
+72035,CAYEY MUNICIPIO,Cayey Municipio,,Puerto Rico,331.0537732
+,,,,,
+72037,CEIBA MUNICIPIO,Ceiba Municipio,,Puerto Rico,157.6162267
+,,,,,
+72039,CIALES MUNICIPIO,Ciales Municipio,,Puerto Rico,98.14856931
+,,,,,
+72041,CIDRA MUNICIPIO,Cidra Municipio,,Puerto Rico,432.4262468
+,,,,,
+72043,COAMO MUNICIPIO,Coamo Municipio,,Puerto Rico,194.3308526
+,,,,,
+72045,COMERÍO MUNICIPIO,Comerío Municipio,,Puerto Rico,265.6300564
+,,,,,
+72047,COROZAL MUNICIPIO,Corozal Municipio,,Puerto Rico,309.8907307
+,,,,,
+72049,CULEBRA MUNICIPIO,Culebra Municipio,,Puerto Rico,43.63266147
+,,,,,
+72051,DORADO MUNICIPIO,Dorado Municipio,,Puerto Rico,621.4789284
+,,,,,
+72053,FAJARDO MUNICIPIO,Fajardo Municipio,,Puerto Rico,413.1898953
+,,,,,
+72054,FLORIDA MUNICIPIO,Florida Municipio,,Puerto Rico,302.3494993
+,,,,,
+72055,GUÁNICA MUNICIPIO,Guánica Municipio,,Puerto Rico,174.8959594
+,,,,,
+72057,GUAYAMA MUNICIPIO,Guayama Municipio,,Puerto Rico,247.7606638
+,,,,,
+72059,GUAYANILLA MUNICIPIO,Guayanilla Municipio,,Puerto Rico,173.6201421
+,,,,,
+72061,GUAYNABO MUNICIPIO,Guaynabo Municipio,,Puerto Rico,1241.002859
+,,,,,
+72063,GURABO MUNICIPIO,Gurabo Municipio,,Puerto Rico,649.2446906
+,,,,,
+72065,HATILLO MUNICIPIO,Hatillo Municipio,,Puerto Rico,373.2429926
+,,,,,
+72067,HORMIGUEROS MUNICIPIO,Hormigueros Municipio,,Puerto Rico,550.6230702
+,,,,,
+72069,HUMACAO MUNICIPIO,Humacao Municipio,,Puerto Rico,461.1921424
+,,,,,
+72071,ISABELA MUNICIPIO,Isabela Municipio,,Puerto Rico,296.1135784
+,,,,,
+72073,JAYUYA MUNICIPIO,Jayuya Municipio,,Puerto Rico,129.2346959
+,,,,,
+72075,JUANA DÍAZ MUNICIPIO,Juana Díaz Municipio,,Puerto Rico,300.7998464
+,,,,,
+72077,JUNCOS MUNICIPIO,Juncos Municipio,,Puerto Rico,570.3340721
+,,,,,
+72079,LAJAS MUNICIPIO,Lajas Municipio,,Puerto Rico,150.1405516
+,,,,,
+72081,LARES MUNICIPIO,Lares Municipio,,Puerto Rico,166.1961546
+,,,,,
+72083,LAS MARÍAS MUNICIPIO,Las Marías Municipio,,Puerto Rico,71.61547028
+,,,,,
+72085,LAS PIEDRAS MUNICIPIO,Las Piedras Municipio,,Puerto Rico,430.412583
+,,,,,
+72087,LOÍZA MUNICIPIO,Loíza Municipio,,Puerto Rico,527.6989083
+,,,,,
+72089,LUQUILLO MUNICIPIO,Luquillo Municipio,,Puerto Rico,277.4362491
+,,,,,
+72091,MANATÍ MUNICIPIO,Manatí Municipio,,Puerto Rico,339.5002977
+,,,,,
+72093,MARICAO MUNICIPIO,Maricao Municipio,,Puerto Rico,65.38622198
+,,,,,
+72095,MAUNABO MUNICIPIO,Maunabo Municipio,,Puerto Rico,201.0882848
+,,,,,
+72097,MAYAGÜEZ MUNICIPIO,Mayagüez Municipio,,Puerto Rico,384.0199542
+,,,,,
+72099,MOCA MUNICIPIO,Moca Municipio,,Puerto Rico,282.7963612
+,,,,,
+72101,MOROVIS MUNICIPIO,Morovis Municipio,,Puerto Rico,311.0964189
+,,,,,
+72103,NAGUABO MUNICIPIO,Naguabo Municipio,,Puerto Rico,196.3083345
+,,,,,
+72105,NARANJITO MUNICIPIO,Naranjito Municipio,,Puerto Rico,402.3859201
+,,,,,
+72107,OROCOVIS MUNICIPIO,Orocovis Municipio,,Puerto Rico,129.9060216
+,,,,,
+72109,PATILLAS MUNICIPIO,Patillas Municipio,,Puerto Rico,143.6174354
+,,,,,
+72111,PEÑUELAS MUNICIPIO,Peñuelas Municipio,,Puerto Rico,181.5875911
+,,,,,
+72113,PONCE MUNICIPIO,Ponce Municipio,,Puerto Rico,483.4780937
+,,,,,
+72115,QUEBRADILLAS MUNICIPIO,Quebradillas Municipio,,Puerto Rico,409.1395331
+,,,,,
+72117,RINCÓN MUNICIPIO,Rincón Municipio,,Puerto Rico,385.5917478
+,,,,,
+72119,RÍO GRANDE MUNICIPIO,Río Grande Municipio,,Puerto Rico,321.9569562
+,,,,,
+72121,SABANA GRANDE MUNICIPIO,Sabana Grande Municipio,,Puerto Rico,245.1242872
+,,,,,
+72123,SALINAS MUNICIPIO,Salinas Municipio,,Puerto Rico,159.3102282
+,,,,,
+72125,SAN GERMÁN MUNICIPIO,San Germán Municipio,,Puerto Rico,227.5248567
+,,,,,
+72127,SAN JUAN MUNICIPIO,San Juan Municipio,,Puerto Rico,2778.410734
+,,,,,
+72129,SAN LORENZO MUNICIPIO,San Lorenzo Municipio,,Puerto Rico,275.343932
+,,,,,
+72131,SAN SEBASTIÁN MUNICIPIO,San Sebastián Municipio,,Puerto Rico,208.1417755
+,,,,,
+72133,SANTA ISABEL MUNICIPIO,Santa Isabel Municipio,,Puerto Rico,250.3229973
+,,,,,
+72135,TOA ALTA MUNICIPIO,Toa Alta Municipio,,Puerto Rico,1049.053906
+,,,,,
+72137,TOA BAJA MUNICIPIO,Toa Baja Municipio,,Puerto Rico,1324.314938
+,,,,,
+72139,TRUJILLO ALTO MUNICIPIO,Trujillo Alto Municipio,,Puerto Rico,1260.176113
+,,,,,
+72141,UTUADO MUNICIPIO,Utuado Municipio,,Puerto Rico,99.99136698
+,,,,,
+72143,VEGA ALTA MUNICIPIO,Vega Alta Municipio,,Puerto Rico,525.2847596
+,,,,,
+72145,VEGA BAJA MUNICIPIO,Vega Baja Municipio,,Puerto Rico,449.3353796
+,,,,,
+72147,VIEQUES MUNICIPIO,Vieques Municipio,,Puerto Rico,66.67862995
+,,,,,
+72149,VILLALBA MUNICIPIO,Villalba Municipio,,Puerto Rico,249.1154549
+,,,,,
+72151,YABUCOA MUNICIPIO,Yabucoa Municipio,,Puerto Rico,238.7955474
+,,,,,
+72153,YAUCO MUNICIPIO,Yauco Municipio,,Puerto Rico,207.7812733
