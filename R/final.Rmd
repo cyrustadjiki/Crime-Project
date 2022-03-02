@@ -22,22 +22,22 @@ p_load(tidyverse, rvest, lubridate, janitor,
 
 ```{r, reading data}
 # setwd("C:/Users/cyrus/Downloads/EC 419/Crime Data")
-df = read.csv("data_draft_4.csv")
-census = read.csv("acspop.csv")
+# df = read.csv("data_draft_5.csv")
+# census = read.csv("acspop.csv")
 ```
 
-#Merging Census and draft_x
-```{r}
-# ☺
+☺
+```{r, echo=FALSE}
+#, Merging Census and draft_x
 
-head(census)
-sc = read.csv("school_closure_data1.csv")
-sc = select(sc, c("countyfips","county_name"))
-sc %>% group_by(county_name) %>% summarise(countyfips) %>% dim()
-sc = sc[duplicated(countyfips)]
-sc[duplicated(sc), ]
-dim(sc)
-names(sc)
+# head(census)
+# sc = read.csv("school_closure_data1.csv")
+# sc = select(sc, c("countyfips","county_name"))
+# sc %>% group_by(county_name) %>% summarise(countyfips) %>% dim()
+# sc = sc[duplicated(countyfips)]
+# sc[duplicated(sc), ]
+# dim(sc)
+# names(sc)
 ```
 
 # Summary Stats
@@ -45,43 +45,86 @@ names(sc)
 # skim(df)
 ```
 
+# Loading and Cleaning Data
 ```{r}
-# new = subset(df, df$year=="NA")
-# head(new)
-
-no_nas = mutate_at(df, c( "share_all_closed_25",     
-                          "share_all_closed_50",        
-                          "share_all_closed_75",
-                          "number_schools",
-                          "total_students"),
-               ~replace(., is.na(.), 0))
-# log_reg = lm(child_crime~log(share_all_closed_25), data = no_nas)
-# We can't do logs with zeros or NAs
-# skim(no_nas)
+df = read.csv("data_draft_5.csv")
+df$year = as.numeric(df$year)
+df$month = as.numeric(df$month)
+df$year_month <- zoo::as.yearmon(paste(df$year, df$month), "%Y %m")
+# Maybe don't do this
+df[is.na(df)] = 0
+df2020 = df %>% filter(df$year == 2020)
+df = df %>% mutate(x = at_home_low/total_students)
 ```
 
 
 # Regressions
 ```{r}
-# reg_test = lm(child_crime~ten, data = df)
-# tidy(reg_test)
-fe_reg = feols(child_crime~share_all_closed_25 | year_month, data = no_nas)
-tidy(fe_reg)
-reg1 = lm(child_crime~share_all_closed_25, data = no_nas)
-# reported crime / total students~ percent student home +grandparents
-# tidy(reg1)
-summary(reg1)
-# reg2 = lm(partner_crime~students_home, data = df)
-# tidy(reg2)
-# summary(reg2)
+# summary(feols(log(child_crime)~x | pop_dens + HH_inc + tfHH_65_percent
+#            + clf_ue/clf + month + tfHH_18_percent , data = df))
+# 
+# summary(feols(log(child_crime)~log(at_home_low) | pop_dens + HH_inc + tfHH_65_percent
+#            + clf_ue/clf + month + tfHH_18_percent , data = df2020))
 
-# winter <- df[ which(df$month==1|
-#                       df$month==2|
-#                       df$month==3), ]
+
+mod = list(
+feols(child_crime~
+                at_home_low 
+                # child_crime
+                
+                # + victim_male + victim_female + offender_male + offender_female
+              # + offender_adult + victim_minor + victim_adult
+                
+                
+                | pop_dens + HH_inc + tfHH_65_percent
+                                  + clf_ue/clf + month + 
+                                    tfHH_18_percent , data = df),
+
+
+
+feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df),
+
+
+feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df),
+
+
+
+
+
+feols(log(child_crime)~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df2020)
+
+)
+library(modelsummary)
+modelsummary(mod, coef_omit = "^(?!.*at_home_low)")
+
 ```
 
+
+# Old Regressions
+```{r, echo=FALSE}
+# # reg_test = lm(child_crime~ten, data = df)
+# # tidy(reg_test)
+# fe_reg = feols(child_crime~at_home_low | year_month, data = df)
+# summary(fe_reg)
+# reg1 = lm(child_crime~share_all_closed_25, data = no_nas)
+# # reported crime / total students~ percent student home +grandparents
+# # tidy(reg1)
+# summary(reg1)
+# # reg2 = lm(partner_crime~students_home, data = df)
+# # tidy(reg2)
+# # summary(reg2)
+# 
+# # winter <- df[ which(df$month==1|
+# #                       df$month==2|
+# #                       df$month==3), ]
+```
+
+# Making Plots
 ```{r}
-fs = read.csv("data_draft_4.csv")
+fs = df
 
 # making NAs 0 for plotting
 fs = mutate_at(df, c( "share_all_closed_25",     
