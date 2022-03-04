@@ -48,37 +48,87 @@ pop_density = na.omit(pop_density)
 #join df1 with pop_density
 df2019 <- left_join(df2019, pop_density, by = c("county","state"))
 
+# library(lfe)
+# summary()
+# felm(partner_crime~at_home_low | 0| month , data = df)
+
 summary(lm(gr_child_crime~pop_denHH_inc+ tfHH_65+tfHH_18, data = df2019))
 
+df2018 = df %>% filter(year == 2018)
+
+summary(lm(child_crime~at_home_low, data = df2020))
+# Fuck 2020
+summary(lm(child_crime~at_home_low, data = df))
+#Beta = 0.003999
 
 
+#Child
+summary(feols(partner_crime~at_home_low| pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
+# Beta = 0.000453
+# mean(df$child_crime)/mean(df$at_home_low)
+# mean(df$child_crime)
+# mean(df$at_home_low)
+# not sure what mean to compare it to
 
+summary(feols(partner_crime~at_home_high| pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
 
+# mean(df$child_crime)/mean(df$at_home_high)
+# mean(df$child_crime)
+# mean(df$at_home_high)
 
-summary(feols(child_crime~
-                at_home_low 
-                # child_crime
-                
-                # + victim_male + victim_female + offender_male + offender_female
-              # + offender_adult + victim_minor + victim_adult
-                
-                
-                | pop_dens + HH_inc + tfHH_65_percent
-                                  + clf_ue/clf + month + 
-                                    tfHH_18_percent , data = df))
-
-
-
+#Partner
 summary(feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df))
 
+summary(feols(partner_crime~at_home_high | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
 
+
+#Property
 summary(feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
+
+summary(feols(property_crime~at_home_high | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
+
+#Stranger
+summary(feols(stranger_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+              + clf_ue/clf + month + tfHH_18_percent , data = df))
+
+summary(feols(stranger_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df))
 
 
 
 
 
-summary(feols(log(child_crime)~log(at_home_low) | pop_dens + HH_inc + tfHH_65_percent
+
+
+
+
+
+
+
+
+
+summary(feols(log(child_crime)~log(at_home_low) | pop_dens + HH_inc + 
+                tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df2020))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

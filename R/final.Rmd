@@ -68,7 +68,7 @@ df = df %>% mutate(x = at_home_low/total_students)
 
 
 mod = list(
-feols(child_crime~
+reg1 = feols(child_crime~
                 at_home_low 
                 # child_crime
                 
@@ -82,24 +82,23 @@ feols(child_crime~
 
 
 
-feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+reg2 = feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df),
 
 
-feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+reg3 = feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df),
 
 
 
 
 
-feols(log(child_crime)~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+reg4 = feols(log(child_crime)~at_home_low | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df2020)
 
 )
 library(modelsummary)
 modelsummary(mod, coef_omit = "^(?!.*at_home_low)")
-
 ```
 
 
