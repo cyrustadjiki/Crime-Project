@@ -17,7 +17,7 @@ library(pacman)
 p_load(tidyverse, rvest, lubridate, janitor, 
        data.table, readr, readxl, dplyr, zoo,
        skimr, broom, tidyr, stringr, stats,
-       ggthemes, fixest)
+       ggthemes, fixest, lfe)
 ```
 
 ```{r, reading data}

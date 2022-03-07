@@ -107,12 +107,6 @@ summary(feols(stranger_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
 
 
 
-
-
-
-
-
-
 summary(feols(log(child_crime)~log(at_home_low) | pop_dens + HH_inc + 
                 tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df2020))

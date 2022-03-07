@@ -8,7 +8,7 @@ p_load(tidyverse, rvest, lubridate, janitor,
 
 
 mod_low = list(
-child_low = feols(partner_crime~at_home_low| pop_dens + HH_inc + tfHH_65_percent
+child_low = feols(child_crime~at_home_low| pop_dens + HH_inc + tfHH_65_percent
                    + clf_ue/clf + month + tfHH_18_percent , data = df),
 partner_low = feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
                      + clf_ue/clf + month + tfHH_18_percent , data = df),
@@ -19,7 +19,7 @@ stranger_low = feols(stranger_crime~at_home_low | pop_dens + HH_inc + tfHH_65_pe
 )
 
 mod_high = list(
-child_high = feols(partner_crime~at_home_high| pop_dens + HH_inc + tfHH_65_percent
+child_high = feols(child_crime~at_home_high| pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df),
 partner_high = feols(partner_crime~at_home_high | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df),
@@ -28,6 +28,15 @@ property_high = feols(property_crime~at_home_high | pop_dens + HH_inc + tfHH_65_
 stranger_high = feols(stranger_crime~at_home_high | pop_dens + HH_inc + tfHH_65_percent
               + clf_ue/clf + month + tfHH_18_percent , data = df)
 )
+summary(feols(child_crime~at_home_low+at_home_low:tfHH_65_percent + pop_dens + 
+                HH_inc + tfHH_65_percent+
+                          tHH + clf_ue/clf +
+                tfHH_18_percent| month , data = df))
+
+#1% increase in thh_18percent increases child_crime by beta
+
+
+mean(df$child_crime)/mean(df$tHH)
 
 #Low
 modelsummary(mod_low, 
@@ -35,7 +44,7 @@ modelsummary(mod_low,
              coef_rename = c("at_home_low" = "Maximum Students at Home",
                              "Std.Error" = "Standard Error"),
              estimate = "{estimate}{stars}",
-             statistic = "({estimate}/1)",
+             statistic = "({estimate})",
              gof_omit = "^(?!.*R2)|R2 Within|R2 Pseudo")
 
 #High
