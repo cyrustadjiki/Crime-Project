@@ -53,8 +53,33 @@ df$month = as.numeric(df$month)
 df$year_month <- zoo::as.yearmon(paste(df$year, df$month), "%Y %m")
 # Maybe don't do this
 df[is.na(df)] = 0
-df2020 = df %>% filter(df$year == 2020)
-df = df %>% mutate(x = at_home_low/total_students)
+# df2020 = df %>% filter(df$year == 2020)
+# df = df %>% mutate(x = at_home_low/total_students)
+
+# Code from Alex
+
+# need to look at crimes as a percent of household
+df <- df %>% mutate(percent_child = 100*(child_crime /total_pop))
+df <- df %>% mutate(percent_partner = 100*(partner_crime /total_pop))
+df <- df %>% mutate(percent_stranger = 100*(stranger_crime /total_pop))
+df <- df %>% mutate(percent_burglarly = 100*(burglary_home_stranger /total_pop))
+df <- df %>% mutate(percent_property = 100*(property_crime /total_pop))
+
+# make fixed effects a percent
+df <- df %>% mutate(tfHH_18_percent = (tfHH_18 / tHH)*100)
+df <- df %>% mutate(tfHH_65_percent = (tfHH_65 / tHH)*100) # We only use this one
+df <- df %>% mutate(unemployed = (clf_ue/clf)*100)
+
+# make at_home_low and at_home_high percentages of students
+# df <- df %>% mutate(at_home_low_percent = ifelse(
+#   total_students == 0, 0, (at_home_low/total_students)*100))
+# df <- df %>% mutate(at_home_high_percent = ifelse(
+#   total_students == 0, 0, (at_home_high/total_students)*100))
+  
+  # make a new share_all_closed_25 that is multiplied by 100
+df <- df %>% mutate(pct_25pct_red = share_all_closed_25*100)
+
+
 ```
 
 

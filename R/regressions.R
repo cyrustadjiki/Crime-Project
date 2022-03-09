@@ -56,3 +56,48 @@ modelsummary(mod_high,
              # statistic = "Std.Error: {std.error}",
              gof_omit = "^(?!.*R2)|R2 Within|R2 Pseudo")
 
+
+
+# this is the good one
+summary(feols(child_crime ~ share_all_closed_25 +pop_dens +total_pop + HH_inc +
+                tfHH_65_percent + share_all_closed_25:tfHH_65_percent| month, data=df))
+
+
+# this is the good one
+summary(feols(partner_crime ~ share_all_closed_25  + pop_dens + HH_inc + 
+                tfHH_65_percent + total_pop
+              + clf_ue_percent + share_all_closed_25:tfHH_65_percent | month, data=df))
+
+
+
+summary(lm(stranger_crime~at_home_low, data = df))
+
+summary(feols(stranger_crime ~ share_all_closed_25 + pop_dens + HH_inc + 
+                + pop_dens + total_pop | month, data=df))
+
+
+
+
+#USING share_all_closed_25
+#Run initial regressions without fixed effects
+#Child
+summary(feols(percent_child~ share_all_closed_25 + as.factor(month)-1, data=df))
+
+#Partner
+summary(feols(percent_partner~ share_all_closed_25 + as.factor(month)-1, data=df))
+
+#Stranger
+summary(feols(percent_stranger~ share_all_closed_25 + as.factor(month)-1, data=df))
+
+
+#Now run regressions with fixed effects
+summary(lm(child_crime ~ share_all_closed_25 + as.factor(month) + pop_dens + HH_inc + 
+             tfHH_65_percent + tfHH_18_percent + total_pop + total_students, data=df))
+
+summary(lm(partner_crime ~ share_all_closed_25 + as.factor(month) + pop_dens + HH_inc + 
+             tfHH_65_percent  + tfHH_18_percent + total_pop + total_students, data=df))
+
+summary(lm(stranger_crime ~ share_all_closed_25 + as.factor(month) + pop_dens + HH_inc + 
+             tfHH_65_percent  + tfHH_18_percent + total_pop + total_students, data=df))
+
+
