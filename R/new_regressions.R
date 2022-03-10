@@ -60,6 +60,16 @@ mod_pct = list(
                   pct_25pct_red:tfHH_65_percent |
                   month, data=df),
 
+"Stranger Crime" = feols(
+  stranger_crime ~  pct_25pct_red  +
+                    pop_dens +
+                    HH_inc + 
+                    tfHH_65_percent +
+                    total_pop +
+                    clf_ue_percent + 
+                    pct_25pct_red:tfHH_65_percent |
+                    month, data=df),
+
 "Percent of Child Crime" = feols(
   percent_child ~ pct_25pct_red  + 
                   pop_dens + 
@@ -76,7 +86,17 @@ mod_pct = list(
                     tfHH_65_percent + 
                     clf_ue_percent + 
                     pct_25pct_red:tfHH_65_percent |
-                    month, data=df)
+                    month, data=df),
+
+"Percent of Stranger Crime" = feols(
+  percent_stranger ~  pct_25pct_red  + 
+                      pop_dens + 
+                      HH_inc + 
+                      tfHH_65_percent + 
+                      clf_ue_percent + 
+                      pct_25pct_red:tfHH_65_percent |
+                      month, data=df)
+
 )
 # TODO
 # Add Property
@@ -90,7 +110,7 @@ mod_students = list(
                 tfHH_65_percent + 
                 total_pop + 
                 clf_ue_percent + 
-                pct_25pct_red:tfHH_65_percent |
+                students_home:tfHH_65_percent |
                 month, data=df),
 
 "Partner Crime" = feols(
@@ -100,8 +120,18 @@ mod_students = list(
                   tfHH_65_percent + 
                   total_pop +
                   clf_ue_percent + 
-                  pct_25pct_red:tfHH_65_percent |
+                  students_home:tfHH_65_percent |
                   month, data=df),
+
+"Stranger Crime" = feols(
+  stranger_crime ~  students_home  +
+                    pop_dens + 
+                    HH_inc + 
+                    tfHH_65_percent + 
+                    total_pop +
+                    clf_ue_percent + 
+                    students_home:tfHH_65_percent |
+                    month, data=df),
 
 "Percent of Child Crime" = feols(
   percent_child ~ students_home  +
@@ -109,7 +139,7 @@ mod_students = list(
                   HH_inc + 
                   tfHH_65_percent + 
                   clf_ue_percent + 
-                  pct_25pct_red:tfHH_65_percent |
+                  students_home:tfHH_65_percent |
                   month, data=df),
 
 "Percent of Partner Crime" = feols(
@@ -118,8 +148,18 @@ mod_students = list(
                     HH_inc + 
                     tfHH_65_percent + 
                     clf_ue_percent + 
-                    pct_25pct_red:tfHH_65_percent |
-                    month, data=df)
+                    students_home:tfHH_65_percent |
+                    month, data=df),
+
+"Stranger of Partner Crime" = feols(
+  percent_stranger ~  students_home  + 
+                      pop_dens + 
+                      HH_inc + 
+                      tfHH_65_percent + 
+                      clf_ue_percent + 
+                      students_home:tfHH_65_percent |
+                      month, data=df)
+
 )
 # TODO
 # Add Property
@@ -134,7 +174,7 @@ modelsummary(
     "pct_25pct_red" = "Percent of schools that expierenced 25% reduction",
     "pop_dens" = "Population Denisty",
     "HH_inc" = "Household Income",
-    "tfHH_65_percent" = "Percent of people over 65 in family households",
+    "tfHH_65_percent" = "Percent of elderly people in households",
     "total_pop" = "Total population",
     "clf_ue_percent" = "Unemployment Rate",
     "pct_25pct_red:tfHH_65_percent" = "Interaction"
@@ -146,12 +186,31 @@ modelsummary(
   )
 
 
+modelsummary(
+  mod_students, 
+  fmt = "%.5f",
+  coef_rename = c(
+    "students_home" = "Minimum Students Home",
+    "pop_dens" = "Population Denisty",
+    "HH_inc" = "Household Income",
+    "tfHH_65_percent" = "Percent of elderly people in households",
+    "total_pop" = "Total population",
+    "clf_ue_percent" = "Unemployment Rate",
+    "students_home:tfHH_65_percent" = "Interaction"
+    # "pct_25pct_red:tfHH_65_percent" = "Percent of schools that expierenced 25% reduction and percent of family households with people over 65"
+  ),
+  estimate = "{estimate}{stars}",
+  # statistic = "({Std.Error})",
+  gof_omit = "^(?!.*R2)|R2 Within|R2 Pseudo|R2 Adj."
+)
+
+
 summary(feols(
-  percent_child ~ pct_25pct_red  + 
+  percent_partner ~ pct_25pct_red  + 
     pop_dens + 
     HH_inc + 
     tfHH_65_percent + 
-    # total_pop +
+    total_pop +
     clf_ue_percent + 
     pct_25pct_red:tfHH_65_percent | 
     month, data=df)
