@@ -92,38 +92,38 @@ df <- df %>% mutate(pct_25pct_red = share_all_closed_25*100)
 #            + clf_ue/clf + month + tfHH_18_percent , data = df2020))
 
 
-mod = list(
-reg1 = feols(child_crime~
-                at_home_low 
-                # child_crime
-                
-                # + victim_male + victim_female + offender_male + offender_female
-              # + offender_adult + victim_minor + victim_adult
-                
-                
-                | pop_dens + HH_inc + tfHH_65_percent
-                                  + clf_ue/clf + month + 
-                                    tfHH_18_percent , data = df),
+# mod = list(
+# reg1 = feols(child_crime~
+#                 at_home_low 
+#                 # child_crime
+#                 
+#                 # + victim_male + victim_female + offender_male + offender_female
+#               # + offender_adult + victim_minor + victim_adult
+#                 
+#                 
+#                 | pop_dens + HH_inc + tfHH_65_percent
+#                                   + clf_ue/clf + month + 
+#                                     tfHH_18_percent , data = df),
 
 
 
-reg2 = feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
-              + clf_ue/clf + month + tfHH_18_percent , data = df),
-
-
-reg3 = feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
-              + clf_ue/clf + month + tfHH_18_percent , data = df),
-
-
-
-
-
-reg4 = feols(log(child_crime)~at_home_low | pop_dens + HH_inc + tfHH_65_percent
-              + clf_ue/clf + month + tfHH_18_percent , data = df2020)
-
-)
-library(modelsummary)
-modelsummary(mod, coef_omit = "^(?!.*at_home_low)")
+# reg2 = feols(partner_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+#               + clf_ue/clf + month + tfHH_18_percent , data = df),
+# 
+# 
+# reg3 = feols(property_crime~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+#               + clf_ue/clf + month + tfHH_18_percent , data = df),
+# 
+# 
+# 
+# 
+# 
+# reg4 = feols(log(child_crime)~at_home_low | pop_dens + HH_inc + tfHH_65_percent
+#               + clf_ue/clf + month + tfHH_18_percent , data = df2020)
+# 
+# )
+# library(modelsummary)
+# modelsummary(mod, coef_omit = "^(?!.*at_home_low)")
 ```
 
 
@@ -286,4 +286,69 @@ Atp. at Density Plots. Doesn't look that good.
 # p4
 ```
 
+mod_pct = list(
+$ChildCrime_i = \beta_1ClosureEstimator + \beta_2PopDens + \beta_3HHInc + \beta_4HH65 + \beta_5Population + \beta_6Unemployment + \beta_7ClosureEstimator*HH65 |month $
 
+# for slides
+
+$Crime_i  = β_0 + β_1(Closure Estimator) + u_i$  
+$Percent Crime_i = β_0 + β_1(Closure Estimator) + u_i$  
+
+$Crime_i=  β_1(Closure Estimator) + β_2PopDens + β_3HHInc + β_4HH65 Percent + β_5Unemployment +$
+$β_6Closure Estimator*HH65 Percent + β_7Population + FixedEffectMonth + u_i$   
+
+$Percent Crime_i =  β_1(Closure Estimator) + β_2PopDens + β_3HHInc + β_4HH65 Percent + β_5Unemployment +$
+$β_6Closure Estimator*HH65 Percent + β_7Population + FixedEffectMonth + u_i$  
+
+
+                
+                ()Crime =  β1(Closure Estimator) + β2PopDens + β3HHInc + β4HH65 Percent + β5urate + β6Closure Estimator*HH65 Percent + β7Population | Month
+
+"Partner Crime" = feols(
+  partner_crime ~ pct_25pct_red  +
+                  pop_dens +
+                  HH_inc + 
+                  tfHH_65_percent +
+                  total_pop +
+                  clf_ue_percent + 
+                  pct_25pct_red:tfHH_65_percent |
+                  month, data=df),
+
+"Stranger Crime" = feols(
+  stranger_crime ~  pct_25pct_red  +
+                    pop_dens +
+                    HH_inc + 
+                    tfHH_65_percent +
+                    total_pop +
+                    clf_ue_percent + 
+                    pct_25pct_red:tfHH_65_percent |
+                    month, data=df),
+
+"Percent of Child Crime" = feols(
+  percent_child ~ pct_25pct_red  + 
+                  pop_dens + 
+                  HH_inc + 
+                  tfHH_65_percent +
+                  clf_ue_percent + 
+                  pct_25pct_red:tfHH_65_percent |
+                  month, data=df),
+
+"Percent of Partner Crime" = feols(
+  percent_partner ~ pct_25pct_red  + 
+                    pop_dens + 
+                    HH_inc + 
+                    tfHH_65_percent + 
+                    clf_ue_percent + 
+                    pct_25pct_red:tfHH_65_percent |
+                    month, data=df),
+
+"Percent of Stranger Crime" = feols(
+  percent_stranger ~  pct_25pct_red  + 
+                      pop_dens + 
+                      HH_inc + 
+                      tfHH_65_percent + 
+                      clf_ue_percent + 
+                      pct_25pct_red:tfHH_65_percent |
+                      month, data=df)
+
+)
