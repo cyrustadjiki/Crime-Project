@@ -1,24 +1,16 @@
-# Crime-Project
+# The Effect of COVID-19 on Domestic Crime
+## An Analysis of School Closure and Mitigating Effects
 
-Crime, Covid and Grandparents Group. 
+This was a year long honors thesis research project analyzing school closure during COVID-19 and domestic crime. This was accomplished with Drew Guggeis, Alex Strehlke, Isabel Tapogna and I qulaifying us for Deparmental honors through the University of Oregon Department of Economics. This paper was supervised by Professor [Bill Harbaugh](https://harbaugh.uoregon.edu/) 
 
-Helpful resource to install GitHub, set up and use is [here](https://happygitwithr.com/install-git.html) and some [lecture slides](https://raw.githack.com/uo-ec607/lectures/master/02-git/02-Git.html#1) on how also from Grant McDermontt
+<p align="center">
+    Abstract
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this paper we estimate the effect of school closures on various crimes with a focus on domestic and child abuse. Additionally, we estimate the effects of family composition variables on the response of these crimes to closures. We find that school closures had a significant effect on the frequency of in-home crime, including child abuse and domestic violence. We also discover that families with persons over 65 in the household, typically grandparents, are less likely to experience the observed crimes. This suggests that the pandemic had a major impact on families and that there are significant mitigating factors through this period.
+
+
+Helpful resource to install GitHub, set up and use is [here](https://happygitwithr.com/install-git.html) and some [lecture slides](https://raw.githack.com/uo-ec607/lectures/master/02-git/02-Git.html#1) on how also from [Grant McDermontt](https://grantmcdermott.com/)
 
 Let me know if you have any questions about this! It can be kinda confusing at first but can be very useful for sharing this project on R.
 
-## Data Set Estimate of what we want
-**Click Raw to see better**
-
-year mon cnty st---------Grandparents Per household, Quantity of a certain type of crime in a given month(many of these from crime date), unemployment rates, more... 
-2018 Jan Lane OR---------
-2018 Jan Deschutes OR----
-:
-2018 Jan Orange CA-------
-2018 Feb Lane OR---------
-2018 Feb Deschutes OR----
-:
-2018 Feb Orange CA-------
-:
-:
-2020 Nov etc... ---------
-2020 Dec etc... ---------
