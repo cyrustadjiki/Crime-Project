@@ -9,6 +9,7 @@ This was a year long honors thesis research project analyzing school closure dur
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this paper we estimate the effect of school closures on various crimes with a focus on domestic and child abuse. Additionally, we estimate the effects of family composition variables on the response of these crimes to closures. We find that school closures had a significant effect on the frequency of in-home crime, including child abuse and domestic violence. We also discover that families with persons over 65 in the household, typically grandparents, are less likely to experience the observed crimes. This suggests that the pandemic had a major impact on families and that there are significant mitigating factors through this period.
 
+**GitHub trouble shooting advice!!!**
 
 Helpful resource to install GitHub, set up and use is [here](https://happygitwithr.com/install-git.html) and some [lecture slides](https://raw.githack.com/uo-ec607/lectures/master/02-git/02-Git.html#1) on how also from [Grant McDermontt](https://grantmcdermott.com/)
 
