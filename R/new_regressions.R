@@ -1,4 +1,9 @@
 setwd("C:/Users/cyrus/OneDrive/EC 419/Crime-Project/data")
+library(pacman)
+p_load(tidyverse, rvest, lubridate, janitor, 
+       data.table, readr, readxl, dplyr, zoo,
+       skimr, broom, tidyr, stringr, stats,
+       ggthemes, fixest, lfe)
 df = read.csv("data_draft_5.csv")
 df$year = as.numeric(df$year)
 df$month = as.numeric(df$month)
@@ -151,7 +156,7 @@ mod_students = list(
                     students_home:tfHH_65_percent |
                     month, data=df),
 
-"Stranger of Partner Crime" = feols(
+"Percent of Stranger Crime" = feols(
   percent_stranger ~  students_home  + 
                       pop_dens + 
                       HH_inc + 
@@ -171,7 +176,7 @@ modelsummary(
   mod_pct, 
   fmt = "%.5f",
   coef_rename = c(
-    "pct_25pct_red" = "Percent of schools that expierenced 25% reduction",
+    "pct_25pct_red" = "Share all 25",
     "pop_dens" = "Population Denisty",
     "HH_inc" = "Household Income",
     "tfHH_65_percent" = "Percent of elderly people in households",
@@ -215,3 +220,5 @@ summary(feols(
     pct_25pct_red:tfHH_65_percent | 
     month, data=df)
 )
+
+kableExtra::kable(summary(df))

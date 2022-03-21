@@ -26,6 +26,27 @@ p_load(tidyverse, rvest, lubridate, janitor,
 # census = read.csv("acspop.csv")
 ```
 
+```{r}
+
+sum_stats = data.frame(
+  
+  df$total_pop,
+  df$tHH,
+  df$tfHH_18,
+  df$tfHH_65,
+  df$HH_inc,
+  df$clf,
+  df$clf_ue,
+  df$pop_dens
+
+  )
+stargazer::stargazer(summary(sum_stats))
+
+kableExtra::kable(summary(sum_stats),
+                  col.names = c("N", "Mean", "*SD*", "Min", "25 Pct", "75 Pct", "Max", "Other"),
+  digits = 2)
+```
+
 ☺
 ```{r, echo=FALSE}
 #, Merging Census and draft_x
@@ -202,8 +223,8 @@ p1 = ggplot() +
   # theme_fivethirtyeight() +
   geom_area(data = fs, aes(x = year_month, y = stranger_crime_mean, fill = "black")) +
   geom_area(data = fs, aes(x = year_month, y = child_crime_mean, fill = "blue")) +
-  geom_area(data = fs, aes(x = year_month, y = partner_crime_mean, fill = "red")) +   scale_x_yearmon(n = 47, expand = c(0, 0)) +
-  scale_y_continuous(limits = c(0,60), expand = c(0, 0)) +
+  geom_area(data = fs, aes(x = year_month, y = partner_crime_mean, fill = "red")) + scale_x_yearmon(n = 47, expand = c(0, 0)) +
+scale_y_continuous(limits = c(0,60), expand = c(0, 0)) +
   theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
         legend.title = element_text(), 
         legend.position = "right",
@@ -215,7 +236,7 @@ p1 = ggplot() +
         )+
   xlab("2018-2020")+
   ylab("Crime Average") +
-  guides(fill=guide_legend(title="Type of Crime")) +
+  guides(fill=guide_legend(title="Type of Victim")) +
   scale_fill_discrete(name = "Dose", labels = c("Stranger","Child","Partner")) +
   labs(title = "Average amount of types of crime pre-covid to present",subtitle = "Filtered to just Police Agencies that reported 2018-2020") +
   geom_hline(yintercept = 20,linetype = 'dotted', col = 'black') +
@@ -228,14 +249,19 @@ p2 = ggplot() +
   geom_area(data = fs, aes(x = year_month, y = stranger_crime, fill = "black")) +
   geom_area(data = fs, aes(x = year_month, y = child_crime, fill = "blue")) + 
   geom_area(data = fs, aes(x = year_month, y = partner_crime, fill = "red")) + 
-  labs(title = "Frequency of types of crime pre-covid to present",subtitle = "Filtered to just Police Agencies that reported 2018-2020", x = "2018-2020", y = "Crime Frequency")+
+  labs(title = "Crime 2018-2020",
+       # subtitle = "Filtered to just Police Agencies that reported 2018-2020",
+       x = "2018-2020", y = "Crime Frequency")+
   scale_x_yearmon(n = 47, expand = c(0, 0)) +
-  scale_y_continuous(limits = c(0,102185), expand = c(0, 0)) +
+  scale_y_continuous(
+    limits = c(0,max(fs$stranger_crime)+150),
+    expand = c(0, 0)) +
   # theme_fivethirtyeight() +
   theme(axis.text.x = element_text(angle = 75, vjust = 1, hjust=1),
         legend.title = element_text(), 
         legend.position = "right",
         legend.direction = "vertical",
+        plot.title = element_text(hjust = 0.5),
         plot.background = element_rect(fill = "white"),
         panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(),
@@ -243,7 +269,7 @@ p2 = ggplot() +
 )+
   xlab("2018-2020")+
   ylab("Crime Frequency") +
-  guides(fill=guide_legend(title="Type of Crime")) +
+  guides(fill=guide_legend(title="Type of Victim")) +
   scale_fill_discrete(name = "Dose", labels = c("Stranger","Child","Partner")) +
   geom_hline(yintercept = 25000,linetype = 'dotted', col = 'black') +
   geom_hline(yintercept = 50000,linetype = 'dotted', col = 'black') +
