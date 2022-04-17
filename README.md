@@ -1,7 +1,7 @@
 # The Effect of COVID-19 on Domestic Crime
 ## An Analysis of School Closure and Mitigating Effects
 
-This was a year long honors thesis research project analyzing school closure during COVID-19 and domestic crime. This was accomplished with Drew Guggeis, Alex Strehlke, Isabel Tapogna and I qualifying us for departmental honors through the University of Oregon Department of Economics. This paper was supervised by Professor [Bill Harbaugh](https://harbaugh.uoregon.edu/) 
+This was a year long honors thesis research project analyzing school closure during COVID-19 and domestic crime. This was accomplished with Drew Guggeis, Alex Strehlke, Isabel Tapogna and I qualifying us for departmental honors through the University of Oregon Department of Economics. This paper was supervised by Professor [Bill Harbaugh](https://harbaugh.uoregon.edu/).
 
 
 <p align="center">
