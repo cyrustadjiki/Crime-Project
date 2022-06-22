@@ -30,7 +30,8 @@ sc = select(sc, -c(X,
                   state_abb,
                   county_name))
 
-# Leriche Method ORCID: 100000000000789
+# Leriche Method 
+leriche = "https://scholar.google.com/citations?user=tmz9dD8AAAAJ&hl=en&oi=ao"
 sc = sc %>% mutate(at_home_low = share_all_closed_75*0.75*total_students +
        (share_all_closed_50-share_all_closed_75)*0.50*total_students +
        (share_all_closed_25-share_all_closed_50)*0.25*total_students) %>% 
